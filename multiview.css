@@ -1,0 +1,453 @@
+body {
+    font-family: Arial, sans-serif;
+	background-color: #0e0e10; /* Set background color to Blue Grey */
+    margin: 0; /* Remove default body margin */
+}
+#sidebar {
+    height: 100%;
+    width: 139px; /* Set a fixed width for the sidebar */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1f1f23;
+    overflow-x: scroll;
+    padding-top: 20px;
+}
+.category {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px; /* Adjust the font size as needed */
+	background-color: #1f1f23; /* Set background color to Blue Grey */
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+}
+.category:hover {
+    background-color: rgb(84, 18, 114);
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+}
+.category.highlighted {
+    background-color: rgb(84, 18, 114);
+}
+.sub-item {
+    cursor: pointer;
+    display: flex; /* Use flexbox to align items */
+	color: rgb(255, 255, 255); /* Set color of usernames to blue */
+	background-color: #43434e; /* Set background color to Blue Grey */
+}
+
+.username {
+    margin-right: 0px; /* Add some space between the username and viewer count */
+    font-size: 13px; /* Adjust the font size as needed */
+}
+
+.viewer-count {
+    font-size: 10px;
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+    float: right; /* Align the viewer count to the right edge */
+    margin-right: 10px; /* Add some space between the username and viewer count */
+}
+.sub-item:hover {
+    background-color: rgb(84, 18, 114);
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+}
+#container {
+    margin-left: 139px; /* Apply left margin equal to sidebar width */
+    position: relative;
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+    padding: 0px; /* Add some padding for content */
+}
+#content { 
+    padding: 449px;
+	background-color: #0e0e10; /* Set background color to Blue Grey */
+    position: relative; /* Set relative positioning for the container */
+}
+#streamdata {
+    position: absolute;
+    bottom: -95px;
+    left: 1070px;
+    height: 30px;
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold;
+	color: white;
+	background-color: #0e0e10; /* Set background color to Blue Grey */
+}
+#player1 {
+    position: absolute; /* Position the player relative to the container */
+    top: 0px;
+    left: 0px;
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+}
+#player2 {
+    position: absolute; /* Position the player relative to the container */
+    top: 0px;
+    left: 757px;
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+}
+#player3 {
+    position: absolute; /* Position the player relative to the container */
+    top: 445px;
+    left: 5px;
+    width: 768px; /* Adjust width as needed */
+    height: 432px; /* Adjust height as needed */
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+}
+#player4 {
+    position: absolute; /* Position the player relative to the container */
+    top: 445px;
+    left: 780px;
+    width: 768px; /* Adjust width as needed */
+    height: 432px; /* Adjust height as needed */
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+}
+#hard-reset-btn {
+    position: absolute; /* Position the player relative to the container */
+    top: 900px;
+    left: 238px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1; /* Ensure it's above other content within the container */
+}
+#donate-button-container {
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#usernamesList {
+    margin-top: 100px;
+    background-color: #0e0e10;
+}
+#usernamesContainer {
+	background-color: #0f100e; /* Set background color to Blue Grey */
+    margin-left: 135px;
+}
+#youtube {
+    position: absolute; /* Position the player relative to the container */
+    left: 1080px;
+    bottom: -270px;
+    color: rgb(247, 241, 241); /* Set font color to black */
+    font-size: 20px;
+    cursor: pointer;
+}
+a { text-decoration: none; color:rgb(0, 0, 238); }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+#contactForm {
+    background-color: #0e0e10;
+    height: 403px; /* Adjust height as needed */
+    width: 556px;
+    top: 0px;
+    margin-top: 15px;
+    color: rgb(247, 241, 241); /* Set font color to black */
+}
+#username1 {
+    position: absolute; /* Position the player relative to the container */
+    top: 35px;
+    right: 10px; /* Adjust position as needed */
+    color: rgb(247, 241, 241); /* Set font color to black */
+    font-size: 15px;
+    cursor: pointer;
+}
+#username2 {
+    position: absolute; /* Position the player relative to the container */
+    top: 790px;
+    left: 35px; /* Adjust position as needed */
+    color: rgb(247, 241, 241); /* Set font color to black */
+    font-size: 15px;
+    cursor: pointer;
+}
+#username3 {
+    position: absolute; /* Position the player relative to the container */
+    top: 820px;
+    left: 35px; /* Adjust position as needed */
+    color: rgb(247, 241, 241); /* Set font color to black */
+    font-size: 15px;
+    cursor: pointer;
+}
+#username4 {
+    position: absolute; /* Position the player relative to the container */
+    top: 850px;
+    left: 35px; /* Adjust position as needed */
+    color: rgb(247, 241, 241); /* Set font color to black */
+    font-size: 15px;
+    cursor: pointer;
+}
+#username5 {
+    position: absolute; /* Position the player relative to the container */
+    top: 880px;
+    left: 35px; /* Adjust position as needed */
+    color: rgb(247, 241, 241); /* Set font color to black */
+    font-size: 15px;
+    cursor: pointer;
+}
+#username6 {
+    position: absolute; /* Position the player relative to the container */
+    top: 35px;
+    left: 35px; /* Adjust position as needed */
+    color: rgb(247, 241, 241); /* Set font color to black */
+    font-size: 15px;
+    cursor: pointer;
+}
+#username7 {
+    position: absolute; /* Position the player relative to the container */
+    top: 35px;
+    left: 35px; /* Adjust position as needed */
+    color: rgb(247, 241, 241); /* Set font color to black */
+    font-size: 15px;
+    cursor: pointer;
+}
+#username8 {
+    position: absolute; /* Position the player relative to the container */
+    top: 35px;
+    left: 35px; /* Adjust position as needed */
+    color: rgb(247, 241, 241); /* Set font color to black */
+    font-size: 15px;
+    cursor: pointer;
+}
+#username9 {
+    position: absolute; /* Position the player relative to the container */
+    top: 35px;
+    left: 35px; /* Adjust position as needed */
+    color: rgb(247, 241, 241); /* Set font color to black */
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#contactForm h2 {
+    margin-top: 0;
+}
+#contactForm label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(255, 255, 255); /* Set label font color to black */
+}
+#contactForm button {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#contactForm button:hover {
+    background-color: #455a64;
+}
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    color: black; /* Set input and textarea font color to black */
+}
+#streamsInfo {
+    background-color: #0e0e10;
+    position: absolute;
+    height: 525px; /* Adjust height as needed */
+    width: 560px;
+    padding-top: 40px; /* Adjust the value as needed */
+    top: calc(100% + 60px); /* Position below the usernamesList with a 10px gap */
+    left: calc(50% - 680px); /* Adjust the value (-400px) based on the width of the streamsInfo */
+}
+#suggestion-form {
+    background-color: #0e0e10;
+    padding: 20px;
+    color: black;
+    width: 100%; /* Ensure the width is responsive */
+    margin: 0 auto; /* Center the form horizontally */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+.username-bubble {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.user-info {
+    color: white;
+    font-weight: bold;
+}
+/* Style for the button */
+#newpage-button1 {
+    position: absolute;
+    top: 5px;
+    right: 80px; /* Adjust position as needed */
+    width: 25px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+    background-color: #95d1f3; /* Background color for the button */
+    border: none;
+    color: #fff; /* Text color */
+    cursor: pointer;
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+#newpage-button2 {
+    position: absolute;
+    top: 115px;
+    right: 80px; /* Adjust position as needed */
+    width: 25px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+    background-color: #95d1f3; /* Background color for the button */
+    border: none;
+    color: #fff; /* Text color */
+    cursor: pointer;
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+#add_screen {
+    position: absolute;
+    top: 85px;
+    right: 0px; /* Adjust position as needed */
+    width: 155px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+    font-size: 20px;
+    border: none;
+    color: #ffffff; /* Text color */
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+#controls {
+    position: absolute;
+    top: 735px;
+    right: 0px; /* Adjust position as needed */
+    width: 155px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+    font-size: 15px;
+    border: none;
+    color: #ffffff; /* Text color */
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+#home-button {
+    position: absolute;
+    bottom: 5px;
+    right: 40px; /* Adjust position as needed */
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+#newpage-button3 {
+    position: absolute;
+    top: 880px;
+    right: 1425px; /* Adjust position as needed */
+    width: 25px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+    background-color: #95d1f3; /* Background color for the button */
+    border: none;
+    color: #fff; /* Text color */
+    cursor: pointer;
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+#newpage-button4 {
+    position: absolute;
+    top: 880px;
+    right: 1425px; /* Adjust position as needed */
+    width: 25px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+    background-color: #95d1f3; /* Background color for the button */
+    border: none;
+    color: #fff; /* Text color */
+    cursor: pointer;
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+#newpage-button5 {
+    position: absolute;
+    top: 880px;
+    right: 1425px; /* Adjust position as needed */
+    width: 25px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+    background-color: #95d1f3; /* Background color for the button */
+    border: none;
+    color: #fff; /* Text color */
+    cursor: pointer;
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+#newpage-button6 {
+    position: absolute;
+    top: 880px;
+    right: 1425px; /* Adjust position as needed */
+    width: 25px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+    background-color: #95d1f3; /* Background color for the button */
+    border: none;
+    color: #fff; /* Text color */
+    cursor: pointer;
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+#newpage-button7 {
+    position: absolute;
+    top: 880px;
+    right: 1425px; /* Adjust position as needed */
+    width: 25px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+    background-color: #95d1f3; /* Background color for the button */
+    border: none;
+    color: #fff; /* Text color */
+    cursor: pointer;
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+#newpage-button8 {
+    position: absolute;
+    top: 880px;
+    right: 1425px; /* Adjust position as needed */
+    width: 25px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+    background-color: #95d1f3; /* Background color for the button */
+    border: none;
+    color: #fff; /* Text color */
+    cursor: pointer;
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+#newpage-button9 {
+    position: absolute;
+    top: 865px;
+    right: 1455px; /* Adjust position as needed */
+    width: 25px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+    background-color: #95d1f3; /* Background color for the button */
+    border: none;
+    color: #fff; /* Text color */
+    cursor: pointer;
+    z-index: 2; /* Ensure it's above other content within the container */
+}
+@media screen and (min-width: 2560px) {
+    /* Adjustments for large screens, including 2K resolution */
+    
+
+#player1 {
+    position: absolute; /* Position the player relative to the container */
+    top: 5px;
+    left: 5px;
+    width: 1024px; /* Adjust width as needed */
+    height: 576px; /* Adjust height as needed */
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+}
+#player2 {
+    position: absolute; /* Position the player relative to the container */
+    top: 5px;
+    left: 1155px;
+    width: 1024px; /* Adjust width as needed */
+    height: 576px; /* Adjust height as needed */
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+}
+#player3 {
+    position: absolute; /* Position the player relative to the container */
+    top: 655px;
+    left: 5px;
+    width: 1024px; /* Adjust width as needed */
+    height: 576px; /* Adjust height as needed */
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+}
+#player4 {
+    position: absolute; /* Position the player relative to the container */
+    top: 655px;
+    left: 1155px;
+    width: 1024px; /* Adjust width as needed */
+    height: 576px; /* Adjust height as needed */
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+}
+#streamdata {
+    position: absolute;
+    bottom: -445px;
+    left: 1870px;
+    height: 30px;
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold;
+	color: white;
+	background-color: #0e0e10; /* Set background color to Blue Grey */
+}
+#usernamesList {
+    margin-top: 450px;
+    background-color: #0e0e10;
+}
+}

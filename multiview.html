@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiview</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="multiview.css">
+</head>
+<body>
+  <div id="sidebar">
+  </div>
+   <div id="container">
+    <div id="content">
+      <div class="player" id="player1"></div>
+      <div class="player" id="player2"></div>
+      <div class="player" id="player3"></div>
+      <div class="player" id="player4"></div>
+      <div class="player" id="player5"></div>
+      <div class="player" id="player6"></div>
+      <div class="player" id="player7"></div>
+      <div class="player" id="player8"></div>
+      <div class="player" id="player9"></div>
+      <div class="add_screen_text" id="add_screen">Add Screen</div>
+      <div class="controls_text" id="controls">Controls: left and right arrow to switch screens. (a) on keyboard then click username to add screen or click the square.</div>
+      <button id="home-button" onclick="window.location.href='/index.html';">Home</button>
+      <button id="newpage-button1">1</button>
+      <button id="newpage-button2">2</button>
+      <button id="newpage-button3">3</button>
+      <button id="newpage-button4">4</button>
+      <button id="newpage-button5">5</button>
+      <button id="newpage-button6">6</button>
+      <button id="newpage-button7">7</button>
+      <button id="newpage-button8">8</button>
+      <button id="newpage-button9">9</button>
+      <div id="streamdata"></div>
+	</div>
+	  <div id="usernamesContainer">
+		<h2></h2>
+		<div id="usernamesList"></div>
+	  </div>
+    <div id="streamsInfo">
+      <div id="contactForm">
+          <h2>Make Suggestions</h2>
+          <form id="suggestion-form" action="https://formspree.io/f/mdoqrejw" method="POST">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea><br>
+              <button type="submit">Submit</button>
+              <p id="response-message" style="display:none;">Thank you for your suggestion!</p>
+          </form>
+      </div>
+      <div id="donate-button-container">
+          <div id="donate-button"></div>
+          <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+          <script>
+              PayPal.Donation.Button({
+                  env:'production',
+                  hosted_button_id:'8NZNC4TV45EUS',
+                  image: {
+                      src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+                      alt:'Donate with PayPal button',
+                      title:'PayPal - The safer, easier way to pay online!',
+                  }
+              }).render('#donate-button');
+          </script>
+      </div>
+      <p class="user-info">User information fetched from a master list and using Twitch API calls.<br>Users in 'Need_Group' were fetched using twitch api calls to grab all streams from gta5 category- then ran thru multiple regex filters (this category might have a few random rp servers that slip thru titles).<br><br>Site currently best at 1080P, working on optimizing for 2k and 4k resolutions
+</p>
+  </div>
+  <div id="links">
+		<div id="youtube">
+      <br><br>Discord- heisenberick<br><br>
+      <a href="https://www.youtube.com/@ibleedcubbieblue26/videos">Youtube -@ibleedcubbieblue26 </a><br><br>
+      Twitch- hiphopgamer28
+      <br><br><a href="https://www.youtube.com/watch?v=2-cCjksGgTs">How to watch ad free with twitch turbo tutorial (gta-rp-playlist.com)</a>
+    </a></div>
+	  </div>
+    <div id="sidebar3333">
+    <div id="username1"></div>
+    <div id="username2"></div>
+    <div id="username3"></div>
+    <div id="username4"></div>
+    <div id="username5"></div>
+    <div id="username6"></div>
+    <div id="username7"></div>
+    <div id="username8"></div>
+    <div id="username9"></div>
+    </div>
+    <script src="jeffys.js"></script>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+</body>
+</html>

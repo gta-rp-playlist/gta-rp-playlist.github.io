@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filtering page</title>
+    <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+    <h3 id="categoryTitle"></h3>
+    <div id="container">
+        <div id="usernamesList"></div>
+    </div>
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    <script src="filter.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Function to introduce a delay
+            function delay(ms) {
+                return new Promise((resolve) => setTimeout(resolve, ms));
+            }
+
+            // Define category mappings
+            const categoryMappings = {
+                'cops': '01Cops',  
+                'lspd': '02LSPD',
+                'bcso': '03BCSO',
+                'marshalls': '04Marshalls',  
+                'government': '06Government',  
+                'doctors': '07Doctors',  
+                'ncypress': '09NCypress',  
+                'nourf': '09NCypress',  
+                'scypress': '09SCypress',  
+                's_cypress': '09SCypress',  
+                'besties': '10Besties',  
+                'hydra': '11Hydra',  
+                'hades': '12Hades',  
+                'manor': '14Manor',  
+                'admc': '15ADMC',  
+                'chaoslegion': '16ChaosLegion',  
+                'clowns': '17Clowns',  
+                'saints': '18Saints',  
+                'fnf': '19FnF',  
+                'fatf': '19FnF',  
+                'f&f': '19FnF',  
+                'tripas': '20Tripas',  
+                'gblock': '21GBlock',  
+                'epsilon': '24Epsilon', 
+                'raidersmc': '24RaidersMC',  
+                'crackheads': '27Crackheads',  
+                'halo': '29Halo',  
+                'kaneshiro': '25Kaneshiro',  
+                'neontigers': '26NeonTigers',  
+                'ktb': '28KTB',  
+                'ballas': '28Ballas',  
+                'lostmc': '29LostMC',  
+                'faceless': '30Faceless',  
+                '⸸bd': '31⸸BD',  
+                'vagos': '32Vagos',  
+                'mimes': '40Mimes',  
+                'civgang': '33CivGang',  
+                'italians': '34Italians',  
+                'cg': '36CG',  
+                'cg_2': '37CG_2',  
+                'theproject': '38TheProject',  
+                'project': '38TheProject',  
+                'guild': '39Guild',  
+                'angels': '40Angels',  
+                'oldcops': '41OldCops',  
+                'lumberjacks': '42LumberJacks',  
+                'wsmc': '43WSMC',  
+                'blacklotus': '44BlackLotus',  
+                'hoa': '45HOA',  
+                'tsl': '46TSL',  
+                'bbmc': '47BBMC',  
+                'doc': '41DOC',  
+                'lifers': '42Lifers',  
+                'hiddenmc': '48HiddenMC',  
+                'c4': '49C4',  
+                'streetbratz': '50StreetBratz',  
+                'diamonddogs': '51DiamondDogs',  
+                'mayhemmc': '52MayhemMC',  
+                'mayhem': '52MayhemMC',  
+                'baddies': '53Baddies',  
+                'guerilla': '54Guerrilla',  
+                'guerrilla': '54Guerrilla',  
+                'devs': '55Devs',  
+                'survival': '56Survival',  
+                'independent': '57Independent',  
+                'uncategorized': '58Uncategorized',
+                'ssk': '09SSK'
+                // Add more mappings as needed
+            };
+
+            // Get URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            let server = urlParams.get("server") || "nopixel";
+            const categories = urlParams.getAll("category"); // Support multiple categories
+            const usernames = urlParams.getAll("username");
+            let limitStreams = parseInt(urlParams.get("limitstreams"), 10);
+            const quality = urlParams.get("quality") || "high"; // Get the quality parameter, default to "high"
+
+            // Filter out duplicate usernames
+            const uniqueUsernames = Array.from(new Set(usernames));
+
+            // Debug: Log unique usernames to verify deduplication
+            console.log("Unique Usernames:", uniqueUsernames);
+
+            // Fetch the default category from data.txt if no parameters are present
+            if (!urlParams.toString()) {
+                fetch("data.txt")
+                    .then((response) => response.text())
+                    .then((data) => {
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(data, "text/html");
+                        const firstCategoryElement = doc.querySelector(".sub-item");
+                        if (firstCategoryElement) {
+                            const defaultCategory = firstCategoryElement.getAttribute("data-category");
+                            urlParams.set("server", server);
+                            urlParams.set("category", defaultCategory);
+                            window.history.replaceState({}, "", `${window.location.pathname}?${urlParams}`);
+                            location.reload();
+                        }
+                    })
+                    .catch((error) => console.error("Error fetching data.txt:", error));
+                return;
+            }
+
+            // Map categories to their corresponding values
+            const mappedCategories = categories.map(cat => categoryMappings[cat.toLowerCase()] || cat);
+            // If the quality parameter is not in the URL, add it
+            if (!urlParams.has("quality")) {
+                        urlParams.set("quality", quality);
+                        window.history.replaceState({}, "", `${window.location.pathname}?${urlParams}`);
+                    }
+            // Default to 25 if limitstreams is not specified and usernames are not provided
+            if (!uniqueUsernames.length && (isNaN(limitStreams) || limitStreams <= 0)) {
+                limitStreams = 25;
+                urlParams.set("limitstreams", limitStreams);
+                window.history.replaceState({}, "", `${window.location.pathname}?${urlParams}`);
+            }
+
+            // Fetch the appropriate source based on the server parameter
+            const fetchSource = server === "prodigy" ? "data2.txt" : "data.txt"; // Fetch from data2.txt for prodigy
+
+            // Store references to the Twitch players
+            const players = {};
+
+            // Function to initialize players and add hover functionality
+            function initializePlayers() {
+    const playersDivs = document.querySelectorAll(".twitch-embed");
+    let hoverTimeout = null;
+    let activePlayer = null;
+
+    playersDivs.forEach((playerDiv) => {
+        const playerId = playerDiv.id;
+
+        // Function to handle player switch logic
+        function switchPlayer() {
+            if (activePlayer && activePlayer !== playerId) {
+                // Mute the previous active player and remove 'current-unmuted' class
+                const previousPlayer = players[activePlayer];
+                if (previousPlayer) {
+                    previousPlayer.setMuted(true);
+                    document.getElementById(activePlayer).classList.remove("current-unmuted");
+                }
+            }
+
+            // Mute all other players and remove the 'current-unmuted' class from them
+            playersDivs.forEach((div) => {
+                if (div.id !== playerId) {
+                    const otherPlayer = players[div.id];
+                    if (otherPlayer) {
+                        otherPlayer.setMuted(true);
+                        div.classList.remove("current-unmuted");
+                    }
+                }
+            });
+
+            // Unmute the current player and add 'current-unmuted' class
+            const currentPlayer = players[playerId];
+            if (currentPlayer) {
+                currentPlayer.setMuted(false);
+                playerDiv.classList.add("current-unmuted");
+            }
+
+            // Update active player
+            activePlayer = playerId;
+        }
+
+        // Handle mouseover event with a delay
+        playerDiv.addEventListener("mouseover", () => {
+            if (hoverTimeout) {
+                clearTimeout(hoverTimeout);
+            }
+            hoverTimeout = setTimeout(() => {
+                switchPlayer();
+            }, 520); // 520ms delay
+        });
+
+        // Handle touchstart event immediately
+        playerDiv.addEventListener("touchstart", () => {
+            // No delay needed for touch, switch immediately
+            if (hoverTimeout) {
+                clearTimeout(hoverTimeout);
+            }
+            switchPlayer();
+        });
+
+        // Handle mouseout event
+        playerDiv.addEventListener("mouseout", () => {
+                if (hoverTimeout) {
+                    clearTimeout(hoverTimeout);
+                    hoverTimeout = null;
+                }
+            });
+// Function to set player quality based on the quality parameter
+function getPlayerQuality(quality) {
+    switch (quality.toLowerCase()) {
+        case "low":
+            return "160p"; // Best available quality
+        case "medium":
+            return "480p";
+        case "high":
+        default:
+            return "chunked"; // Lowest quality
+    }
+}
+            // Once the player is ready, set the quality based on the URL parameter
+const player = players[playerId];
+// Check if the player is a Twitch player (not Kick)
+if (player instanceof Twitch.Embed) {
+    // If the log contains 'Embedding Kick player for', skip applying quality settings to Twitch players
+    if (!playerId.includes("kick")) { // Check if player is not a Kick player
+        player.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+            // Only set the quality for Twitch players
+            const twitchPlayer = player.getPlayer();
+            if (twitchPlayer) {
+                twitchPlayer.setQuality(getPlayerQuality(quality)); // Set quality based on URL parameter
+            }
+        });
+    }
+}
+        });
+    }
+
+    fetch(fetchSource)
+                .then((response) => response.text())
+                .then(async (data) => {
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(data, "text/html");
+
+                    const usernamesList = document.getElementById("usernamesList");
+
+                    if (uniqueUsernames.length > 0) {
+                        if (uniqueUsernames.length === 1) {
+                            usernamesList.classList.add("single-stream");
+                        } else {
+                            usernamesList.classList.remove("single-stream");
+                        }
+
+                        for (let index = 0; index < uniqueUsernames.length; index++) {
+                            const username = uniqueUsernames[index];
+                            const div = document.createElement("div");
+                            div.className = "twitch-embed";
+                            div.id = `player${index + 1}`;
+                            usernamesList.appendChild(div);
+
+                            // Check if the stream is a Kick stream
+                            if (username.toLowerCase().includes("kick")) {
+                                console.log(`Embedding Kick player for ${username}`);
+                                const kickIframe = document.createElement("iframe");
+                                kickIframe.src = `https://player.kick.com/${username}?muted=true&autoplay=true`;
+                                kickIframe.frameBorder = "0";
+                                kickIframe.allow = "autoplay; fullscreen";
+                                kickIframe.style.width = "100%";
+                                kickIframe.style.height = "100%";
+                                div.appendChild(kickIframe);
+                            } else {
+                                // Twitch Embed
+                                const twitchPlayer = new Twitch.Embed(
+                                    `player${index + 1}`,
+                                    {
+                                        width: "100%",
+                                        height: "100%",
+                                        channel: username,
+                                        parent: ["127.0.0.1", "gta-rp-playlist.com"],
+                                        muted: true,
+                                        layout: "video",
+                                    }
+                                );
+
+                                players[`player${index + 1}`] = twitchPlayer;
+
+                                if (index === 0) {
+                                    console.log(
+                                        `Adding 'current-unmuted' class to player${index + 1}`
+                                    );
+                                    div.classList.add("current-unmuted");
+                                    twitchPlayer.setMuted(false); // Unmute the first player by default
+                                }
+                            }
+
+                            initializePlayers();
+                            await delay(950); // Wait 950ms
+                            window.dispatchEvent(new Event("resize")); // Trigger resize event
+                        }
+                    } else {
+                        let combinedStreams = [];
+
+                        for (const cat of mappedCategories) {
+                            const streams = Array.from(
+                                doc.querySelectorAll(`.sub-item[data-category="${cat}"]`)
+                            );
+                            const sortedStreams = streams
+                                .map((stream) => {
+                                    const username = stream.querySelector(".username")?.textContent;
+                                    const title = stream.getAttribute("data-title");
+                                    const viewersText = stream.querySelector(".viewer-count")?.textContent || "";
+                                    const viewers = parseInt(viewersText.replace(/[^0-9]/g, ""), 10);
+                                    return { username, title, viewers };
+                                })
+                                .sort((a, b) => b.viewers - a.viewers);
+
+                            combinedStreams = combinedStreams.concat(sortedStreams);
+                        }
+
+                        // Slice to limit streams and ensure uniqueness
+                        const uniqueCombinedStreams = Array.from(
+                            new Map(combinedStreams.map(item => [item.username, item])).values()
+                        ).slice(0, limitStreams);
+
+                        const categoryTitle = document.getElementById("categoryTitle");
+                        categoryTitle.textContent = `Showing ${uniqueCombinedStreams.length} Streams in ${mappedCategories.join(", ")} on server ${server}`;
+
+                        categoryTitle.style.display = "block";
+                        setTimeout(() => {
+                            categoryTitle.style.display = "none";
+                        }, 4000);
+
+                        const orderedUsernames = uniqueCombinedStreams.map(({ username, title }) => ({
+                            username,
+                            title,
+                        }));
+
+                        if (orderedUsernames.length === 1) {
+                            usernamesList.classList.add("single-stream");
+                        } else {
+                            usernamesList.classList.remove("single-stream");
+                        }
+
+                        for (let index = 0; index < orderedUsernames.length; index++) {
+                            const { username, title } = orderedUsernames[index];
+                            const div = document.createElement("div");
+                            div.className = "twitch-embed";
+                            div.id = `player${index + 1}`;
+                            usernamesList.appendChild(div);
+
+                            // Embedding logic for Kick streams
+                            if (title.includes("🟢🟢Kick Stream☝️")) {
+                                console.log(`Embedding Kick player for ${username}`);
+                                const kickIframe = document.createElement("iframe");
+                                kickIframe.src = `https://player.kick.com/${username}?muted=true&autoplay=true`;
+                                kickIframe.frameBorder = "0";
+                                kickIframe.allow = "autoplay; fullscreen";
+                                kickIframe.style.width = "100%";
+                                kickIframe.style.height = "100%";
+                                div.appendChild(kickIframe);
+                            } else {
+                                // Twitch Embed
+                                const twitchPlayer = new Twitch.Embed(
+                                    `player${index + 1}`,
+                                    {
+                                        width: "100%",
+                                        height: "100%",
+                                        channel: username,
+                                        parent: ["127.0.0.1", "gta-rp-playlist.com"],
+                                        muted: index !== 0,
+                                        layout: "video",
+                                    }
+                                );
+
+                                players[`player${index + 1}`] = twitchPlayer;
+
+                                if (index === 0) {
+                                    div.classList.add("current-unmuted");
+                                    twitchPlayer.setMuted(false); // Unmute the first player by default
+                                }
+                            }
+                        }
+
+                        initializePlayers();
+                        await delay(950); // Wait 950ms
+                        window.dispatchEvent(new Event("resize")); // Trigger resize event
+                    }
+                })
+                .catch((error) => console.error("Error fetching streams:", error));
+        });
+    </script>
+</body>
+</html>
