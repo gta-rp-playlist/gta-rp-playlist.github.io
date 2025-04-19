@@ -484,8 +484,8 @@ function playStream(streamName) {
         player.src = `https://player.kick.com/${lowerCaseStreamName}?muted=false&autoplay=true`;
         chat.src = `https://streamcompanion.app/kick/${lowerCaseStreamName}/chat`;
     } else {
-        player.src = `https://player.twitch.tv/?channel=${streamName}&parent=gta-rp-playlist.com&parent=127.0.0.1&autoplay=true&muted=false&quality=chunked`;
-        chat.src = `https://www.twitch.tv/embed/${streamName}/chat?parent=gta-rp-playlist.com&parent=127.0.0.1&darkpopout`;
+        player.src = `https://player.twitch.tv/?channel=${streamName}&parent=gta-rp-playlist.github.io&parent=127.0.0.1&autoplay=true&muted=false&quality=chunked`;
+        chat.src = `https://www.twitch.tv/embed/${streamName}/chat?parent=gta-rp-playlist.github.io&parent=127.0.0.1&darkpopout`;
     }
 
     // Display the current stream name and title
