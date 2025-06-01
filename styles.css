@@ -54,7 +54,7 @@ body {
 .tooltip {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: rgb(117, 9, 9);
   border: 1px solid #ccc;
   z-index: 10;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -69,7 +69,15 @@ body {
   overflow-y: auto;
   line-height: 1.5;
 }
+.tooltip a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
 
+.tooltip a:hover {
+  text-decoration: underline;
+}
 /* Show tooltip when hovering link or tooltip */
 .tooltip-wrapper:hover .tooltip {
   display: block;
