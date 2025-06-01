@@ -81,5 +81,15 @@
     <script src="start_4.js"></script>
     <script src="start_5.js"></script>
     <script src="start_z_final_prodigy.js"></script>
+    <script>
+  document.getElementById('refresh-btn').addEventListener('click', function () {
+    // Perform a hard reload and attempt to bypass cache
+    location.reload(true); // Deprecated but may work in some browsers
+
+    // Most modern approach:
+    window.location.href = window.location.href;
+  });
+</script>
+
 </body>
 </html>

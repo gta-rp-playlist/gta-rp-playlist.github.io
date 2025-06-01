@@ -17,7 +17,7 @@
     <div id="content">
         <iframe id="player" src="" frameborder="0" allowfullscreen></iframe>
         <iframe id="chat" src="" frameborder="0"></iframe>
-        <div id="streamdata"></div>        <a><button id="refresh-btn">Refresh Page</button></a>
+        <div id="streamdata"></div>        <button id="refresh-btn">Refresh Page</button>
         <div id="streamInfo"></div>
     </div>
 <nav id="top-menu">
@@ -83,5 +83,14 @@
     <script src="start_4.js"></script>
     <script src="start_5.js"></script>
     <script src="start_z_final.js"></script>
+    <script>
+  document.getElementById('refresh-btn').addEventListener('click', function () {
+    // Perform a hard reload and attempt to bypass cache
+    location.reload(true); // Deprecated but may work in some browsers
+
+    // Most modern approach:
+    window.location.href = window.location.href;
+  });
+</script>
 </body>
 </html>
