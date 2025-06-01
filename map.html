@@ -352,7 +352,7 @@
 
 // Function to handle user clicks
 function openUser(username) {
-    const url = `Nopixel.html?user=${encodeURIComponent(username)}`;
+    const url = `nopixel.html?user=${encodeURIComponent(username)}`;
     window.open(url, '_blank'); // Open the URL in a new tab
 }
 
@@ -375,8 +375,8 @@ window.onload = () => {
         marker.addEventListener('click', (event) => {
             const group = marker.getAttribute('data-group');
             if (group) {
-                // Redirect to /Nopixel.html#category (category as group)
-                window.location.href = `/Nopixel.html#${encodeURIComponent(group)}`;
+                // Redirect to /nopixel.html#category (category as group)
+                window.location.href = `/nopixel.html#${encodeURIComponent(group)}`;
             }
         });
 

@@ -120,12 +120,12 @@ window.onload = function () {
     if (currentPath.includes('prodigy.html')) {
         server = params.get('server') || 'prodigy';
         localStorage.setItem('source', 'prodigy');
-    } else if (currentPath.includes('Nopixel.html')) {
+    } else if (currentPath.includes('nopixel.html')) {
         server = params.get('server') || 'nopixel';
         localStorage.setItem('source', 'index');
     }
 
-    if ((currentPath.includes('Nopixel.html') || currentPath.includes('prodigy.html')) && params.has('category')) {
+    if ((currentPath.includes('nopixel.html') || currentPath.includes('prodigy.html')) && params.has('category')) {
         let category = params.get('category').toLowerCase();
 
         if (categoryMapping[category]) {
