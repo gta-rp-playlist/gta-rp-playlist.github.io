@@ -323,7 +323,7 @@ function setDefaultParams() {
                     width: "100%",
                     height: "100%",
                     channel: username,
-                    parent: ["127.0.0.1", "gta-rp-playlist.com"],
+                    parent: ["127.0.0.1", "gta-rp-playlist.github.io"],
                     muted: index !== 0,
                     layout: "video",
                 });
