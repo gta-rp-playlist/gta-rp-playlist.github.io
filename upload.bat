@@ -1,7 +1,5 @@
 timeout 2 >> NUL
-pushd C:\Users\erickkkk\Documents\GitHub\gta-rp-playlist.github.io
 timeout 2 >> NUL
-pushd C:\Users\erickkkk\Documents\GitHub\gta-rp-playlist.github.io
 timeout 2 >> NUL
 git add -A
 timeout 3 >> NUL
