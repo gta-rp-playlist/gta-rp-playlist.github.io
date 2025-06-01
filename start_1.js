@@ -121,7 +121,6 @@ function fetchAndUpdateSidebar() {
 }
 
 
-
 function findUserCategory(username) {
     const items = document.querySelectorAll('.sub-item');
     for (let item of items) {
