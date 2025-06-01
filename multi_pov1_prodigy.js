@@ -1486,7 +1486,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Toggle floatingBox visibility without hiding the button itself
         if (floatingBox.style.visibility === "hidden") {
             floatingBox.style.visibility = "visible";
-            hideButton.textContent = "Hide";
+            hideButton.textContent = "Hide Box";
         } else {
             floatingBox.style.visibility = "hidden";
             hideButton.textContent = "Show";
