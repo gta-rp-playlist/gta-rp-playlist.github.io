@@ -69,10 +69,13 @@ body {
   overflow-y: auto;
   line-height: 1.5;
 }
-.tooltip a {
+.tooltip c {
   color: blue;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: underline;
+  cursor: pointer;
+
+
 }
 
 .tooltip a:hover {
