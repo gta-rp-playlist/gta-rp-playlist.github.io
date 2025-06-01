@@ -77,9 +77,20 @@ body {
 
 
 }
+.tooltip a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+
+
+}
 
 .tooltip a:hover {
   text-decoration: underline;
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
 }
 /* Show tooltip when hovering link or tooltip */
 .tooltip-wrapper:hover .tooltip {
