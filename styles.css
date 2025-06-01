@@ -46,6 +46,11 @@ body {
 #top-menu ul li a:hover {
     color: #ffcc00;
 }
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
 .tooltip {
     display: none; /* Hidden by default */
     position: absolute;
@@ -56,10 +61,15 @@ body {
     left: 50%; /* Center the tooltip horizontally */
     transform: translateX(-50%); /* Adjust position to truly center it */
     top: 100%; /* Positions tooltip below the link */
+    width: 300px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
 }
 
-#changelog-link:hover + .tooltip {
-    display: block; /* Show tooltip on hover */
+/* Show tooltip when hovering link or tooltip */
+.tooltip-wrapper:hover .tooltip {
+  display: block;
 }
 
 #sidebar {
