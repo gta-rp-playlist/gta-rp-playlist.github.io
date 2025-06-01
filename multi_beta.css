@@ -181,8 +181,8 @@ body {
     gap: 10px;                      /* Space between buttons */
     z-index: 163;
     position: fixed;                /* Fixes it in place */
-    top: 0%;                   /* 20 pixels from the bottom */
-    left: 4%;                      /* Centering the container horizontally */
+    top: 0.1%;                   /* 20 pixels from the bottom */
+    left: 5%;                      /* Centering the container horizontally */
     transform: translateX(-50%);    /* Adjusts for the width to center it */
 }
 
@@ -198,6 +198,16 @@ body {
     cursor: pointer;               /* Pointer cursor on hover */
 }
 #hide {
+    padding: 5px;                  /* Reduced padding for a smaller button */
+    flex: 0;                       /* Prevents growth to make it smaller */
+    font-size: 12px;              /* Optional: Adjust font size */
+    background-color: #007BFF;    /* Blue background color */
+    color: white;                  /* White text color */
+    border: none;                  /* No border */
+    border-radius: 4px;           /* Rounded corners */
+    cursor: pointer;               /* Pointer cursor on hover */
+}
+#goBackButton {
     padding: 5px;                  /* Reduced padding for a smaller button */
     flex: 0;                       /* Prevents growth to make it smaller */
     font-size: 12px;              /* Optional: Adjust font size */
