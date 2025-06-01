@@ -119,50 +119,7 @@ function fetchAndUpdateSidebar() {
         });
     }
 }
-function fetchAndUpdateSidebar_2() {
-    const sidebarElement = document.getElementById('sidebar');
-    const data = sidebarElement.innerHTML;
 
-    if (data !== lastFetchedData) {
-        lastFetchedData = data;
-        sortCategories();
-        
-        const params = new URLSearchParams(window.location.search);
-        const user = params.get('user');
-
-        if (user) {
-            const userCat = findUserCategory(user);
-            if (userCat) {
-                toggleSubItems(userCat);
-                highlightCategory(document.querySelector(`.category[data-category="${userCat}"]`));
-                playStream(user);
-            }
-        } else {
-            const hash = window.location.hash;
-            if (hash) {
-                const mapped = categoryMappings[hash.substring(1).toLowerCase()];
-                if (mapped) {
-                    toggleSubItems(mapped);
-                    highlightCategory(document.querySelector(`.category[data-category="${mapped}"]`));
-                    const name = document.querySelector(`.sub-item[data-category="${mapped}"] .username`).textContent.trim().toLowerCase();
-                    playStream(name);
-                }
-            } else {
-                const first = document.querySelector('.category');
-                if (first) {
-                    toggleSubItems(first.dataset.category);
-                    highlightCategory(first);
-                    const name = document.querySelector(`.sub-item[data-category="${first.dataset.category}"] .username`).textContent.trim().toLowerCase();
-                    playStream(name);
-                }
-            }
-        }
-
-        document.querySelectorAll('.category').forEach(e => {
-            updateSidebarCategoryCount(e.dataset.category);
-        });
-    }
-}
 
 
 function findUserCategory(username) {
