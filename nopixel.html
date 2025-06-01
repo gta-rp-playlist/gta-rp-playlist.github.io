@@ -84,13 +84,15 @@
     <script src="start_5.js"></script>
     <script src="start_z_final.js"></script>
     <script>
-  document.getElementById('refresh-btn').addEventListener('click', function () {
-    // Perform a hard reload and attempt to bypass cache
-    location.reload(true); // Deprecated but may work in some browsers
+      document.getElementById('refresh-btn').addEventListener('click', function () {
+        const url = new URL(window.location.href);
+        
+        // Add or update the cachebust parameter
+        url.searchParams.set('cachebust', Date.now());
 
-    // Most modern approach:
-    window.location.href = window.location.href;
-  });
-</script>
+        // Keep the hash as-is and reload the full URL
+        window.location.href = url.toString();
+      });
+    </script>
 </body>
 </html>
