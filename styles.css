@@ -38,7 +38,7 @@ body {
 }
 
 #top-menu ul li a {
-    color: white;
+    color: rgb(53, 198, 218);
     text-decoration: none;
     font-size: 18px;
 }
@@ -54,7 +54,7 @@ body {
 .tooltip {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: rgb(150, 149, 155);
   border: 1px solid #ccc;
   z-index: 10;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -82,7 +82,6 @@ body {
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
-
 
 }
 
