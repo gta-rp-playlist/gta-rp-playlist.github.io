@@ -31,9 +31,4 @@ let lastOpenedCategory_2 = null; // Store the last opened category
 
 window.onload = function() {
     fetchAndUpdateSidebar_2();
-    fetchAndUpdateNumbers_2(); // Fetch the numbers on page load
 };
-
-// Re-fetch the file and update the sidebar every 60 seconds (adjust as needed)
-setInterval(fetchAndUpdateSidebar_2_none, 120000); // 30,000ms = .5 minute
-setInterval(fetchAndUpdateNumbers_2, 120000); // 30,000ms = 30 seconds
