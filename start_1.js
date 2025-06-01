@@ -76,52 +76,50 @@ function highlightCategory(category) {
 }
 
 function fetchAndUpdateSidebar() {
-    fetch('data.txt')
-        .then(r => {
-            if (!r.ok) throw new Error();
-            return r.text();
-        })
-        .then(data => {
-            if (data !== lastFetchedData) {
-                lastFetchedData = data;
-                document.getElementById('sidebar').innerHTML = data;
-                sortCategories();
-                const params = new URLSearchParams(window.location.search);
-                const user = params.get('user');
-                if (user) {
-                    const userCat = findUserCategory(user);
-                    if (userCat) {
-                        toggleSubItems(userCat);
-                        highlightCategory(document.querySelector(`.category[data-category="${userCat}"]`));
-                        playStream(user);
-                    }
-                } else {
-                    const hash = window.location.hash;
-                    if (hash) {
-                        const mapped = categoryMappings[hash.substring(1).toLowerCase()];
-                        if (mapped) {
-                            toggleSubItems(mapped);
-                            highlightCategory(document.querySelector(`.category[data-category="${mapped}"]`));
-                            const name = document.querySelector(`.sub-item[data-category="${mapped}"] .username`).textContent.trim().toLowerCase();
-                            playStream(name);
-                        }
-                    } else {
-                        const first = document.querySelector('.category');
-                        if (first) {
-                            toggleSubItems(first.dataset.category);
-                            highlightCategory(first);
-                            const name = document.querySelector(`.sub-item[data-category="${first.dataset.category}"] .username`).textContent.trim().toLowerCase();
-                            playStream(name);
-                        }
-                    }
-                }
-                document.querySelectorAll('.category').forEach(e => {
-                    updateSidebarCategoryCount(e.dataset.category);
-                });
+    const sidebarElement = document.getElementById('sidebar');
+    const data = sidebarElement.innerHTML;
+
+    if (data !== lastFetchedData) {
+        lastFetchedData = data;
+        sortCategories();
+        
+        const params = new URLSearchParams(window.location.search);
+        const user = params.get('user');
+
+        if (user) {
+            const userCat = findUserCategory(user);
+            if (userCat) {
+                toggleSubItems(userCat);
+                highlightCategory(document.querySelector(`.category[data-category="${userCat}"]`));
+                playStream(user);
             }
-        })
-        .catch(() => {});
+        } else {
+            const hash = window.location.hash;
+            if (hash) {
+                const mapped = categoryMappings[hash.substring(1).toLowerCase()];
+                if (mapped) {
+                    toggleSubItems(mapped);
+                    highlightCategory(document.querySelector(`.category[data-category="${mapped}"]`));
+                    const name = document.querySelector(`.sub-item[data-category="${mapped}"] .username`).textContent.trim().toLowerCase();
+                    playStream(name);
+                }
+            } else {
+                const first = document.querySelector('.category');
+                if (first) {
+                    toggleSubItems(first.dataset.category);
+                    highlightCategory(first);
+                    const name = document.querySelector(`.sub-item[data-category="${first.dataset.category}"] .username`).textContent.trim().toLowerCase();
+                    playStream(name);
+                }
+            }
+        }
+
+        document.querySelectorAll('.category').forEach(e => {
+            updateSidebarCategoryCount(e.dataset.category);
+        });
+    }
 }
+
 
 function findUserCategory(username) {
     const items = document.querySelectorAll('.sub-item');
@@ -134,94 +132,3 @@ function findUserCategory(username) {
     return null;
 }
 
-function fetchAndUpdateSidebar_none() {
-    fetch('data.txt')
-        .then(r => {
-            if (!r.ok) throw new Error();
-            return r.text();
-        })
-        .then(data => {
-            if (data !== lastFetchedData) {
-                lastFetchedData = data;
-                document.getElementById('sidebar').innerHTML = data;
-                collapseAllSubItems();
-                sortCategories();
-                document.querySelectorAll('.category').forEach(e => {
-                    updateSidebarCategoryCount(e.dataset.category);
-                });
-                if (lastOpenedCategory) toggleSubItems(lastOpenedCategory);
-            }
-        })
-        .catch(() => {});
-}
-
-function fetchAndUpdateNumbers() {
-    fetch('numbers.txt')
-        .then(r => {
-            if (!r.ok) throw new Error();
-            return r.text();
-        })
-        .then(data => {
-            document.getElementById('streamdata').innerHTML = data;
-        })
-        .catch(() => {});
-}
-
-function fetchAndUpdateSidebar_2() {
-    fetch('data2.txt')
-        .then(r => {
-            if (!r.ok) throw new Error();
-            return r.text();
-        })
-        .then(data => {
-            if (data !== lastFetchedData_2) {
-                lastFetchedData_2 = data;
-                document.getElementById('sidebar').innerHTML = data;
-                sortCategories();
-                var first = document.querySelector('.category');
-                if (first) {
-                    lastOpenedCategory_2 = first.dataset.category;
-                    toggleSubItems(first.dataset.category);
-                    var name = document.querySelector('.sub-item[data-category="' + first.dataset.category + '"] .username').textContent.trim().toLowerCase();
-                    playStream(name);
-                }
-                document.querySelectorAll('.category').forEach(e => {
-                    updateSidebarCategoryCount(e.dataset.category);
-                });
-            }
-        })
-        .catch(() => {});
-}
-
-function fetchAndUpdateSidebar_2_none() {
-    fetch('data2.txt')
-        .then(r => {
-            if (!r.ok) throw new Error();
-            return r.text();
-        })
-        .then(data => {
-            if (data !== lastFetchedData_2) {
-                lastFetchedData_2 = data;
-                document.getElementById('sidebar').innerHTML = data;
-                collapseAllSubItems();
-                sortCategories();
-                document.querySelectorAll('.category').forEach(e => {
-                    updateSidebarCategoryCount(e.dataset.category);
-                });
-                if (lastOpenedCategory_2) toggleSubItems(lastOpenedCategory_2);
-            }
-        })
-        .catch(() => {});
-}
-
-function fetchAndUpdateNumbers_2() {
-    fetch('numbers2.txt')
-        .then(r => {
-            if (!r.ok) throw new Error();
-            return r.text();
-        })
-        .then(data => {
-            document.getElementById('streamdata').innerHTML = data;
-        })
-        .catch(() => {});
-}

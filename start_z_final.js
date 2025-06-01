@@ -28,3 +28,7 @@ document.getElementById('suggestion-form').addEventListener('submit', function(e
 
 let lastFetchedData = '';
 let lastOpenedCategory = null;
+
+window.onload = function() {
+    fetchAndUpdateSidebar();
+};
