@@ -81,17 +81,27 @@
     <script src="start_4.js"></script>
     <script src="start_5.js"></script>
     <script src="start_z_final_prodigy.js"></script>
-    <script>
-      document.getElementById('refresh-btn').addEventListener('click', function () {
-        const url = new URL(window.location.href);
-        
-        // Add or update the cachebust parameter
-        url.searchParams.set('cachebust', Date.now());
+<script>
+  document.getElementById('refresh-btn').addEventListener('click', function () {
+    const timestamp = Date.now();
 
-        // Keep the hash as-is and reload the full URL
-        window.location.href = url.toString();
-      });
-    </script>
+    // Cachebust the current page
+    const url = new URL(window.location.href);
+    url.searchParams.set('_', timestamp);
+    const newUrl = url.toString();
+
+    // Cachebust all CSS/JS asset references by rewriting them temporarily
+    document.querySelectorAll('link[rel="stylesheet"], script[src]').forEach(el => {
+      const attr = el.tagName === 'LINK' ? 'href' : 'src';
+      const originalUrl = new URL(el[attr], window.location.origin);
+      originalUrl.searchParams.set('_', timestamp);
+      el[attr] = originalUrl.toString();
+    });
+
+    // Then reload the page
+    window.location.href = newUrl;
+  });
+</script>
 
 </body>
 </html>
