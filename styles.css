@@ -31,26 +31,7 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
-    /* Simple footer styling */
-    .footer-note {
-      position: fixed;
-      bottom: 10px;
-      width: 100%;
-      text-align: center;
-      font-size: 1.1rem;          /* increased size */
-      color: #ffffff;                /* darker for visibility */
-      font-family: Arial, sans-serif;
-      font-weight: 600;           /* semi-bold for emphasis */
-    }
-    .footer-note a {
-      color: #007acc;
-      text-decoration: none;
-      margin: 0 8px;              /* slightly more spacing */
-      font-weight: 700;
-    }
-    .footer-note a:hover {
-      text-decoration: underline;
-    }
+
 #top-menu ul li {
     display: inline-block;
     margin: 0 15px;
