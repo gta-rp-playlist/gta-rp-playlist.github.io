@@ -52,25 +52,30 @@ body {
 }
 
 .tooltip {
-    display: none; /* Hidden by default */
-    position: absolute;
-    background-color: white; /* Tooltip background color */
-    border: 1px solid #ccc; /* Tooltip border */
-    z-index: 10;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    left: 50%; /* Center the tooltip horizontally */
-    transform: translateX(-50%); /* Adjust position to truly center it */
-    top: 100%; /* Positions tooltip below the link */
-    width: 300px;
-    max-height: 200px;
-    overflow-y: auto;
-    padding: 10px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100%;
+  padding: 15px;
+
+  /* Wider and more rectangular */
+  width: 700px;
+  max-height: 400px;
+  overflow-y: auto;
+  line-height: 1.5;
 }
 
 /* Show tooltip when hovering link or tooltip */
 .tooltip-wrapper:hover .tooltip {
   display: block;
 }
+
+
 
 #sidebar {
     height: 99vh;
