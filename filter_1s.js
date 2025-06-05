@@ -70,7 +70,7 @@ function showCategoryStreams(category, streams) {
                 width: '100%',
                 height: '100%',
                 channel: username,
-                parent: ["127.0.0.1", "gta-rp-playlist.github.io"],
+                parent: ["127.0.0.1", "gta-rp-playlist.com"],
                 muted: false,
                 layout: 'video'
             });
