@@ -26,9 +26,4 @@ function playStream(streamName) {
     streamInfo.innerHTML = `<div class="stream-name">${streamName}</div><div class="stream-title">${title}</div>`;
 
     highlightClickedUsername(lowerCaseStreamName);
-
-    // ✅ Update URL with stream name
-    const url = new URL(window.location);
-    url.searchParams.set('user', streamName);
-    window.history.replaceState({}, '', url);
 }
