@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Team</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script> <!-- HLS Library -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c2c2c;
+            color: white;
+            text-align: center;
+        }
+        video {
+            width: 80%;
+            max-width: 800px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .controls button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .controls button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Live Kick Stream</h2>
+    <video id="kickPlayer" controls></video>
+
+    <div class="controls">
+        <button onclick="playStream()">▶ Play</button>
+        <button onclick="pauseStream()">⏸ Pause</button>
+    </div>
+
+    <script>
+        const video = document.getElementById('kickPlayer');
+        const streamURL = "https://use14.playlist.ttvnw.net/v1/playlist/CsEEX71ejZL1qTv7jUTnbNY9p94nkUaKa_m9SKdoMGw8xCbEakk8eH0KQmgzP_6pqN5WJ-xDxVAT5sRBCfDzYaVyCT3Cq18fSJ8irT7i-I4h9awWf-fXSh7PXFV51oChJze3uxLSK2pLllT5XnHOB0njSvOSNBCT9rQAFD755SVcQAZ06CAcL3_aWftL-T55q8q0vdQ-N17tIXKsbBhI7roZjGD5639I8xBuM8fzFuWHEIwswsCaWEGcB2o7ggooF2Qu4RuSzOZxfwhtya1pi0ZgosK5pslwN-EYHHafalre2a8YOWZBoGPJ5qA1IE6Eea-pgVbPeGINoxv5hO0SIBEiVV4-7KuK9lJxGNY8BsXqT6UWonlGKYHQzNJg7MyhDp8jcd7wDYULQlmvzeAviDyLPTOlsR9PzbfAoTCgKF5-Z8tdECS-eh8HM4DbmoFpDgc1vAy0y1cwWkNzNanAqfdxlFKaso7fNbES5VSEfDk8n60BGwl1_eurUD7DHTIhYqphMNWdf9utKHsydevDkjNIsmyLBaN0OAQW4ZfNAHoAOgQ-zhxHj-Eg27Ph0jxEekea71INBQyXWkAeuZnjkz0zCkfMbwRanaMWR9i4RlR07lTIGQDc3KsYDqX-RAIjefrcmiKVndtbKhMoUcvRQt-32i8ZuxkAECYSDFljcq8KK-VcD60lGv0tijxMa-OEKHYF3WFuNfpArWROw94jRKsUHdAFmkzs4Pxw58DgDg9IAukTP-Ks0DT7HHwjhk3yOej1zBoMeiIsDj03ktxdJcfdIAEqCXVzLWVhc3QtMjC4DA.m3u8";
+
+        if (Hls.isSupported()) {
+            const hls = new Hls();
+            hls.loadSource(streamURL);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                console.log("Stream loaded successfully.");
+                playStream();  // Auto start the stream
+            });
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = streamURL;
+            video.play().catch(err => console.log("Autoplay blocked:", err)); // Auto start for compatible browsers
+        } else {
+            console.error("HLS is not supported on this browser.");
+        }
+
+        function playStream() {
+            video.play().catch(err => console.log("Autoplay blocked:", err));
+        }
+
+        function pauseStream() {
+            video.pause();
+        }
+
+        // Mute video when mouse leaves the player, unmute when mouse enters
+        video.addEventListener('mouseenter', function() {
+            video.muted = false;
+        });
+
+        video.addEventListener('mouseleave', function() {
+            video.muted = true;
+        });
+    </script>
+
+</body>
+</html>
