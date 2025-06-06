@@ -76,7 +76,8 @@ function highlightCategory(category) {
 }
 
 function fetchAndUpdateSidebar() {
-    fetch('data.txt')
+    const cacheBuster = Date.now(); // or use Math.random() for non-time-based
+    fetch(`data.txt?_=${cacheBuster}`)
         .then(r => {
             if (!r.ok) throw new Error();
             return r.text();
@@ -86,6 +87,7 @@ function fetchAndUpdateSidebar() {
                 lastFetchedData = data;
                 document.getElementById('sidebar').innerHTML = data;
                 sortCategories();
+
                 const params = new URLSearchParams(window.location.search);
                 const user = params.get('user');
                 if (user) {
@@ -115,6 +117,7 @@ function fetchAndUpdateSidebar() {
                         }
                     }
                 }
+
                 document.querySelectorAll('.category').forEach(e => {
                     updateSidebarCategoryCount(e.dataset.category);
                 });
@@ -135,7 +138,8 @@ function findUserCategory(username) {
 }
 
 function fetchAndUpdateSidebar_none() {
-    fetch('data.txt')
+    const cacheBuster = Date.now(); // 🛠️ cache busting
+    fetch(`data.txt?_=${cacheBuster}`)
         .then(r => {
             if (!r.ok) throw new Error();
             return r.text();
