@@ -10,6 +10,22 @@
 <display-name>kyle</display-name>
 </channel>
 
+<channel id="ScratchRP.us">
+<display-name>ScratchRP</display-name>
+</channel>
+
+<channel id="UnicornFrapp.us">
+<display-name>UnicornFrapp</display-name>
+</channel>
+
+<channel id="CatsRage.us">
+<display-name>CatsRage</display-name>
+</channel>
+
+<channel id="katecirrus.us">
+<display-name>katecirrus</display-name>
+</channel>
+
 <channel id="umad.us">
 <display-name>umad</display-name>
 </channel>
@@ -18,40 +34,24 @@
 <display-name>jack</display-name>
 </channel>
 
-<channel id="ScratchRP.us">
-<display-name>ScratchRP</display-name>
-</channel>
-
-<channel id="CatsRage.us">
-<display-name>CatsRage</display-name>
-</channel>
-
-<channel id="UnicornFrapp.us">
-<display-name>UnicornFrapp</display-name>
-</channel>
-
-<channel id="52chains.us">
-<display-name>52chains</display-name>
-</channel>
-
-<channel id="katecirrus.us">
-<display-name>katecirrus</display-name>
-</channel>
-
-<channel id="vader.us">
-<display-name>vader</display-name>
+<channel id="TheDlinQuenT.us">
+<display-name>TheDlinQuenT</display-name>
 </channel>
 
 <channel id="BaldLionnn.us">
 <display-name>BaldLionnn</display-name>
 </channel>
 
-<channel id="TheDlinQuenT.us">
-<display-name>TheDlinQuenT</display-name>
-</channel>
-
 <channel id="laurinrae.us">
 <display-name>laurinrae</display-name>
+</channel>
+
+<channel id="52chains.us">
+<display-name>52chains</display-name>
+</channel>
+
+<channel id="vader.us">
+<display-name>vader</display-name>
 </channel>
 
 <channel id="Chachimuchacho.us">
@@ -62,10 +62,6 @@
 <display-name>CrashCustoms</display-name>
 </channel>
 
-<channel id="curvyelephant.us">
-<display-name>curvyelephant</display-name>
-</channel>
-
 <channel id="Rambo_Fletch.us">
 <display-name>Rambo_Fletch</display-name>
 </channel>
@@ -74,8 +70,12 @@
 <display-name>BaconInASuit</display-name>
 </channel>
 
-<channel id="luke7carr.us">
-<display-name>luke7carr</display-name>
+<channel id="curvyelephant.us">
+<display-name>curvyelephant</display-name>
+</channel>
+
+<channel id="shotz.us">
+<display-name>shotz</display-name>
 </channel>
 
 <channel id="saab.us">
@@ -90,35 +90,28 @@
 <title lang="en"> Patar Bellosh - Jiggity Jiggity - Variety Later </title>
 <desc lang="en"> Started: 7:13AM
 Playing: Grand Theft Auto V
-Viewers: 548 </desc>
+Viewers: 581 </desc>
 </programme>
 
 <programme start="20250608130019 +0000" stop="20250611080019 +0000" channel="kyle.us">
 <title lang="en"> Kyle Pred - Prodigy Roleplay </title>
 <desc lang="en"> Started: 8:00AM
 Playing: Grand Theft Auto V
-Viewers: 1001 </desc>
-</programme>
-
-<programme start="20250608103529 +0000" stop="20250611053529 +0000" channel="umad.us">
-<title lang="en"> Sergio Lopez - 🐍Hydra🐍 - NoPixel </title>
-<desc lang="en"> Started: 5:35AM
-Playing: Grand Theft Auto V
-Viewers: 17 </desc>
-</programme>
-
-<programme start="20250608100758 +0000" stop="20250611050758 +0000" channel="jack.us">
-<title lang="en"> Jack Cortair - NoPixel - MultiStreaming Day 5 </title>
-<desc lang="en"> Started: 5:07AM
-Playing: Grand Theft Auto V
-Viewers: 184 </desc>
+Viewers: 1093 </desc>
 </programme>
 
 <programme start="20250608113354 +0000" stop="20250611063354 +0000" channel="ScratchRP.us">
 <title lang="en"> Scuffed stream #114 - Jasper Johns - No Pixel 4.0 🐍 Hydra 🐍 - discord </title>
 <desc lang="en"> Started: 06:33 am
 Playing: Grand Theft Auto V
-Viewers: 123 </desc>
+Viewers: 110 </desc>
+</programme>
+
+<programme start="20250608132039 +0000" stop="20250611082039 +0000" channel="UnicornFrapp.us">
+<title lang="en"> Remi Ironside - BCSO Deputy - Nopixel WL - Short One </title>
+<desc lang="en"> Started: 08:20 am
+Playing: Grand Theft Auto V
+Viewers: 73 </desc>
 </programme>
 
 <programme start="20250608060748 +0000" stop="20250611010748 +0000" channel="CatsRage.us">
@@ -128,20 +121,6 @@ Playing: Grand Theft Auto V
 Viewers: 53 </desc>
 </programme>
 
-<programme start="20250608132039 +0000" stop="20250611082039 +0000" channel="UnicornFrapp.us">
-<title lang="en"> Remi Ironside - BCSO Deputy - Nopixel WL - Short One </title>
-<desc lang="en"> Started: 08:20 am
-Playing: Grand Theft Auto V
-Viewers: 55 </desc>
-</programme>
-
-<programme start="20250608133709 +0000" stop="20250611083709 +0000" channel="52chains.us">
-<title lang="en"> Carmine - KcDA - - Nopixel WL multistreamgreen 🟢🟣 </title>
-<desc lang="en"> Started: 8:37AM
-Playing: Grand Theft Auto V
-Viewers: 237 </desc>
-</programme>
-
 <programme start="20250608081841 +0000" stop="20250611031841 +0000" channel="katecirrus.us">
 <title lang="en"> Phoebe Violet - RIP BSB - NP WL - pride charity </title>
 <desc lang="en"> Started: 03:18 am
@@ -149,32 +128,53 @@ Playing: Grand Theft Auto V
 Viewers: 40 </desc>
 </programme>
 
-<programme start="20250608120303 +0000" stop="20250611070303 +0000" channel="vader.us">
-<title lang="en"> 35% OFF SUBS 5 GIFTED SUBS EUGENE - UNSCRIPTED </title>
-<desc lang="en"> Started: 7:03AM
+<programme start="20250608103529 +0000" stop="20250611053529 +0000" channel="umad.us">
+<title lang="en"> Sergio Lopez - 🐍Hydra🐍 - NoPixel </title>
+<desc lang="en"> Started: 5:35AM
 Playing: Grand Theft Auto V
-Viewers: 988 </desc>
+Viewers: 14 </desc>
 </programme>
 
-<programme start="20250608123723 +0000" stop="20250611073723 +0000" channel="BaldLionnn.us">
-<title lang="en"> TJ causing chaos I Valheim later I NopixelWL </title>
-<desc lang="en"> Started: 07:37 am
+<programme start="20250608100758 +0000" stop="20250611050758 +0000" channel="jack.us">
+<title lang="en"> Jack Cortair - NoPixel - MultiStreaming Day 5 </title>
+<desc lang="en"> Started: 5:07AM
 Playing: Grand Theft Auto V
-Viewers: 13 </desc>
+Viewers: 186 </desc>
 </programme>
 
 <programme start="20250608133453 +0000" stop="20250611083453 +0000" channel="TheDlinQuenT.us">
 <title lang="en"> Snr Officer Dee LinQ- 455 - LSPDee - NoPixel 4.0 WL - GTA RP </title>
 <desc lang="en"> Started: 08:34 am
 Playing: Grand Theft Auto V
-Viewers: 14 </desc>
+Viewers: 11 </desc>
+</programme>
+
+<programme start="20250608123723 +0000" stop="20250611073723 +0000" channel="BaldLionnn.us">
+<title lang="en"> TJ causing chaos I Valheim later I NopixelWL </title>
+<desc lang="en"> Started: 07:37 am
+Playing: Grand Theft Auto V
+Viewers: 10 </desc>
 </programme>
 
 <programme start="20250608132554 +0000" stop="20250611082554 +0000" channel="laurinrae.us">
 <title lang="en"> what do to do next  - Short Stream - Elizabeth  Liz  Rose - Former Hidden - Nopixel 4.0 - Discord </title>
 <desc lang="en"> Started: 08:25 am
 Playing: Grand Theft Auto V
-Viewers: 10 </desc>
+Viewers: 11 </desc>
+</programme>
+
+<programme start="20250608133709 +0000" stop="20250611083709 +0000" channel="52chains.us">
+<title lang="en"> Carmine - KcDA - - Nopixel WL multistreamgreen 🟢🟣 </title>
+<desc lang="en"> Started: 8:37AM
+Playing: Grand Theft Auto V
+Viewers: 330 </desc>
+</programme>
+
+<programme start="20250608120303 +0000" stop="20250611070303 +0000" channel="vader.us">
+<title lang="en"> 35% OFF SUBS 5 GIFTED SUBS EUGENE - UNSCRIPTED </title>
+<desc lang="en"> Started: 7:03AM
+Playing: Grand Theft Auto V
+Viewers: 1017 </desc>
 </programme>
 
 <programme start="20250608114253 +0000" stop="20250611064253 +0000" channel="Chachimuchacho.us">
@@ -191,18 +191,11 @@ Playing: Grand Theft Auto V
 Viewers: 5 </desc>
 </programme>
 
-<programme start="20250608082251 +0000" stop="20250611032251 +0000" channel="curvyelephant.us">
-<title lang="en"> ryan parker - nopixel - </title>
-<desc lang="en"> Started: 3:22AM
-Playing: Grand Theft Auto V
-Viewers: 313 </desc>
-</programme>
-
 <programme start="20250608110015 +0000" stop="20250611060015 +0000" channel="Rambo_Fletch.us">
 <title lang="en"> Stealin ya nans HVACs - Big Changers - Soldado Vagos - Nopixel RP </title>
 <desc lang="en"> Started: 06:00 am
 Playing: Grand Theft Auto V
-Viewers: 3 </desc>
+Viewers: 4 </desc>
 </programme>
 
 <programme start="20250608123737 +0000" stop="20250611073737 +0000" channel="BaconInASuit.us">
@@ -212,21 +205,28 @@ Playing: Grand Theft Auto V
 Viewers: 2 </desc>
 </programme>
 
-<programme start="20250608122455 +0000" stop="20250611072455 +0000" channel="luke7carr.us">
-<title lang="en"> Hounds Patched Member I Luke Grayson I NP WL </title>
-<desc lang="en"> Started: 7:24AM
+<programme start="20250608082251 +0000" stop="20250611032251 +0000" channel="curvyelephant.us">
+<title lang="en"> ryan parker - nopixel - </title>
+<desc lang="en"> Started: 3:22AM
 Playing: Grand Theft Auto V
-Viewers: 26 </desc>
+Viewers: 330 </desc>
 </programme>
 
-<programme start="20250608000000 +0000" stop="20250611085618 +0000" channel="saab.us">
+<programme start="20250608140508 +0000" stop="20250611090508 +0000" channel="shotz.us">
+<title lang="en"> 🐉 Vinny Dont Care Pistone 🐉 ProdigyRP 2.6 🐉 Merch is Live 🐉 Starf0rge Coffee TTS 🐉 </title>
+<desc lang="en"> Started: 9:05AM
+Playing: Grand Theft Auto V
+Viewers: 68 </desc>
+</programme>
+
+<programme start="20250608000000 +0000" stop="20250611090631 +0000" channel="saab.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
 Viewers:  </desc>
 </programme>
 
-<programme start="20250608000000 +0000" stop="20250611085618 +0000" channel="ming.us">
+<programme start="20250608000000 +0000" stop="20250611090631 +0000" channel="ming.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
