@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="edwardvanmanz.us">
+<display-name>edwardvanmanz</display-name>
+</channel>
+
 <channel id="artbybaha.us">
 <display-name>artbybaha</display-name>
 </channel>
@@ -10,16 +14,16 @@
 <display-name>shotz</display-name>
 </channel>
 
-<channel id="edwardvanmanz.us">
-<display-name>edwardvanmanz</display-name>
-</channel>
-
-<channel id="itskgu.us">
-<display-name>itskgu</display-name>
+<channel id="client.us">
+<display-name>client</display-name>
 </channel>
 
 <channel id="hutchmf.us">
 <display-name>hutchmf</display-name>
+</channel>
+
+<channel id="itskgu.us">
+<display-name>itskgu</display-name>
 </channel>
 
 <channel id="kyle.us">
@@ -50,12 +54,16 @@
 <display-name>nidas</display-name>
 </channel>
 
+<channel id="TheDlinQuenT.us">
+<display-name>TheDlinQuenT</display-name>
+</channel>
+
 <channel id="52chains.us">
 <display-name>52chains</display-name>
 </channel>
 
-<channel id="TheDlinQuenT.us">
-<display-name>TheDlinQuenT</display-name>
+<channel id="Kastiann.us">
+<display-name>Kastiann</display-name>
 </channel>
 
 <channel id="vader.us">
@@ -66,52 +74,48 @@
 <display-name>claytonerp</display-name>
 </channel>
 
-<channel id="Kastiann.us">
-<display-name>Kastiann</display-name>
+<channel id="hogshund.us">
+<display-name>hogshund</display-name>
 </channel>
 
 <channel id="farmhouse78.us">
 <display-name>farmhouse78</display-name>
 </channel>
 
-<channel id="hogshund.us">
-<display-name>hogshund</display-name>
-</channel>
-
 <channel id="DreyMD.us">
 <display-name>DreyMD</display-name>
-</channel>
-
-<channel id="hotted89.us">
-<display-name>hotted89</display-name>
-</channel>
-
-<channel id="roxmiral.us">
-<display-name>roxmiral</display-name>
 </channel>
 
 <channel id="ItsHazelsaurus.us">
 <display-name>ItsHazelsaurus</display-name>
 </channel>
 
-<channel id="client.us">
-<display-name>client</display-name>
+<channel id="roxmiral.us">
+<display-name>roxmiral</display-name>
+</channel>
+
+<channel id="hotted89.us">
+<display-name>hotted89</display-name>
 </channel>
 
 <channel id="luka_aus.us">
 <display-name>luka_aus</display-name>
 </channel>
 
+<channel id="zolo.us">
+<display-name>zolo</display-name>
+</channel>
+
 <channel id="elochai.us">
 <display-name>elochai</display-name>
 </channel>
 
-<channel id="saab.us">
-<display-name>saab</display-name>
-</channel>
-
 <channel id="stankxo.us">
 <display-name>stankxo</display-name>
+</channel>
+
+<channel id="saab.us">
+<display-name>saab</display-name>
 </channel>
 
 <channel id="ming.us">
@@ -126,60 +130,67 @@
 <display-name>sayeed</display-name>
 </channel>
 
+<programme start="20250613132345 +0000" stop="20250616082345 +0000" channel="edwardvanmanz.us">
+<title lang="en"> Leon Edwards- South Cypress- Friday </title>
+<desc lang="en"> Started: 8:23AM
+Playing: Grand Theft Auto V
+Viewers: 42 </desc>
+</programme>
+
 <programme start="20250613133522 +0000" stop="20250616083522 +0000" channel="artbybaha.us">
 <title lang="en"> Cuddles - NoPixel WL </title>
 <desc lang="en"> Started: 8:35AM
 Playing: Grand Theft Auto V
-Viewers: 89 </desc>
+Viewers: 84 </desc>
 </programme>
 
 <programme start="20250613143233 +0000" stop="20250616093233 +0000" channel="shotz.us">
 <title lang="en"> 🐉 Vinny “9999’s” Pistone 🐉 ProdigyRP 🐉 Merch is Live 🐉 Starf0rge Coffee TTS 🐉 </title>
 <desc lang="en"> Started: 9:32AM
 Playing: Grand Theft Auto V
-Viewers: 1082 </desc>
+Viewers: 1117 </desc>
 </programme>
 
-<programme start="20250613132345 +0000" stop="20250616082345 +0000" channel="edwardvanmanz.us">
-<title lang="en"> Leon Edwards- South Cypress- Friday </title>
-<desc lang="en"> Started: 8:23AM
+<programme start="20250613153005 +0000" stop="20250616103005 +0000" channel="client.us">
+<title lang="en"> Peanut - ProdigyRP - </title>
+<desc lang="en"> Started: 10:30AM
 Playing: Grand Theft Auto V
-Viewers: 48 </desc>
-</programme>
-
-<programme start="20250613121732 +0000" stop="20250616071732 +0000" channel="itskgu.us">
-<title lang="en"> ProdigyRP: Chris King Turns Savage - No More Games 💼🔫 </title>
-<desc lang="en"> Started: 7:17AM
-Playing: Grand Theft Auto V
-Viewers: 122 </desc>
+Viewers: 221 </desc>
 </programme>
 
 <programme start="20250613140020 +0000" stop="20250616090020 +0000" channel="hutchmf.us">
 <title lang="en"> LETS GET IT  </title>
 <desc lang="en"> Started: 9:00AM
 Playing: Grand Theft Auto V
-Viewers: 4432 </desc>
+Viewers: 4488 </desc>
+</programme>
+
+<programme start="20250613121732 +0000" stop="20250616071732 +0000" channel="itskgu.us">
+<title lang="en"> ProdigyRP: Chris King Turns Savage - No More Games 💼🔫 </title>
+<desc lang="en"> Started: 7:17AM
+Playing: Grand Theft Auto V
+Viewers: 121 </desc>
 </programme>
 
 <programme start="20250613130046 +0000" stop="20250616080046 +0000" channel="kyle.us">
 <title lang="en"> LEAD RANGER KYLE PRED PROTECTOR OF WILDLIFE - ProdigyRP </title>
 <desc lang="en"> Started: 8:00AM
 Playing: Grand Theft Auto V
-Viewers: 1540 </desc>
+Viewers: 1547 </desc>
 </programme>
 
 <programme start="20250613130612 +0000" stop="20250616080612 +0000" channel="TheBigMeech.us">
 <title lang="en"> PIZZA FRIDAY  VARIETY LATER  - NoPixel </title>
 <desc lang="en"> Started: 8:06AM
 Playing: Grand Theft Auto V
-Viewers: 154 </desc>
+Viewers: 173 </desc>
 </programme>
 
 <programme start="20250613145757 +0000" stop="20250616095757 +0000" channel="lisajfc.us">
 <title lang="en"> 465 Opal Liability Pryce I NoPixel WL 4.0 </title>
 <desc lang="en"> Started: 9:57AM
 Playing: Grand Theft Auto V
-Viewers: 64 </desc>
+Viewers: 92 </desc>
 </programme>
 
 <programme start="20250613143241 +0000" stop="20250616093241 +0000" channel="glitterglock19.us">
@@ -193,49 +204,35 @@ Viewers: 268 </desc>
 <title lang="en"> Undersheriff Viv - ☠️ Friday 13th ☠️ - BCSO - NoPixel 4.0 - </title>
 <desc lang="en"> Started: 7:48AM
 Playing: Grand Theft Auto V
-Viewers: 277 </desc>
+Viewers: 295 </desc>
 </programme>
 
 <programme start="20250613121612 +0000" stop="20250616071612 +0000" channel="ollie2313.us">
 <title lang="en"> 371 Deputy Matilda Murphy - BCSO - NoPixel WL 4.0 </title>
 <desc lang="en"> Started: 07:16 am
 Playing: Grand Theft Auto V
-Viewers: 115 </desc>
+Viewers: 107 </desc>
 </programme>
 
 <programme start="20250613124053 +0000" stop="20250616074053 +0000" channel="nidas.us">
 <title lang="en"> Hunting spice farmers - 35% off 5 gifted subs - @nidas </title>
 <desc lang="en"> Started: 7:40AM
 Playing: Dune: Awakening
-Viewers: 90 </desc>
-</programme>
-
-<programme start="20250613133323 +0000" stop="20250616083323 +0000" channel="52chains.us">
-<title lang="en"> Pete Zehute 2nd - Pizza Friday - - Nopixel WL multistream🟢🟣 eneba </title>
-<desc lang="en"> Started: 8:33AM
-Playing: Grand Theft Auto V
-Viewers: 266 </desc>
+Viewers: 93 </desc>
 </programme>
 
 <programme start="20250613152239 +0000" stop="20250616102239 +0000" channel="TheDlinQuenT.us">
 <title lang="en"> Snr Officer Dee LinQ- 455 - LSPDee - NoPixel 4.0 WL - GTA RP </title>
 <desc lang="en"> Started: 10:22 am
 Playing: Grand Theft Auto V
-Viewers: 4 </desc>
+Viewers: 8 </desc>
 </programme>
 
-<programme start="20250613120527 +0000" stop="20250616070527 +0000" channel="vader.us">
-<title lang="en"> EUGENE THE SUPREME - UnscriptedRP </title>
-<desc lang="en"> Started: 7:05AM
+<programme start="20250613133323 +0000" stop="20250616083323 +0000" channel="52chains.us">
+<title lang="en"> Pete Zehute 2nd - Pizza Friday - - Nopixel WL multistream🟢🟣 eneba </title>
+<desc lang="en"> Started: 8:33AM
 Playing: Grand Theft Auto V
-Viewers: 1045 </desc>
-</programme>
-
-<programme start="20250613135519 +0000" stop="20250616085519 +0000" channel="claytonerp.us">
-<title lang="en"> PIZZA FRIDAY CHUCK E CHEESE 🧀 24hr Stream Goal 🧀 30% Gifted Sub 🧀 Nopixel 4.0 </title>
-<desc lang="en"> Started: 8:55AM
-Playing: Grand Theft Auto V
-Viewers: 205 </desc>
+Viewers: 299 </desc>
 </programme>
 
 <programme start="20250613142928 +0000" stop="20250616092928 +0000" channel="Kastiann.us">
@@ -245,18 +242,32 @@ Playing: Grand Theft Auto V
 Viewers: 3 </desc>
 </programme>
 
-<programme start="20250613130246 +0000" stop="20250616080246 +0000" channel="farmhouse78.us">
-<title lang="en"> Steven Hayes - Unscripted.gg - GTARP meta </title>
-<desc lang="en"> Started: 8:02AM
+<programme start="20250613120527 +0000" stop="20250616070527 +0000" channel="vader.us">
+<title lang="en"> EUGENE THE SUPREME - UnscriptedRP </title>
+<desc lang="en"> Started: 7:05AM
 Playing: Grand Theft Auto V
-Viewers: 101 </desc>
+Viewers: 1029 </desc>
+</programme>
+
+<programme start="20250613135519 +0000" stop="20250616085519 +0000" channel="claytonerp.us">
+<title lang="en"> PIZZA FRIDAY CHUCK E CHEESE 🧀 24hr Stream Goal 🧀 30% Gifted Sub 🧀 Nopixel 4.0 </title>
+<desc lang="en"> Started: 8:55AM
+Playing: Grand Theft Auto V
+Viewers: 208 </desc>
 </programme>
 
 <programme start="20250613143149 +0000" stop="20250616093149 +0000" channel="hogshund.us">
 <title lang="en"> OSVALDO PINGAFRIA - Nopixel 4.0 WL </title>
 <desc lang="en"> Started: 9:31AM
 Playing: Grand Theft Auto V
-Viewers: 152 </desc>
+Viewers: 171 </desc>
+</programme>
+
+<programme start="20250613130246 +0000" stop="20250616080246 +0000" channel="farmhouse78.us">
+<title lang="en"> Steven Hayes - Unscripted.gg - GTARP meta </title>
+<desc lang="en"> Started: 8:02AM
+Playing: Grand Theft Auto V
+Viewers: 105 </desc>
 </programme>
 
 <programme start="20250613020904 +0000" stop="20250615210904 +0000" channel="DreyMD.us">
@@ -266,20 +277,6 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250613121458 +0000" stop="20250616071458 +0000" channel="hotted89.us">
-<title lang="en"> JJ - Kaneshiro - Nopixel WL 4.0 </title>
-<desc lang="en"> Started: 7:14AM
-Playing: Grand Theft Auto V
-Viewers: 114 </desc>
-</programme>
-
-<programme start="20250613112335 +0000" stop="20250616062335 +0000" channel="roxmiral.us">
-<title lang="en"> I CAN STREAM MORE THAN 2 HOURS - Unscripted.GG - 35% OFF SUBS, do it now emergency </title>
-<desc lang="en"> Started: 6:23AM
-Playing: Grand Theft Auto V
-Viewers: 146 </desc>
-</programme>
-
 <programme start="20250613141018 +0000" stop="20250616091018 +0000" channel="ItsHazelsaurus.us">
 <title lang="en"> Tori - Cadet day 8 - Nopixel 4.0 </title>
 <desc lang="en"> Started: 09:10 am
@@ -287,56 +284,70 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250613153005 +0000" stop="20250616103005 +0000" channel="client.us">
-<title lang="en"> Peanut - ProdigyRP - </title>
-<desc lang="en"> Started: 10:30AM
+<programme start="20250613112335 +0000" stop="20250616062335 +0000" channel="roxmiral.us">
+<title lang="en"> I CAN STREAM MORE THAN 2 HOURS - Unscripted.GG - 35% OFF SUBS, do it now emergency </title>
+<desc lang="en"> Started: 6:23AM
 Playing: Grand Theft Auto V
-Viewers: 97 </desc>
+Viewers: 134 </desc>
+</programme>
+
+<programme start="20250613121458 +0000" stop="20250616071458 +0000" channel="hotted89.us">
+<title lang="en"> JJ - Kaneshiro - Nopixel WL 4.0 </title>
+<desc lang="en"> Started: 7:14AM
+Playing: Grand Theft Auto V
+Viewers: 124 </desc>
 </programme>
 
 <programme start="20250613132849 +0000" stop="20250616082849 +0000" channel="luka_aus.us">
 <title lang="en"> Gazz Maloo - unscripted.gg - Diamond Dogs 💎🐶 - Ouchy </title>
 <desc lang="en"> Started: 8:28AM
 Playing: Grand Theft Auto V
-Viewers: 62 </desc>
+Viewers: 55 </desc>
+</programme>
+
+<programme start="20250613154058 +0000" stop="20250616104058 +0000" channel="zolo.us">
+<title lang="en"> ZOATHON DAY 8🎈Song 8 Big Zo then Grant🎈3000 NEXT SUB GOAL newsong clips reacts prodigyRP </title>
+<desc lang="en"> Started: 10:40AM
+Playing: Grand Theft Auto V
+Viewers: 67 </desc>
 </programme>
 
 <programme start="20250613135821 +0000" stop="20250616085821 +0000" channel="elochai.us">
 <title lang="en"> Gonna need alot of fabric f0r this - NoPixel 3D Dev - @elochai - click f0r socials </title>
 <desc lang="en"> Started: 8:58AM
 Playing: Grand Theft Auto V
-Viewers: 74 </desc>
+Viewers: 78 </desc>
 </programme>
 
-<programme start="20250613000000 +0000" stop="20250616103619 +0000" channel="saab.us">
+<programme start="20250613000000 +0000" stop="20250616104319 +0000" channel="stankxo.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
 Viewers:  </desc>
 </programme>
 
-<programme start="20250613000000 +0000" stop="20250616103619 +0000" channel="stankxo.us">
+<programme start="20250613000000 +0000" stop="20250616104319 +0000" channel="saab.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
 Viewers:  </desc>
 </programme>
 
-<programme start="20250613000000 +0000" stop="20250616103619 +0000" channel="ming.us">
+<programme start="20250613000000 +0000" stop="20250616104319 +0000" channel="ming.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
 Viewers:  </desc>
 </programme>
 
-<programme start="20250613000000 +0000" stop="20250616103619 +0000" channel="swizz.us">
+<programme start="20250613000000 +0000" stop="20250616104319 +0000" channel="swizz.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
 Viewers:  </desc>
 </programme>
 
-<programme start="20250613000000 +0000" stop="20250616103619 +0000" channel="sayeed.us">
+<programme start="20250613000000 +0000" stop="20250616104319 +0000" channel="sayeed.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
