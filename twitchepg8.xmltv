@@ -6,6 +6,10 @@
 <display-name>TheBayouGamer</display-name>
 </channel>
 
+<channel id="simplynumi.us">
+<display-name>simplynumi</display-name>
+</channel>
+
 <channel id="xxhelen_bachxx.us">
 <display-name>xxhelen_bachxx</display-name>
 </channel>
@@ -22,12 +26,20 @@
 <display-name>DreyMD</display-name>
 </channel>
 
+<channel id="CARTY_tck.us">
+<display-name>CARTY_tck</display-name>
+</channel>
+
 <channel id="defac3d.us">
 <display-name>defac3d</display-name>
 </channel>
 
 <channel id="Kerazane.us">
 <display-name>Kerazane</display-name>
+</channel>
+
+<channel id="vader.us">
+<display-name>vader</display-name>
 </channel>
 
 <channel id="roxmiral.us">
@@ -38,22 +50,6 @@
 <display-name>curvyelephant</display-name>
 </channel>
 
-<channel id="heyimzed.us">
-<display-name>heyimzed</display-name>
-</channel>
-
-<channel id="vader.us">
-<display-name>vader</display-name>
-</channel>
-
-<channel id="simplynumi.us">
-<display-name>simplynumi</display-name>
-</channel>
-
-<channel id="saab.us">
-<display-name>saab</display-name>
-</channel>
-
 <channel id="stankxo.us">
 <display-name>stankxo</display-name>
 </channel>
@@ -62,32 +58,43 @@
 <display-name>swizz</display-name>
 </channel>
 
+<channel id="saab.us">
+<display-name>saab</display-name>
+</channel>
+
 <programme start="20250613062217 +0000" stop="20250616012217 +0000" channel="TheBayouGamer.us">
 <title lang="en"> James Callahan - I napped too late, elp - Raiders MC NoPixel WL - Discord Socials MultiStream </title>
 <desc lang="en"> Started: 01:22 am
 Playing: Grand Theft Auto V
-Viewers: 70 </desc>
+Viewers: 190 </desc>
+</programme>
+
+<programme start="20250613120024 +0000" stop="20250616070024 +0000" channel="simplynumi.us">
+<title lang="en"> Sofia Torres- NoPixel - short yapcast </title>
+<desc lang="en"> Started: 07:00 am
+Playing: Grand Theft Auto V
+Viewers: 75 </desc>
 </programme>
 
 <programme start="20250613112951 +0000" stop="20250616062951 +0000" channel="xxhelen_bachxx.us">
 <title lang="en"> Helen Bach - EMS - Sani Queen - No Pixel WL 4.0 </title>
 <desc lang="en"> Started: 06:29 am
 Playing: Grand Theft Auto V
-Viewers: 13 </desc>
+Viewers: 17 </desc>
 </programme>
 
 <programme start="20250613073034 +0000" stop="20250616023034 +0000" channel="The_British_Lady.us">
 <title lang="en"> Lizzie May - NO PIXEL 4.0 </title>
 <desc lang="en"> Started: 02:30 am
 Playing: Grand Theft Auto V
-Viewers: 6 </desc>
+Viewers: 9 </desc>
 </programme>
 
 <programme start="20250613113642 +0000" stop="20250616063642 +0000" channel="CARTY_tck.us">
 <title lang="en"> Seth Johnson 🟢 Nopixel 4.0 WL 🟢 socials 🟢 vods 🟢 discord 🟢 doing Silly things xD </title>
 <desc lang="en"> Started: 06:36 am
 Playing: Grand Theft Auto V
-Viewers: 2 </desc>
+Viewers: 1 </desc>
 </programme>
 
 <programme start="20250613020904 +0000" stop="20250615210904 +0000" channel="DreyMD.us">
@@ -97,70 +104,63 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
+<programme start="20250613113642 +0000" stop="20250616063642 +0000" channel="CARTY_tck.us">
+<title lang="en"> Seth Johnson 🟢 Nopixel 4.0 WL 🟢 socials 🟢 vods 🟢 discord 🟢 doing Silly things xD </title>
+<desc lang="en"> Started: 06:36 am
+Playing: Grand Theft Auto V
+Viewers: 1 </desc>
+</programme>
+
 <programme start="20250613093518 +0000" stop="20250616043518 +0000" channel="defac3d.us">
 <title lang="en"> DENZEL - NOPIXEL - EXPRESSVPN G2A TOKYOTREAT </title>
 <desc lang="en"> Started: 4:35AM
 Playing: Grand Theft Auto V
-Viewers: 431 </desc>
+Viewers: 440 </desc>
 </programme>
 
 <programme start="20250613111951 +0000" stop="20250616061951 +0000" channel="Kerazane.us">
 <title lang="en"> Betty Briskett - BCSO - 709-P - PPO - Nopixel WL - Crispy Brisketts FRIGAY </title>
 <desc lang="en"> Started: 6:19AM
 Playing: Grand Theft Auto V
-Viewers: 3 </desc>
-</programme>
-
-<programme start="20250613112335 +0000" stop="20250616062335 +0000" channel="roxmiral.us">
-<title lang="en"> I CAN STREAM MORE THAN 2 HOURS - Unscripted.GG - 35% OFF SUBS, do it now emergency </title>
-<desc lang="en"> Started: 6:23AM
-Playing: Grand Theft Auto V
-Viewers: 73 </desc>
-</programme>
-
-<programme start="20250613093418 +0000" stop="20250616043418 +0000" channel="curvyelephant.us">
-<title lang="en"> Matt Rhodes - nopixel - </title>
-<desc lang="en"> Started: 4:34AM
-Playing: Grand Theft Auto V
-Viewers: 469 </desc>
-</programme>
-
-<programme start="20250612235647 +0000" stop="20250615185647 +0000" channel="heyimzed.us">
-<title lang="en"> 🎉 BDAY SUBATHON - SUBS-BITS-DONO EXTEND TYMER 🎉 - Edbert Ropeburn - ADMC HC - NoPixel WL </title>
-<desc lang="en"> Started: 6:56PM
-Playing: Grand Theft Auto V
-Viewers: 630 </desc>
+Viewers: 2 </desc>
 </programme>
 
 <programme start="20250613120527 +0000" stop="20250616070527 +0000" channel="vader.us">
 <title lang="en"> EUGENE THE SUPREME - UnscriptedRP </title>
 <desc lang="en"> Started: 7:05AM
 Playing: Grand Theft Auto V
-Viewers: 41 </desc>
+Viewers: 251 </desc>
 </programme>
 
-<programme start="20250613120024 +0000" stop="20250616070024 +0000" channel="simplynumi.us">
-<title lang="en"> Sofia Torres- NoPixel - short yapcast </title>
-<desc lang="en"> Started: 07:00 am
+<programme start="20250613112335 +0000" stop="20250616062335 +0000" channel="roxmiral.us">
+<title lang="en"> I CAN STREAM MORE THAN 2 HOURS - Unscripted.GG - 35% OFF SUBS, do it now emergency </title>
+<desc lang="en"> Started: 6:23AM
 Playing: Grand Theft Auto V
-Viewers: 48 </desc>
+Viewers: 77 </desc>
 </programme>
 
-<programme start="20250613000000 +0000" stop="20250616070620 +0000" channel="saab.us">
+<programme start="20250613093418 +0000" stop="20250616043418 +0000" channel="curvyelephant.us">
+<title lang="en"> Matt Rhodes - nopixel - </title>
+<desc lang="en"> Started: 4:34AM
+Playing: Grand Theft Auto V
+Viewers: 453 </desc>
+</programme>
+
+<programme start="20250613000000 +0000" stop="20250616071318 +0000" channel="stankxo.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
 Viewers:  </desc>
 </programme>
 
-<programme start="20250613000000 +0000" stop="20250616070620 +0000" channel="stankxo.us">
+<programme start="20250613000000 +0000" stop="20250616071318 +0000" channel="swizz.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
 Viewers:  </desc>
 </programme>
 
-<programme start="20250613000000 +0000" stop="20250616070620 +0000" channel="swizz.us">
+<programme start="20250613000000 +0000" stop="20250616071318 +0000" channel="saab.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
