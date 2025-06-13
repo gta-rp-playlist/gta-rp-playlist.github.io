@@ -6,16 +6,16 @@
 <display-name>snekysly</display-name>
 </channel>
 
+<channel id="yuukidav.us">
+<display-name>yuukidav</display-name>
+</channel>
+
 <channel id="TheBayouGamer.us">
 <display-name>TheBayouGamer</display-name>
 </channel>
 
 <channel id="The_British_Lady.us">
 <display-name>The_British_Lady</display-name>
-</channel>
-
-<channel id="yuukidav.us">
-<display-name>yuukidav</display-name>
 </channel>
 
 <channel id="DreyMD.us">
@@ -26,10 +26,6 @@
 <display-name>basHYYEE</display-name>
 </channel>
 
-<channel id="Kerazane.us">
-<display-name>Kerazane</display-name>
-</channel>
-
 <channel id="raided.us">
 <display-name>raided</display-name>
 </channel>
@@ -38,26 +34,33 @@
 <display-name>cutieno</display-name>
 </channel>
 
-<channel id="saab.us">
-<display-name>saab</display-name>
-</channel>
-
 <channel id="stankxo.us">
 <display-name>stankxo</display-name>
+</channel>
+
+<channel id="saab.us">
+<display-name>saab</display-name>
 </channel>
 
 <programme start="20250613061132 +0000" stop="20250616011132 +0000" channel="snekysly.us">
 <title lang="en"> Crayons - Charlie Lockwood - NoPixel 4.0 WL </title>
 <desc lang="en"> Started: 01:11 am
 Playing: Grand Theft Auto V
-Viewers: 65 </desc>
+Viewers: 60 </desc>
+</programme>
+
+<programme start="20250613050309 +0000" stop="20250616000309 +0000" channel="yuukidav.us">
+<title lang="en"> captain lukas lavender 🎀 bcso - nopixel wl - @yuukidav masters #ad </title>
+<desc lang="en"> Started: 12:03AM
+Playing: Grand Theft Auto V
+Viewers: 198 </desc>
 </programme>
 
 <programme start="20250613062217 +0000" stop="20250616012217 +0000" channel="TheBayouGamer.us">
 <title lang="en"> James Callahan - I napped too late, elp - Raiders MC NoPixel WL - Discord Socials MultiStream </title>
 <desc lang="en"> Started: 01:22 am
 Playing: Grand Theft Auto V
-Viewers: 9 </desc>
+Viewers: 8 </desc>
 </programme>
 
 <programme start="20250613073034 +0000" stop="20250616023034 +0000" channel="The_British_Lady.us">
@@ -65,13 +68,6 @@ Viewers: 9 </desc>
 <desc lang="en"> Started: 02:30 am
 Playing: Grand Theft Auto V
 Viewers: 5 </desc>
-</programme>
-
-<programme start="20250613050309 +0000" stop="20250616000309 +0000" channel="yuukidav.us">
-<title lang="en"> captain lukas lavender 🎀 bcso - nopixel wl - @yuukidav masters #ad </title>
-<desc lang="en"> Started: 12:03AM
-Playing: Grand Theft Auto V
-Viewers: 195 </desc>
 </programme>
 
 <programme start="20250613020904 +0000" stop="20250615210904 +0000" channel="DreyMD.us">
@@ -88,35 +84,28 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250613061301 +0000" stop="20250616011301 +0000" channel="Kerazane.us">
-<title lang="en"> Betty Briskett - BCSO - 709-P - PPO - Nopixel WL - Crispy Brisketts FRIGAY </title>
-<desc lang="en"> Started: 1:13AM
-Playing: Grand Theft Auto V
-Viewers: 9 </desc>
-</programme>
-
 <programme start="20250613054908 +0000" stop="20250616004908 +0000" channel="raided.us">
 <title lang="en"> Draider - Nopixel Dev - multi </title>
 <desc lang="en"> Started: 12:49AM
 Playing: Grand Theft Auto V
-Viewers: 220 </desc>
+Viewers: 223 </desc>
 </programme>
 
 <programme start="20250613073657 +0000" stop="20250616023657 +0000" channel="cutieno.us">
 <title lang="en"> Rue Minmi - ADMC SecRUEtary - Nopixel WL - Cooked Stream </title>
 <desc lang="en"> Started: 2:36AM
 Playing: Grand Theft Auto V
-Viewers: 120 </desc>
+Viewers: 113 </desc>
 </programme>
 
-<programme start="20250613000000 +0000" stop="20250616041318 +0000" channel="saab.us">
+<programme start="20250613000000 +0000" stop="20250616042119 +0000" channel="stankxo.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
 Viewers:  </desc>
 </programme>
 
-<programme start="20250613000000 +0000" stop="20250616041318 +0000" channel="stankxo.us">
+<programme start="20250613000000 +0000" stop="20250616042119 +0000" channel="saab.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
