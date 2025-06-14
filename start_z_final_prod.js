@@ -26,13 +26,13 @@ document.getElementById('suggestion-form').addEventListener('submit', function(e
     });
 });
 
-let lastFetchedData = '';
-let lastOpenedCategory = null;
+let lastFetchedData_2 = '';
+let lastOpenedCategory_2 = null;
 
 window.onload = function() {
-    fetchAndUpdateSidebar();
-    fetchAndUpdateNumbers();
+    fetchAndUpdateSidebar_2();
+    fetchAndUpdateNumbers_2();
 };
 
-setInterval(fetchAndUpdateSidebar_none, 120000);
-setInterval(fetchAndUpdateNumbers, 120000);
+setInterval(fetchAndUpdateSidebar_2_none, 120000);
+setInterval(fetchAndUpdateNumbers_2, 120000);
