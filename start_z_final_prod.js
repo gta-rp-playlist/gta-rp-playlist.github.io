@@ -34,5 +34,5 @@ window.onload = function() {
     fetchAndUpdateNumbers_2();
 };
 
-setInterval(fetchAndUpdateSidebar_2_none, 120000);
-setInterval(fetchAndUpdateNumbers_2, 120000);
+setInterval(fetchAndUpdateSidebar_2_none, 60000);
+setInterval(fetchAndUpdateNumbers_2, 60000);
