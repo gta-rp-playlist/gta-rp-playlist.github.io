@@ -1,0 +1,137 @@
+/* Reset box model and spacing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body and HTML base styling */
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background: url('images/welcome2.png') no-repeat center center / cover;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Splash screen container */
+.splash-container {
+  text-align: center;
+  animation: fadeIn 1.5s ease-in;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  animation: scaleFadeIn 1s ease forwards;
+}
+
+/* Subtext below the logo */
+.subtext {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #cccccc;
+  animation: slideUpFadeIn 1s ease forwards;
+  animation-delay: 0.5s;
+  opacity: 0; /* Hidden until animation */
+}
+
+/* Button group layout */
+.button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+/* Buttons default styling */
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom button colors */
+.btn-nopixel {
+  background-color: #27F8BA;
+}
+
+.btn-prodigy {
+  background-color: #87DB31;
+}
+
+/* Footer note styling */
+.footer-note {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+}
+
+.footer-note a {
+  color: #007acc;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 700;
+}
+
+.footer-note a:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideUpFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}

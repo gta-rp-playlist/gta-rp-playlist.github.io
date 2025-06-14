@@ -1,0 +1,443 @@
+body {
+    font-family: Arial, sans-serif;
+	background-color: #0e0e10; /* Set background color to Blue Grey */
+    margin: 0; /* Remove default body margin */
+}
+#top-menu {
+    position: absolute; /* Fix it to the top */
+    top: 0; /* Stick it to the top of the page */
+    left: 0; /* Stick it to the left side of the page */
+    width: 100%; /* Make sure it spans across the width of the page */
+    background-color: #0e0e10; /* Keep the background color */
+    z-index: 100; /* Set a higher z-index to make it appear above content */
+    padding: 10px 0; /* Adjust the padding */
+    text-align: center; /* Center the content */
+}
+/* Style for the top menu */
+#top-menu {
+    background-color: #0e0e10;
+    padding: 5px 0;
+    text-align: center;
+}
+
+#top-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Adjust the donate button in the top menu */
+#donate-button-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top-menu ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#top-menu ul li a {
+    color: rgb(53, 198, 218);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#top-menu ul li a:hover {
+    color: #ffcc00;
+}
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: rgb(115, 114, 119);
+  border: 1px solid #ccc;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100%;
+  padding: 15px;
+
+  /* Wider and more rectangular */
+  width: 700px;
+  max-height: 400px;
+  overflow-y: auto;
+  line-height: 1.5;
+}
+.tooltip c {
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+
+
+}
+.tooltip a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+.tooltip a:hover {
+  text-decoration: underline;
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Show tooltip when hovering link or tooltip */
+.tooltip-wrapper:hover .tooltip {
+  display: block;
+}
+
+
+
+#sidebar {
+    height: 99vh;
+    width: 13%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 102;
+    top: 0;
+    left: 0;
+    background-color: #1f1f23;
+    overflow-x: scroll;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+    transition: transform 0.7s ease-in-out;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+#sidebar.hidden {
+    transform: translateX(-95%); /* Fully hide the sidebar */
+}
+#content {
+    margin-left: 13%; /* Push content to the right of the sidebar */
+    width: 87%; /* Adjust content width to occupy remaining space */
+    background-color: #0e0e10;
+    z-index: 13;
+    position: relative;
+    height: 100vh; /* Ensure content takes full height */
+}
+#player {
+    width: 82%; /* Responsive width maintaining 16:9 ratio */
+    height: 84%; /* Responsive height maintaining 16:9 ratio */
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+    z-index: 1; /* Ensure it's above other content within the container */
+    position: absolute; /* Use relative positioning */
+    top: 2%; /* Keep top percentage for flexibility */
+    transition: left 0.7s ease-in-out; /* Smooth transition for left position */
+}
+.highlighted-link {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(135deg, #cc5544, #d4b04f);
+    color: #000;
+    padding: 2px 15px 2px 6px; /* increased right padding from 6px to 12px */
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(204, 85, 68, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.3s ease;
+    vertical-align: middle;
+}
+
+.highlighted-link:hover {
+    background: linear-gradient(135deg, #cc5544, #d4b04f);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(212, 176, 79, 0.5); /* subtle glow */
+    color: #000 !important;
+}
+
+.highlighted-link .emojis {
+    font-size: 1.5em;     /* smaller emojis */
+    margin-right: 3px;    /* less space */
+    display: inline-block;
+    animation: none;
+}
+
+.highlighted-link:hover .emojis {
+    animation: dance 1.5s ease-in-out infinite;
+}
+
+@keyframes dance {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-5px) rotate(-10deg);
+    }
+    50% {
+        transform: translateY(0) rotate(0deg);
+    }
+    75% {
+        transform: translateY(-5px) rotate(10deg);
+    }
+}
+#toggle-chat-btn {
+    position: absolute; /* Position the player relative to the container */
+    top: 94%; /* Responsive top positioning */
+    left: 62%; /* Responsive left positioning */
+    z-index: 190;
+    font-size: .8vw; /* Use vw for responsive font size */
+    cursor: pointer;
+}
+#chat {
+    position: absolute;
+    padding: 0px;
+    top: 0px;
+    right: 0px;
+    height: 87.5%; /* Responsive height */
+    width: 17.9%; /* Responsive width */
+    z-index: 135;
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+    border: none; /* Remove default border */
+    display: hidden; /* Hide chat initially */
+    transition: left 0.7s ease-in-out; /* Smooth transition for left position */
+}
+
+
+#streamdata {
+    position: absolute; /* Positioned relative to its container */
+    bottom: 5%; /* Responsive bottom position */
+    left: 81%; /* Responsive left position */
+    font-size: .9vw; /* Use vw for responsive font size */
+    z-index: 40;
+    font-weight: bold;
+    color: white;
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+}
+#refresh-btn {
+    position: absolute; /* Position the player relative to the container */
+    bottom: 2%; /* Responsive bottom position */
+    left: 81%; /* Responsive left position */
+    background-color: #ebdd25; /* Set background color to Blue Grey */
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 104;
+}
+#nopixel-btn {
+    position: absolute; /* Position the player relative to the container */
+    bottom: 2%; /* Responsive bottom position */
+    left: 81%; /* Responsive left position */
+    background-color: #98bd12; /* Set background color to Blue Grey */
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 104;
+}
+
+#streamInfo {
+    position: absolute;
+    bottom: 9%; /* Keep top percentage for flexibility */
+    margin-left: .5%;
+    z-index: 103; /* Ensure it's above other content within the container */
+    transition: left 0.7s ease-in-out; /* Smooth transition for left position */
+}
+.stream-title {
+    color: white;
+    z-index: 40;
+    transition: left 0.7s ease-in-out; /* Smooth transition for left position */
+    font-size: .9vw; /* Use vw for responsive font size */
+}
+.stream-name {
+    font-size: 1.5vw; /* Use vw for responsive font size */
+    color: white;
+    z-index: 4;
+    transition: left 0.7s ease-in-out; /* Smooth transition for left position */
+    font-weight: bold;
+}
+#usernamesContainer {
+    position: relative;
+    transition: left 0.7s ease-in-out; /* Smooth transition for left position */
+    background-color: #0e0e10; /* Set background color to Blue Grey */
+    margin-left: 13%; /* Push content to the right of the sidebar */
+    z-index: 104;
+
+}
+.highlighted-title-div {
+    background-color: rgb(84, 18, 114);
+    display: inline-block; /* Ensure the background only covers the text */
+}
+#streamsInfo {
+    background-color: #0e0e10;
+    position: relative;
+    margin-left: 13%; /* Push content to the right of the sidebar */
+    z-index: 104;
+}
+#contactForm {
+    background-color: #0e0e10;
+    height: 100%; /* Adjust height as needed */
+    width: 50%;
+    top: 0px;
+    padding-top: 100px;
+    margin-top: 15px;
+    color: rgb(247, 241, 241); /* Set font color to black */
+    left: 50%; /* Center the tooltip horizontally */
+    transform: translateX(50%); /* Adjust position to truly center it */
+}
+#suggestion-form {
+    background-color: #0e0e10;
+    width: 100%;
+}
+#contactForm h2 {
+    margin-top: 0;
+    
+}
+#contactForm label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(255, 255, 255); /* Set label font color to black */
+}
+#contactForm button {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#contactForm button:hover {
+    background-color: #455a64;
+}
+#contactForm input, #contactForm textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 95%;
+    color: black; /* Set input and textarea font color to black */
+}
+.user-info {
+    color: white;
+    font-weight: bold;
+    font-size: .85vw; /* Use vw for responsive font size */
+}
+.grid-link {
+    font-size: .85vw; /* Use vw for responsive font size */
+    color: rgb(63, 233, 29);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.grid-link:hover {
+    text-decoration: underline;
+}
+.user-count {
+    font-family: 'YourFontFamily', sans-serif; /* Replace 'YourFontFamily' with your desired font */
+    font-size: .65vw; /* Use vw for responsive font size */
+    color: #888; /* Adjust the color if needed */
+}
+.category {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.55vw; /* Use vw for responsive font size */
+	background-color: #1f1f23; /* Set background color to Blue Grey */
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+}
+.category:hover {
+    background-color: rgb(84, 18, 114);
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+}
+.category.highlighted {
+    background-color: rgb(84, 18, 114);
+}
+.sub-item {
+    cursor: pointer;
+    display: flex; /* Use flexbox to align items */
+	color: rgb(255, 255, 255); /* Set color of usernames to blue */
+	background-color: #43434e; /* Set background color to Blue Grey */
+}
+
+.username {
+    margin-right: 0px; /* Add some space between the username and viewer count */
+    font-size: 1.15vw; /* Use vw for responsive font size */
+}
+
+.viewer-count {
+    font-size: .70vw; /* Use vw for responsive font size */
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+    float: right; /* Align the viewer count to the right edge */
+    margin-right: 10px; /* Add some space between the username and viewer count */
+}
+.sub-item:hover {
+    background-color: rgb(84, 18, 114);
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+}
+.highlighted-sub-item {
+    background-color: rgb(84, 18, 114);
+    color: rgb(255, 255, 255); /* Adjust text color if necessary */
+}
+.highlighted-title-div {
+    background-color: rgb(84, 18, 114);
+    display: inline-block; /* Ensure the background only covers the text */
+}
+#youtube {
+    position: relative; /* Position the player relative to the container */
+    color: rgb(247, 241, 241); /* Set font color to black */
+    font-size: 1.0vw; /* Use vw for responsive font size */
+    cursor: pointer;
+}
+a { text-decoration: none; color:rgb(255, 255, 255); }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+
+.username-bubble {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px; /* Increased width */
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content p {
+    font-size: 20px; /* Bigger text */
+    font-weight: bold;
+}
+
+.modal-content button {
+    font-size: 18px; /* Bigger button text */
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}
+.view-all-link {
+    font-size: 0.60vw;
+    color: rgb(63, 233, 29);
+    margin-left: 5px;
+    cursor: pointer;
+}
+.view-all-link:hover {
+    text-decoration: underline;
+}

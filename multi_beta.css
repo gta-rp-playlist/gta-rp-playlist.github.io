@@ -1,0 +1,306 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    font-family: Arial, sans-serif;
+    color: #fff; /* White text */
+}
+/* Sidebar styles */
+#sidebar {
+    height: 100vh;                     /* Set the height of the sidebar */
+    width: 12%;                        /* Fixed width for the sidebar */
+    position: fixed;                   /* Fixes it in place */
+    display: flex;                     /* Use flexbox for layout */
+    flex-direction: column;            /* Stack children vertically */
+    z-index: 102;                      /* Stack order */
+    top: 0;                            /* Align to the top */
+    left: 0;                           /* Align to the left */
+    background-color: #1f1f23;        /* Background color */
+    overflow-x: scroll;               /* Enable horizontal scrolling */
+    scrollbar-width: none;             /* For Firefox */
+    -ms-overflow-style: none;          /* For Internet Explorer and Edge */
+    transition: width 0.3s ease;      /* Smooth transition when toggling */
+    padding-top: 40px;                /* Add padding at the top for gap */
+}
+.player {
+    position: relative; /* Ensures the overlay aligns to each player container */
+    width: 100%;
+    height: 100%;
+    transition: box-shadow 0.3s, border 0.3s; /* Smooth transition */
+}
+.player[data-volume='playerunmuted'] {
+    outline: 1px solid green; /* Internal outline for the unmuted player */
+    z-index: 152;
+}
+
+.player[data-volume='playermuted'] {
+    outline: none; /* No outline for muted players */
+}
+/*
+.player-overlay {
+    position: absolute;
+    top: -10px; /* Adjust to place the border slightly outside ----add comment out
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    pointer-events: none; /* Allows clicks to pass through the overlay  ----add comment out
+    border: 10px solid transparent; /* Invisible border around the player  ----add comment out
+    box-sizing: content-box; /* Ensures the border is drawn outside the element  ----add comment out
+}
+*/
+#playerDiv {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    width: 100%; /* Ensure the playerDiv itself is 100% of its parent */
+    padding: 0; /* Adjust if necessary */
+    margin: 0; /* Adjust if necessary */
+    overflow: hidden; /* Prevent scrollbars on the parent */
+}
+.hidden {
+    display: none !important;
+}
+#floatingBox {
+    position: fixed;                  /* Keeps the box fixed in place */
+    bottom: 20px;                       /* 20 pixels from the top */
+    left: 20px;                     /* 20 pixels from the right */
+    width: 200px;                    /* Width of the box */
+    padding: 20px;                   /* Padding inside the box */
+    z-index: 166;
+    background-color: #1f1f23;       /* Background color */
+    color: #ffffff;                  /* Text color inside the box */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* Soft shadow around the box */
+    border-radius: 8px;              /* Rounded corners */
+    display: block;                   /* Ensure it is displayed as a block element */
+    border: 2px solid white;         /* Add a white border */
+}
+
+/* Hide sidebar */
+#sidebar.hidden {
+    width: 0; /* Collapse width to zero when hidden */
+}
+/* Main content styles */
+/* Main content styles */
+/* Main content styles */
+#Main_content {
+    height: 100vh;
+    background-color: #0e0e10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12%; /* Leave space for sidebar by default */
+    width: calc(100% - 12%); /* Full width minus the sidebar */
+    transition: margin-left 0.3s ease, width 0.3s ease; /* Smooth transitions */
+}
+
+/* Class to remove margin when sidebar is hidden */
+#Main_content.expanded {
+    margin-left: 0; /* No margin when sidebar is hidden */
+    width: 100%; /* Full width */
+}
+
+#Main_content.collapsed {
+    margin-left: 12%; /* Leave space for the sidebar */
+}
+.category {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px; /* Adjust the font size as needed */
+	background-color: #1f1f23; /* Set background color to Blue Grey */
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+}
+.category:hover {
+    background-color: rgb(84, 18, 114);
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+}
+.category.highlighted {
+    background-color: rgb(84, 18, 114);
+}
+.sub-item {
+    cursor: pointer;
+    display: flex; /* Use flexbox to align items */
+	color: rgb(255, 255, 255); /* Set color of usernames to blue */
+	background-color: #43434e; /* Set background color to Blue Grey */
+}
+.username {
+    margin-right: 0px; /* Add some space between the username and viewer count */
+    font-size: 22px; /* Adjust the font size as needed */
+}
+.viewer-count {
+    font-size: 14px;
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+    float: right; /* Align the viewer count to the right edge */
+    margin-right: 10px; /* Add some space between the username and viewer count */
+}
+.sub-item:hover {
+    background-color: rgb(84, 18, 114);
+    color: rgb(255, 255, 255); /* Set color of usernames to blue */
+}
+.user-count {
+    font-size: 14px;   /* Small font size */
+    color: grey;       /* Grey color */
+    margin-left: 5px;  /* Optional: Space between category name and user count */
+}
+#change_twitch {
+    background-color: #6441a5 ;
+    color: white; /* Optional: changes text color to white */
+    border: none; /* Optional: removes border */
+    padding: 10px 15px; /* Optional: adds some padding */
+    cursor: pointer; /* Optional: changes cursor to pointer */
+}
+#change_kick {
+    background-color: #28be28;
+    color: white; /* Optional: changes text color to white */
+    border: none; /* Optional: removes border */
+    padding: 10px 15px; /* Optional: adds some padding */
+    cursor: pointer; /* Optional: changes cursor to pointer */
+}
+#link {
+    background-color: #007BFF;
+    color: white; /* Optional: changes text color to white */
+    border: none; /* Optional: removes border */
+    padding: 10px 45px; /* Optional: adds some padding */
+    cursor: pointer; /* Optional: changes cursor to pointer */
+}
+/* Style for highlighting the clicked category */
+.highlight {
+    background-color: rgb(84, 18, 114);
+}
+/* Input field styles */
+#usernameInput {
+    width: 100%;                     /* Full width of the box */
+    padding: 8px;                   /* Padding inside the input */
+    border: 1px solid #ccc;          /* Light grey border */
+    border-radius: 4px;              /* Slightly rounded corners */
+    margin-bottom: 20px;    
+    margin-top: 30px;             /* Space below the input */
+}
+
+/* Button container styles */
+#buttonContainer {
+    display: flex;                   /* Use flexbox for alignment */
+    gap: 10px;                      /* Space between buttons */
+    z-index: 163;
+    position: fixed;                /* Fixes it in place */
+    top: 0.1%;                   /* 20 pixels from the bottom */
+    left: 5%;                      /* Centering the container horizontally */
+    transform: translateX(-50%);    /* Adjusts for the width to center it */
+}
+
+/* Button styles */
+#toggleSidebarButton {
+    padding: 5px;                  /* Reduced padding for a smaller button */
+    flex: 0;                       /* Prevents growth to make it smaller */
+    font-size: 12px;              /* Optional: Adjust font size */
+    background-color: #007BFF;    /* Blue background color */
+    color: white;                  /* White text color */
+    border: none;                  /* No border */
+    border-radius: 4px;           /* Rounded corners */
+    cursor: pointer;               /* Pointer cursor on hover */
+}
+#hide {
+    padding: 5px;                  /* Reduced padding for a smaller button */
+    flex: 0;                       /* Prevents growth to make it smaller */
+    font-size: 12px;              /* Optional: Adjust font size */
+    background-color: #007BFF;    /* Blue background color */
+    color: white;                  /* White text color */
+    border: none;                  /* No border */
+    border-radius: 4px;           /* Rounded corners */
+    cursor: pointer;               /* Pointer cursor on hover */
+}
+#goBackButton {
+    padding: 5px;                  /* Reduced padding for a smaller button */
+    flex: 0;                       /* Prevents growth to make it smaller */
+    font-size: 12px;              /* Optional: Adjust font size */
+    background-color: #007BFF;    /* Blue background color */
+    color: white;                  /* White text color */
+    border: none;                  /* No border */
+    border-radius: 4px;           /* Rounded corners */
+    cursor: pointer;               /* Pointer cursor on hover */
+}
+#toggleButton {
+    padding: 5px;                  /* Reduced padding for a smaller button */
+    flex: 0;                       /* Prevents growth to make it smaller */
+    font-size: 12px;              /* Optional: Adjust font size */
+    background-color: #007BFF;    /* Blue background color */
+    color: white;                  /* White text color */
+    border: none;                  /* No border */
+    border-radius: 4px;           /* Rounded corners */
+    cursor: pointer;               /* Pointer cursor on hover */
+}
+#hideallbutton {
+    padding: 5px;                  /* Reduced padding for a smaller button */
+    flex: 0;                       /* Prevents growth to make it smaller */
+    font-size: 12px;              /* Optional: Adjust font size */
+    background-color: #007BFF;    /* Blue background color */
+    color: white;                  /* White text color */
+    border: none;                  /* No border */
+    border-radius: 4px;           /* Rounded corners */
+    cursor: pointer;               /* Pointer cursor on hover */
+}
+
+#clearAllButton, 
+#okButton {
+    padding: 10px;                 /* Padding for the buttons */
+    background-color: #007BFF;     /* Blue background color */
+    color: white;                  /* White text color */
+    border: none;                  /* No border */
+    border-radius: 4px;           /* Rounded corners */
+    cursor: pointer;               /* Pointer cursor on hover */
+    flex: 1;                       /* Equal width for all buttons */
+    font-size: 14px;               /* Font size for button text */
+}
+
+#toggleButton:focus, 
+#toggleSidebarButton:focus, 
+#clearAllButton:focus, 
+#okButton:focus {
+    outline: none;                 /* Removes the outline when focused */
+}
+
+#toggleSidebarButton:hover, 
+#toggleButton:hover, 
+#clearAllButton:hover, 
+#link:hover, 
+#okButton:hover {
+    background-color: #0056b3;    /* A darker blue on hover */
+}
+/* Modal container (hidden by default) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000; /* On top of everything */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+}
+
+/* Modal content box */
+.modal-content {
+    position: relative;
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+/* Close button (X) */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
