@@ -168,7 +168,7 @@ function fetchAndUpdateNumbers() {
 }
 
 function fetchAndUpdateSidebar_2() {
-    fetch('data2.txt')
+    fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/numbers.txt')
         .then(r => {
             if (!r.ok) throw new Error();
             return r.text();
@@ -215,7 +215,7 @@ function fetchAndUpdateSidebar_2_none() {
 }
 
 function fetchAndUpdateNumbers_2() {
-    fetch('numbers2.txt')
+    fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/numbers.txt')
         .then(r => {
             if (!r.ok) throw new Error();
             return r.text();
