@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="edwardvanmanz.us">
+<display-name>edwardvanmanz</display-name>
+</channel>
+
 <channel id="moosetaffy.us">
 <display-name>moosetaffy</display-name>
 </channel>
@@ -22,12 +26,12 @@
 <display-name>berryyboo</display-name>
 </channel>
 
-<channel id="nidas.us">
-<display-name>nidas</display-name>
-</channel>
-
 <channel id="UnicornFrapp.us">
 <display-name>UnicornFrapp</display-name>
+</channel>
+
+<channel id="nidas.us">
+<display-name>nidas</display-name>
 </channel>
 
 <channel id="ollie2313.us">
@@ -38,10 +42,6 @@
 <display-name>GrandAct</display-name>
 </channel>
 
-<channel id="peachteasquid.us">
-<display-name>peachteasquid</display-name>
-</channel>
-
 <channel id="lunchyrp.us">
 <display-name>lunchyrp</display-name>
 </channel>
@@ -50,12 +50,24 @@
 <display-name>vader</display-name>
 </channel>
 
+<channel id="peachteasquid.us">
+<display-name>peachteasquid</display-name>
+</channel>
+
 <channel id="farmhouse78.us">
 <display-name>farmhouse78</display-name>
 </channel>
 
 <channel id="Unabeard.us">
 <display-name>Unabeard</display-name>
+</channel>
+
+<channel id="OmicronzZz.us">
+<display-name>OmicronzZz</display-name>
+</channel>
+
+<channel id="shotz.us">
+<display-name>shotz</display-name>
 </channel>
 
 <channel id="hotted89.us">
@@ -78,12 +90,16 @@
 <display-name>Hellknight86</display-name>
 </channel>
 
-<channel id="edwardvanmanz.us">
-<display-name>edwardvanmanz</display-name>
+<channel id="52chains.us">
+<display-name>52chains</display-name>
 </channel>
 
-<channel id="OmicronzZz.us">
-<display-name>OmicronzZz</display-name>
+<channel id="nikkisariot.us">
+<display-name>nikkisariot</display-name>
+</channel>
+
+<channel id="elochai.us">
+<display-name>elochai</display-name>
 </channel>
 
 <channel id="saab.us">
@@ -98,116 +114,137 @@
 <display-name>swizz</display-name>
 </channel>
 
+<programme start="20250617140459 +0000" stop="20250620090459 +0000" channel="edwardvanmanz.us">
+<title lang="en"> Leon Edwards- South Cypress- Holding it all Together </title>
+<desc lang="en"> Started: 9:04AM
+Playing: Grand Theft Auto V
+Viewers: 5 </desc>
+</programme>
+
 <programme start="20250617122654 +0000" stop="20250620072654 +0000" channel="moosetaffy.us">
 <title lang="en"> Patar Bellosh - Jiggity Jiggity - @MooseTaffy </title>
 <desc lang="en"> Started: 7:26AM
 Playing: Grand Theft Auto V
-Viewers: 410 </desc>
+Viewers: 412 </desc>
 </programme>
 
 <programme start="20250617130040 +0000" stop="20250620080040 +0000" channel="kyle.us">
 <title lang="en"> LEAD RANGER KYLE PRED - ProdigyRP </title>
 <desc lang="en"> Started: 8:00AM
 Playing: Grand Theft Auto V
-Viewers: 1538 </desc>
+Viewers: 1463 </desc>
 </programme>
 
 <programme start="20250617123734 +0000" stop="20250620073734 +0000" channel="TheBigMeech.us">
 <title lang="en"> LEON AL GAIB - NoPixel </title>
 <desc lang="en"> Started: 7:37AM
 Playing: Grand Theft Auto V
-Viewers: 155 </desc>
+Viewers: 145 </desc>
 </programme>
 
 <programme start="20250617131830 +0000" stop="20250620081830 +0000" channel="glitterglock19.us">
 <title lang="en"> 🎈🎂🎉OMG BDAY IN 2DAYSSS🎈🎂🎉Captain Hailey Maxwell🎈🎂🎉15HR 🎈🎂🎉NO PIXEL WL 🎈🎂🎉MERCH </title>
 <desc lang="en"> Started: 8:18AM
 Playing: Grand Theft Auto V
-Viewers: 242 </desc>
+Viewers: 225 </desc>
 </programme>
 
 <programme start="20250617113629 +0000" stop="20250620063629 +0000" channel="berryyboo.us">
 <title lang="en"> Undersheriff Viv - Cheeewsday - BCSO - NoPixel 4.0 - </title>
 <desc lang="en"> Started: 6:36AM
 Playing: Grand Theft Auto V
-Viewers: 419 </desc>
-</programme>
-
-<programme start="20250617121526 +0000" stop="20250620071526 +0000" channel="nidas.us">
-<title lang="en"> Streaming f0r a while YEA - @nidas </title>
-<desc lang="en"> Started: 7:15AM
-Playing: Broken Arrow
-Viewers: 128 </desc>
+Viewers: 407 </desc>
 </programme>
 
 <programme start="20250617051305 +0000" stop="20250620001305 +0000" channel="UnicornFrapp.us">
 <title lang="en"> Remi Ironside - BCSO Deputy - Nopixel WL </title>
 <desc lang="en"> Started: 12:13 am
 Playing: Grand Theft Auto V
-Viewers: 76 </desc>
+Viewers: 72 </desc>
+</programme>
+
+<programme start="20250617121526 +0000" stop="20250620071526 +0000" channel="nidas.us">
+<title lang="en"> Streaming f0r a while YEA - @nidas </title>
+<desc lang="en"> Started: 7:15AM
+Playing: Broken Arrow
+Viewers: 116 </desc>
 </programme>
 
 <programme start="20250617120251 +0000" stop="20250620070251 +0000" channel="ollie2313.us">
 <title lang="en"> 371 Deputy Matilda Murphy - BCSO - NoPixel WL 4.0 </title>
 <desc lang="en"> Started: 07:02 am
 Playing: Grand Theft Auto V
-Viewers: 16 </desc>
+Viewers: 13 </desc>
 </programme>
 
 <programme start="20250617124425 +0000" stop="20250620074425 +0000" channel="GrandAct.us">
 <title lang="en"> Gunner Kane - State Marshal - LITERALLY JUST WRITING SUBPOENAS - NoPixel 4.0 WL </title>
 <desc lang="en"> Started: 07:44 am
 Playing: Grand Theft Auto V
-Viewers: 12 </desc>
-</programme>
-
-<programme start="20250617125853 +0000" stop="20250620075853 +0000" channel="peachteasquid.us">
-<title lang="en"> Blake Ryder -- 🌸👺🗡️WSMC PM🗡️👹🌸 -- NoPixel 4.0 </title>
-<desc lang="en"> Started: 07:58 am
-Playing: Grand Theft Auto V
-Viewers: 10 </desc>
+Viewers: 11 </desc>
 </programme>
 
 <programme start="20250617055028 +0000" stop="20250620005028 +0000" channel="lunchyrp.us">
 <title lang="en"> Danny Goomba - Nopixel WL </title>
 <desc lang="en"> Started: 12:50 am
 Playing: Grand Theft Auto V
-Viewers: 10 </desc>
+Viewers: 8 </desc>
 </programme>
 
 <programme start="20250617115719 +0000" stop="20250620065719 +0000" channel="vader.us">
 <title lang="en"> PRODIGY EUGENE - ROLEPLAY </title>
 <desc lang="en"> Started: 6:57AM
 Playing: Grand Theft Auto V
-Viewers: 1095 </desc>
+Viewers: 1141 </desc>
+</programme>
+
+<programme start="20250617125853 +0000" stop="20250620075853 +0000" channel="peachteasquid.us">
+<title lang="en"> Blake Ryder -- 🌸👺🗡️WSMC PM🗡️👹🌸 -- NoPixel 4.0 </title>
+<desc lang="en"> Started: 07:58 am
+Playing: Grand Theft Auto V
+Viewers: 4 </desc>
 </programme>
 
 <programme start="20250617130217 +0000" stop="20250620080217 +0000" channel="farmhouse78.us">
 <title lang="en"> Steven Hayes - NEW CLOTHES COMING SOON - Unscripted.gg - GTARP meta </title>
 <desc lang="en"> Started: 8:02AM
 Playing: Grand Theft Auto V
-Viewers: 95 </desc>
+Viewers: 102 </desc>
 </programme>
 
 <programme start="20250617121024 +0000" stop="20250620071024 +0000" channel="Unabeard.us">
 <title lang="en"> - Bruski - Bruce Baylor - NoPixel WL - </title>
 <desc lang="en"> Started: 07:10 am
 Playing: Grand Theft Auto V
-Viewers: 3 </desc>
+Viewers: 4 </desc>
+</programme>
+
+<programme start="20250617140005 +0000" stop="20250620090005 +0000" channel="OmicronzZz.us">
+<title lang="en"> Lt. Bradley Halifax - EMS Command - NoPixel WL </title>
+<desc lang="en"> Started: 09:00 am
+Playing: Grand Theft Auto V
+Viewers: 2 </desc>
+</programme>
+
+<programme start="20250617140912 +0000" stop="20250620090912 +0000" channel="shotz.us">
+<title lang="en"> 🐉 Vinny “Walking 9999s” Pistone 🐉 ProdigyRP 🐉 Merch is Live 🐉 Starf0rge Coffee TTS 🐉 </title>
+<desc lang="en"> Started: 9:09AM
+Playing: Grand Theft Auto V
+Viewers: 290 </desc>
 </programme>
 
 <programme start="20250617110843 +0000" stop="20250620060843 +0000" channel="hotted89.us">
 <title lang="en"> Matthew Espinoz - LSPD - Nopixel WL 4.0 </title>
 <desc lang="en"> Started: 6:08AM
 Playing: Grand Theft Auto V
-Viewers: 157 </desc>
+Viewers: 151 </desc>
 </programme>
 
 <programme start="20250617115658 +0000" stop="20250620065658 +0000" channel="roxmiral.us">
 <title lang="en"> Roleplaying - Unscripted.GG emergency </title>
 <desc lang="en"> Started: 6:56AM
 Playing: Grand Theft Auto V
-Viewers: 161 </desc>
+Viewers: 159 </desc>
 </programme>
 
 <programme start="20250617132953 +0000" stop="20250620082953 +0000" channel="Frizkers.us">
@@ -221,7 +258,7 @@ Viewers: 1 </desc>
 <title lang="en"> Gazz Maloo - unscripted.gg - Diamond Dogs 💎🐶 </title>
 <desc lang="en"> Started: 8:44AM
 Playing: Grand Theft Auto V
-Viewers: 26 </desc>
+Viewers: 34 </desc>
 </programme>
 
 <programme start="20250617105432 +0000" stop="20250620055432 +0000" channel="Hellknight86.us">
@@ -231,35 +268,42 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250617140459 +0000" stop="20250620090459 +0000" channel="edwardvanmanz.us">
-<title lang="en"> Leon Edwards- South Cypress- Holding it all Together </title>
-<desc lang="en"> Started: 9:04AM
+<programme start="20250617140725 +0000" stop="20250620090725 +0000" channel="52chains.us">
+<title lang="en"> Kyle Travis - Towsday - - Nopixel WL multistream🟣🟢 eneb </title>
+<desc lang="en"> Started: 9:07AM
 Playing: Grand Theft Auto V
-Viewers: 0 </desc>
+Viewers: 37 </desc>
 </programme>
 
-<programme start="20250617140005 +0000" stop="20250620090005 +0000" channel="OmicronzZz.us">
-<title lang="en"> Lt. Bradley Halifax - EMS Command - NoPixel WL </title>
-<desc lang="en"> Started: 09:00 am
+<programme start="20250617140908 +0000" stop="20250620090908 +0000" channel="nikkisariot.us">
+<title lang="en"> • I Return • No Pixel WL • </title>
+<desc lang="en"> Started: 9:09AM
 Playing: Grand Theft Auto V
-Viewers: 3 </desc>
+Viewers: 43 </desc>
 </programme>
 
-<programme start="20250617000000 +0000" stop="20250620090621 +0000" channel="saab.us">
+<programme start="20250617140640 +0000" stop="20250620090640 +0000" channel="elochai.us">
+<title lang="en"> BCSjorn - NoPixel 3D Dev - @elochai - click f0r socials </title>
+<desc lang="en"> Started: 9:06AM
+Playing: Grand Theft Auto V
+Viewers: 9 </desc>
+</programme>
+
+<programme start="20250617000000 +0000" stop="20250620091322 +0000" channel="saab.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
 Viewers:  </desc>
 </programme>
 
-<programme start="20250617000000 +0000" stop="20250620090621 +0000" channel="stankxo.us">
+<programme start="20250617000000 +0000" stop="20250620091322 +0000" channel="stankxo.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
 Viewers:  </desc>
 </programme>
 
-<programme start="20250617000000 +0000" stop="20250620090621 +0000" channel="swizz.us">
+<programme start="20250617000000 +0000" stop="20250620091322 +0000" channel="swizz.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
