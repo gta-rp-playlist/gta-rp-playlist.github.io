@@ -2,12 +2,12 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="hutchmf.us">
-<display-name>hutchmf</display-name>
-</channel>
-
 <channel id="moosetaffy.us">
 <display-name>moosetaffy</display-name>
+</channel>
+
+<channel id="hutchmf.us">
+<display-name>hutchmf</display-name>
 </channel>
 
 <channel id="travpiper.us">
@@ -18,10 +18,6 @@
 <display-name>uhsnow</display-name>
 </channel>
 
-<channel id="lisajfc.us">
-<display-name>lisajfc</display-name>
-</channel>
-
 <channel id="Silbullet.us">
 <display-name>Silbullet</display-name>
 </channel>
@@ -30,16 +26,16 @@
 <display-name>TheBigMeech</display-name>
 </channel>
 
-<channel id="berryyboo.us">
-<display-name>berryyboo</display-name>
+<channel id="lisajfc.us">
+<display-name>lisajfc</display-name>
 </channel>
 
 <channel id="glitterglock19.us">
 <display-name>glitterglock19</display-name>
 </channel>
 
-<channel id="Wetbow.us">
-<display-name>Wetbow</display-name>
+<channel id="berryyboo.us">
+<display-name>berryyboo</display-name>
 </channel>
 
 <channel id="sateurne.us">
@@ -50,12 +46,20 @@
 <display-name>nidas</display-name>
 </channel>
 
+<channel id="Wetbow.us">
+<display-name>Wetbow</display-name>
+</channel>
+
 <channel id="52chains.us">
 <display-name>52chains</display-name>
 </channel>
 
 <channel id="JustTeetaa.us">
 <display-name>JustTeetaa</display-name>
+</channel>
+
+<channel id="farmhouse78.us">
+<display-name>farmhouse78</display-name>
 </channel>
 
 <channel id="amusing_sloth.us">
@@ -70,48 +74,40 @@
 <display-name>ollie2313</display-name>
 </channel>
 
-<channel id="farmhouse78.us">
-<display-name>farmhouse78</display-name>
+<channel id="VanillaYoshee.us">
+<display-name>VanillaYoshee</display-name>
 </channel>
 
 <channel id="DyminzRP.us">
 <display-name>DyminzRP</display-name>
 </channel>
 
-<channel id="GrandAct.us">
-<display-name>GrandAct</display-name>
+<channel id="roxmiral.us">
+<display-name>roxmiral</display-name>
 </channel>
 
 <channel id="OmicronzZz.us">
 <display-name>OmicronzZz</display-name>
 </channel>
 
-<channel id="VanillaYoshee.us">
-<display-name>VanillaYoshee</display-name>
-</channel>
-
-<channel id="roxmiral.us">
-<display-name>roxmiral</display-name>
+<channel id="GrandAct.us">
+<display-name>GrandAct</display-name>
 </channel>
 
 <channel id="tinyspark.us">
 <display-name>tinyspark</display-name>
 </channel>
 
+<channel id="BaldLionnn.us">
+<display-name>BaldLionnn</display-name>
+</channel>
+
 <channel id="luka_aus.us">
 <display-name>luka_aus</display-name>
 </channel>
 
-<channel id="kate.us">
-<display-name>kate</display-name>
-</channel>
-
 <channel id="TheDlinQuenT.us">
 <display-name>TheDlinQuenT</display-name>
-</channel>
-
-<channel id="BaldLionnn.us">
-<display-name>BaldLionnn</display-name>
 </channel>
 
 <channel id="Amanthi__.us">
@@ -126,42 +122,46 @@
 <display-name>Brradzz</display-name>
 </channel>
 
-<channel id="elochai.us">
-<display-name>elochai</display-name>
-</channel>
-
 <channel id="ItsHazelsaurus.us">
 <display-name>ItsHazelsaurus</display-name>
 </channel>
 
-<channel id="sayeed.us">
-<display-name>sayeed</display-name>
+<channel id="kate.us">
+<display-name>kate</display-name>
 </channel>
 
-<channel id="swizz.us">
-<display-name>swizz</display-name>
-</channel>
-
-<channel id="stankxo.us">
-<display-name>stankxo</display-name>
+<channel id="elochai.us">
+<display-name>elochai</display-name>
 </channel>
 
 <channel id="saab.us">
 <display-name>saab</display-name>
 </channel>
 
-<programme start="20250619140929 +0000" stop="20250622090929 +0000" channel="hutchmf.us">
-<title lang="en"> Bustin (Game Warden) Cider - Another Day Lived, Another Criminal Brought To Justice </title>
-<desc lang="en"> Started: 9:09AM
-Playing: Grand Theft Auto V
-Viewers: 5248 </desc>
-</programme>
+<channel id="swizz.us">
+<display-name>swizz</display-name>
+</channel>
+
+<channel id="sayeed.us">
+<display-name>sayeed</display-name>
+</channel>
+
+<channel id="stankxo.us">
+<display-name>stankxo</display-name>
+</channel>
 
 <programme start="20250619120220 +0000" stop="20250622070220 +0000" channel="moosetaffy.us">
 <title lang="en"> Patar Bellosh - ProdigyRP - Jiggity Jiggity - NoPixelUpdate Multistream </title>
 <desc lang="en"> Started: 7:02AM
 Playing: Grand Theft Auto V
 Viewers: 722 </desc>
+</programme>
+
+<programme start="20250619140929 +0000" stop="20250622090929 +0000" channel="hutchmf.us">
+<title lang="en"> Bustin (Game Warden) Cider - Another Day Lived, Another Criminal Brought To Justice </title>
+<desc lang="en"> Started: 9:09AM
+Playing: Grand Theft Auto V
+Viewers: 5248 </desc>
 </programme>
 
 <programme start="20250619111708 +0000" stop="20250622061708 +0000" channel="travpiper.us">
@@ -178,18 +178,11 @@ Playing: Grand Theft Auto V
 Viewers: 861 </desc>
 </programme>
 
-<programme start="20250619140049 +0000" stop="20250622090049 +0000" channel="lisajfc.us">
-<title lang="en"> Warrant Szn I 465 Opal Liability Pryce I NoPixel WL 4.0 </title>
-<desc lang="en"> Started: 9:00AM
-Playing: Grand Theft Auto V
-Viewers: 180 </desc>
-</programme>
-
 <programme start="20250619045811 +0000" stop="20250621235811 +0000" channel="Silbullet.us">
 <title lang="en"> UNCAPPED SUMMER SLAM SUBATHON DAY 7 - Ronnie Rivers - NoPixel WL 4.0 - gtarecap clip </title>
 <desc lang="en"> Started: 11:58PM
 Playing: Grand Theft Auto V
-Viewers: 69 </desc>
+Viewers: 61 </desc>
 </programme>
 
 <programme start="20250619123846 +0000" stop="20250622073846 +0000" channel="TheBigMeech.us">
@@ -199,11 +192,11 @@ Playing: Grand Theft Auto V
 Viewers: 131 </desc>
 </programme>
 
-<programme start="20250619090326 +0000" stop="20250622040326 +0000" channel="berryyboo.us">
-<title lang="en"> Undersheriff Viv - Shift 3 Viv - BCSO - NoPixel 4.0 - </title>
-<desc lang="en"> Started: 4:03AM
+<programme start="20250619140049 +0000" stop="20250622090049 +0000" channel="lisajfc.us">
+<title lang="en"> Warrant Szn I 465 Opal Liability Pryce I NoPixel WL 4.0 </title>
+<desc lang="en"> Started: 9:00AM
 Playing: Grand Theft Auto V
-Viewers: 367 </desc>
+Viewers: 180 </desc>
 </programme>
 
 <programme start="20250619143836 +0000" stop="20250622093836 +0000" channel="glitterglock19.us">
@@ -213,11 +206,11 @@ Playing: Grand Theft Auto V
 Viewers: 276 </desc>
 </programme>
 
-<programme start="20250619151902 +0000" stop="20250622101902 +0000" channel="Wetbow.us">
-<title lang="en"> 🤡 PARTY HARDY - The End Of The Mime War - NOPIXEL 4.0 </title>
-<desc lang="en"> Started: 10:19 am
+<programme start="20250619090326 +0000" stop="20250622040326 +0000" channel="berryyboo.us">
+<title lang="en"> Undersheriff Viv - Shift 3 Viv - BCSO - NoPixel 4.0 - </title>
+<desc lang="en"> Started: 4:03AM
 Playing: Grand Theft Auto V
-Viewers: 84 </desc>
+Viewers: 367 </desc>
 </programme>
 
 <programme start="20250619131904 +0000" stop="20250622081904 +0000" channel="sateurne.us">
@@ -231,7 +224,14 @@ Viewers: 5 </desc>
 <title lang="en"> Thursday... GAMIN - @nidas </title>
 <desc lang="en"> Started: 6:14AM
 Playing: Broken Arrow
-Viewers: 132 </desc>
+Viewers: 134 </desc>
+</programme>
+
+<programme start="20250619151902 +0000" stop="20250622101902 +0000" channel="Wetbow.us">
+<title lang="en"> 🤡 PARTY HARDY - The End Of The Mime War - NOPIXEL 4.0 </title>
+<desc lang="en"> Started: 10:19 am
+Playing: Grand Theft Auto V
+Viewers: 84 </desc>
 </programme>
 
 <programme start="20250619150406 +0000" stop="20250622100406 +0000" channel="52chains.us">
@@ -246,6 +246,13 @@ Viewers: 251 </desc>
 <desc lang="en"> Started: 10:04 am
 Playing: Grand Theft Auto V
 Viewers: 22 </desc>
+</programme>
+
+<programme start="20250619130347 +0000" stop="20250622080347 +0000" channel="farmhouse78.us">
+<title lang="en"> Steven Hayes - NEW CLOTHES - Unscripted.gg - GTARP - meta </title>
+<desc lang="en"> Started: 8:03AM
+Playing: Grand Theft Auto V
+Viewers: 99 </desc>
 </programme>
 
 <programme start="20250619111002 +0000" stop="20250622061002 +0000" channel="amusing_sloth.us">
@@ -269,11 +276,11 @@ Playing: Grand Theft Auto V
 Viewers: 7 </desc>
 </programme>
 
-<programme start="20250619130347 +0000" stop="20250622080347 +0000" channel="farmhouse78.us">
-<title lang="en"> Steven Hayes - NEW CLOTHES - Unscripted.gg - GTARP - meta </title>
-<desc lang="en"> Started: 8:03AM
+<programme start="20250619125219 +0000" stop="20250622075219 +0000" channel="VanillaYoshee.us">
+<title lang="en"> ELLIE - NOPIXEL WL 4.0 GTA RP - Pushing f0r Partner </title>
+<desc lang="en"> Started: 07:52 am
 Playing: Grand Theft Auto V
-Viewers: 101 </desc>
+Viewers: 7 </desc>
 </programme>
 
 <programme start="20250619120609 +0000" stop="20250622070609 +0000" channel="DyminzRP.us">
@@ -283,11 +290,11 @@ Playing: Grand Theft Auto V
 Viewers: 54 </desc>
 </programme>
 
-<programme start="20250619144200 +0000" stop="20250622094200 +0000" channel="GrandAct.us">
-<title lang="en"> Gunner Kane - State Marshal - TEST STREAM OR SOMETHING IDK (DISARRAY) - NoPixel 4.0 WL </title>
-<desc lang="en"> Started: 09:42 am
+<programme start="20250619115441 +0000" stop="20250622065441 +0000" channel="roxmiral.us">
+<title lang="en"> Roleplaying part 2 - Unscripted.GG emergency </title>
+<desc lang="en"> Started: 6:54AM
 Playing: Grand Theft Auto V
-Viewers: 7 </desc>
+Viewers: 162 </desc>
 </programme>
 
 <programme start="20250619140017 +0000" stop="20250622090017 +0000" channel="OmicronzZz.us">
@@ -297,46 +304,18 @@ Playing: Grand Theft Auto V
 Viewers: 5 </desc>
 </programme>
 
-<programme start="20250619125219 +0000" stop="20250622075219 +0000" channel="VanillaYoshee.us">
-<title lang="en"> ELLIE - NOPIXEL WL 4.0 GTA RP - Pushing f0r Partner </title>
-<desc lang="en"> Started: 07:52 am
+<programme start="20250619144200 +0000" stop="20250622094200 +0000" channel="GrandAct.us">
+<title lang="en"> Gunner Kane - State Marshal - TEST STREAM OR SOMETHING IDK (DISARRAY) - NoPixel 4.0 WL </title>
+<desc lang="en"> Started: 09:42 am
 Playing: Grand Theft Auto V
 Viewers: 7 </desc>
-</programme>
-
-<programme start="20250619115441 +0000" stop="20250622065441 +0000" channel="roxmiral.us">
-<title lang="en"> Roleplaying part 2 - Unscripted.GG emergency </title>
-<desc lang="en"> Started: 6:54AM
-Playing: Grand Theft Auto V
-Viewers: 162 </desc>
 </programme>
 
 <programme start="20250619112306 +0000" stop="20250622062306 +0000" channel="tinyspark.us">
 <title lang="en"> 318 Daisy Dukakis - NoPixel </title>
 <desc lang="en"> Started: 6:23AM
 Playing: Grand Theft Auto V
-Viewers: 151 </desc>
-</programme>
-
-<programme start="20250619130527 +0000" stop="20250622080527 +0000" channel="luka_aus.us">
-<title lang="en"> Gazz Maloo - unscripted.gg - Diamond Dogs 💎🐶 </title>
-<desc lang="en"> Started: 8:05AM
-Playing: Grand Theft Auto V
-Viewers: 59 </desc>
-</programme>
-
-<programme start="20250619133045 +0000" stop="20250622083045 +0000" channel="kate.us">
-<title lang="en"> REACT CONTENT - kick - tiktok and ig: kate.ttv </title>
-<desc lang="en"> Started: 8:30AM
-Playing: Just Chatting
-Viewers: 176 </desc>
-</programme>
-
-<programme start="20250619133900 +0000" stop="20250622083900 +0000" channel="TheDlinQuenT.us">
-<title lang="en"> Snr Officer Dee LinQ- 455 - LSPDee - NoPixel 4.0 WL - GTA RP </title>
-<desc lang="en"> Started: 08:39 am
-Playing: Grand Theft Auto V
-Viewers: 4 </desc>
+Viewers: 156 </desc>
 </programme>
 
 <programme start="20250619113043 +0000" stop="20250622063043 +0000" channel="BaldLionnn.us">
@@ -346,11 +325,25 @@ Playing: Grand Theft Auto V
 Viewers: 4 </desc>
 </programme>
 
+<programme start="20250619130527 +0000" stop="20250622080527 +0000" channel="luka_aus.us">
+<title lang="en"> Gazz Maloo - unscripted.gg - Diamond Dogs 💎🐶 </title>
+<desc lang="en"> Started: 8:05AM
+Playing: Grand Theft Auto V
+Viewers: 59 </desc>
+</programme>
+
+<programme start="20250619133900 +0000" stop="20250622083900 +0000" channel="TheDlinQuenT.us">
+<title lang="en"> Snr Officer Dee LinQ- 455 - LSPDee - NoPixel 4.0 WL - GTA RP </title>
+<desc lang="en"> Started: 08:39 am
+Playing: Grand Theft Auto V
+Viewers: 3 </desc>
+</programme>
+
 <programme start="20250619115145 +0000" stop="20250622065145 +0000" channel="Amanthi__.us">
 <title lang="en"> Bianca Wade - Nopixel WL 4.0 </title>
 <desc lang="en"> Started: 06:51 am
 Playing: Grand Theft Auto V
-Viewers: 2 </desc>
+Viewers: 1 </desc>
 </programme>
 
 <programme start="20250619144502 +0000" stop="20250622094502 +0000" channel="giseletwitchtv.us">
@@ -367,13 +360,6 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250619145518 +0000" stop="20250622095518 +0000" channel="elochai.us">
-<title lang="en"> BCSjorn - NoPixel 3D Dev - @elochai - click f0r socials </title>
-<desc lang="en"> Started: 9:55AM
-Playing: Grand Theft Auto V
-Viewers: 56 </desc>
-</programme>
-
 <programme start="20250619140429 +0000" stop="20250622090429 +0000" channel="ItsHazelsaurus.us">
 <title lang="en"> Tori - Cadet day 13 - Nopixel 4.0 </title>
 <desc lang="en"> Started: 09:04 am
@@ -381,32 +367,46 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250619000000 +0000" stop="20250622104157 +0000" channel="sayeed.us">
-<title lang="en"> Speedy on a secret mission from Talon Nopixel RP 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 04:00 am
-Playing: Grand Theft Auto V (GTA)
-Viewers: 542 </desc>
+<programme start="20250619133045 +0000" stop="20250622083045 +0000" channel="kate.us">
+<title lang="en"> REACT CONTENT - kick - tiktok and ig: kate.ttv </title>
+<desc lang="en"> Started: 8:30AM
+Playing: Just Chatting
+Viewers: 183 </desc>
 </programme>
 
-<programme start="20250619000000 +0000" stop="20250622104157 +0000" channel="swizz.us">
-<title lang="en"> wipe wif da np bois 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 12:52 am
-Playing: Rust
-Viewers: 2617 </desc>
+<programme start="20250619145518 +0000" stop="20250622095518 +0000" channel="elochai.us">
+<title lang="en"> BCSjorn - NoPixel 3D Dev - @elochai - click f0r socials </title>
+<desc lang="en"> Started: 9:55AM
+Playing: Grand Theft Auto V
+Viewers: 46 </desc>
 </programme>
 
-<programme start="20250619000000 +0000" stop="20250622104157 +0000" channel="stankxo.us">
-<title lang="en"> SUBATHON DAY 6 - RACCOON IS SO BACK 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 04:29 am
-Playing: Roblox
-Viewers: 125 </desc>
+<programme start="20250619000000 +0000" stop="20250622104319 +0000" channel="saab.us">
+<title lang="en">  </title>
+<desc lang="en"> Started: 
+Playing: 
+Viewers:  </desc>
 </programme>
 
-<programme start="20250619000000 +0000" stop="20250622104157 +0000" channel="saab.us">
-<title lang="en"> Sleepy Time - DAY 22 OF 8 YR ANNIVERSARY SUBATHON  subcount goals socials clip 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 05:54 am
-Playing: Just Sleeping
-Viewers: 57 </desc>
+<programme start="20250619000000 +0000" stop="20250622104319 +0000" channel="swizz.us">
+<title lang="en">  </title>
+<desc lang="en"> Started: 
+Playing: 
+Viewers:  </desc>
+</programme>
+
+<programme start="20250619000000 +0000" stop="20250622104319 +0000" channel="sayeed.us">
+<title lang="en">  </title>
+<desc lang="en"> Started: 
+Playing: 
+Viewers:  </desc>
+</programme>
+
+<programme start="20250619000000 +0000" stop="20250622104319 +0000" channel="stankxo.us">
+<title lang="en">  </title>
+<desc lang="en"> Started: 
+Playing: 
+Viewers:  </desc>
 </programme>
 
 
