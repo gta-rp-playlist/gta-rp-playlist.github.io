@@ -45,6 +45,8 @@ const categoryMappings = {
     '⸸bd'         : '31⸸BD',
     'vagos'       : '32Vagos',
     'mimes'       : '40Mimes',
+    'golf'       : '40GolfGang',
+    'golfgang'       : '40GolfGang',
     'civgang'     : '33CivGang',
     'italians'    : '34Italians',
     'cg'          : '36CG',
