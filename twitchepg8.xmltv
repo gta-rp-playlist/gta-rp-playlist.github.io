@@ -2,10 +2,6 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="uhsnow.us">
-<display-name>uhsnow</display-name>
-</channel>
-
 <channel id="Silbullet.us">
 <display-name>Silbullet</display-name>
 </channel>
@@ -26,12 +22,16 @@
 <display-name>CrashCustoms</display-name>
 </channel>
 
+<channel id="Unabeard.us">
+<display-name>Unabeard</display-name>
+</channel>
+
 <channel id="amusing_sloth.us">
 <display-name>amusing_sloth</display-name>
 </channel>
 
-<channel id="Unabeard.us">
-<display-name>Unabeard</display-name>
+<channel id="BaldLionnn.us">
+<display-name>BaldLionnn</display-name>
 </channel>
 
 <channel id="nidas.us">
@@ -50,61 +50,51 @@
 <display-name>tinyspark</display-name>
 </channel>
 
-<channel id="BaldLionnn.us">
-<display-name>BaldLionnn</display-name>
+<channel id="Hellknight86.us">
+<display-name>Hellknight86</display-name>
+</channel>
+
+<channel id="Hellknight86.us">
+<display-name>Hellknight86</display-name>
 </channel>
 
 <channel id="saab.us">
 <display-name>saab</display-name>
 </channel>
 
-<programme start="20250619112918 +0000" stop="20250622062918 +0000" channel="uhsnow.us">
-<title lang="en"> ALBERTO - NoPixel 4.0 - discord.gg-snow - #GrabtapPartner </title>
-<desc lang="en"> Started: 6:29AM
-Playing: Grand Theft Auto V
-Viewers: 294 </desc>
-</programme>
-
 <programme start="20250619045811 +0000" stop="20250621235811 +0000" channel="Silbullet.us">
 <title lang="en"> UNCAPPED SUMMER SLAM SUBATHON DAY 7 - Ronnie Rivers - NoPixel WL 4.0 - gtarecap clip </title>
 <desc lang="en"> Started: 11:58PM
 Playing: Grand Theft Auto V
-Viewers: 120 </desc>
+Viewers: 114 </desc>
 </programme>
 
 <programme start="20250619094537 +0000" stop="20250622044537 +0000" channel="crystalst.us">
 <title lang="en"> 🪻cozy crystal clear patrol ~ </title>
 <desc lang="en"> Started: 4:45AM
 Playing: Grand Theft Auto V
-Viewers: 251 </desc>
+Viewers: 260 </desc>
 </programme>
 
 <programme start="20250619112403 +0000" stop="20250622062403 +0000" channel="aaoki.us">
 <title lang="en"> Japanese Racing Stream - being a zoomer. </title>
 <desc lang="en"> Started: 6:24AM
 Playing: Grand Theft Auto V
-Viewers: 8 </desc>
+Viewers: 7 </desc>
 </programme>
 
 <programme start="20250619090326 +0000" stop="20250622040326 +0000" channel="berryyboo.us">
 <title lang="en"> Undersheriff Viv - Shift 3 Viv - BCSO - NoPixel 4.0 - </title>
 <desc lang="en"> Started: 4:03AM
 Playing: Grand Theft Auto V
-Viewers: 364 </desc>
+Viewers: 393 </desc>
 </programme>
 
 <programme start="20250619091830 +0000" stop="20250622041830 +0000" channel="CrashCustoms.us">
 <title lang="en"> Reset - Rainer Fairlady - SYN - NoPixel WL 4.0 </title>
 <desc lang="en"> Started: 04:18 am
 Playing: Grand Theft Auto V
-Viewers: 24 </desc>
-</programme>
-
-<programme start="20250619111002 +0000" stop="20250622061002 +0000" channel="amusing_sloth.us">
-<title lang="en"> Arthur Arms Dealer Lionheart - Kaneshiro - NoPixel WL 4.0 </title>
-<desc lang="en"> Started: 06:10 am
-Playing: Grand Theft Auto V
-Viewers: 9 </desc>
+Viewers: 23 </desc>
 </programme>
 
 <programme start="20250619063104 +0000" stop="20250622013104 +0000" channel="Unabeard.us">
@@ -114,42 +104,63 @@ Playing: Grand Theft Auto V
 Viewers: 6 </desc>
 </programme>
 
-<programme start="20250619111415 +0000" stop="20250622061415 +0000" channel="nidas.us">
-<title lang="en"> Thursday... GAMIN - @nidas </title>
-<desc lang="en"> Started: 6:14AM
+<programme start="20250619111002 +0000" stop="20250622061002 +0000" channel="amusing_sloth.us">
+<title lang="en"> Arthur Arms Dealer Lionheart - Kaneshiro - NoPixel WL 4.0 </title>
+<desc lang="en"> Started: 06:10 am
 Playing: Grand Theft Auto V
-Viewers: 47 </desc>
-</programme>
-
-<programme start="20250619101424 +0000" stop="20250622051424 +0000" channel="defac3d.us">
-<title lang="en"> DENZEL - NOPIXEL - EXPRESSVPN G2A TOKYOTREAT </title>
-<desc lang="en"> Started: 5:14AM
-Playing: Grand Theft Auto V
-Viewers: 448 </desc>
-</programme>
-
-<programme start="20250619104959 +0000" stop="20250622054959 +0000" channel="hotted89.us">
-<title lang="en"> Matthew Espinoz - LSPD - Nopixel WL 4.0 </title>
-<desc lang="en"> Started: 5:49AM
-Playing: Grand Theft Auto V
-Viewers: 55 </desc>
-</programme>
-
-<programme start="20250619112306 +0000" stop="20250622062306 +0000" channel="tinyspark.us">
-<title lang="en"> 318 Daisy Dukakis - NoPixel </title>
-<desc lang="en"> Started: 6:23AM
-Playing: Grand Theft Auto V
-Viewers: 54 </desc>
+Viewers: 5 </desc>
 </programme>
 
 <programme start="20250619113043 +0000" stop="20250622063043 +0000" channel="BaldLionnn.us">
 <title lang="en"> TJs Arm Count: 1. Brain Cell Count: Also 1 ☆ Causing Chaos ☆ NopixelWL ☆ </title>
 <desc lang="en"> Started: 06:30 am
 Playing: Grand Theft Auto V
-Viewers: 3 </desc>
+Viewers: 2 </desc>
 </programme>
 
-<programme start="20250619000000 +0000" stop="20250622064320 +0000" channel="saab.us">
+<programme start="20250619111415 +0000" stop="20250622061415 +0000" channel="nidas.us">
+<title lang="en"> Thursday... GAMIN - @nidas </title>
+<desc lang="en"> Started: 6:14AM
+Playing: REMATCH
+Viewers: 73 </desc>
+</programme>
+
+<programme start="20250619101424 +0000" stop="20250622051424 +0000" channel="defac3d.us">
+<title lang="en"> DENZEL - NOPIXEL - EXPRESSVPN G2A TOKYOTREAT </title>
+<desc lang="en"> Started: 5:14AM
+Playing: Grand Theft Auto V
+Viewers: 452 </desc>
+</programme>
+
+<programme start="20250619104959 +0000" stop="20250622054959 +0000" channel="hotted89.us">
+<title lang="en"> Matthew Espinoz - LSPD - Nopixel WL 4.0 </title>
+<desc lang="en"> Started: 5:49AM
+Playing: Grand Theft Auto V
+Viewers: 49 </desc>
+</programme>
+
+<programme start="20250619112306 +0000" stop="20250622062306 +0000" channel="tinyspark.us">
+<title lang="en"> 318 Daisy Dukakis - NoPixel </title>
+<desc lang="en"> Started: 6:23AM
+Playing: Grand Theft Auto V
+Viewers: 72 </desc>
+</programme>
+
+<programme start="20250619113614 +0000" stop="20250622063614 +0000" channel="Hellknight86.us">
+<title lang="en"> LSPD PPO Schmidt - Nopixel WL </title>
+<desc lang="en"> Started: 06:36 am
+Playing: Grand Theft Auto V
+Viewers: 2 </desc>
+</programme>
+
+<programme start="20250619113614 +0000" stop="20250622063614 +0000" channel="Hellknight86.us">
+<title lang="en"> LSPD PPO Schmidt - Nopixel WL </title>
+<desc lang="en"> Started: 06:36 am
+Playing: Grand Theft Auto V
+Viewers: 2 </desc>
+</programme>
+
+<programme start="20250619000000 +0000" stop="20250622065120 +0000" channel="saab.us">
 <title lang="en">  </title>
 <desc lang="en"> Started: 
 Playing: 
