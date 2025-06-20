@@ -23,8 +23,7 @@ function playStream(streamName) {
     }
 
     var streamInfo = document.getElementById('streamInfo');
-    var displayTitle = title.replace(/🟢🟢Kick Stream☝️/g, '').trim();
-    streamInfo.innerHTML = `<div class="stream-name">${streamName}</div><div class="stream-title">${displayTitle}</div>`;
+    streamInfo.innerHTML = `<div class="stream-name">${streamName}</div><div class="stream-title">${title}</div>`;
 
     highlightClickedUsername(lowerCaseStreamName);
 }
