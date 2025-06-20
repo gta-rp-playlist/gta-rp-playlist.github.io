@@ -43,10 +43,9 @@ function toggleSubItems(category) {
             var viewerCount = document.createElement('span');
 
             username.textContent = subItem.querySelector('.username').textContent.trim();
-            var streamTitle = subItem.getAttribute('data-title') || '';
-            var displayTitle = streamTitle.replace(/🟢🟢Kick Stream☝️/g, '').trim();
-            title.textContent = ' - ' + displayTitle;
+            title.textContent = ' - ' + subItem.getAttribute('data-title');
 
+            var streamTitle = subItem.getAttribute('data-title') || '';
             var isKickStream = streamTitle.includes("🟢🟢Kick Stream☝️");
 
             viewerCount.textContent = (isKickStream ? '🟢' : '🔴') + subItem.getAttribute('data-viewers');
