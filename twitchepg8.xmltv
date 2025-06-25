@@ -2,10 +2,6 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="Silbullet.us">
-<display-name>Silbullet</display-name>
-</channel>
-
 <channel id="sock22.us">
 <display-name>sock22</display-name>
 </channel>
@@ -22,8 +18,16 @@
 <display-name>TwoBirds_</display-name>
 </channel>
 
+<channel id="Saphirici.us">
+<display-name>Saphirici</display-name>
+</channel>
+
 <channel id="Unabeard.us">
 <display-name>Unabeard</display-name>
+</channel>
+
+<channel id="MrGlee.us">
+<display-name>MrGlee</display-name>
 </channel>
 
 <channel id="Kerazane.us">
@@ -34,28 +38,20 @@
 <display-name>Hellknight86</display-name>
 </channel>
 
-<channel id="MrGlee.us">
-<display-name>MrGlee</display-name>
-</channel>
-
-<channel id="1pandeh.us">
-<display-name>1pandeh</display-name>
+<channel id="Hellknight86.us">
+<display-name>Hellknight86</display-name>
 </channel>
 
 <channel id="tinyspark.us">
 <display-name>tinyspark</display-name>
 </channel>
 
-<channel id="Saphirici.us">
-<display-name>Saphirici</display-name>
+<channel id="1pandeh.us">
+<display-name>1pandeh</display-name>
 </channel>
 
 <channel id="itskgu.us">
 <display-name>itskgu</display-name>
-</channel>
-
-<channel id="silbullet.us">
-<display-name>silbullet</display-name>
 </channel>
 
 <channel id="harmless.us">
@@ -78,81 +74,32 @@
 <display-name>sukhi_1</display-name>
 </channel>
 
-<programme start="20250625082359 +0000" stop="20250628032359 +0000" channel="Silbullet.us">
-<title lang="en"> UNCAPPED SUMMER SLAM SUBATHON DAY 13 - Lt. Maple 297 - LSPD - NoPixel WL 4.0 - gtarecap clip </title>
-<desc lang="en"> Started: 3:23AM
-Playing: Grand Theft Auto V
-Viewers: 72 </desc>
-</programme>
-
 <programme start="20250625084544 +0000" stop="20250628034544 +0000" channel="sock22.us">
 <title lang="en"> State Marshal Richard Dark -- NoPixel -- masters </title>
 <desc lang="en"> Started: 3:45AM
 Playing: Grand Theft Auto V
-Viewers: 329 </desc>
+Viewers: 317 </desc>
 </programme>
 
 <programme start="20250625085828 +0000" stop="20250628035828 +0000" channel="berryyboo.us">
 <title lang="en"> Undersheriff Viv - Early birb - BCSO - NoPixel 4.0 - </title>
 <desc lang="en"> Started: 3:58AM
 Playing: Grand Theft Auto V
-Viewers: 265 </desc>
+Viewers: 287 </desc>
 </programme>
 
 <programme start="20250625070332 +0000" stop="20250628020332 +0000" channel="UnicornFrapp.us">
 <title lang="en"> Remi Ironside - BCSO Snr Deputy - Nopixel WL - Short One </title>
 <desc lang="en"> Started: 02:03 am
 Playing: Grand Theft Auto V
-Viewers: 57 </desc>
+Viewers: 62 </desc>
 </programme>
 
 <programme start="20250625080010 +0000" stop="20250628030010 +0000" channel="TwoBirds_.us">
 <title lang="en"> 🏳️‍🌈Officer Gumtree 🏳️‍🌈-- NoPixel WL -- 17 Days Until Straya -- discord support </title>
 <desc lang="en"> Started: 03:00 am
 Playing: Grand Theft Auto V
-Viewers: 15 </desc>
-</programme>
-
-<programme start="20250625065418 +0000" stop="20250628015418 +0000" channel="Unabeard.us">
-<title lang="en"> - Bruce Baylor - NoPixel WL - </title>
-<desc lang="en"> Started: 01:54 am
-Playing: Grand Theft Auto V
-Viewers: 3 </desc>
-</programme>
-
-<programme start="20250625045754 +0000" stop="20250627235754 +0000" channel="Kerazane.us">
-<title lang="en"> Betty Briskett - BCSO - 709-P - PPO - Nopixel WL - Crispy Brisketts Minor inconveniences </title>
-<desc lang="en"> Started: 11:57PM
-Playing: Grand Theft Auto V
 Viewers: 39 </desc>
-</programme>
-
-<programme start="20250625072215 +0000" stop="20250628022215 +0000" channel="Hellknight86.us">
-<title lang="en"> LSPD PPO Schmidt - Nopixel WL </title>
-<desc lang="en"> Started: 02:22 am
-Playing: Grand Theft Auto V
-Viewers: 1 </desc>
-</programme>
-
-<programme start="20250625055454 +0000" stop="20250628005454 +0000" channel="MrGlee.us">
-<title lang="en"> I THINK WE BIG CHILLIN - Sai Kou - Road Captain - Lost MC - NoPixel WL - socials </title>
-<desc lang="en"> Started: 12:54 am
-Playing: Grand Theft Auto V
-Viewers: 1 </desc>
-</programme>
-
-<programme start="20250624234914 +0000" stop="20250627184914 +0000" channel="1pandeh.us">
-<title lang="en"> Mikey Cooper Silver - BBMC Enf0rcer - Prodigy 2.6 - BBMC </title>
-<desc lang="en"> Started: 6:49PM
-Playing: Grand Theft Auto V
-Viewers: 30 </desc>
-</programme>
-
-<programme start="20250625093320 +0000" stop="20250628043320 +0000" channel="tinyspark.us">
-<title lang="en"> 31 Daisy Dukakis - NoPixel </title>
-<desc lang="en"> Started: 4:33AM
-Playing: Grand Theft Auto V
-Viewers: 70 </desc>
 </programme>
 
 <programme start="20250625100601 +0000" stop="20250628050601 +0000" channel="Saphirici.us">
@@ -162,49 +109,91 @@ Playing: Grand Theft Auto V
 Viewers: 26 </desc>
 </programme>
 
-<programme start="20250625000000 +0000" stop="20250628052120 +0000" channel="itskgu.us">
+<programme start="20250625065418 +0000" stop="20250628015418 +0000" channel="Unabeard.us">
+<title lang="en"> - Bruce Baylor - NoPixel WL - </title>
+<desc lang="en"> Started: 01:54 am
+Playing: Grand Theft Auto V
+Viewers: 4 </desc>
+</programme>
+
+<programme start="20250625055454 +0000" stop="20250628005454 +0000" channel="MrGlee.us">
+<title lang="en"> I THINK WE BIG CHILLIN - Sai Kou - Road Captain - Lost MC - NoPixel WL - socials </title>
+<desc lang="en"> Started: 12:54 am
+Playing: Grand Theft Auto V
+Viewers: 4 </desc>
+</programme>
+
+<programme start="20250625045754 +0000" stop="20250627235754 +0000" channel="Kerazane.us">
+<title lang="en"> Betty Briskett - BCSO - 709-P - PPO - Nopixel WL - Crispy Brisketts Minor inconveniences </title>
+<desc lang="en"> Started: 11:57PM
+Playing: Grand Theft Auto V
+Viewers: 41 </desc>
+</programme>
+
+<programme start="20250625072215 +0000" stop="20250628022215 +0000" channel="Hellknight86.us">
+<title lang="en"> LSPD PPO Schmidt - Nopixel WL </title>
+<desc lang="en"> Started: 02:22 am
+Playing: Grand Theft Auto V
+Viewers: 2 </desc>
+</programme>
+
+<programme start="20250625072215 +0000" stop="20250628022215 +0000" channel="Hellknight86.us">
+<title lang="en"> LSPD PPO Schmidt - Nopixel WL </title>
+<desc lang="en"> Started: 02:22 am
+Playing: Grand Theft Auto V
+Viewers: 2 </desc>
+</programme>
+
+<programme start="20250625093320 +0000" stop="20250628043320 +0000" channel="tinyspark.us">
+<title lang="en"> 31 Daisy Dukakis - NoPixel </title>
+<desc lang="en"> Started: 4:33AM
+Playing: Grand Theft Auto V
+Viewers: 77 </desc>
+</programme>
+
+<programme start="20250624234914 +0000" stop="20250627184914 +0000" channel="1pandeh.us">
+<title lang="en"> Mikey Cooper Silver - BBMC Enf0rcer - Prodigy 2.6 - BBMC </title>
+<desc lang="en"> Started: 6:49PM
+Playing: Grand Theft Auto V
+Viewers: 30 </desc>
+</programme>
+
+<programme start="20250625000000 +0000" stop="20250628052819 +0000" channel="itskgu.us">
 <title lang="en"> The After Math It Should Of Been Me  Mr Ratchet 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:39 pm
 Playing: No Pixel RP (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250625000000 +0000" stop="20250628052120 +0000" channel="silbullet.us">
-<title lang="en"> UNCAPPED SUMMER SLAM SUBATHON DAY 13  Lt. Maple 297  LSPD  NoPixel WL 4.0 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 03:24 am
-Playing: No Pixel RP (GTA)
-Viewers: 307 </desc>
-</programme>
-
-<programme start="20250625000000 +0000" stop="20250628052120 +0000" channel="harmless.us">
-<title lang="en"> Perry Falken  NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
+<programme start="20250625000000 +0000" stop="20250628052819 +0000" channel="harmless.us">
+<title lang="en"> 1 WAR MAN Maynard Idiot Schmidt  Besties  NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:01 am
 Playing: No Pixel RP (GTA)
-Viewers: 157 </desc>
+Viewers: 229 </desc>
 </programme>
 
-<programme start="20250625000000 +0000" stop="20250628052120 +0000" channel="yuukidav.us">
+<programme start="20250625000000 +0000" stop="20250628052819 +0000" channel="yuukidav.us">
 <title lang="en"> oakley stallion 🎀 hydra  nopixel wl  yuukidav 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:17 am
 Playing: No Pixel RP (GTA)
 Viewers: 154 </desc>
 </programme>
 
-<programme start="20250625000000 +0000" stop="20250628052120 +0000" channel="tinyspark.us">
+<programme start="20250625000000 +0000" stop="20250628052819 +0000" channel="tinyspark.us">
 <title lang="en"> 318 Daisy Dukakis  NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:33 am
 Playing: No Pixel RP (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250625000000 +0000" stop="20250628052120 +0000" channel="aus24.us">
+<programme start="20250625000000 +0000" stop="20250628052819 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT  LSPD  NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:48 am
 Playing: No Pixel RP (GTA)
 Viewers: 15 </desc>
 </programme>
 
-<programme start="20250625000000 +0000" stop="20250628052120 +0000" channel="sukhi_1.us">
+<programme start="20250625000000 +0000" stop="20250628052819 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel  Besties  Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:09 am
 Playing: No Pixel RP (GTA)
