@@ -55,6 +55,7 @@ const categoryMappings = {
     'project'     : '38TheProject',
     'guild'       : '39Guild',
     'angels'      : '40Angels',
+    'crayons'     : '41Crayons',
     'oldcops'     : '41OldCops',
     'lumberjacks' : '42LumberJacks',
     'wsmc'        : '43WSMC',
