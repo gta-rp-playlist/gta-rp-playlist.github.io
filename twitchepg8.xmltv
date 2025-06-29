@@ -2,32 +2,28 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="snekysly.us">
-<display-name>snekysly</display-name>
-</channel>
-
 <channel id="katecirrus.us">
 <display-name>katecirrus</display-name>
-</channel>
-
-<channel id="heyits_ghost_.us">
-<display-name>heyits_ghost_</display-name>
 </channel>
 
 <channel id="Schwoegl.us">
 <display-name>Schwoegl</display-name>
 </channel>
 
-<channel id="Hellknight86.us">
-<display-name>Hellknight86</display-name>
+<channel id="ashi.us">
+<display-name>ashi</display-name>
+</channel>
+
+<channel id="heyits_ghost_.us">
+<display-name>heyits_ghost_</display-name>
 </channel>
 
 <channel id="Unabeard.us">
 <display-name>Unabeard</display-name>
 </channel>
 
-<channel id="ashi.us">
-<display-name>ashi</display-name>
+<channel id="Hellknight86.us">
+<display-name>Hellknight86</display-name>
 </channel>
 
 <channel id="aus24.us">
@@ -46,18 +42,25 @@
 <display-name>saphirici</display-name>
 </channel>
 
-<programme start="20250629050813 +0000" stop="20250702000813 +0000" channel="snekysly.us">
-<title lang="en"> Crayons - Charlie Lockwood - NoPixel 4.0 WL </title>
-<desc lang="en"> Started: 12:08 am
-Playing: Grand Theft Auto V
-Viewers: 152 </desc>
-</programme>
-
 <programme start="20250629074751 +0000" stop="20250702024751 +0000" channel="katecirrus.us">
 <title lang="en"> Phoebe Violet - we are multistreaming across the galaxy rn - NP WL - pride </title>
 <desc lang="en"> Started: 02:47 am
 Playing: Grand Theft Auto V
-Viewers: 32 </desc>
+Viewers: 37 </desc>
+</programme>
+
+<programme start="20250629050402 +0000" stop="20250702000402 +0000" channel="Schwoegl.us">
+<title lang="en"> NP WL: David Summers : Vampire or just AB </title>
+<desc lang="en"> Started: 12:04 am
+Playing: Grand Theft Auto V
+Viewers: 128 </desc>
+</programme>
+
+<programme start="20250629011406 +0000" stop="20250701201406 +0000" channel="ashi.us">
+<title lang="en"> [SUBATHON - PP] FIFI-FIONA - FINISHING NORFS WAREHOUSE TODAY - NOPIXEL WL RP </title>
+<desc lang="en"> Started: 8:14PM
+Playing: Grand Theft Auto V
+Viewers: 383 </desc>
 </programme>
 
 <programme start="20250629064440 +0000" stop="20250702014440 +0000" channel="heyits_ghost_.us">
@@ -67,9 +70,9 @@ Playing: Grand Theft Auto V
 Viewers: 2 </desc>
 </programme>
 
-<programme start="20250629050402 +0000" stop="20250702000402 +0000" channel="Schwoegl.us">
-<title lang="en"> NP WL: David Summers : Vampire or just AB </title>
-<desc lang="en"> Started: 12:04 am
+<programme start="20250629101616 +0000" stop="20250702051616 +0000" channel="Unabeard.us">
+<title lang="en"> - Bruce Baylor - NoPixel WL - </title>
+<desc lang="en"> Started: 05:16 am
 Playing: Grand Theft Auto V
 Viewers: 2 </desc>
 </programme>
@@ -81,46 +84,32 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250629101616 +0000" stop="20250702051616 +0000" channel="Unabeard.us">
-<title lang="en"> - Bruce Baylor - NoPixel WL - </title>
-<desc lang="en"> Started: 05:16 am
-Playing: Grand Theft Auto V
-Viewers: 1 </desc>
-</programme>
-
-<programme start="20250629011406 +0000" stop="20250701201406 +0000" channel="ashi.us">
-<title lang="en"> [SUBATHON - PP] FIFI-FIONA - FINISHING NORFS WAREHOUSE TODAY - NOPIXEL WL RP </title>
-<desc lang="en"> Started: 8:14PM
-Playing: Grand Theft Auto V
-Viewers: 352 </desc>
-</programme>
-
-<programme start="20250629000000 +0000" stop="20250702055619 +0000" channel="aus24.us">
+<programme start="20250629000000 +0000" stop="20250702060619 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT  LSPD  NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:15 am
 Playing: No Pixel RP (GTA)
 Viewers: 89 </desc>
 </programme>
 
-<programme start="20250629000000 +0000" stop="20250702055619 +0000" channel="rexs.us">
+<programme start="20250629000000 +0000" stop="20250702060619 +0000" channel="rexs.us">
 <title lang="en"> Rex  🐍 Hydra Gang 🐍  NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:16 am
 Playing: No Pixel RP (GTA)
-Viewers: 134 </desc>
+Viewers: 139 </desc>
 </programme>
 
-<programme start="20250629000000 +0000" stop="20250702055619 +0000" channel="sukhi_1.us">
+<programme start="20250629000000 +0000" stop="20250702060619 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel  Besties  Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:56 am
 Playing: No Pixel RP (GTA)
-Viewers: 245 </desc>
+Viewers: 293 </desc>
 </programme>
 
-<programme start="20250629000000 +0000" stop="20250702055619 +0000" channel="saphirici.us">
+<programme start="20250629000000 +0000" stop="20250702060619 +0000" channel="saphirici.us">
 <title lang="en"> TRT Hopeful 🚨 BCSO Rupert 🚨 NoPixel 4.0 RP 🚨 discord 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:42 am
 Playing: No Pixel RP (GTA)
-Viewers: 4 </desc>
+Viewers: 41 </desc>
 </programme>
 
 
