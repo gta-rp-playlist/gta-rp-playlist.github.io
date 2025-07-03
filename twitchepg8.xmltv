@@ -2,12 +2,12 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="timmac.us">
-<display-name>timmac</display-name>
-</channel>
-
 <channel id="Silbullet.us">
 <display-name>Silbullet</display-name>
+</channel>
+
+<channel id="timmac.us">
+<display-name>timmac</display-name>
 </channel>
 
 <channel id="zaxx386.us">
@@ -16,10 +16,6 @@
 
 <channel id="Blokeowski.us">
 <display-name>Blokeowski</display-name>
-</channel>
-
-<channel id="LarBearTV.us">
-<display-name>LarBearTV</display-name>
 </channel>
 
 <channel id="mister_gk.us">
@@ -66,16 +62,12 @@
 <display-name>firecrackthat</display-name>
 </channel>
 
-<channel id="christombstone.us">
-<display-name>christombstone</display-name>
+<channel id="TwoBirds_.us">
+<display-name>TwoBirds_</display-name>
 </channel>
 
 <channel id="saab.us">
 <display-name>saab</display-name>
-</channel>
-
-<channel id="chasrp.us">
-<display-name>chasrp</display-name>
 </channel>
 
 <channel id="mrratchet.us">
@@ -94,13 +86,6 @@
 <display-name>catssrage</display-name>
 </channel>
 
-<programme start="20250703072206 +0000" stop="20250706022206 +0000" channel="timmac.us">
-<title lang="en"> Trooper Mack - Prodigy RP - @Timmac </title>
-<desc lang="en"> Started: 2:22AM
-Playing: Grand Theft Auto V
-Viewers: 253 </desc>
-</programme>
-
 <programme start="20250703050730 +0000" stop="20250706000730 +0000" channel="Silbullet.us">
 <title lang="en"> UNCAPPED SUMMER SLAM SUBATHON DAY 21 - Lt. Maple 297 - LSPD - NoPixel WL 4.0 - gtarecap clip </title>
 <desc lang="en"> Started: 12:07AM
@@ -108,25 +93,25 @@ Playing: Grand Theft Auto V
 Viewers: 120 </desc>
 </programme>
 
+<programme start="20250703072206 +0000" stop="20250706022206 +0000" channel="timmac.us">
+<title lang="en"> Trooper Mack - Prodigy RP - @Timmac </title>
+<desc lang="en"> Started: 2:22AM
+Playing: Grand Theft Auto V
+Viewers: 295 </desc>
+</programme>
+
 <programme start="20250703030821 +0000" stop="20250705220821 +0000" channel="zaxx386.us">
 <title lang="en"> Moose Knuckles - Clown - Stansfeld Belany - DOC - NoPixel WL - Epic Creator Code: ZAXX386 </title>
 <desc lang="en"> Started: 10:08 pm
 Playing: Grand Theft Auto V
-Viewers: 53 </desc>
+Viewers: 45 </desc>
 </programme>
 
 <programme start="20250703050843 +0000" stop="20250706000843 +0000" channel="Blokeowski.us">
 <title lang="en"> NoPixel WL 18 - Crikey Thompson - HELLAURR - lifeline fundraiser donate reachout supportservices </title>
 <desc lang="en"> Started: 12:08 am
 Playing: Grand Theft Auto V
-Viewers: 30 </desc>
-</programme>
-
-<programme start="20250703050659 +0000" stop="20250706000659 +0000" channel="LarBearTV.us">
-<title lang="en"> 👮Snr. Ofc. Larry Johnson 👮- 🚨Shift 3 Anti-Boosting Club🚨 - NoPixel 4.0 WL - @LarBearTV </title>
-<desc lang="en"> Started: 12:06 am
-Playing: Grand Theft Auto V
-Viewers: 12 </desc>
+Viewers: 37 </desc>
 </programme>
 
 <programme start="20250703031812 +0000" stop="20250705221812 +0000" channel="mister_gk.us">
@@ -140,28 +125,28 @@ Viewers: 13 </desc>
 <title lang="en"> Short One - Your Favorite Habibi MC Minion - Faye Archer - NoPixel WL </title>
 <desc lang="en"> Started: 01:31 am
 Playing: Grand Theft Auto V
-Viewers: 11 </desc>
+Viewers: 9 </desc>
 </programme>
 
 <programme start="20250703074346 +0000" stop="20250706024346 +0000" channel="Emalee12.us">
 <title lang="en"> ~ Ruby L-Crim Sapphire ~ Purple Crayon ~ NoPixel 4.0 WL ~ Come Say Hi ~ </title>
 <desc lang="en"> Started: 02:43 am
 Playing: Grand Theft Auto V
-Viewers: 6 </desc>
+Viewers: 8 </desc>
 </programme>
 
 <programme start="20250703060438 +0000" stop="20250706010438 +0000" channel="MrGlee.us">
 <title lang="en"> TWO NIGHTS AGAIN - Sai Kou - Road Captain - Lost MC - NoPixel WL - socials </title>
 <desc lang="en"> Started: 01:04 am
 Playing: Grand Theft Auto V
-Viewers: 6 </desc>
+Viewers: 4 </desc>
 </programme>
 
 <programme start="20250702215417 +0000" stop="20250705165417 +0000" channel="spaceboy.us">
 <title lang="en"> 4th Annual Uncapped Summer Subathon - Day 2 </title>
 <desc lang="en"> Started: 4:54PM
 Playing: Grand Theft Auto V
-Viewers: 1717 </desc>
+Viewers: 1708 </desc>
 </programme>
 
 <programme start="20250703065850 +0000" stop="20250706015850 +0000" channel="basHYYEE.us">
@@ -182,73 +167,66 @@ Viewers: 1 </desc>
 <title lang="en"> LOKI SKYLIZARD - ONX - LIL LATE NIGHT GRIEF REAL QUICK </title>
 <desc lang="en"> Started: 2:43PM
 Playing: Grand Theft Auto V
-Viewers: 128 </desc>
+Viewers: 96 </desc>
 </programme>
 
 <programme start="20250703022105 +0000" stop="20250705212105 +0000" channel="margothesnail.us">
 <title lang="en"> Margo Crackhead Escargot - Watch While You Still Can - NoPixel WL </title>
 <desc lang="en"> Started: 9:21PM
 Playing: Grand Theft Auto V
-Viewers: 40 </desc>
+Viewers: 39 </desc>
 </programme>
 
 <programme start="20250703042412 +0000" stop="20250705232412 +0000" channel="kittenqg.us">
 <title lang="en"> Lily Fumbles - NoPixel WL - 18 </title>
 <desc lang="en"> Started: 11:24PM
 Playing: Grand Theft Auto V
-Viewers: 49 </desc>
+Viewers: 55 </desc>
 </programme>
 
 <programme start="20250703042000 +0000" stop="20250705232000 +0000" channel="firecrackthat.us">
 <title lang="en"> Stumbles Fumbles - F.I.N.E. - HELP ME GET TO 200 SUBS </title>
 <desc lang="en"> Started: 11:20PM
 Playing: Grand Theft Auto V
-Viewers: 37 </desc>
+Viewers: 30 </desc>
 </programme>
 
-<programme start="20250703011115 +0000" stop="20250705201115 +0000" channel="christombstone.us">
-<title lang="en"> Flop. - NoPixel WL - @ChrisTombstone_ on </title>
-<desc lang="en"> Started: 8:11PM
+<programme start="20250703080218 +0000" stop="20250706030218 +0000" channel="TwoBirds_.us">
+<title lang="en"> Gumtree Faces The Music -- NoPixel WL -- 9 Days Until Straya -- discord support </title>
+<desc lang="en"> Started: 03:02 am
 Playing: Grand Theft Auto V
-Viewers: 484 </desc>
+Viewers: 13 </desc>
 </programme>
 
-<programme start="20250703000000 +0000" stop="20250706030619 +0000" channel="saab.us">
+<programme start="20250703000000 +0000" stop="20250706031320 +0000" channel="saab.us">
 <title lang="en"> BIG PATCH N0TES THAT WILL FIX THE GAME - DAY 33 OF 8 YR ANNIVERSARY SUBATHON  subcount goals socials clip 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:56 pm
 Playing: Dune: Awakening
-Viewers: 361 </desc>
+Viewers: 360 </desc>
 </programme>
 
-<programme start="20250703000000 +0000" stop="20250706030619 +0000" channel="chasrp.us">
-<title lang="en"> Chas - Hydra🐍 - Nopixel 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 04:04 pm
-Playing: No Pixel RP (GTA)
-Viewers: 377 </desc>
-</programme>
-
-<programme start="20250703000000 +0000" stop="20250706030619 +0000" channel="mrratchet.us">
+<programme start="20250703000000 +0000" stop="20250706031320 +0000" channel="mrratchet.us">
 <title lang="en"> Mr Ratchet  Clowns 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:26 pm
 Playing: No Pixel RP (GTA)
 Viewers:  </desc>
 </programme>
 
-<programme start="20250703000000 +0000" stop="20250706030619 +0000" channel="christombstone.us">
+<programme start="20250703000000 +0000" stop="20250706031320 +0000" channel="christombstone.us">
 <title lang="en"> Flop Dugong  NoPixel WL  ChrisTombstone_ 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:11 pm
 Playing: No Pixel RP (GTA)
 Viewers:  </desc>
 </programme>
 
-<programme start="20250703000000 +0000" stop="20250706030619 +0000" channel="silbullet.us">
+<programme start="20250703000000 +0000" stop="20250706031320 +0000" channel="silbullet.us">
 <title lang="en"> UNCAPPED SUMMER SLAM SUBATHON DAY 21  Lt. Maple 297  LSPD  NoPixel WL 4.0  gtarecap clip 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:07 am
 Playing: No Pixel RP (GTA)
-Viewers: 81 </desc>
+Viewers: 70 </desc>
 </programme>
 
-<programme start="20250703000000 +0000" stop="20250706030619 +0000" channel="catssrage.us">
+<programme start="20250703000000 +0000" stop="20250706031320 +0000" channel="catssrage.us">
 <title lang="en"> Short One   Your Favorite Habibi MC Minion  Faye Archer  NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:31 am
 Playing: No Pixel RP (GTA)
