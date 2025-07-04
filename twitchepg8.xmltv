@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="timmac.us">
+<display-name>timmac</display-name>
+</channel>
+
 <channel id="kalcyon.us">
 <display-name>kalcyon</display-name>
 </channel>
@@ -22,16 +26,20 @@
 <display-name>CatsRage</display-name>
 </channel>
 
-<channel id="spaceboy.us">
-<display-name>spaceboy</display-name>
-</channel>
-
 <channel id="beetle.us">
 <display-name>beetle</display-name>
 </channel>
 
 <channel id="TheTorlay.us">
 <display-name>TheTorlay</display-name>
+</channel>
+
+<channel id="Emalee12.us">
+<display-name>Emalee12</display-name>
+</channel>
+
+<channel id="snekysly.us">
+<display-name>snekysly</display-name>
 </channel>
 
 <channel id="chasrp.us">
@@ -54,53 +62,53 @@
 <display-name>aus24</display-name>
 </channel>
 
+<programme start="20250704040003 +0000" stop="20250706230003 +0000" channel="timmac.us">
+<title lang="en"> TROOPER MACK - Prodigy RP - @Timmac </title>
+<desc lang="en"> Started: 11:00PM
+Playing: Grand Theft Auto V
+Viewers: 304 </desc>
+</programme>
+
 <programme start="20250703232246 +0000" stop="20250706182246 +0000" channel="kalcyon.us">
 <title lang="en"> FIREGAL TYME Onfire UNSCRIPTED </title>
 <desc lang="en"> Started: 6:22PM
 Playing: Grand Theft Auto V
-Viewers: 490 </desc>
+Viewers: 501 </desc>
 </programme>
 
 <programme start="20250703230052 +0000" stop="20250706180052 +0000" channel="Boosted.us">
 <title lang="en"> Betrayal. l Benny Ghost Razer l ADMC l NoPixel WL </title>
 <desc lang="en"> Started: 06:00 pm
 Playing: Grand Theft Auto V
-Viewers: 128 </desc>
+Viewers: 115 </desc>
 </programme>
 
 <programme start="20250703222027 +0000" stop="20250706172027 +0000" channel="itsNICVIC.us">
 <title lang="en"> Emmy ☆ Hades - nopixel 4.0 wl </title>
 <desc lang="en"> Started: 05:20 pm
 Playing: Grand Theft Auto V
-Viewers: 44 </desc>
+Viewers: 37 </desc>
 </programme>
 
 <programme start="20250704051814 +0000" stop="20250707001814 +0000" channel="Hellknight86.us">
 <title lang="en"> LSPD PPO Schmidt - Nopixel WL </title>
 <desc lang="en"> Started: 12:18 am
 Playing: Grand Theft Auto V
-Viewers: 23 </desc>
+Viewers: 22 </desc>
 </programme>
 
 <programme start="20250704063836 +0000" stop="20250707013836 +0000" channel="CatsRage.us">
 <title lang="en"> Your Favorite Habibi MC Minion- Faye Archer - NoPixel WL </title>
 <desc lang="en"> Started: 01:38 am
 Playing: Grand Theft Auto V
-Viewers: 7 </desc>
-</programme>
-
-<programme start="20250703231010 +0000" stop="20250706181010 +0000" channel="spaceboy.us">
-<title lang="en"> 4th Annual Uncapped Summer Subathon - Day 3 </title>
-<desc lang="en"> Started: 6:10PM
-Playing: Grand Theft Auto V
-Viewers: 1733 </desc>
+Viewers: 13 </desc>
 </programme>
 
 <programme start="20250703220530 +0000" stop="20250706170530 +0000" channel="beetle.us">
 <title lang="en"> ROD LONG - ONX - ROD THEN IDK COP MAYBE IF I FEEL LIKE IT </title>
 <desc lang="en"> Started: 5:05PM
 Playing: Grand Theft Auto V
-Viewers: 121 </desc>
+Viewers: 118 </desc>
 </programme>
 
 <programme start="20250703203637 +0000" stop="20250706153637 +0000" channel="TheTorlay.us">
@@ -110,35 +118,49 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250704000000 +0000" stop="20250707021318 +0000" channel="chasrp.us">
+<programme start="20250704053605 +0000" stop="20250707003605 +0000" channel="Emalee12.us">
+<title lang="en"> ~ Ruby L-Crim Sapphire ~ Purple Crayon ~ NoPixel 4.0 WL ~ Come Say Hi ~ </title>
+<desc lang="en"> Started: 12:36 am
+Playing: Grand Theft Auto V
+Viewers: 8 </desc>
+</programme>
+
+<programme start="20250704050955 +0000" stop="20250707000955 +0000" channel="snekysly.us">
+<title lang="en"> Charlie Lockwood - Crayons - NoPixel 4.0 WL </title>
+<desc lang="en"> Started: 12:09 am
+Playing: Grand Theft Auto V
+Viewers: 10 </desc>
+</programme>
+
+<programme start="20250704000000 +0000" stop="20250707022119 +0000" channel="chasrp.us">
 <title lang="en"> Chas - Hydra🐍 - Nopixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:01 pm
 Playing: No Pixel RP (GTA)
 Viewers: 370 </desc>
 </programme>
 
-<programme start="20250704000000 +0000" stop="20250707021318 +0000" channel="christombstone.us">
+<programme start="20250704000000 +0000" stop="20250707022119 +0000" channel="christombstone.us">
 <title lang="en"> Flop Dugong  NoPixel WL  ChrisTombstone_ 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:10 pm
 Playing: No Pixel RP (GTA)
 Viewers: 8 </desc>
 </programme>
 
-<programme start="20250704000000 +0000" stop="20250707021318 +0000" channel="nnsdev.us">
+<programme start="20250704000000 +0000" stop="20250707022119 +0000" channel="nnsdev.us">
 <title lang="en"> nopixel dev  Morning QOL Dev Stream 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:02 am
 Playing: No Pixel RP (GTA)
 Viewers: 214 </desc>
 </programme>
 
-<programme start="20250704000000 +0000" stop="20250707021318 +0000" channel="catssrage.us">
+<programme start="20250704000000 +0000" stop="20250707022119 +0000" channel="catssrage.us">
 <title lang="en"> Your Favorite Habibi MC Minion Faye Archer  NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:38 am
 Playing: No Pixel RP (GTA)
 Viewers: 16 </desc>
 </programme>
 
-<programme start="20250704000000 +0000" stop="20250707021318 +0000" channel="aus24.us">
+<programme start="20250704000000 +0000" stop="20250707022119 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT  LSPD  NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:09 am
 Playing: No Pixel RP (GTA)
