@@ -29,10 +29,6 @@ document.getElementById('suggestion-form').addEventListener('submit', function(e
 let lastFetchedData = '';
 let lastOpenedCategory = null;
 
-window.onload = function() {
-    fetchAndUpdateSidebar();
-    fetchAndUpdateNumbers();
-};
 
 setInterval(fetchAndUpdateSidebar_none, 60000);
 setInterval(fetchAndUpdateNumbers, 60000);
