@@ -52,13 +52,14 @@ matchingItems.forEach(item => {
 
   const streamID = isKick ? `${username}-k` : username;
   const showX = selectedStreams.includes(streamID);
+  const viewerLabel = isKick ? `🟢Viewers: ${viewers}` : `🔴Viewers: ${viewers}`;
 
   gridHTML += `
     <div class="grid-item" data-username="${username}" data-platform="${isKick ? 'kick' : 'twitch'}">
       <img src="${thumb}" alt="${title}">
       <h3>${username}</h3>
       <p>${title}</p>
-      <span>${viewers} watching</span>
+      <span>${viewerLabel}</span>
       <button class="remove-x" style="display:${showX ? 'block' : 'none'};">X</button>
     </div>
   `;
