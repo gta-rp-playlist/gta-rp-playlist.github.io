@@ -179,10 +179,20 @@ function fetchAndUpdateSidebar_none() {
       if (data !== lastFetchedData) {
         lastFetchedData = data;
         document.getElementById('sidebar').innerHTML = data;
+
+        // ✅ Preload all new thumbnails immediately
+        document.querySelectorAll('.sub-item').forEach(item => {
+          const thumb = item.getAttribute('data-thumbnail');
+          const img = new Image();
+          img.src = thumb;
+        });
+
+        collapseAllSubItems();
         sortCategories();
-        if (lastOpenedCategory) {
-          highlightCategory(document.querySelector(`.category[data-category="${lastOpenedCategory}"]`));
-        }
+        document.querySelectorAll('.category').forEach(e => {
+          updateSidebarCategoryCount(e.dataset.category);
+        });
+        if (lastOpenedCategory) toggleSubItems(lastOpenedCategory);
       }
     })
     .catch(() => {});
