@@ -160,10 +160,13 @@ function sortCategories() {
   categories.forEach(cat => {
     const original = cat.textContent.trim();
     const newLabel = original.replace(/^\d+/, '').trim();
+
     const categoryName = cat.getAttribute('data-category');
     const subItems = Array.from(sidebar.querySelectorAll(`.sub-item[data-category="${categoryName}"]`));
     const numberOfUsers = subItems.length;
+
     cat.innerHTML = `${newLabel} <span class="user-count">(${numberOfUsers})</span>`;
+
     sidebar.appendChild(cat);
     subItems.forEach(item => sidebar.appendChild(item));
   });
@@ -180,15 +183,17 @@ function fetchAndUpdateSidebar_none() {
         lastFetchedData = data;
         document.getElementById('sidebar').innerHTML = data;
 
-        // ✅ Preload all new thumbnails immediately
+        // ✅ Preload all thumbnails immediately
         document.querySelectorAll('.sub-item').forEach(item => {
           const thumb = item.getAttribute('data-thumbnail');
           const img = new Image();
           img.src = thumb;
         });
 
-        collapseAllSubItems();
+        // ✅ Re-sort and relabel categories
         sortCategories();
+
+        collapseAllSubItems();
         document.querySelectorAll('.category').forEach(e => {
           updateSidebarCategoryCount(e.dataset.category);
         });
