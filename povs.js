@@ -1,7 +1,12 @@
 let selectedStreams = [];
 let lastFetchedData = '';
 let lastOpenedCategory = '';
-
+// Preload all thumbnails
+document.querySelectorAll('.sub-item').forEach(item => {
+  const thumb = item.getAttribute('data-thumbnail');
+  const img = new Image();
+  img.src = thumb;
+});
 function highlightCategory(el) {
   document.querySelectorAll('.category').forEach(cat => cat.classList.remove('active'));
   el.classList.add('active');
