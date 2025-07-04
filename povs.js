@@ -119,9 +119,17 @@ function updateMultiURL() {
   document.getElementById('multi-url').innerHTML = fullHTML;
 }
 
-document.getElementById('copy-url').addEventListener('click', () => {
+document.getElementById('copy-url').addEventListener('click', function() {
   const url = document.getElementById('multi-url').textContent;
-  navigator.clipboard.writeText(url).then(() => alert('Copied!'));
+  navigator.clipboard.writeText(url).then(() => {
+    const status = document.getElementById('copy-status');
+    status.textContent = 'Copied!';
+    setTimeout(() => {
+      status.textContent = '';
+    }, 1500);
+  }).catch(err => {
+    console.error('Failed to copy:', err);
+  });
 });
 
 document.getElementById('open-url').addEventListener('click', () => {
