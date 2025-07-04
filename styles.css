@@ -134,53 +134,7 @@ body {
     top: 2%; /* Keep top percentage for flexibility */
     transition: left 0.7s ease-in-out; /* Smooth transition for left position */
 }
-.highlighted-link {
-    display: inline-flex;
-    align-items: center;
-    background: linear-gradient(135deg, #cc5544, #d4b04f);
-    color: #000;
-    padding: 2px 15px 2px 6px; /* increased right padding from 6px to 12px */
-    border-radius: 6px;
-    font-size: 0.9em;
-    font-weight: bold;
-    text-decoration: none;
-    box-shadow: 0 0 5px rgba(204, 85, 68, 0.4);
-    transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.3s ease;
-    vertical-align: middle;
-}
 
-.highlighted-link:hover {
-    background: linear-gradient(135deg, #cc5544, #d4b04f);
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(212, 176, 79, 0.5); /* subtle glow */
-    color: #000 !important;
-}
-
-.highlighted-link .emojis {
-    font-size: 1.5em;     /* smaller emojis */
-    margin-right: 3px;    /* less space */
-    display: inline-block;
-    animation: none;
-}
-
-.highlighted-link:hover .emojis {
-    animation: dance 1.5s ease-in-out infinite;
-}
-
-@keyframes dance {
-    0%, 100% {
-        transform: translateY(0) rotate(0deg);
-    }
-    25% {
-        transform: translateY(-5px) rotate(-10deg);
-    }
-    50% {
-        transform: translateY(0) rotate(0deg);
-    }
-    75% {
-        transform: translateY(-5px) rotate(10deg);
-    }
-}
 #toggle-chat-btn {
     position: absolute; /* Position the player relative to the container */
     top: 94%; /* Responsive top positioning */
