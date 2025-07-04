@@ -55,7 +55,7 @@ matchingItems.forEach(item => {
   const viewerLabel = isKick ? `🟢Viewers: ${viewers}` : `🔴Viewers: ${viewers}`;
 
   gridHTML += `
-    <div class="grid-item" data-username="${username}" data-platform="${isKick ? 'kick' : 'twitch'}">
+    <div class="grid-item ${showX ? 'selected' : ''}" data-username="${username}" data-platform="${isKick ? 'kick' : 'twitch'}">
       <img src="${thumb}" alt="${title}">
       <h3>${username}</h3>
       <p>${title}</p>
@@ -90,32 +90,41 @@ gridHTML += '</div>';
     highlightCategory(el);
   });
 
-  document.querySelectorAll('.grid-item').forEach(item => {
-    item.addEventListener('click', e => {
-      if (e.target.classList.contains('remove-x')) return;
+document.querySelectorAll('.grid-item').forEach(item => {
+  item.addEventListener('click', e => {
+    if (e.target.classList.contains('remove-x')) return;
 
-      const username = item.getAttribute('data-username');
-      const platform = item.getAttribute('data-platform');
-      const streamID = platform === 'kick' ? `${username}-k` : username;
+    const username = item.getAttribute('data-username');
+    const platform = item.getAttribute('data-platform');
+    const streamID = platform === 'kick' ? `${username}-k` : username;
 
-      if (!selectedStreams.includes(streamID)) {
-        selectedStreams.push(streamID);
-        item.querySelector('.remove-x').style.display = 'block';
-        updateMultiURL();
-      }
-    });
-
-    item.querySelector('.remove-x').addEventListener('click', e => {
-      e.stopPropagation();
-      const username = item.getAttribute('data-username');
-      const platform = item.getAttribute('data-platform');
-      const streamID = platform === 'kick' ? `${username}-k` : username;
-
+    if (selectedStreams.includes(streamID)) {
+      // Already selected → unselect it
       selectedStreams = selectedStreams.filter(s => s !== streamID);
       item.querySelector('.remove-x').style.display = 'none';
-      updateMultiURL();
-    });
+      item.classList.remove('selected');
+    } else {
+      // Not selected → select it
+      selectedStreams.push(streamID);
+      item.querySelector('.remove-x').style.display = 'block';
+      item.classList.add('selected');
+    }
+
+    updateMultiURL();
   });
+
+  item.querySelector('.remove-x').addEventListener('click', e => {
+    e.stopPropagation();
+    const username = item.getAttribute('data-username');
+    const platform = item.getAttribute('data-platform');
+    const streamID = platform === 'kick' ? `${username}-k` : username;
+
+    selectedStreams = selectedStreams.filter(s => s !== streamID);
+    item.querySelector('.remove-x').style.display = 'none';
+    item.classList.remove('selected');
+    updateMultiURL();
+  });
+});
 }
 
 function updateMultiURL() {
