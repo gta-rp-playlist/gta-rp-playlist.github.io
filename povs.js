@@ -18,42 +18,48 @@ function highlightCategory(el) {
     return viewersB - viewersA;
   });
 
-  let gridHTML = `
-    <div class="add-all-bar">
-      <a href="#" id="add-all-link">+ Add All</a>
-      &nbsp;|&nbsp;
-      <a href="#" id="clear-all-link">✕ Clear All</a>
+let gridHTML = `
+  <div class="add-all-bar">
+    <a href="#" id="add-all-link">+ Add All</a>
+    &nbsp;|&nbsp;
+    <a href="#" id="clear-all-link">✕ Clear All</a>
+  </div>
+  <div class="grid">
+`;
+
+// ✅ Track usernames seen
+const seenUsernames = new Set();
+
+matchingItems.forEach(item => {
+  let title = item.getAttribute('data-title');
+  const thumb = item.getAttribute('data-thumbnail');
+  const username = item.querySelector('.username').textContent.trim();
+  const viewers = item.getAttribute('data-viewers');
+
+  if (seenUsernames.has(username)) return; // Skip duplicate
+  seenUsernames.add(username);
+
+  let isKick = false;
+  if (title.includes('🟢🟢Kick Stream☝️')) {
+    title = title.replace('🟢🟢Kick Stream☝️', '').trim();
+    isKick = true;
+  }
+
+  const streamID = isKick ? `${username}-k` : username;
+  const showX = selectedStreams.includes(streamID);
+
+  gridHTML += `
+    <div class="grid-item" data-username="${username}" data-platform="${isKick ? 'kick' : 'twitch'}">
+      <img src="${thumb}" alt="${title}">
+      <h3>${username}</h3>
+      <p>${title}</p>
+      <span>${viewers} watching</span>
+      <button class="remove-x" style="display:${showX ? 'block' : 'none'};">X</button>
     </div>
-    <div class="grid">
   `;
+});
 
-  matchingItems.forEach(item => {
-    let title = item.getAttribute('data-title');
-    const thumb = item.getAttribute('data-thumbnail');
-    const username = item.querySelector('.username').textContent;
-    const viewers = item.getAttribute('data-viewers');
-
-    let isKick = false;
-    if (title.includes('🟢🟢Kick Stream☝️')) {
-      title = title.replace('🟢🟢Kick Stream☝️', '').trim();
-      isKick = true;
-    }
-
-    const streamID = isKick ? `${username}-k` : username;
-    const showX = selectedStreams.includes(streamID);
-
-    gridHTML += `
-      <div class="grid-item" data-username="${username}" data-platform="${isKick ? 'kick' : 'twitch'}">
-        <img src="${thumb}" alt="${title}">
-        <h3>${username}</h3>
-        <p>${title}</p>
-        <span>${viewers} watching</span>
-        <button class="remove-x" style="display:${showX ? 'block' : 'none'};">X</button>
-      </div>
-    `;
-  });
-
-  gridHTML += '</div>';
+gridHTML += '</div>';
   document.getElementById('grid').innerHTML = gridHTML;
 
   document.getElementById('add-all-link').addEventListener('click', e => {
@@ -169,4 +175,4 @@ function fetchAndUpdateSidebar_none() {
 }
 
 sortCategories();
-setInterval(fetchAndUpdateSidebar_none, 120000);
+setInterval(fetchAndUpdateSidebar_none, 60000);
