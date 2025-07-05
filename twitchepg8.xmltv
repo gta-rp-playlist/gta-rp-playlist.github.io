@@ -2,10 +2,6 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="icky619.us">
-<display-name>icky619</display-name>
-</channel>
-
 <channel id="fragss.us">
 <display-name>fragss</display-name>
 </channel>
@@ -34,12 +30,12 @@
 <display-name>ZaxelTak</display-name>
 </channel>
 
-<channel id="spaceboy.us">
-<display-name>spaceboy</display-name>
-</channel>
-
 <channel id="heyits_ghost_.us">
 <display-name>heyits_ghost_</display-name>
+</channel>
+
+<channel id="spaceboy.us">
+<display-name>spaceboy</display-name>
 </channel>
 
 <channel id="beetle.us">
@@ -74,53 +70,50 @@
 <display-name>xqc</display-name>
 </channel>
 
-<programme start="20250704200039 +0000" stop="20250707150039 +0000" channel="icky619.us">
-<title lang="en"> ⭐ Andi Coots ⭐ NoPixel 4.0 WL 🎉 Happy 4th of July 🎉 </title>
-<desc lang="en"> Started: 03:00 pm
-Playing: Grand Theft Auto V
-Viewers: 128 </desc>
-</programme>
+<channel id="anthonyz.us">
+<display-name>anthonyz</display-name>
+</channel>
 
 <programme start="20250705011208 +0000" stop="20250707201208 +0000" channel="fragss.us">
 <title lang="en"> 🚨SUBATHON DAY 13 HAPPY 4TH OF JULY🚨 - 🎉Gamersupps🎉- Maxwell Connorth - 🥱 #1 DRIVER🥱 - NoPixel WL 4.0 ⚪ </title>
 <desc lang="en"> Started: 08:12 pm
 Playing: Grand Theft Auto V
-Viewers: 106 </desc>
+Viewers: 104 </desc>
 </programme>
 
 <programme start="20250705072620 +0000" stop="20250708022620 +0000" channel="Blokeowski.us">
 <title lang="en"> NoPixel WL 18 - Crikey Thompson - HELLAURR - lifeline fundraiser donate reachout supportservices </title>
 <desc lang="en"> Started: 02:26 am
 Playing: Grand Theft Auto V
-Viewers: 46 </desc>
+Viewers: 52 </desc>
 </programme>
 
 <programme start="20250705040618 +0000" stop="20250707230618 +0000" channel="LarBearTV.us">
 <title lang="en"> 👮Snr. Ofc. Larry Johnson 👮- #LarryDriver #DemurePremier #UndefeatedinCourt - NoPixel 4.0 WL - @LarBearTV </title>
 <desc lang="en"> Started: 11:06 pm
 Playing: Grand Theft Auto V
-Viewers: 33 </desc>
+Viewers: 32 </desc>
 </programme>
 
 <programme start="20250705005730 +0000" stop="20250707195730 +0000" channel="Byzantine_Nectar.us">
 <title lang="en"> Chase Seraphim NoPixel - Down Bad Hackermans :3 Factor #Factor75partner #Scum #FPS #Casual #Chill </title>
 <desc lang="en"> Started: 07:57 pm
 Playing: Grand Theft Auto V
-Viewers: 22 </desc>
+Viewers: 23 </desc>
 </programme>
 
 <programme start="20250705051628 +0000" stop="20250708001628 +0000" channel="Hazan.us">
 <title lang="en"> Zahn Zias - idk what im doing - Nopixel 4.0 </title>
 <desc lang="en"> Started: 12:16 am
 Playing: Grand Theft Auto V
-Viewers: 16 </desc>
+Viewers: 20 </desc>
 </programme>
 
 <programme start="20250705051202 +0000" stop="20250708001202 +0000" channel="Kerazane.us">
 <title lang="en"> Betty Briskett - BCSO - 709-P - PPO - Nopixel WL - Crispy Brisketts weekend </title>
 <desc lang="en"> Started: 12:12AM
 Playing: Grand Theft Auto V
-Viewers: 6 </desc>
+Viewers: 7 </desc>
 </programme>
 
 <programme start="20250705020740 +0000" stop="20250707210740 +0000" channel="ZaxelTak.us">
@@ -130,13 +123,6 @@ Playing: Grand Theft Auto V
 Viewers: 8 </desc>
 </programme>
 
-<programme start="20250705045059 +0000" stop="20250707235059 +0000" channel="spaceboy.us">
-<title lang="en"> 4th Annual Uncapped Summer Subathon - Day 4 </title>
-<desc lang="en"> Started: 11:50PM
-Playing: Grand Theft Auto V
-Viewers: 1655 </desc>
-</programme>
-
 <programme start="20250704213913 +0000" stop="20250707163913 +0000" channel="heyits_ghost_.us">
 <title lang="en"> NoPixel 4.0 - Aeverie 💙 </title>
 <desc lang="en"> Started: 04:39 pm
@@ -144,60 +130,74 @@ Playing: Grand Theft Auto V
 Viewers: 2 </desc>
 </programme>
 
+<programme start="20250705045059 +0000" stop="20250707235059 +0000" channel="spaceboy.us">
+<title lang="en"> 4th Annual Uncapped Summer Subathon - Day 4 </title>
+<desc lang="en"> Started: 11:50PM
+Playing: Grand Theft Auto V
+Viewers: 1635 </desc>
+</programme>
+
 <programme start="20250704205923 +0000" stop="20250707155923 +0000" channel="beetle.us">
 <title lang="en"> ROD LONG - ONX - IM SO PATRIOTIC </title>
 <desc lang="en"> Started: 3:59PM
 Playing: Grand Theft Auto V
-Viewers: 136 </desc>
+Viewers: 134 </desc>
 </programme>
 
 <programme start="20250705054612 +0000" stop="20250708004612 +0000" channel="hoss.us">
 <title lang="en"> 🐻Park Ranger Bear OShea🐻 - ProdigyRP - Discord Socials </title>
 <desc lang="en"> Started: 12:46AM
 Playing: Grand Theft Auto V
-Viewers: 126 </desc>
+Viewers: 150 </desc>
 </programme>
 
 <programme start="20250705040917 +0000" stop="20250707230917 +0000" channel="ravage.us">
 <title lang="en"> Catching up, The Future and Updates - Prodigy 2.6 </title>
 <desc lang="en"> Started: 11:09PM
 Playing: Grand Theft Auto V
-Viewers: 531 </desc>
+Viewers: 550 </desc>
 </programme>
 
-<programme start="20250705000000 +0000" stop="20250708024318 +0000" channel="nikez.us">
+<programme start="20250705000000 +0000" stop="20250708025132 +0000" channel="nikez.us">
 <title lang="en"> Subathon 2025 - Code-y McCodeface 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:23 pm
 Playing: No Pixel RP (GTA)
-Viewers: 882 </desc>
+Viewers: 925 </desc>
 </programme>
 
-<programme start="20250705000000 +0000" stop="20250708024318 +0000" channel="catssrage.us">
+<programme start="20250705000000 +0000" stop="20250708025132 +0000" channel="catssrage.us">
 <title lang="en"> Fever Dream  Your Favorite Habibi MC Minion Faye Archer  NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:12 pm
 Playing: No Pixel RP (GTA)
-Viewers: 79 </desc>
+Viewers: 60 </desc>
 </programme>
 
-<programme start="20250705000000 +0000" stop="20250708024318 +0000" channel="chasrp.us">
+<programme start="20250705000000 +0000" stop="20250708025132 +0000" channel="chasrp.us">
 <title lang="en"> Chas - Hydra🐍 - Nopixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:34 pm
-Playing: No Pixel RP (GTA)
-Viewers: 286 </desc>
-</programme>
-
-<programme start="20250705000000 +0000" stop="20250708024318 +0000" channel="nathankb.us">
-<title lang="en"> Jov Diavol  Hydra  NoPixel 4.0 WL  playlist 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 11:59 pm
 Playing: No Pixel RP (GTA)
 Viewers: 264 </desc>
 </programme>
 
-<programme start="20250705000000 +0000" stop="20250708024318 +0000" channel="xqc.us">
+<programme start="20250705000000 +0000" stop="20250708025132 +0000" channel="nathankb.us">
+<title lang="en"> Jov Diavol  Hydra  NoPixel 4.0 WL  playlist 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 11:59 pm
+Playing: No Pixel RP (GTA)
+Viewers: 245 </desc>
+</programme>
+
+<programme start="20250705000000 +0000" stop="20250708025132 +0000" channel="xqc.us">
 <title lang="en"> 18 ad🦅LIVE🦅CLICK🦅DRAMA🦅NEWS🦅4TH OF JULY🦅PARTY🦅IN MY BASEMENT🦅WOOHOO🦅COME HANG OUT🦅ON THIS GLORIOUS DAY🦅WOWIE🦅 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:58 am
 Playing: Slots & Casino
 Viewers: 19852 </desc>
+</programme>
+
+<programme start="20250705000000 +0000" stop="20250708025132 +0000" channel="anthonyz.us">
+<title lang="en"> Shuffle - Doing Slot Calls REJUICED AND RECHARED  Dont beg f0r Tips and Calls plz 3  🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 02:44 am
+Playing: Grand Theft Auto V (GTA)
+Viewers:  </desc>
 </programme>
 
 
