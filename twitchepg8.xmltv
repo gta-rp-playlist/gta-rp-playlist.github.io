@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="timmac.us">
+<display-name>timmac</display-name>
+</channel>
+
 <channel id="sock22.us">
 <display-name>sock22</display-name>
 </channel>
@@ -28,14 +32,6 @@
 
 <channel id="hotted89.us">
 <display-name>hotted89</display-name>
-</channel>
-
-<channel id="timmac.us">
-<display-name>timmac</display-name>
-</channel>
-
-<channel id="nikez.us">
-<display-name>nikez</display-name>
 </channel>
 
 <channel id="nathankb.us">
@@ -70,32 +66,39 @@
 <display-name>aus24</display-name>
 </channel>
 
+<programme start="20250705104812 +0000" stop="20250708054812 +0000" channel="timmac.us">
+<title lang="en"> TROOPER MACK - Prodigy RP - @Timmac </title>
+<desc lang="en"> Started: 5:48AM
+Playing: Grand Theft Auto V
+Viewers: 63 </desc>
+</programme>
+
 <programme start="20250705084430 +0000" stop="20250708034430 +0000" channel="sock22.us">
 <title lang="en"> Richard Dark - NoPixel - Discord </title>
 <desc lang="en"> Started: 3:44AM
 Playing: Grand Theft Auto V
-Viewers: 377 </desc>
+Viewers: 395 </desc>
 </programme>
 
 <programme start="20250705072620 +0000" stop="20250708022620 +0000" channel="Blokeowski.us">
 <title lang="en"> NoPixel WL 18 - Crikey Thompson - HELLAURR - lifeline fundraiser donate reachout supportservices </title>
 <desc lang="en"> Started: 02:26 am
 Playing: Grand Theft Auto V
-Viewers: 77 </desc>
+Viewers: 75 </desc>
 </programme>
 
 <programme start="20250705040618 +0000" stop="20250707230618 +0000" channel="LarBearTV.us">
 <title lang="en"> 👮Snr. Ofc. Larry Johnson 👮- #LarryDriver #DemurePremier #UndefeatedinCourt - NoPixel 4.0 WL - @LarBearTV </title>
 <desc lang="en"> Started: 11:06 pm
 Playing: Grand Theft Auto V
-Viewers: 30 </desc>
+Viewers: 37 </desc>
 </programme>
 
 <programme start="20250705091433 +0000" stop="20250708041433 +0000" channel="defac3d.us">
 <title lang="en"> SATURDAY - EXPRESSVPN G2A TOKYOTREAT </title>
 <desc lang="en"> Started: 4:14AM
 Playing: Grand Theft Auto V
-Viewers: 377 </desc>
+Viewers: 367 </desc>
 </programme>
 
 <programme start="20250705092739 +0000" stop="20250708042739 +0000" channel="Epic_Nin.us">
@@ -109,80 +112,66 @@ Viewers: 1 </desc>
 <title lang="en"> Betty Briskett - BCSO - 709-P - PPO - Nopixel WL - Crispy Brisketts weekend </title>
 <desc lang="en"> Started: 12:12AM
 Playing: Grand Theft Auto V
-Viewers: 13 </desc>
+Viewers: 11 </desc>
 </programme>
 
 <programme start="20250705095625 +0000" stop="20250708045625 +0000" channel="hotted89.us">
 <title lang="en"> Sgt Matthew Espinoz - Nopixel WL 4.0 </title>
 <desc lang="en"> Started: 4:56AM
 Playing: Grand Theft Auto V
-Viewers: 228 </desc>
+Viewers: 235 </desc>
 </programme>
 
-<programme start="20250705104812 +0000" stop="20250708054812 +0000" channel="timmac.us">
-<title lang="en"> TROOPER MACK - Prodigy RP - @Timmac </title>
-<desc lang="en"> Started: 5:48AM
-Playing: Grand Theft Auto V
-Viewers: 39 </desc>
-</programme>
-
-<programme start="20250705000000 +0000" stop="20250708055133 +0000" channel="nikez.us">
-<title lang="en"> Subathon 2025 - Erik Trygg 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 12:23 pm
-Playing: No Pixel RP (GTA)
-Viewers: 952 </desc>
-</programme>
-
-<programme start="20250705000000 +0000" stop="20250708055133 +0000" channel="nathankb.us">
+<programme start="20250705000000 +0000" stop="20250708055618 +0000" channel="nathankb.us">
 <title lang="en"> Jov Diavol  Hydra  NoPixel 4.0 WL  playlist 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:59 pm
 Playing: No Pixel RP (GTA)
-Viewers: 191 </desc>
+Viewers: 171 </desc>
 </programme>
 
-<programme start="20250705000000 +0000" stop="20250708055133 +0000" channel="sukhi_1.us">
+<programme start="20250705000000 +0000" stop="20250708055618 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel  Besties  Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:40 am
 Playing: No Pixel RP (GTA)
 Viewers: 227 </desc>
 </programme>
 
-<programme start="20250705000000 +0000" stop="20250708055133 +0000" channel="hotted89.us">
+<programme start="20250705000000 +0000" stop="20250708055618 +0000" channel="hotted89.us">
 <title lang="en"> Sgt Matthew Espinoz- Nopixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:56 am
 Playing: No Pixel RP (GTA)
 Viewers:  </desc>
 </programme>
 
-<programme start="20250705000000 +0000" stop="20250708055133 +0000" channel="yuukidav.us">
+<programme start="20250705000000 +0000" stop="20250708055618 +0000" channel="yuukidav.us">
 <title lang="en"> oakley stallion 🎀 hydra  nopixel wl  yuukidav 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:02 am
 Playing: No Pixel RP (GTA)
 Viewers: 94 </desc>
 </programme>
 
-<programme start="20250705000000 +0000" stop="20250708055133 +0000" channel="lauti.us">
+<programme start="20250705000000 +0000" stop="20250708055618 +0000" channel="lauti.us">
 <title lang="en"> dill e. dough  nopixel wl 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:05 am
 Playing: No Pixel RP (GTA)
 Viewers: 41 </desc>
 </programme>
 
-<programme start="20250705000000 +0000" stop="20250708055133 +0000" channel="arniev.us">
+<programme start="20250705000000 +0000" stop="20250708055618 +0000" channel="arniev.us">
 <title lang="en"> 😵ARNIEDOG IS ON TIMING😵 ATOMIC WINGS TONIGHT 🔥 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:03 am
 Playing: No Pixel RP (GTA)
 Viewers: 281 </desc>
 </programme>
 
-<programme start="20250705000000 +0000" stop="20250708055133 +0000" channel="rexs.us">
+<programme start="20250705000000 +0000" stop="20250708055618 +0000" channel="rexs.us">
 <title lang="en"> Rex  🐍 Hydra 🐍  Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:10 am
 Playing: No Pixel RP (GTA)
-Viewers: 30 </desc>
+Viewers: 36 </desc>
 </programme>
 
-<programme start="20250705000000 +0000" stop="20250708055133 +0000" channel="aus24.us">
+<programme start="20250705000000 +0000" stop="20250708055618 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT  LSPD  NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:49 am
 Playing: No Pixel RP (GTA)
