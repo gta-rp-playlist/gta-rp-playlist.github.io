@@ -2,10 +2,6 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="sykkuno.us">
-<display-name>sykkuno</display-name>
-</channel>
-
 <channel id="bradahjune.us">
 <display-name>bradahjune</display-name>
 </channel>
@@ -38,12 +34,12 @@
 <display-name>heyits_ghost_</display-name>
 </channel>
 
-<channel id="beetle.us">
-<display-name>beetle</display-name>
-</channel>
-
 <channel id="NismoDOMA.us">
 <display-name>NismoDOMA</display-name>
+</channel>
+
+<channel id="beetle.us">
+<display-name>beetle</display-name>
 </channel>
 
 <channel id="Hellknight86.us">
@@ -54,36 +50,24 @@
 <display-name>hybriidxi</display-name>
 </channel>
 
-<channel id="firecrackthat.us">
-<display-name>firecrackthat</display-name>
-</channel>
-
 <channel id="kittenqg.us">
 <display-name>kittenqg</display-name>
+</channel>
+
+<channel id="firecrackthat.us">
+<display-name>firecrackthat</display-name>
 </channel>
 
 <channel id="alyssajeanaf.us">
 <display-name>alyssajeanaf</display-name>
 </channel>
 
-<channel id="silent.us">
-<display-name>silent</display-name>
-</channel>
-
 <channel id="manax.us">
 <display-name>manax</display-name>
 </channel>
 
-<channel id="paperstackerj.us">
-<display-name>paperstackerj</display-name>
-</channel>
-
 <channel id="nismodoma.us">
 <display-name>nismodoma</display-name>
-</channel>
-
-<channel id="chasrp.us">
-<display-name>chasrp</display-name>
 </channel>
 
 <channel id="christombstone.us">
@@ -126,60 +110,53 @@
 <display-name>harmless</display-name>
 </channel>
 
-<programme start="20250708030034 +0000" stop="20250710220034 +0000" channel="sykkuno.us">
-<title lang="en"> TRAINING F0R TOURNAMENT </title>
-<desc lang="en"> Started: 10:00PM
-Playing: Umamusume: Pretty Derby
-Viewers: 2405 </desc>
-</programme>
-
 <programme start="20250707192850 +0000" stop="20250710142850 +0000" channel="bradahjune.us">
 <title lang="en"> Kapono Kahananui I Cypress I Aloha NoPixel WL </title>
 <desc lang="en"> Started: 2:28PM
 Playing: Grand Theft Auto V
-Viewers: 28 </desc>
+Viewers: 30 </desc>
 </programme>
 
 <programme start="20250708045126 +0000" stop="20250710235126 +0000" channel="Kerazane.us">
 <title lang="en"> Betty Briskett - BCSO - 709-P - PPO - Nopixel WL - Crispy Brisketts tush tuesday </title>
 <desc lang="en"> Started: 11:51PM
 Playing: Grand Theft Auto V
-Viewers: 10 </desc>
+Viewers: 17 </desc>
 </programme>
 
 <programme start="20250708051312 +0000" stop="20250711001312 +0000" channel="Blokeowski.us">
 <title lang="en"> NoPixel WL 18 - Melvin Bertrum - Hello Poindexter - commands lifeline reachout supportservices blackdoginstitute </title>
 <desc lang="en"> Started: 12:13 am
 Playing: Grand Theft Auto V
-Viewers: 79 </desc>
+Viewers: 66 </desc>
 </programme>
 
 <programme start="20250708004714 +0000" stop="20250710194714 +0000" channel="itsNICVIC.us">
 <title lang="en"> Emmy ☆ Hades - nopixel 4.0 wl </title>
 <desc lang="en"> Started: 07:47 pm
 Playing: Grand Theft Auto V
-Viewers: 27 </desc>
+Viewers: 33 </desc>
 </programme>
 
 <programme start="20250708032332 +0000" stop="20250710222332 +0000" channel="zaxx386.us">
 <title lang="en"> Moose Knuckles - Clown - Stansfeld Belany - DOC - NoPixel WL - Epic Creator Code: ZAXX386 </title>
 <desc lang="en"> Started: 10:23 pm
 Playing: Grand Theft Auto V
-Viewers: 37 </desc>
+Viewers: 39 </desc>
 </programme>
 
 <programme start="20250708024245 +0000" stop="20250710214245 +0000" channel="hol_stream.us">
 <title lang="en"> CORDELIA - NOPIXEL WL </title>
 <desc lang="en"> Started: 9:42PM
 Playing: Grand Theft Auto V
-Viewers: 60 </desc>
+Viewers: 59 </desc>
 </programme>
 
 <programme start="20250708010904 +0000" stop="20250710200904 +0000" channel="zandr400.us">
 <title lang="en"> Vance Vixen - Hades - NoPixel WL 4.0 </title>
 <desc lang="en"> Started: 08:09 pm
 Playing: Grand Theft Auto V
-Viewers: 6 </desc>
+Viewers: 5 </desc>
 </programme>
 
 <programme start="20250707212403 +0000" stop="20250710162403 +0000" channel="heyits_ghost_.us">
@@ -189,13 +166,6 @@ Playing: Grand Theft Auto V
 Viewers: 5 </desc>
 </programme>
 
-<programme start="20250707205532 +0000" stop="20250710155532 +0000" channel="beetle.us">
-<title lang="en"> ROD LONG - ONX - WAOW </title>
-<desc lang="en"> Started: 3:55PM
-Playing: Grand Theft Auto V
-Viewers: 116 </desc>
-</programme>
-
 <programme start="20250707212254 +0000" stop="20250710162254 +0000" channel="NismoDOMA.us">
 <title lang="en"> JUDGE YILONG MA - Tony Leung - deadweight POV - HADES - NoPixel WL </title>
 <desc lang="en"> Started: 04:22 pm
@@ -203,11 +173,18 @@ Playing: Grand Theft Auto V
 Viewers: 3 </desc>
 </programme>
 
+<programme start="20250707205532 +0000" stop="20250710155532 +0000" channel="beetle.us">
+<title lang="en"> ROD LONG - ONX - WAOW </title>
+<desc lang="en"> Started: 3:55PM
+Playing: Grand Theft Auto V
+Viewers: 112 </desc>
+</programme>
+
 <programme start="20250708051509 +0000" stop="20250711001509 +0000" channel="Hellknight86.us">
 <title lang="en"> LSPD PPO Schmidt - Nopixel WL </title>
 <desc lang="en"> Started: 12:15 am
 Playing: Grand Theft Auto V
-Viewers: 3 </desc>
+Viewers: 4 </desc>
 </programme>
 
 <programme start="20250708053417 +0000" stop="20250711003417 +0000" channel="hybriidxi.us">
@@ -217,126 +194,105 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250708022151 +0000" stop="20250710212151 +0000" channel="firecrackthat.us">
-<title lang="en"> Stumbles Fumbles - NoPixel WL - HELP ME GET TO 200 SUBS </title>
-<desc lang="en"> Started: 9:21PM
-Playing: Grand Theft Auto V
-Viewers: 44 </desc>
-</programme>
-
 <programme start="20250708034843 +0000" stop="20250710224843 +0000" channel="kittenqg.us">
 <title lang="en"> Lily Fumbles - NoPixel - 18 </title>
 <desc lang="en"> Started: 10:48PM
 Playing: Grand Theft Auto V
-Viewers: 72 </desc>
+Viewers: 80 </desc>
+</programme>
+
+<programme start="20250708022151 +0000" stop="20250710212151 +0000" channel="firecrackthat.us">
+<title lang="en"> Stumbles Fumbles - NoPixel WL - HELP ME GET TO 200 SUBS </title>
+<desc lang="en"> Started: 9:21PM
+Playing: Grand Theft Auto V
+Viewers: 42 </desc>
 </programme>
 
 <programme start="20250707232923 +0000" stop="20250710182923 +0000" channel="alyssajeanaf.us">
 <title lang="en"> Daphne Malone. DCF Captain-Al Dentes Owner. ProdigyRP⭐️ All Tips go towards music cover art tip vods </title>
 <desc lang="en"> Started: 6:29PM
 Playing: Grand Theft Auto V
-Viewers: 203 </desc>
+Viewers: 174 </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="silent.us">
-<title lang="en"> flippy resumes dada duties on uncapped subathon day 1 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 01:03 pm
-Playing: No Pixel RP (GTA)
-Viewers: 1088 </desc>
-</programme>
-
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="manax.us">
-<title lang="en"> Alan Key  LSPD  NoPixel 🟢🟢Kick Stream☝️ </title>
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="manax.us">
+<title lang="en"> Mike  BESTIES  NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:18 pm
 Playing: No Pixel RP (GTA)
-Viewers: 184 </desc>
+Viewers: 171 </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="paperstackerj.us">
-<title lang="en"> Jordan Super Duper Chilly Day Bones  Manor and T10  NoPixel WL 4.0 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 03:47 pm
-Playing: No Pixel RP (GTA)
-Viewers: 122 </desc>
-</programme>
-
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="nismodoma.us">
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="nismodoma.us">
 <title lang="en"> JUDGE YILONG MA - Tony Leung  deadweight POV  HADES  NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:23 pm
 Playing: No Pixel RP (GTA)
 Viewers: 25 </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="chasrp.us">
-<title lang="en"> Chas - Hydra🐍 - Nopixel 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 05:32 pm
-Playing: No Pixel RP (GTA)
-Viewers: 213 </desc>
-</programme>
-
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="christombstone.us">
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="christombstone.us">
 <title lang="en"> Flop Dugong  NoPixel WL  ChrisTombstone_ on socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:22 pm
 Playing: No Pixel RP (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="qift.us">
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="qift.us">
 <title lang="en"> Winter of Hades ✮⋆˙ GTA RP 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:18 pm
 Playing: No Pixel RP (GTA)
-Viewers: 95 </desc>
+Viewers: 227 </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="thatguygp.us">
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="thatguygp.us">
 <title lang="en"> Jamal  NoPixel  Besties 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:12 pm
 Playing: No Pixel RP (GTA)
-Viewers: 371 </desc>
+Viewers: 391 </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="the-bayou-gamer.us">
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="the-bayou-gamer.us">
 <title lang="en"> James Callahan  Broke Again And Kinda Alone  ONX 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="lauti.us">
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="lauti.us">
 <title lang="en"> dill e. dough  nopixel wl 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 10:38 pm
 Playing: No Pixel RP (GTA)
-Viewers: 43 </desc>
+Viewers: 56 </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="xqc.us">
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="xqc.us">
 <title lang="en"> 🤦‍♀️ LIVE 🤦‍♀️ DRAMA 🤦‍♀️ NEWS 🤦‍♀️ CLICK 🤦‍♀️ STUFF 🤦‍♀️ PULL UP 🤦‍♀️ QUICK 🤦‍♀️ LIVE 🤦‍♀️ WE HERE 🤦‍♀️ FAST 🤦‍♀️ GAMES 🤦‍♀️ VIDEOS 🤦‍♀️ STUFF 🤦‍♀️ FFFF 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 10:53 pm
 Playing: Just Chatting
-Viewers: 33184 </desc>
+Viewers: 34185 </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="jonthebroski.us">
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="jonthebroski.us">
 <title lang="en"> Dio Ivanov  NoPixel  Gangster Style 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:28 pm
 Playing: No Pixel RP (GTA)
-Viewers: 274 </desc>
+Viewers: 289 </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="ms_star.us">
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="ms_star.us">
 <title lang="en"> Cora Star ★ ADMC HC ★ NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:31 pm
 Playing: No Pixel RP (GTA)
-Viewers: 177 </desc>
+Viewers: 200 </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="catssrage.us">
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="catssrage.us">
 <title lang="en"> Monday Your Favorite Habibi MC Minion Faye Archer  NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:08 am
 Playing: No Pixel RP (GTA)
 Viewers:  </desc>
 </programme>
 
-<programme start="20250708000000 +0000" stop="20250711012118 +0000" channel="harmless.us">
+<programme start="20250708000000 +0000" stop="20250711012818 +0000" channel="harmless.us">
 <title lang="en"> Perry Falken  NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:09 am
 Playing: No Pixel RP (GTA)
