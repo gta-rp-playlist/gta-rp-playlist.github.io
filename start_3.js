@@ -16,7 +16,7 @@ function playStream(streamName) {
 
     if (isKickStream) {
         player.src = `https://player.kick.com/${lowerCaseStreamName}?muted=false&autoplay=true`;
-        chat.src = `https://streamcompanion.app/kick/${lowerCaseStreamName}/chat`;
+        chat.src = `https://kick.com/popout/${lowerCaseStreamName}/chat?parent=gta-rp-playlist.com`;
     } else {
         player.src = `https://player.twitch.tv/?channel=${streamName}&parent=gta-rp-playlist.com&parent=127.0.0.1&autoplay=true&muted=false&quality=chunked`;
         chat.src = `https://www.twitch.tv/embed/${streamName}/chat?parent=gta-rp-playlist.com&parent=127.0.0.1&darkpopout`;
