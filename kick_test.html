@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Faceless</title>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #2c2c2c;
+      color: white;
+      text-align: center;
+    }
+    video {
+      width: 80%;
+      max-width: 800px;
+      border-radius: 8px;
+      margin: 20px 0;
+      outline: none;
+    }
+    pre {
+      background: #1e1e1e;
+      color: #0f0;
+      text-align: left;
+      padding: 20px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>Tablet</h2>
+  <video id="kickPlayer" playsinline autoplay></video>
+
+  <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8" /&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;
+  &lt;title&gt;Faceless&lt;/title&gt;
+  &lt;script src="https://cdn.jsdelivr.net/npm/hls.js@latest"&gt;&lt;/script&gt;
+  &lt;style&gt;
+    body {
+      font-family: Arial, sans-serif;
+      background: #2c2c2c;
+      color: white;
+      text-align: center;
+    }
+    video {
+      width: 80%;
+      max-width: 800px;
+      border-radius: 8px;
+      margin: 20px 0;
+      outline: none;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Tablet&lt;/h2&gt;
+  &lt;video id="kickPlayer" playsinline autoplay&gt;&lt;/video&gt;
+  &lt;script&gt;
+    const video = document.getElementById('kickPlayer');
+    const streamURL = "https://usw21.playlist.live-video.net/v1/playlist/CpsF_l2Bp7oLb3l80vqQq_4HIzy5_TZoQlmbr827kpvH78H1q2YnoaQ1S365rzrHWpyuB1Nj0pPw33u5fEfuZXWRfli2QjiklBvJ93EGk_19xU8gC61c1dDKpU2zhnlItazNGOTD_2AL9jUiym9FcRjJY-M2MQRKMHC5ho3y-edOSHYYSUv_3EpLa_mRn5QlmUzkcSwYlCGzW4_4CMEo95rFOABrUipVM0zTWT7K-VC9_heU2m0lHY2Ef3HiGc9kb4xnCrAcu4U8LndqMcbQKITw0rnc1TwMA-MqyxOzBkVvE6upb8TRu9xPBp-GgFqru7sB8OzJnLnqq3afWMXyYh2tkyUH4j-Fs0fAF0FjWlce6LuLAlr90V0oAAYKxiTDLUUVLYqtyyOa-JDomsoh4QqbcBxWPY2mj6DjA36jr1wGiBnED81k5bSW3yXiT1YngVl30nUUKDws9FjGoXrH_GdlLRV6A9UkmoFb7qJWZKnR3NiIFUxmVCZsNZqvA63FNZ5MwwLo5LHNH1mdlUlPIUNMq7CXeuXDSPoyDuktoySrp2rI17YiDQnt6ERBLB-adDGh_W6ojBr2UN_LUqe0lJ0WJmNJVPis9P5I_gbGBMRgpYp4JpIJNKSxj6_U3F5BP9e1xpL0Cr5B2nEuWHskjr4TALv1ouo1b9b-nwHalX1ozGK1Pl6Nwcmgz-1tRv63mviDvzSe6zrMdakjvPJKxAS1TmOPxrzLajr1HQfMPEnRz5JeqhHDw17kSdQunA_hPVlp_ywY4vceGQNIw7qPDZp7r7Rpci3UpA6n1_dtUU6Uz7TZO9Jntb393QviHPv-XxBOhuuVDFbF3J_1bnO8ODVmp-l9L7H93VymZYCatuQas2zuLxsRiEdAK7NE6BoMDwRyaU44wns7J1nrIAEqCXVzLWVhc3QtMjDiDA.m3u8";
+    const unmute = true;
+    video.muted = !unmute;
+    if (Hls.isSupported()) {
+      const hls = new Hls();
+      hls.loadSource(streamURL);
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MANIFEST_PARSED, () =&gt; video.play().catch(() =&gt; {}));
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = streamURL;
+      video.play().catch(() =&gt; {});
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+  </code></pre>
+
+  <script>
+    const video = document.getElementById('kickPlayer');
+    const streamURL = "https://usw21.playlist.live-video.net/v1/playlist/CpsF_l2Bp7oLb3l80vqQq_4HIzy5_TZoQlmbr827kpvH78H1q2YnoaQ1S365rzrHWpyuB1Nj0pPw33u5fEfuZXWRfli2QjiklBvJ93EGk_19xU8gC61c1dDKpU2zhnlItazNGOTD_2AL9jUiym9FcRjJY-M2MQRKMHC5ho3y-edOSHYYSUv_3EpLa_mRn5QlmUzkcSwYlCGzW4_4CMEo95rFOABrUipVM0zTWT7K-VC9_heU2m0lHY2Ef3HiGc9kb4xnCrAcu4U8LndqMcbQKITw0rnc1TwMA-MqyxOzBkVvE6upb8TRu9xPBp-GgFqru7sB8OzJnLnqq3afWMXyYh2tkyUH4j-Fs0fAF0FjWlce6LuLAlr90V0oAAYKxiTDLUUVLYqtyyOa-JDomsoh4QqbcBxWPY2mj6DjA36jr1wGiBnED81k5bSW3yXiT1YngVl30nUUKDws9FjGoXrH_GdlLRV6A9UkmoFb7qJWZKnR3NiIFUxmVCZsNZqvA63FNZ5MwwLo5LHNH1mdlUlPIUNMq7CXeuXDSPoyDuktoySrp2rI17YiDQnt6ERBLB-adDGh_W6ojBr2UN_LUqe0lJ0WJmNJVPis9P5I_gbGBMRgpYp4JpIJNKSxj6_U3F5BP9e1xpL0Cr5B2nEuWHskjr4TALv1ouo1b9b-nwHalX1ozGK1Pl6Nwcmgz-1tRv63mviDvzSe6zrMdakjvPJKxAS1TmOPxrzLajr1HQfMPEnRz5JeqhHDw17kSdQunA_hPVlp_ywY4vceGQNIw7qPDZp7r7Rpci3UpA6n1_dtUU6Uz7TZO9Jntb393QviHPv-XxBOhuuVDFbF3J_1bnO8ODVmp-l9L7H93VymZYCatuQas2zuLxsRiEdAK7NE6BoMDwRyaU44wns7J1nrIAEqCXVzLWVhc3QtMjDiDA.m3u8";
+    const unmute = true;
+    video.muted = !unmute;
+    if (Hls.isSupported()) {
+      const hls = new Hls();
+      hls.loadSource(streamURL);
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(() => {}));
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = streamURL;
+      video.play().catch(() => {});
+    }
+  </script>
+</body>
+</html>
