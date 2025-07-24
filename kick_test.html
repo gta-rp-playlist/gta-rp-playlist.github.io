@@ -3,95 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Faceless</title>
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <title>Kick Chat Embed - peppo</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #2c2c2c;
-      color: white;
-      text-align: center;
+      margin: 0;
+      font-family: sans-serif;
+      background: #111;
+      color: #eee;
     }
-    video {
-      width: 80%;
-      max-width: 800px;
-      border-radius: 8px;
-      margin: 20px 0;
-      outline: none;
+    .chat-embed {
+      width: 100%;
+      height: 600px; /* Adjust this as needed */
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #333;
     }
-    pre {
+    .chat-header {
+      padding: 10px;
       background: #1e1e1e;
-      color: #0f0;
-      text-align: left;
-      padding: 20px;
-      overflow-x: auto;
+      color: #4ade80; /* Tailwind green-400 */
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    .chat-container {
+      flex: 1;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
     }
   </style>
 </head>
 <body>
-  <h2>Tablet</h2>
-  <video id="kickPlayer" playsinline autoplay></video>
-
-  <pre><code>
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8" /&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;
-  &lt;title&gt;Faceless&lt;/title&gt;
-  &lt;script src="https://cdn.jsdelivr.net/npm/hls.js@latest"&gt;&lt;/script&gt;
-  &lt;style&gt;
-    body {
-      font-family: Arial, sans-serif;
-      background: #2c2c2c;
-      color: white;
-      text-align: center;
-    }
-    video {
-      width: 80%;
-      max-width: 800px;
-      border-radius: 8px;
-      margin: 20px 0;
-      outline: none;
-    }
-  &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h2&gt;Tablet&lt;/h2&gt;
-  &lt;video id="kickPlayer" playsinline autoplay&gt;&lt;/video&gt;
-  &lt;script&gt;
-    const video = document.getElementById('kickPlayer');
-    const streamURL = "https://use12.playlist.live-video.net/v1/playlist/CqIFrwbdyD9GBahH3GC6u9TTTc0AfeOiWAi-e7suB9Y9_ow5q6FtvAQEDxfKNTpffRJoQafmGOcqwkJL8n3gkiagHM13sDA8UYV5XCwF7OvldnKC_CaYZPQ3d5HxfN-3Zlu3RCr0q31ElV4Q7kTQNoPa5WVENydCGYU_D6NiIT82Yy1ljBSgTzc4lraqIIYEzwIkxP1Q6ymODXosSitAqdrSu57S7gC5pQpD8_SD_9plxhmM_1fjQ9cVy1ojgx1ruNCfcqy8_i1LgojXbWbro-q7eboTDgudYoufk7kE-Hw9ZmFfOJd7eyKfOL6CcB3l-JxJ6sb8rShexq2Vgwi4T7UY2kOzKrmW953ts4zwtSC2iyeRncBW4bz7xToFPqj7Uuy_hM9vFvXr93su4iLBS61UgNvdfkAHr5oKgXiSPvpKkdWlxbkCZHH79HPpCwld7OaH5bvP4s6ibEkT4fp9dLlH8yURDsDF3Isvd8XSLuHRFx1uRNdkzqwPfIvPkLCWjB-oWwULdpy-vsQJJMNpAPOJjARauaOV-eNgZl5qkr2OqycFu09C3Zwc-pCheXnlBRfoHQoiZ1wTJ1w4DO-Vlal_NA7ffUujIjGnSgo53QN6r-lOwWyYAm97iOMNQpdZvbv61XKqLoe5TbUWGf1i7Ob5iqgmRF11-9YjjlvCdn4v6vsSeQj-UJfXFVt3Q1pf6XdKYD9T55BWo8ZusD2DfDMqrgIRcjUNphMOOfY5X-A4hD8wBZj6DzUvwW9L7PbunvPBQMHBCecZufptz55Sj4mCCE-DNC9gL8Zf_3UZ8Gh_YTUVrt9Z9UH6Weg7Mj_zCBeJn7qdQGVoG2mQggngzDO7GYLBMq7npcuIBHYgJnCKz_2Li-Z98Mx6-UgLGSfdNt19AWgaDMdT_eVOTV77GGCeQyABKgl1cy1lYXN0LTIw4ww.m3u8";
-    const unmute = true;
-    video.muted = !unmute;
-    if (Hls.isSupported()) {
-      const hls = new Hls();
-      hls.loadSource(streamURL);
-      hls.attachMedia(video);
-      hls.on(Hls.Events.MANIFEST_PARSED, () =&gt; video.play().catch(() =&gt; {}));
-    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-      video.src = streamURL;
-      video.play().catch(() =&gt; {});
-    }
-  &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-  </code></pre>
-
-  <script>
-    const video = document.getElementById('kickPlayer');
-    const streamURL = "https://use12.playlist.live-video.net/v1/playlist/CqIFrwbdyD9GBahH3GC6u9TTTc0AfeOiWAi-e7suB9Y9_ow5q6FtvAQEDxfKNTpffRJoQafmGOcqwkJL8n3gkiagHM13sDA8UYV5XCwF7OvldnKC_CaYZPQ3d5HxfN-3Zlu3RCr0q31ElV4Q7kTQNoPa5WVENydCGYU_D6NiIT82Yy1ljBSgTzc4lraqIIYEzwIkxP1Q6ymODXosSitAqdrSu57S7gC5pQpD8_SD_9plxhmM_1fjQ9cVy1ojgx1ruNCfcqy8_i1LgojXbWbro-q7eboTDgudYoufk7kE-Hw9ZmFfOJd7eyKfOL6CcB3l-JxJ6sb8rShexq2Vgwi4T7UY2kOzKrmW953ts4zwtSC2iyeRncBW4bz7xToFPqj7Uuy_hM9vFvXr93su4iLBS61UgNvdfkAHr5oKgXiSPvpKkdWlxbkCZHH79HPpCwld7OaH5bvP4s6ibEkT4fp9dLlH8yURDsDF3Isvd8XSLuHRFx1uRNdkzqwPfIvPkLCWjB-oWwULdpy-vsQJJMNpAPOJjARauaOV-eNgZl5qkr2OqycFu09C3Zwc-pCheXnlBRfoHQoiZ1wTJ1w4DO-Vlal_NA7ffUujIjGnSgo53QN6r-lOwWyYAm97iOMNQpdZvbv61XKqLoe5TbUWGf1i7Ob5iqgmRF11-9YjjlvCdn4v6vsSeQj-UJfXFVt3Q1pf6XdKYD9T55BWo8ZusD2DfDMqrgIRcjUNphMOOfY5X-A4hD8wBZj6DzUvwW9L7PbunvPBQMHBCecZufptz55Sj4mCCE-DNC9gL8Zf_3UZ8Gh_YTUVrt9Z9UH6Weg7Mj_zCBeJn7qdQGVoG2mQggngzDO7GYLBMq7npcuIBHYgJnCKz_2Li-Z98Mx6-UgLGSfdNt19AWgaDMdT_eVOTV77GGCeQyABKgl1cy1lYXN0LTIw4ww.m3u8";
-    const unmute = true;
-    video.muted = !unmute;
-    if (Hls.isSupported()) {
-      const hls = new Hls();
-      hls.loadSource(streamURL);
-      hls.attachMedia(video);
-      hls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(() => {}));
-    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-      video.src = streamURL;
-      video.play().catch(() => {});
-    }
-  </script>
+  <div class="chat-embed">
+    <div class="chat-header">
+      <h3>Kick Chat - peppo</h3>
+    </div>
+    <div class="chat-container">
+      <iframe
+        allow="encrypted-media"
+        loading="lazy"
+        credentialless="true"
+        sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
+        referrerpolicy="strict-origin-when-cross-origin"
+        src="https://kick.com/popout/peppo/chat?parent=gta-rp-playlist.com"
+      ></iframe>
+    </div>
+  </div>
 </body>
 </html>
