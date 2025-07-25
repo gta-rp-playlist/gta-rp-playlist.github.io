@@ -2,12 +2,12 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="kalcyon.us">
-<display-name>kalcyon</display-name>
-</channel>
-
 <channel id="Silbullet.us">
 <display-name>Silbullet</display-name>
+</channel>
+
+<channel id="kalcyon.us">
+<display-name>kalcyon</display-name>
 </channel>
 
 <channel id="alliumm.us">
@@ -28,6 +28,14 @@
 
 <channel id="margothesnail.us">
 <display-name>margothesnail</display-name>
+</channel>
+
+<channel id="Hellknight86.us">
+<display-name>Hellknight86</display-name>
+</channel>
+
+<channel id="bondii.us">
+<display-name>bondii</display-name>
 </channel>
 
 <channel id="kemony.us">
@@ -70,25 +78,25 @@
 <display-name>chasrp</display-name>
 </channel>
 
-<programme start="20250724234220 +0000" stop="20250727184220 +0000" channel="kalcyon.us">
-<title lang="en"> SUBATHON NEXT WEEK - ONFIRE - UNSCRIPTED </title>
-<desc lang="en"> Started: 6:42PM
-Playing: Grand Theft Auto V
-Viewers: 544 </desc>
-</programme>
-
 <programme start="20250725050034 +0000" stop="20250728000034 +0000" channel="Silbullet.us">
 <title lang="en"> Ronnie Rivers - Free Agent - NoPixel WL 4.0 - clip </title>
 <desc lang="en"> Started: 12:00AM
 Playing: Grand Theft Auto V
-Viewers: 80 </desc>
+Viewers: 96 </desc>
+</programme>
+
+<programme start="20250724234220 +0000" stop="20250727184220 +0000" channel="kalcyon.us">
+<title lang="en"> SUBATHON NEXT WEEK - ONFIRE - UNSCRIPTED </title>
+<desc lang="en"> Started: 6:42PM
+Playing: Grand Theft Auto V
+Viewers: 542 </desc>
 </programme>
 
 <programme start="20250725080701 +0000" stop="20250728030701 +0000" channel="alliumm.us">
 <title lang="en"> it just keeps happening - EMS - Alice Liddell - NoPixel WL 🚑 </title>
 <desc lang="en"> Started: 03:07 am
 Playing: Grand Theft Auto V
-Viewers: 33 </desc>
+Viewers: 38 </desc>
 </programme>
 
 <programme start="20250725051741 +0000" stop="20250728001741 +0000" channel="makeitmeansomething.us">
@@ -109,84 +117,98 @@ Viewers: 1 </desc>
 <title lang="en"> Deputy Betty Briskett - BCSO - 396 - Nopixel WL - Crispy Brisketts Freaky Friday </title>
 <desc lang="en"> Started: 3:07AM
 Playing: Grand Theft Auto V
-Viewers: 18 </desc>
+Viewers: 20 </desc>
 </programme>
 
 <programme start="20250725074423 +0000" stop="20250728024423 +0000" channel="margothesnail.us">
 <title lang="en"> Margo Crackhead Escargot - Time Traveling to a Better Self - NoPixel WL </title>
 <desc lang="en"> Started: 2:44AM
 Playing: Grand Theft Auto V
-Viewers: 47 </desc>
+Viewers: 43 </desc>
 </programme>
 
-<programme start="20250725000000 +0000" stop="20250728034319 +0000" channel="kemony.us">
+<programme start="20250725084308 +0000" stop="20250728034308 +0000" channel="Hellknight86.us">
+<title lang="en"> LSPD PPO Viktor Schmidt - Nopixel WL </title>
+<desc lang="en"> Started: 03:43 am
+Playing: Grand Theft Auto V
+Viewers: 0 </desc>
+</programme>
+
+<programme start="20250725084901 +0000" stop="20250728034901 +0000" channel="bondii.us">
+<title lang="en"> RANDALL DALTON - NP WL </title>
+<desc lang="en"> Started: 3:49AM
+Playing: Grand Theft Auto V
+Viewers: 1 </desc>
+</programme>
+
+<programme start="20250725000000 +0000" stop="20250728035122 +0000" channel="kemony.us">
 <title lang="en"> DAY 34 UNCAPPED SUBATHON  🐍 HYDRA 🐍 NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:29 pm
 Playing: No Pixel RP (GTA)
-Viewers: 117 </desc>
+Viewers: 132 </desc>
 </programme>
 
-<programme start="20250725000000 +0000" stop="20250728034319 +0000" channel="zandr400.us">
+<programme start="20250725000000 +0000" stop="20250728035122 +0000" channel="zandr400.us">
 <title lang="en"> Vance Vixen  All American Gangster  Hades  NoPixel WL 4.0  Verification Push 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:00 pm
 Playing: No Pixel RP (GTA)
-Viewers: 67 </desc>
+Viewers: 70 </desc>
 </programme>
 
-<programme start="20250725000000 +0000" stop="20250728034319 +0000" channel="nismodoma.us">
+<programme start="20250725000000 +0000" stop="20250728035122 +0000" channel="nismodoma.us">
 <title lang="en"> Tony Leung  todays the day - VERIFICATION PUSH  HADES  NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:02 am
 Playing: No Pixel RP (GTA)
-Viewers: 45 </desc>
+Viewers: 50 </desc>
 </programme>
 
-<programme start="20250725000000 +0000" stop="20250728034319 +0000" channel="yuukidav.us">
+<programme start="20250725000000 +0000" stop="20250728035122 +0000" channel="yuukidav.us">
 <title lang="en"> oakley stallion 🎀 hydra  nopixel wl  yuukidav 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:37 pm
 Playing: No Pixel RP (GTA)
-Viewers: 153 </desc>
+Viewers: 148 </desc>
 </programme>
 
-<programme start="20250725000000 +0000" stop="20250728034319 +0000" channel="xNoctelle.us">
+<programme start="20250725000000 +0000" stop="20250728035122 +0000" channel="xNoctelle.us">
 <title lang="en"> [UnscriptedRP]  BCSO  Vira Night  ✅ DRINKING ✅ PATROLLING WHILE INFLUENCED ✅ HOW AM I N0T FIRED  Discord 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: No Pixel RP (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250725000000 +0000" stop="20250728034319 +0000" channel="silbullet.us">
+<programme start="20250725000000 +0000" stop="20250728035122 +0000" channel="silbullet.us">
 <title lang="en"> Ronnie Rivers  Free Agent  NoPixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:00 am
 Playing: No Pixel RP (GTA)
-Viewers: 12 </desc>
+Viewers: 14 </desc>
 </programme>
 
-<programme start="20250725000000 +0000" stop="20250728034319 +0000" channel="harmless.us">
+<programme start="20250725000000 +0000" stop="20250728035122 +0000" channel="harmless.us">
 <title lang="en"> Perry Falken  NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:42 am
 Playing: No Pixel RP (GTA)
 Viewers: 301 </desc>
 </programme>
 
-<programme start="20250725000000 +0000" stop="20250728034319 +0000" channel="lauti.us">
+<programme start="20250725000000 +0000" stop="20250728035122 +0000" channel="lauti.us">
 <title lang="en"> dill e. dough quean erp princess  nopixel wl  gta v 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:49 am
 Playing: No Pixel RP (GTA)
 Viewers: 48 </desc>
 </programme>
 
-<programme start="20250725000000 +0000" stop="20250728034319 +0000" channel="margothesnail.us">
+<programme start="20250725000000 +0000" stop="20250728035122 +0000" channel="margothesnail.us">
 <title lang="en"> Margo Crackhead Escargot  Time Traveling to a Better Self  NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:44 am
 Playing: No Pixel RP (GTA)
 Viewers:  </desc>
 </programme>
 
-<programme start="20250725000000 +0000" stop="20250728034319 +0000" channel="chasrp.us">
+<programme start="20250725000000 +0000" stop="20250728035122 +0000" channel="chasrp.us">
 <title lang="en"> Chas - Hydra🐍 - Nopixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:00 am
 Playing: No Pixel RP (GTA)
-Viewers: 147 </desc>
+Viewers: 160 </desc>
 </programme>
 
 
