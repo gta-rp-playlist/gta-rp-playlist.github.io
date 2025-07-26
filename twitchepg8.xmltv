@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="uhsnow.us">
+<display-name>uhsnow</display-name>
+</channel>
+
 <channel id="sock22.us">
 <display-name>sock22</display-name>
 </channel>
@@ -22,40 +26,32 @@
 <display-name>Blokeowski</display-name>
 </channel>
 
-<channel id="katecirrus.us">
-<display-name>katecirrus</display-name>
-</channel>
-
 <channel id="xxhelen_bachxx.us">
 <display-name>xxhelen_bachxx</display-name>
 </channel>
 
-<channel id="Kerazane.us">
-<display-name>Kerazane</display-name>
-</channel>
-
-<channel id="BaldLionnn.us">
-<display-name>BaldLionnn</display-name>
+<channel id="katecirrus.us">
+<display-name>katecirrus</display-name>
 </channel>
 
 <channel id="NismoDOMA.us">
 <display-name>NismoDOMA</display-name>
 </channel>
 
+<channel id="BaldLionnn.us">
+<display-name>BaldLionnn</display-name>
+</channel>
+
 <channel id="Hellknight86.us">
 <display-name>Hellknight86</display-name>
 </channel>
 
-<channel id="Unabeard.us">
-<display-name>Unabeard</display-name>
+<channel id="Kerazane.us">
+<display-name>Kerazane</display-name>
 </channel>
 
 <channel id="margothesnail.us">
 <display-name>margothesnail</display-name>
-</channel>
-
-<channel id="uhsnow.us">
-<display-name>uhsnow</display-name>
 </channel>
 
 <channel id="nyokosato.us">
@@ -134,60 +130,71 @@
 <display-name>uhsnow</display-name>
 </channel>
 
+<channel id="finlayy.us">
+<display-name>finlayy</display-name>
+</channel>
+
+<programme start="20250726111943 +0000" stop="20250729061943 +0000" channel="uhsnow.us">
+<title lang="en"> ALBERTO - NoPixel 4.0 - discord.gg-snow - </title>
+<desc lang="en"> Started: 6:19AM
+Playing: Grand Theft Auto V
+Viewers: 86 </desc>
+</programme>
+
 <programme start="20250726094741 +0000" stop="20250729044741 +0000" channel="sock22.us">
 <title lang="en"> ✨UNCAPPED SUBATHON [DAY 2]🪅- RICHARD DARK - NoPixel - Discord - hellofresh #hellofreshpartner #ad </title>
 <desc lang="en"> Started: 4:47AM
 Playing: Grand Theft Auto V
-Viewers: 284 </desc>
+Viewers: 278 </desc>
 </programme>
 
 <programme start="20250725231329 +0000" stop="20250728181329 +0000" channel="NateKarama.us">
 <title lang="en"> Sneaky NoPixel WL </title>
 <desc lang="en"> Started: 06:13 pm
 Playing: Grand Theft Auto V
-Viewers: 152 </desc>
+Viewers: 151 </desc>
 </programme>
 
 <programme start="20250726081923 +0000" stop="20250729031923 +0000" channel="Kangaro0.us">
 <title lang="en"> Frost - NoPixel 4.0 WL @Kangaro0 </title>
 <desc lang="en"> Started: 03:19 am
 Playing: Grand Theft Auto V
-Viewers: 58 </desc>
+Viewers: 44 </desc>
 </programme>
 
 <programme start="20250726101345 +0000" stop="20250729051345 +0000" channel="UnicornFrapp.us">
 <title lang="en"> Remi Ironside - BCSO Snr Deputy - Nopixel WL </title>
 <desc lang="en"> Started: 05:13 am
 Playing: Grand Theft Auto V
-Viewers: 42 </desc>
+Viewers: 39 </desc>
 </programme>
 
 <programme start="20250726051410 +0000" stop="20250729001410 +0000" channel="Blokeowski.us">
 <title lang="en"> NoPixel WL 18 - Nathan Warren - EMERGENCY MEDICAL SHENANIGANS - commands lifeline reachout supportservices blackdoginstitute </title>
 <desc lang="en"> Started: 12:14 am
 Playing: Grand Theft Auto V
-Viewers: 45 </desc>
-</programme>
-
-<programme start="20250726092541 +0000" stop="20250729042541 +0000" channel="katecirrus.us">
-<title lang="en"> Phoebe Violet - Merchants - hvac enthusiast joins gang and contributes nothing - NP WL </title>
-<desc lang="en"> Started: 04:25 am
-Playing: Grand Theft Auto V
-Viewers: 17 </desc>
+Viewers: 46 </desc>
 </programme>
 
 <programme start="20250726094411 +0000" stop="20250729044411 +0000" channel="xxhelen_bachxx.us">
 <title lang="en"> Helen Bach - EMS P-66 - Sani Queen - No Pixel WL 4.0 </title>
 <desc lang="en"> Started: 04:44 am
 Playing: Grand Theft Auto V
-Viewers: 18 </desc>
+Viewers: 15 </desc>
 </programme>
 
-<programme start="20250726050635 +0000" stop="20250729000635 +0000" channel="Kerazane.us">
-<title lang="en"> Deputy Betty Briskett - BCSO - 396 - Nopixel WL - Crispy Brisketts SATDAY </title>
-<desc lang="en"> Started: 12:06AM
+<programme start="20250726092541 +0000" stop="20250729042541 +0000" channel="katecirrus.us">
+<title lang="en"> Phoebe Violet - Merchants - hvac enthusiast joins gang and contributes nothing - NP WL </title>
+<desc lang="en"> Started: 04:25 am
 Playing: Grand Theft Auto V
-Viewers: 41 </desc>
+Viewers: 10 </desc>
+</programme>
+
+<programme start="20250726054757 +0000" stop="20250729004757 +0000" channel="NismoDOMA.us">
+<title lang="en"> Tony Leung - chillin  Pub PD - HADES - NoPixel WL </title>
+<desc lang="en"> Started: 12:47 am
+Playing: Grand Theft Auto V
+Viewers: 4 </desc>
 </programme>
 
 <programme start="20250726095521 +0000" stop="20250729045521 +0000" channel="BaldLionnn.us">
@@ -197,172 +204,165 @@ Playing: Grand Theft Auto V
 Viewers: 4 </desc>
 </programme>
 
-<programme start="20250726054757 +0000" stop="20250729004757 +0000" channel="NismoDOMA.us">
-<title lang="en"> Tony Leung - chillin  Pub PD - HADES - NoPixel WL </title>
-<desc lang="en"> Started: 12:47 am
-Playing: Grand Theft Auto V
-Viewers: 3 </desc>
-</programme>
-
 <programme start="20250726063336 +0000" stop="20250729013336 +0000" channel="Hellknight86.us">
 <title lang="en"> LSPD PPO Viktor Schmidt - Nopixel WL </title>
 <desc lang="en"> Started: 01:33 am
 Playing: Grand Theft Auto V
-Viewers: 1 </desc>
+Viewers: 2 </desc>
 </programme>
 
-<programme start="20250726071524 +0000" stop="20250729021524 +0000" channel="Unabeard.us">
-<title lang="en"> Cypress - Bruce Baylor - NoPixel WL - </title>
-<desc lang="en"> Started: 02:15 am
+<programme start="20250726050635 +0000" stop="20250729000635 +0000" channel="Kerazane.us">
+<title lang="en"> Deputy Betty Briskett - BCSO - 396 - Nopixel WL - Crispy Brisketts SATDAY </title>
+<desc lang="en"> Started: 12:06AM
 Playing: Grand Theft Auto V
-Viewers: 1 </desc>
+Viewers: 48 </desc>
 </programme>
 
 <programme start="20250726052510 +0000" stop="20250729002510 +0000" channel="margothesnail.us">
 <title lang="en"> Margo Crackhead Escargot - Time Traveling to a Better Self - NoPixel WL </title>
 <desc lang="en"> Started: 12:25AM
 Playing: Grand Theft Auto V
-Viewers: 78 </desc>
+Viewers: 71 </desc>
 </programme>
 
-<programme start="20250726111943 +0000" stop="20250729061943 +0000" channel="uhsnow.us">
-<title lang="en"> ALBERTO - NoPixel 4.0 - discord.gg-snow - </title>
-<desc lang="en"> Started: 6:19AM
-Playing: Grand Theft Auto V
-Viewers: 37 </desc>
-</programme>
-
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="nyokosato.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="nyokosato.us">
 <title lang="en"> Skye Shields  Habibis™  NoPixel 4.0 WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:09 pm
 Playing: No Pixel RP (GTA)
 Viewers: 55 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="nismodoma.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="nismodoma.us">
 <title lang="en"> Tony Leung  chillin  Pub PD  - VERIFICATION PUSH  HADES  NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 10:03 pm
 Playing: No Pixel RP (GTA)
 Viewers: 14 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="margothesnail.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="margothesnail.us">
 <title lang="en"> Margo Crackhead Escargot  Time Traveling to a Better Self  NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:25 am
 Playing: No Pixel RP (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="nathankb.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="nathankb.us">
 <title lang="en"> Jov Diavol  Hydra  NoPixel 4.0 WL  playlist 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:55 am
 Playing: No Pixel RP (GTA)
 Viewers: 167 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="catssrage.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="catssrage.us">
 <title lang="en"> NEW EMOTES  Faye Archer  24hr  Your Fav HabibiMC Minion  Discord 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:07 am
 Playing: No Pixel RP (GTA)
-Viewers: 107 </desc>
+Viewers: 90 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="scratchrp.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="scratchrp.us">
 <title lang="en"> Jasper Johns  No Pixel 4.0 🐍 Hydra 🐍 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:57 am
 Playing: No Pixel RP (GTA)
 Viewers: 26 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="aus24.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT  LSPD  NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:15 am
 Playing: No Pixel RP (GTA)
 Viewers: 84 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="elochai.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="elochai.us">
 <title lang="en"> Lets get that check mark  More 3D - RP later  7tv  NoPixel 3D Dev 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:27 am
 Playing: No Pixel RP (GTA)
 Viewers: 209 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="yuukidav.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="yuukidav.us">
 <title lang="en"> captain lukas lavender 🎀 bcso  nopixel wl  yuukidav 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:06 am
 Playing: No Pixel RP (GTA)
 Viewers: 349 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="katecirrus.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="katecirrus.us">
 <title lang="en"> Phoebe Violet  Merchants  hvac enthusiast joins gang and contributes nothing  NP WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:25 am
 Playing: No Pixel RP (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="sukhi_1.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel  Besties  Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:31 am
 Playing: No Pixel RP (GTA)
 Viewers: 364 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="saphirici.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="saphirici.us">
 <title lang="en"> Docket Day  LSPD Rupert  No Pixel RP 4.0  discord 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:01 am
 Playing: No Pixel RP (GTA)
-Viewers: 111 </desc>
+Viewers: 135 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="arniev.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="arniev.us">
 <title lang="en"> arniedog - infinity wars tonight 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:08 am
 Playing: No Pixel RP (GTA)
 Viewers: 334 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="simpless.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="simpless.us">
 <title lang="en"> Gamin 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:24 am
 Playing: No Pixel RP (GTA)
 Viewers: 307 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="defac3d.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="defac3d.us">
 <title lang="en"> DENZEL  NOPIXEL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:31 am
 Playing: No Pixel RP (GTA)
 Viewers: 755 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="rexs.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="rexs.us">
 <title lang="en"> Rex  🐍 Hydra 🐍  Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:31 am
 Playing: No Pixel RP (GTA)
 Viewers: 36 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="stankxo.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="stankxo.us">
 <title lang="en"> day 40 - sleepless raccoon - there is no next time... 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:57 am
 Playing: No Pixel RP (GTA)
 Viewers: 44 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="vgsbrendan.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="vgsbrendan.us">
 <title lang="en"> Axel Bjorg  Im Just here Bruh  Day 22-30  Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:01 am
 Playing: No Pixel RP (GTA)
-Viewers: 1 </desc>
+Viewers: 4 </desc>
 </programme>
 
-<programme start="20250726000000 +0000" stop="20250729062134 +0000" channel="uhsnow.us">
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="uhsnow.us">
 <title lang="en"> ALBERTO  NoPixel 4.0  discord.gg-snow  🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:19 am
 Playing: No Pixel RP (GTA)
 Viewers: 1 </desc>
+</programme>
+
+<programme start="20250726000000 +0000" stop="20250729062818 +0000" channel="finlayy.us">
+<title lang="en"> WE OUTSIDEEE 💀 Mick AMARI 💀 NOPIXEL WL 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 06:26 am
+Playing: No Pixel RP (GTA)
+Viewers:  </desc>
 </programme>
 
 
