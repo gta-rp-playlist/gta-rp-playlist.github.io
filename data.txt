@@ -7,6 +7,11 @@
         <span class="username">lauti</span>
         <span class="viewer-count">🟢40</span>
       </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="13HabibiMC">13HabibiMC</div>
+      <div class="sub-item" data-category="13HabibiMC" data-title="Skye Shields  Habibis™  NoPixel 4.0 WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Xy41kieKNKpe/9CpXQylyH2Us/480.webp" data-viewers="73" onclick="playStream('nyokosato')">
+        <span class="username">nyokosato</span>
+        <span class="viewer-count">🟢73</span>
+      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="41Crayons">41Crayons</div>
       <div class="sub-item" data-category="41Crayons" data-title="Rocket Cane  Nopixel WL  Crayons  18  AAAAAAAA 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Rbu5roQDwENR/PQnKBYixiD3E/480.webp" data-viewers="19" onclick="playStream('makeitmeansomething')">
         <span class="username">makeitmeansomething</span>
@@ -34,24 +39,15 @@
         <span class="username">Hellknight86</span>
         <span class="viewer-count">🔴55</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="13HabibiMC">13HabibiMC</div>
-      <div class="sub-item" data-category="13HabibiMC" data-title="Skye Shields  Habibis™  NoPixel 4.0 WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Xy41kieKNKpe/9CpXQylyH2Us/480.webp" data-viewers="73" onclick="playStream('nyokosato')">
-        <span class="username">nyokosato</span>
-        <span class="viewer-count">🟢73</span>
+    <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
+      <div class="sub-item" data-category="10Besties" data-title="Lucky Torkel  Besties  Nopixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/SdnLQHf3LoI5/7qFfvjhURsWs/480.webp" data-viewers="1" onclick="playStream('sukhi_1')">
+        <span class="username">sukhi_1</span>
+        <span class="viewer-count">🟢1</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="55Devs">55Devs</div>
       <div class="sub-item" data-category="55Devs" data-title="Nopixel Dev  some Wee Wee some Dev stream New Babylon 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Bh5Lbyk6q4Xr/SKTTBNTfGHYt/480.webp" data-viewers="675" onclick="playStream('synced3d')">
         <span class="username">synced3d</span>
         <span class="viewer-count">🟢675</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
-      <div class="sub-item" data-category="10Besties" data-title="Perry Falken  NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/9p6KlPjBMheQ/480.webp" data-viewers="202" onclick="playStream('harmless')">
-        <span class="username">harmless</span>
-        <span class="viewer-count">🟢202</span>
-      </div>
-      <div class="sub-item" data-category="10Besties" data-title="Lucky Torkel  Besties  Nopixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/SdnLQHf3LoI5/7qFfvjhURsWs/480.webp" data-viewers="1" onclick="playStream('sukhi_1')">
-        <span class="username">sukhi_1</span>
-        <span class="viewer-count">🟢1</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
       <div class="sub-item" data-category="03BCSO" data-title="Remi Ironside - BCSO Snr Deputy - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="103" onclick="playStream('UnicornFrapp')">
