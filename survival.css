@@ -1,0 +1,121 @@
+/* survival.css */
+
+/* Existing styles */
+/* Existing styles */
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url('/images/survivals5_2.png'); /* Change to the path of your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Survivor', sans-serif; /* Update with the font you want */
+}
+#usernamesList {
+    font-size: 32px; /* Adjust size as needed */
+    text-align: center;
+    color: #f80606; /* White color */
+    font-family: 'Survivor', sans-serif; /* You need to import this font if it's custom */
+    letter-spacing: 2px; /* Gives a rugged feel */
+    font-family: 'Russo One', sans-serif;
+
+}
+/* New styles for loading overlay */
+#loadingOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/survivals5_2.png'); /* Use the same image as the background */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9999; /* Ensure it covers all content */
+    transition: opacity 1s; /* Smooth fade out effect */
+    opacity: 1; /* Fully visible initially */
+}
+
+/* Existing styles */
+#categoryTitle {
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: bold;
+    color: #ffffff; /* White color */
+    text-align: center; /* Center the text */
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#usernamesList {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+.twitch-embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+    border: 0px solid #fff; /* White border, adjust the color and width as needed */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-sizing: border-box; /* Ensure padding and border are included in the total width and height */
+    height: 0;
+    margin: 0; /* Remove any margin that might cause scrolling */
+}
+.twitch-embed iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/* Adjustments for single stream */
+#usernamesList.single-stream .twitch-embed {
+    padding-bottom: 0; /* Remove padding for single stream to fit better */
+    height: 91vh; /* Make sure it fits within the viewport height */
+    border: 0px solid #fff; /* White border, adjust the color and width as needed */
+    border-radius: 0px; /* Optional: Rounded corners */
+}
+
+/* New styles for gap */
+/* General styles for gap divs */
+
+.current-unmuted {
+    border: 2px solid #8f1a1a; /* Customize the border style */
+}
+.contestant-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 15px; /* Space between bubbles */
+    width: 90%;
+    max-width: 1200px; /* Prevents stretching too wide */
+    margin: 20px auto; /* Centers the grid */
+}
+
+.contestant-list a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    height: 100px; /* Ensures text fits inside */
+    background: #2c3e50;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px; /* Adjust font size for better fit */
+    overflow: hidden; /* Prevents text from spilling out */
+    word-wrap: break-word; /* Ensures long words don't break layout */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+
+.contestant-list a:hover {
+    background: #34495e;
+    transform: scale(1.05); /* Slight hover effect */
+}
