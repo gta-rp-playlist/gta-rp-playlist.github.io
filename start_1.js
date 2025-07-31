@@ -1,5 +1,9 @@
 // this filename is start_1.js
-
+document.addEventListener("DOMContentLoaded", function () {
+    const survivalItem = document.createElement("li");
+    survivalItem.innerHTML = `<a href="https://gta-rp-playlist.com/survival.html">Survival S7</a>`;
+    document.querySelector("#top-menu ul").prepend(survivalItem);
+});
 function sortCategories() {
     var sidebar = document.getElementById('sidebar');
     var categories = Array.from(sidebar.getElementsByClassName('category'));
