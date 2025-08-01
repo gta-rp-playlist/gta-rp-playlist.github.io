@@ -1,45 +1,37 @@
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
-      <div class="sub-item" data-category="01Cops" data-title="Lt. Maple 297  LSPD  NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/oaZX9ww8p4cT/Soh3NYDjRhx6/480.webp" data-viewers="203" onclick="playStream('silbullet')">
-        <span class="username">silbullet</span>
-        <span class="viewer-count">🟢32 🔴171</span>
-      </div>
       <div class="sub-item" data-category="01Cops" data-title="Bilby  NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7wwP2GBI4zYO/qlPrDrFf9Hct/480.webp" data-viewers="299" onclick="playStream('leonarwho')">
         <span class="username">leonarwho</span>
         <span class="viewer-count">🟢299</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="Lt. Maple 297  LSPD  NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/oaZX9ww8p4cT/Soh3NYDjRhx6/480.webp" data-viewers="223" onclick="playStream('silbullet')">
+        <span class="username">silbullet</span>
+        <span class="viewer-count">🟢32 🔴191</span>
       </div>
       <div class="sub-item" data-category="01Cops" data-title="DAVENPORT  LSPD  NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/QfLhAD3qda2Q/480.webp" data-viewers="111" onclick="playStream('aus24')">
         <span class="username">aus24</span>
         <span class="viewer-count">🟢111</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="DEEK MAGNUM | BCSO | 789 | NoPixel 4.0 WL | !discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mungo-854x480.jpg" data-viewers="143" onclick="playStream('mungo')">
+      <div class="sub-item" data-category="01Cops" data-title="DEEK MAGNUM | BCSO | 789 | NoPixel 4.0 WL | !discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mungo-854x480.jpg" data-viewers="154" onclick="playStream('mungo')">
         <span class="username">mungo</span>
-        <span class="viewer-count">🔴143</span>
+        <span class="viewer-count">🔴154</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Deputy Betty Briskett | BCSO | 396 | Nopixel WL | Crispy Briskett&#39;s Freaky Friday" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kerazane-854x480.jpg" data-viewers="55" onclick="playStream('kerazane')">
+      <div class="sub-item" data-category="01Cops" data-title="Deputy Betty Briskett | BCSO | 396 | Nopixel WL | Crispy Briskett&#39;s Freaky Friday" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kerazane-854x480.jpg" data-viewers="63" onclick="playStream('kerazane')">
         <span class="username">kerazane</span>
-        <span class="viewer-count">🔴55</span>
+        <span class="viewer-count">🔴63</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
-      <div class="sub-item" data-category="02LSPD" data-title="Lt. Maple 297 | LSPD | NoPixel WL 4.0 | !gtarecap !clip" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_silbullet-854x480.jpg" data-viewers="171" onclick="playStream('silbullet')">
+      <div class="sub-item" data-category="02LSPD" data-title="Lt. Maple 297 | LSPD | NoPixel WL 4.0 | !gtarecap !clip" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_silbullet-854x480.jpg" data-viewers="191" onclick="playStream('silbullet')">
         <span class="username">silbullet</span>
-        <span class="viewer-count">🔴171</span>
+        <span class="viewer-count">🔴191</span>
       </div>
       <div class="sub-item" data-category="02LSPD" data-title="DAVENPORT  LSPD  NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/QfLhAD3qda2Q/480.webp" data-viewers="111" onclick="playStream('aus24')">
         <span class="username">aus24</span>
         <span class="viewer-count">🟢111</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
-      <div class="sub-item" data-category="03BCSO" data-title="Bilby  NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7wwP2GBI4zYO/qlPrDrFf9Hct/480.webp" data-viewers="299" onclick="playStream('leonarwho')">
-        <span class="username">leonarwho</span>
-        <span class="viewer-count">🟢299</span>
-      </div>
-      <div class="sub-item" data-category="03BCSO" data-title="DEEK MAGNUM | BCSO | 789 | NoPixel 4.0 WL | !discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mungo-854x480.jpg" data-viewers="143" onclick="playStream('mungo')">
-        <span class="username">mungo</span>
-        <span class="viewer-count">🔴143</span>
-      </div>
-      <div class="sub-item" data-category="03BCSO" data-title="Deputy Betty Briskett | BCSO | 396 | Nopixel WL | Crispy Briskett&#39;s Freaky Friday" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kerazane-854x480.jpg" data-viewers="55" onclick="playStream('kerazane')">
-        <span class="username">kerazane</span>
-        <span class="viewer-count">🔴55</span>
+    <div class="category" onclick="highlightCategory(this)" data-category="12Hades">12Hades</div>
+      <div class="sub-item" data-category="12Hades" data-title="Tony Leung  day 1...  PUB COP - VERIFICATION PUSH  HADES  NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Jd46aD1BwHbD/X60Hd4Je0iGK/480.webp" data-viewers="83" onclick="playStream('nismodoma')">
+        <span class="username">nismodoma</span>
+        <span class="viewer-count">🟢78 🔴5</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="11Hydra">11Hydra</div>
       <div class="sub-item" data-category="11Hydra" data-title="DAY 42 UNCAPPED SUBATHON  🐍 HYDRA 🐍 NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/pyBXGR8YrFbN/2WEEK3LsbxkF/480.webp" data-viewers="139" onclick="playStream('kemony')">
@@ -49,6 +41,19 @@
       <div class="sub-item" data-category="11Hydra" data-title="Chas - Hydra🐍 - Nopixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/bpi3iRBuXyCy/xtt63trH3jtc/480.webp" data-viewers="298" onclick="playStream('chasrp')">
         <span class="username">chasrp</span>
         <span class="viewer-count">🟢298</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
+      <div class="sub-item" data-category="03BCSO" data-title="Bilby  NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7wwP2GBI4zYO/qlPrDrFf9Hct/480.webp" data-viewers="299" onclick="playStream('leonarwho')">
+        <span class="username">leonarwho</span>
+        <span class="viewer-count">🟢299</span>
+      </div>
+      <div class="sub-item" data-category="03BCSO" data-title="DEEK MAGNUM | BCSO | 789 | NoPixel 4.0 WL | !discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mungo-854x480.jpg" data-viewers="154" onclick="playStream('mungo')">
+        <span class="username">mungo</span>
+        <span class="viewer-count">🔴154</span>
+      </div>
+      <div class="sub-item" data-category="03BCSO" data-title="Deputy Betty Briskett | BCSO | 396 | Nopixel WL | Crispy Briskett&#39;s Freaky Friday" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kerazane-854x480.jpg" data-viewers="63" onclick="playStream('kerazane')">
+        <span class="username">kerazane</span>
+        <span class="viewer-count">🔴63</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="13HabibiMC">13HabibiMC</div>
       <div class="sub-item" data-category="13HabibiMC" data-title="Faye Archer  24hr THIS SAT  Your Fav HabibiMC Minion  Discord 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/SjWNllFDsvtv/32y7EENQxY3i/480.webp" data-viewers="48" onclick="playStream('catssrage')">
@@ -60,14 +65,9 @@
         <span class="viewer-count">🟢120</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="41Crayons">41Crayons</div>
-      <div class="sub-item" data-category="41Crayons" data-title="Rocket Cane  Nopixel WL  Crayons  18  AAAAAAAA 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Rbu5roQDwENR/K7mDKwRFoiIH/480.webp" data-viewers="19" onclick="playStream('makeitmeansomething')">
+      <div class="sub-item" data-category="41Crayons" data-title="Rocket Cane  Nopixel WL  Crayons  18  AAAAAAAA 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Rbu5roQDwENR/K7mDKwRFoiIH/480.webp" data-viewers="5" onclick="playStream('makeitmeansomething')">
         <span class="username">makeitmeansomething</span>
-        <span class="viewer-count">🟢5 🔴14</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="12Hades">12Hades</div>
-      <div class="sub-item" data-category="12Hades" data-title="Tony Leung  day 1...  PUB COP - VERIFICATION PUSH  HADES  NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Jd46aD1BwHbD/X60Hd4Je0iGK/480.webp" data-viewers="84" onclick="playStream('nismodoma')">
-        <span class="username">nismodoma</span>
-        <span class="viewer-count">🟢78 🔴6</span>
+        <span class="viewer-count">🟢5</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
       <div class="sub-item" data-category="10Besties" data-title="Perry Falken  NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/0XKzCu4Df3VX/480.webp" data-viewers="340" onclick="playStream('harmless')">
@@ -75,18 +75,18 @@
         <span class="viewer-count">🟢340</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
-      <div class="sub-item" data-category="07Doctors" data-title="captain mode 😵‍💫 - EMS - Alice Liddell - NoPixel WL 🚑" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_alliumm-854x480.jpg" data-viewers="31" onclick="playStream('alliumm')">
+      <div class="sub-item" data-category="07Doctors" data-title="captain mode 😵‍💫 - EMS - Alice Liddell - NoPixel WL 🚑" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_alliumm-854x480.jpg" data-viewers="29" onclick="playStream('alliumm')">
         <span class="username">alliumm</span>
-        <span class="viewer-count">🔴31</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="29LostMC">29LostMC</div>
-      <div class="sub-item" data-category="29LostMC" data-title="Regularly Scheduled Programming - Sai Kou - Road Captain - Lost MC - NoPixel WL - socials - rustmoon" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mrglee-854x480.jpg" data-viewers="5" onclick="playStream('MrGlee')">
-        <span class="username">MrGlee</span>
-        <span class="viewer-count">🔴5</span>
+        <span class="viewer-count">🔴29</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="🎉 NEW EMOTE - Sicky - Mae Dae - NoPixel" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ipandaru-854x480.jpg" data-viewers="4" onclick="playStream('ipandaru')">
+      <div class="sub-item" data-category="58Uncategorized" data-title="🎉 NEW EMOTE - Sicky - Mae Dae - NoPixel" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ipandaru-854x480.jpg" data-viewers="5" onclick="playStream('ipandaru')">
         <span class="username">ipandaru</span>
+        <span class="viewer-count">🔴5</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="29LostMC">29LostMC</div>
+      <div class="sub-item" data-category="29LostMC" data-title="Regularly Scheduled Programming - Sai Kou - Road Captain - Lost MC - NoPixel WL - socials - rustmoon" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mrglee-854x480.jpg" data-viewers="4" onclick="playStream('MrGlee')">
+        <span class="username">MrGlee</span>
         <span class="viewer-count">🔴4</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="57Independent">57Independent</div>
