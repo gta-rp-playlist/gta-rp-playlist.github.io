@@ -328,6 +328,11 @@ body {
     font-size: .65vw; /* Use vw for responsive font size */
     color: #888; /* Adjust the color if needed */
 }
+.total_viewers_group {
+    font-family: 'YourFontFamily', sans-serif; /* Replace 'YourFontFamily' with your desired font */
+    font-size: .47vw; /* Use vw for responsive font size */
+    color: #888; /* Adjust the color if needed */
+}
 .category {
     cursor: pointer;
     font-weight: bold;
