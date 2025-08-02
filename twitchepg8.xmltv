@@ -2,20 +2,16 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="reconmalfunction.us">
-<display-name>reconmalfunction</display-name>
-</channel>
-
 <channel id="Silbullet.us">
 <display-name>Silbullet</display-name>
 </channel>
 
-<channel id="makeitmeansomething.us">
-<display-name>makeitmeansomething</display-name>
-</channel>
-
 <channel id="lunaoni.us">
 <display-name>lunaoni</display-name>
+</channel>
+
+<channel id="makeitmeansomething.us">
+<display-name>makeitmeansomething</display-name>
 </channel>
 
 <channel id="beetle.us">
@@ -38,10 +34,6 @@
 <display-name>tjnvv</display-name>
 </channel>
 
-<channel id="givemeuhminute.us">
-<display-name>givemeuhminute</display-name>
-</channel>
-
 <channel id="manax.us">
 <display-name>manax</display-name>
 </channel>
@@ -60,10 +52,6 @@
 
 <channel id="kemony.us">
 <display-name>kemony</display-name>
-</channel>
-
-<channel id="mrratchet.us">
-<display-name>mrratchet</display-name>
 </channel>
 
 <channel id="ms_star.us">
@@ -98,18 +86,18 @@
 <display-name>makeitmeansomething</display-name>
 </channel>
 
-<programme start="20250801211814 +0000" stop="20250804161814 +0000" channel="reconmalfunction.us">
-<title lang="en"> -- Richard Woytkiw - CG - NUMBER 1 CRIM -- grabtap marbles </title>
-<desc lang="en"> Started: 4:18PM
-Playing: Grand Theft Auto V
-Viewers: 606 </desc>
-</programme>
-
 <programme start="20250802050903 +0000" stop="20250805000903 +0000" channel="Silbullet.us">
 <title lang="en"> Lt. Maple 297 - LSPD - NoPixel WL 4.0 - gtarecap clip </title>
 <desc lang="en"> Started: 12:09AM
 Playing: Grand Theft Auto V
-Viewers: 93 </desc>
+Viewers: 98 </desc>
+</programme>
+
+<programme start="20250801140523 +0000" stop="20250804090523 +0000" channel="lunaoni.us">
+<title lang="en"> 🩸 NoPixel - Mayumi Himura - We have no money guys really :c🩸 - </title>
+<desc lang="en"> Started: 9:05AM
+Playing: Grand Theft Auto V
+Viewers: 257 </desc>
 </programme>
 
 <programme start="20250802054055 +0000" stop="20250805004055 +0000" channel="makeitmeansomething.us">
@@ -119,18 +107,11 @@ Playing: Grand Theft Auto V
 Viewers: 8 </desc>
 </programme>
 
-<programme start="20250801140523 +0000" stop="20250804090523 +0000" channel="lunaoni.us">
-<title lang="en"> 🩸 NoPixel - Mayumi Himura - We have no money guys really :c🩸 - </title>
-<desc lang="en"> Started: 9:05AM
-Playing: Grand Theft Auto V
-Viewers: 246 </desc>
-</programme>
-
 <programme start="20250801214125 +0000" stop="20250804164125 +0000" channel="beetle.us">
 <title lang="en"> ROD LONG - ONX - YIPPEEE </title>
 <desc lang="en"> Started: 4:41PM
 Playing: Grand Theft Auto V
-Viewers: 65 </desc>
+Viewers: 61 </desc>
 </programme>
 
 <programme start="20250802055631 +0000" stop="20250805005631 +0000" channel="NismoDOMA.us">
@@ -144,122 +125,108 @@ Viewers: 1 </desc>
 <title lang="en"> The end - Lily Fumbles - NoPixel - 18 </title>
 <desc lang="en"> Started: 5:09PM
 Playing: Grand Theft Auto V
-Viewers: 64 </desc>
+Viewers: 63 </desc>
 </programme>
 
 <programme start="20250802022336 +0000" stop="20250804212336 +0000" channel="firecrackthat.us">
 <title lang="en"> Stumbles Fumbles - NoPixel WL HELP ME GET TO 200 SUBS </title>
 <desc lang="en"> Started: 9:23PM
 Playing: Grand Theft Auto V
-Viewers: 99 </desc>
+Viewers: 103 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="tjnvv.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="tjnvv.us">
 <title lang="en"> My first stream. 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:14 pm
 Playing: No Pixel RP (GTA)
 Viewers: 883 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="givemeuhminute.us">
-<title lang="en"> 🦉 Hard work work 🦉 New Babylon🦉 Benicio Delgado in NoPixel WL 🦉 Blueprints Mechanic Inventor 🦉 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 12:22 pm
-Playing: No Pixel RP (GTA)
-Viewers: 440 </desc>
-</programme>
-
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="manax.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="manax.us">
 <title lang="en"> Alan Key  LSPD   NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:55 pm
 Playing: No Pixel RP (GTA)
 Viewers: 495 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="paperstackerj.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="paperstackerj.us">
 <title lang="en"> Jordan Steve Bones  Manor x T10  NoPixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:58 pm
 Playing: No Pixel RP (GTA)
 Viewers: 118 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="leonarwho.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="leonarwho.us">
 <title lang="en"> BILBY  NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:59 pm
 Playing: No Pixel RP (GTA)
 Viewers: 247 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="xqc.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="xqc.us">
 <title lang="en"> 18 ad 🤩 HOLY 🤩 LIVE 🤩 COME HERE 🤩 IMMEDIATELY 🤩 GAMES🤩 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:50 pm
 Playing: Slots & Casino
 Viewers: 21862 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="kemony.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="kemony.us">
 <title lang="en"> NIGHT 42 UNCAPPED SUBATHON  🐍 HYDRA 🐍 NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:15 pm
 Playing: Grand Theft Auto V (GTA)
 Viewers: 153 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="mrratchet.us">
-<title lang="en"> Cop Then Mr Ratchet  Crackhead RP Owner 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 
-Playing: Grand Theft Auto V (GTA)
-Viewers: 138 </desc>
-</programme>
-
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="ms_star.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="ms_star.us">
 <title lang="en"> lil guy skye ★ bcso ★ NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:17 pm
 Playing: No Pixel RP (GTA)
 Viewers: 344 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="akartt.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="akartt.us">
 <title lang="en"> ⚠️Harold H Dawg Bishop⚠️HabibiMC Prospect⚠️No Pixel 4.0 WL⚠️ discord 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:36 pm
 Playing: No Pixel RP (GTA)
 Viewers: 114 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="viscosepower.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="viscosepower.us">
 <title lang="en"> 🌱Wesley Sapling Whitaker🌱  BCSO  Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:24 pm
 Playing: No Pixel RP (GTA)
 Viewers: 18 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="silbullet.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="silbullet.us">
 <title lang="en"> Lt. Maple 297  LSPD  NoPixel WL 4.0  gtarecap clip 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:09 am
 Playing: No Pixel RP (GTA)
 Viewers: 25 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="aus24.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT  LSPD  NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:02 am
 Playing: No Pixel RP (GTA)
 Viewers: 89 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="goufbam.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="goufbam.us">
 <title lang="en"> Short stream  ERP LEATER VRCHAT-VALORANT 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:22 am
 Playing: No Pixel RP (GTA)
 Viewers: 45 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="ealixer.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="ealixer.us">
 <title lang="en"> Partner Push-Subathon Day 2-31 - Johnny Lane  HabibiMC  discord  Nopixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:24 am
 Playing: No Pixel RP (GTA)
 Viewers: 56 </desc>
 </programme>
 
-<programme start="20250802000000 +0000" stop="20250805011318 +0000" channel="makeitmeansomething.us">
+<programme start="20250802000000 +0000" stop="20250805012118 +0000" channel="makeitmeansomething.us">
 <title lang="en"> Rocket Cane  Nopixel WL  Crayons  18  AAAAAAAA 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:43 am
 Playing: No Pixel RP (GTA)
