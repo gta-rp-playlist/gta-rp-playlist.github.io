@@ -60,14 +60,29 @@ function collapseAllSubItems() {
 
 function updateSidebarCategoryCount(category) {
     const subItems = document.querySelectorAll('.sub-item[data-category="' + category + '"]');
+
     const unique = Array.from(subItems).filter(function(item, i, arr) {
         const name = item.querySelector('.username').textContent.trim().toLowerCase();
         return i === arr.findIndex(el => el.querySelector('.username').textContent.trim().toLowerCase() === name);
     });
+
+    let totalViewers = 0;
+    subItems.forEach(function(item) {
+        const viewerText = item.querySelector('.viewer-count')?.textContent || "";
+        const numbers = viewerText.match(/\d+/g);
+        if (numbers) {
+            totalViewers += numbers.map(Number).reduce((a, b) => a + b, 0);
+        }
+    });
+
     const catEl = document.querySelector(`.category[data-category="${category}"]`);
     if (catEl) {
         const title = catEl.textContent.split(' (')[0];
-        catEl.innerHTML = `${title} <span class="user-count">(${unique.length})</span>`;
+        catEl.innerHTML = `
+            ${title} 
+            <span class="user-count">(${unique.length})</span>
+            <span class="total_viewers_group">👁 ${totalViewers.toLocaleString()}</span>
+        `;
     }
 }
 
