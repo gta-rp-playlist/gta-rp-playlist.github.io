@@ -77,6 +77,17 @@ function toggleSubItems(category) {
         });
 
         var numberOfUsers = uniqueSubItems.length;
+
+        // Calculate total viewers here:
+        var totalViewers = 0;
+        clickedSubItems.forEach(function(item) {
+            var viewerText = item.querySelector('.viewer-count')?.textContent || "";
+            var numbers = viewerText.match(/\d+/g);
+            if (numbers) {
+                totalViewers += numbers.map(Number).reduce(function(a, b) { return a + b; }, 0);
+            }
+        });
+
         var currentPage = window.location.pathname.split('/').pop();
         var server = currentPage === 'prodigy.html' ? 'prodigy' : 'nopixel';
 
@@ -89,7 +100,7 @@ function toggleSubItems(category) {
             url += '&quality=low';
         }
 
-        groupTitle.innerHTML = `${categoryName.trim()} <span class="user-count">(${numberOfUsers})</span> <span class="grid-link">[view all]</span>`;
+        groupTitle.innerHTML = `${categoryName.trim()} <span class="user-count">(${numberOfUsers})</span> <span class="total_viewers_group">👁 ${totalViewers.toLocaleString()}</span> <span class="grid-link">[view all]</span>`;
 
         document.querySelector('.grid-link').addEventListener('click', function() {
             window.location.href = url;
@@ -103,12 +114,13 @@ function toggleSubItems(category) {
             sidebarCategory.innerHTML = `
                 ${currentSidebarTitle} 
                 <span class="user-count">(${numberOfUsers})</span> 
+                <span class="total_viewers_group">👁 ${totalViewers.toLocaleString()}</span>
                 <sup class="view-all-link">View All</sup>
             `;
 
             const viewAllLink = sidebarCategory.querySelector('.view-all-link');
             if (viewAllLink) {
-                viewAllLink.addEventListener('click', (e) => {
+                viewAllLink.addEventListener('click', function(e) {
                     e.stopPropagation();
                     window.location.href = url;
                 });
