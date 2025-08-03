@@ -330,8 +330,14 @@ body {
 }
 .total_viewers_group {
     font-family: 'YourFontFamily', sans-serif; /* Replace 'YourFontFamily' with your desired font */
-    font-size: .65vw; /* Use vw for responsive font size */
+    font-size: .55vw; /* Use vw for responsive font size */
     color: #ebe4e4; /* Adjust the color if needed */
+}
+.emoji-eye {
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+    font-size: 0.4vw;
+    vertical-align: middle;
+    margin-right: 2px;
 }
 .category {
     cursor: pointer;
