@@ -175,15 +175,35 @@ function fetchAndUpdateSidebar_none() {
         .catch(() => {});
 }
 function fetchAndUpdateNumbers() {
-    fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/numbers.txt')
-        .then(r => {
-            if (!r.ok) throw new Error();
-            return r.text();
-        })
-        .then(data => {
-            document.getElementById('streamdata').innerHTML = data;
-        })
-        .catch(() => {});
+    // First fetch both files: numbers.txt and data.txt
+    Promise.all([
+        fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/numbers.txt').then(r => r.text()),
+        fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data.txt').then(r => r.text())
+    ])
+    .then(([numbersData, streamData]) => {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(streamData, 'text/html');
+
+        const excludedCategories = ['02LSPD', '03BCSO'];
+        const usernameSet = new Set();
+
+        doc.querySelectorAll('.sub-item').forEach(item => {
+            const category = item.getAttribute('data-category');
+            if (!excludedCategories.includes(category)) {
+                const usernameEl = item.querySelector('.username');
+                if (usernameEl) {
+                    usernameSet.add(usernameEl.textContent.trim());
+                }
+            }
+        });
+
+        // Replace the count in the numbersData string
+        const updatedNumbers = numbersData.replace(/Number of streams:\s*\d+/i, `Number of streams: ${usernameSet.size}`);
+
+        // Output to the DOM
+        document.getElementById('streamdata').innerHTML = updatedNumbers;
+    })
+    .catch(() => {});
 }
 
 function fetchAndUpdateSidebar_2() {
