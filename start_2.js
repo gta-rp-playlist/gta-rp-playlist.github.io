@@ -114,7 +114,7 @@ function toggleSubItems(category) {
             sidebarCategory.innerHTML = `
                 ${currentSidebarTitle} 
                 <span class="user-count">(${numberOfUsers})</span> 
-                <span class="total_viewers_group">👁 ${totalViewers.toLocaleString()}</span>
+                <span class="total_viewers_group"><span class="emoji-eye">👁️</span>${totalViewers.toLocaleString()}</span>
                 <sup class="view-all-link">View All</sup>
             `;
 

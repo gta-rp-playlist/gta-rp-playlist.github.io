@@ -81,7 +81,7 @@ function updateSidebarCategoryCount(category) {
         catEl.innerHTML = `
             ${title} 
             <span class="user-count">(${unique.length})</span>
-            <span class="total_viewers_group">👁 ${totalViewers.toLocaleString()}</span>
+            <span class="total_viewers_group"><span class="emoji-eye">👁️</span>${totalViewers.toLocaleString()}</span>
         `;
     }
 }
@@ -205,7 +205,6 @@ function fetchAndUpdateNumbers() {
     })
     .catch(() => {});
 }
-
 function fetchAndUpdateSidebar_2() {
     fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data2.txt')
         .then(r => {
