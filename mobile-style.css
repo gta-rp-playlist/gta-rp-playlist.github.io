@@ -35,6 +35,12 @@
     font-size: 2.17vw; /* Use vw for responsive font size */
     color: #ebe4e4; /* Adjust the color if needed */
 }
+.emoji-eye {
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+    font-size: 2.0vw;
+    vertical-align: middle;
+    margin-right: 2px;
+}
 .category {
     cursor: pointer;
     font-weight: bold;
