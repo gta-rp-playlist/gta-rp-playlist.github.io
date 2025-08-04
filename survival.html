@@ -5,35 +5,374 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survival S7</title>
     <link rel="stylesheet" href="survival.css">
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <h3 id="categoryTitle"></h3>
+    
+    <div id="buttonContainer">    <div id="legendContainer">
+        <div class="legendItem">
+            <span class="chatIcon">💬</span> <span>Open/Close User Chat-----</span>
+        </div>
+        <div class="legendItem">
+            <span class="deleteIcon">❌</span> <span>Delete This Player---</span>
+        </div>
+        <div class="legendItem">
+            <span>This page does not auto reload. You will have to manual reload to see if new online. Kick chat doesnt work. 
+            </span>
+        </div>
+    </div></div>
+
     <div id="container">
-        <div id="usernamesList">Season 6 Winner: Vicki Mae (ladydima) <br>Season 7 starts TBD.<br>Come back here on TBD to watch multi-view POV's from hosts,cameramen, and contestants.<br> Please show <a href="http://twitch.tv/kiva" >Kiva</a> all the love and support for this.<br>Cast reveal:<br></div>
+        <div id="usernamesList"></div>
     </div>
-<div class="contestant-list">
-    <a href="https://kick.com/zimboobwe" target="_blank">Survival Contestant #1: Jimbo Sutton (🟢 zimboobwe)</a>
-    <a href="https://kick.com/silent" target="_blank">Survival Contestant #2: Flippy (🟢 silent)</a>
-    <a href="https://kick.com/berryyboo" target="_blank">Survival Contestant #3: Vivienne Grey (🟢 berryyboo)</a>
-    <a href="https://kick.com/thatguygp" target="_blank">Survival Contestant #4: Jamal Abdul Jabbar (🟢 thatguygp)</a>
-    <a href="https://twitch.tv/deaflate" target="_blank">Survival Contestant #5: Paul Hammerstein (🟣 deaflate)</a>
-    <a href="https://kick.com/jonthebroski" target="_blank">Survival Contestant #6: Dio Ivanov (🟢 jonthebroski)</a>
-    <a href="https://twitch.tv/MeowBez" target="_blank">Survival Contestant #7: Bella Lux (MeowBez)</a>
-    <a href="https://kick.com/rissabear" target="_blank">Survival Contestant #8: Rissa Berry (🟢 rissabear)</a>
-    <a href="https://kick.com/Biotox" target="_blank">Survival Contestant #9: Bjorn (🟢 Biotox)</a>
-    <a href="https://twitch.tv/sput" target="_blank">Survival Contestant #10: Suckaberg (🟣 sput)</a>
-    <a href="https://kick.com/stankxo" target="_blank">Survival Contestant #11: Racoon (🟢 stankxo)</a>
-    <a href="https://kick.com/phantomzz" target="_blank">Survival Contestant #12: Connell MacGregor (🟢 phantomzz)</a>
-    <a href="https://twitch.tv/paulthepunk" target="_blank">Survival Contestant #13: Marty Holiday (🟣 paulthepunk)</a>
-    <a href="https://kick.com/malcolmglass" target="_blank">Survival Contestant #14: Malcolm Nekoda (🟢 malcolmglass)</a>
-    <a href="https://kick.com/sannmann" target="_blank">Survival Contestant #15: Finley Milton (🟢 sannmann)</a>
-    <a href="https://kick.com/dwagon" target="_blank">Survival Contestant #16: Dragon Rush (🟢 dwagon)</a>
-</div>
+    
     <script src="https://player.twitch.tv/js/embed/v1.js"></script>
     <script src="survival.js"></script>
     <script>
 
-    </script>    
+        function delay(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+        function toggleChat(username) {
+    const usernamesList = document.getElementById('usernamesList');
+
+    // Check if the chat wrapper already exists for this username
+    let chatWrapper = document.querySelector(`.chat-wrapper[data-username="${username}"]`);
+    
+    // Check if the player div contains a Kick iframe
+    const playerDiv = document.querySelector(`.twitch-embed[data-username="${username}"]`);
+    const existingKickIframe = playerDiv && playerDiv.querySelector('iframe[src^="https://player.kick.com/"]');
+    
+    // If Kick iframe exists, don't create chat button or iframe
+    if (existingKickIframe) {
+        console.log(`Skipping chat creation for ${username} as a Kick iframe is present.`);
+        
+        // Hide the chat button if it exists
+        const chatButton = playerDiv.querySelector('.chatButton');
+        if (chatButton) {
+            chatButton.style.display = 'none';  // Hide the chat button
+        }
+        
+        return;  // Exit the function early
+    }
+
+    // If the chat wrapper does not exist, create and append it after the last player div
+    if (!chatWrapper) {
+        // Create a new wrapper div for the chat iframe
+        chatWrapper = document.createElement('div');
+        chatWrapper.classList.add('chat-wrapper');
+        chatWrapper.setAttribute('data-username', username);
+
+        // Create the chat iframe
+        const chatIframe = document.createElement('iframe');
+        chatIframe.src = `https://www.twitch.tv/embed/${username}/chat?parent=gta-rp-playlist.com&parent=127.0.0.1&darkpopout`;
+        chatIframe.classList.add('chat-iframe');
+        chatIframe.style.width = '100%';
+        chatIframe.style.height = '500px'; // Adjust the height
+        chatIframe.style.border = 'none';
+
+        // Add the chat iframe inside the chat wrapper
+        chatWrapper.appendChild(chatIframe);
+
+        // Append the chat wrapper after the last player div inside the usernamesList
+        usernamesList.appendChild(chatWrapper);
+
+        // Wait for a moment before resizing and re-initializing
+        delay(950).then(() => {
+            window.dispatchEvent(new Event('resize'));
+            initializePlayers();  // Ensure players are initialized properly after chat is added
+        });
+    } else {
+        // If the chat wrapper already exists, remove it
+        chatWrapper.remove();
+
+        // Wait for a moment before resizing and re-initializing after removal
+        delay(950).then(() => {
+            window.dispatchEvent(new Event('resize'));
+            initializePlayers();  // Re-initialize players after chat removal
+        });
+    }
+}
+        const host = ["kiva"];
+        const cameras = ["eagleaye","shadiko","placeholder","placeholder"];
+        const team1 = ["jonthebroski", "thatguygp", "berryyboo", "zimboobwe", "silent", "paulthepunk", "meowbez", "dwagon"];
+        const team2 = ["biotox", "rissabear", "malcolmglass", "sput", "phantomzz", "stankxo", "deaflate", "sannmann"];
+        // Custom team names that can be easily changed
+        const team1Name = 'Blue'; 
+        const team2Name = 'Red'; 
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            await delay(0);
+
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/survival4.txt');
+                const data = await response.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(data, 'text/html');
+                const allItems = doc.querySelectorAll('#sidebar .sub-item');
+
+                const uniqueUsernames = new Set();
+                const orderedUsernames = [];
+
+                function addUniqueUsernames(list) {
+                    list.forEach(username => {
+                        if (uniqueUsernames.has(username)) {
+                            console.log(`Skipping duplicate username: ${username}`);
+                            return;
+                        }
+
+                        uniqueUsernames.add(username);
+                        orderedUsernames.push(username);
+                    });
+                }
+
+                addUniqueUsernames(
+                    Array.from(allItems)
+                        .map(item => item.querySelector('.username').textContent.toLowerCase())
+                        .filter(username => host.includes(username))
+                );
+
+                addUniqueUsernames(
+                    Array.from(allItems)
+                        .map(item => item.querySelector('.username').textContent.toLowerCase())
+                        .filter(username => cameras.includes(username))
+                );
+
+                addUniqueUsernames(
+                    Array.from(allItems)
+                        .map(item => item.querySelector('.username').textContent.toLowerCase())
+                        .filter(username => team1.includes(username))
+                );
+
+                addUniqueUsernames(
+                    Array.from(allItems)
+                        .map(item => item.querySelector('.username').textContent.toLowerCase())
+                        .filter(username => team2.includes(username))
+                );
+
+                const usernamesList = document.getElementById('usernamesList');
+                usernamesList.classList.toggle('single-stream', orderedUsernames.length === 1);
+                if (orderedUsernames.length === 0) {
+                const usernamesList = document.getElementById('usernamesList');
+                
+                // Create and style the message
+                const noLiveMessage = document.createElement('div');
+                noLiveMessage.textContent = "Nobody is live yet - this page does not auto update";
+                noLiveMessage.style.color = "white";
+                noLiveMessage.style.fontWeight = "bold";
+                noLiveMessage.style.textAlign = "center";
+                noLiveMessage.style.fontSize = "40px";
+                noLiveMessage.style.marginTop = "20px";
+
+                usernamesList.appendChild(noLiveMessage);
+            }
+                for (let index = 0; index < orderedUsernames.length; index++) {
+                    const username = orderedUsernames[index];
+
+                    const div = document.createElement('div');
+                    div.className = 'twitch-embed';
+                    div.id = `player${index + 1}`;
+                    div.setAttribute('data-username', username);
+
+                    let category = '';
+                    if (host.includes(username)) {
+                        div.classList.add('host');
+                        category = 'Host';
+                    } else if (cameras.includes(username)) {
+                        div.classList.add('cameras');
+                        category = 'Cameras';
+                    } else if (team1.includes(username)) {
+                        div.classList.add('team1');
+                        category = team1Name; // Use the variable for team1
+                    } else if (team2.includes(username)) {
+                        div.classList.add('team2');
+                        category = team2Name; // Use the variable for team2
+                    }
+
+                    // Create the label for the player
+                    const label = document.createElement('div');
+                    label.classList.add('playerLabel');
+                    label.textContent = category;  // Set the label text
+
+                    // Append the label to the player div
+                    div.appendChild(label);
+                    // Create label container
+                    const labelContainer = document.createElement('div');
+                    labelContainer.classList.add('playerLabel');
+
+                    const labelText = document.createElement('span');
+                    labelText.textContent = category;
+
+                    // Create chat toggle button
+                    const chatButton = document.createElement('button');
+                    chatButton.textContent = '💬';
+                    chatButton.classList.add('chatButton');
+                    chatButton.addEventListener('click', () => {
+                        toggleChat(username, div);
+                    });
+                    // Create delete player button
+                    const deleteButton = document.createElement('button');
+                    deleteButton.textContent = '❌';
+                    deleteButton.classList.add('deleteButton');
+                    deleteButton.addEventListener('click', () => {
+                        console.log(`Deleting player: ${username}`);
+                        div.remove();  // Remove the player div
+                    });
+                    labelContainer.appendChild(labelText);
+                    labelContainer.appendChild(chatButton);
+                    labelContainer.appendChild(deleteButton);  // Append the delete button
+                    div.appendChild(labelContainer);
+
+                    usernamesList.appendChild(div);
+
+                    const subItem = Array.from(allItems).find(item => 
+                        item.querySelector('.username').textContent.toLowerCase() === username
+                    );
+
+                    if (subItem && subItem.getAttribute('data-title')?.includes("🟢🟢Kick Stream☝️")) {
+                        const kickIframe = document.createElement('iframe');
+                        kickIframe.src = `https://player.kick.com/${username}?muted=${index === 0 ? 'false' : 'true'}&autoplay=true`;
+                        kickIframe.frameBorder = "0";
+                        kickIframe.allow = "autoplay; fullscreen";
+                        kickIframe.style.width = "100%";
+                        kickIframe.style.height = "100%";
+                        div.appendChild(kickIframe);
+                        initializePlayers();
+                    } else {
+                        players[`player${index + 1}`] = new Twitch.Embed(`player${index + 1}`, {
+                            width: '100%',
+                            height: '100%',
+                            channel: username,
+                            parent: ["127.0.0.1", "gta-rp-playlist.com"],
+                            muted: false,
+                            layout: 'video'
+                        });
+
+                        if (index === 0) {
+                            console.log(`Adding 'current-unmuted' class to player${index + 1}`);
+                            div.classList.add('current-unmuted');
+                        }
+                    }
+
+                    await delay(950);
+                    window.dispatchEvent(new Event('resize'));
+                }
+
+                initializePlayers();
+
+                // Add buttons dynamically after players are loaded
+                const buttonContainer = document.getElementById('buttonContainer');
+                const buttonNames = ['host', 'cameras', team1Name, team2Name]; // Use team name variables for buttons
+
+                buttonNames.forEach(name => {
+                    const button = document.createElement('button');
+                    button.textContent = name;
+                    button.classList.add('playerButton');
+
+                    // Set unique colors for each button
+                    if (name === 'host') {
+                        button.style.backgroundColor = 'orange';
+                        button.style.color = 'black';
+                    } else if (name === 'cameras') {
+                        button.style.backgroundColor = 'black';
+                    } else if (name === team1Name) {
+                        button.style.backgroundColor = 'blue';
+                        button.style.color = 'White';
+                    } else if (name === team2Name) {
+                        button.style.backgroundColor = 'red';
+                        button.style.color = 'white';
+                    }
+
+                    button.addEventListener('click', () => {
+    console.log(`Button clicked: ${name}`);
+    // Toggle visibility of players in the corresponding category
+    const usernamesToToggle = name === team1Name ? team1 : name === team2Name ? team2 : name === 'host' ? host : cameras;
+
+    usernamesToToggle.forEach(username => {
+        // Find the player div by username
+        const playerDiv = Array.from(document.querySelectorAll('.twitch-embed'))
+            .find(div => div.getAttribute('data-username') === username);
+        
+        // If the player div exists, toggle its visibility
+        if (playerDiv) {
+            playerDiv.style.display = (playerDiv.style.display === 'none') ? '' : 'none';
+        }
+
+        // Find the chat wrapper for the username
+        const chatWrapper = document.querySelector(`.chat-wrapper[data-username="${username}"]`);
+        
+        // If the chat wrapper exists, remove it
+        if (chatWrapper) {
+            chatWrapper.remove();
+        }
+    });
+});
+
+button.title = `Hide/Show ${name} players`; // Add tooltip to the button for clarity
+                    buttonContainer.appendChild(button);
+                });
+
+                // Add "All" button to show/hide all players and delete chats
+const allButton = document.createElement('button');
+allButton.textContent = 'All';
+allButton.classList.add('playerButton');
+allButton.style.backgroundColor = 'green';
+allButton.style.color = 'white';
+// Tooltip for the "All" button
+allButton.title = 'Hide/Show all players';
+allButton.addEventListener('click', () => {
+    console.log('All button clicked');
+    const allDivs = document.querySelectorAll('.twitch-embed');
+    const areAllVisible = Array.from(allDivs).every(div => div.style.display !== 'none');
+
+    // Toggle visibility for all players
+    allDivs.forEach(div => {
+        div.style.display = areAllVisible ? 'none' : '';
+    });
+
+    // Remove all chat wrappers
+    const allChatWrappers = document.querySelectorAll('.chat-wrapper');
+    allChatWrappers.forEach(chatWrapper => {
+        chatWrapper.remove();
+    });
+
+    // Optionally, re-initialize players after hiding/showing and deleting chats
+    window.dispatchEvent(new Event('resize'));
+    initializePlayers();
+});
+
+buttonContainer.appendChild(allButton);
+// Add "Delete All Chats" button next to "All" button
+const deleteAllChatsButton = document.createElement('button');
+        deleteAllChatsButton.textContent = 'Delete All Chats';
+        deleteAllChatsButton.classList.add('playerButton');
+        deleteAllChatsButton.style.backgroundColor = 'white';
+        deleteAllChatsButton.style.color = 'black';
+        // Tooltip for the "Delete All Chats" button
+        deleteAllChatsButton.title = 'Delete all open chat windows';
+        deleteAllChatsButton.addEventListener('click', async () => {
+            console.log('Delete All Chats button clicked');
+
+            // Find all chat wrappers and remove them
+            const allChatWrappers = document.querySelectorAll('.chat-wrapper');
+            allChatWrappers.forEach(chatWrapper => {
+                chatWrapper.remove();
+            });
+
+            // Wait for a moment before resizing and re-initializing after chat removal
+            await delay(950);
+            window.dispatchEvent(new Event('resize'));
+            initializePlayers();  // Re-initialize players after removing chats
+        });
+
+        buttonContainer.appendChild(deleteAllChatsButton);
+muteAllPlayersExceptPlayer1(); // Calling it after buttons are initialized
+
+
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        });
+    </script>
 </body>
 </html>
