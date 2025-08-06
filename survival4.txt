@@ -9,9 +9,9 @@
 <body>
   <div id="sidebar">
     <div class="category" onclick="highlightCategory(this)" data-category="56Survival">56Survival</div>
-    <div class="sub-item" data-category="56Survival" data-title="CAN I SURVIVA AN0THER DAY  TTS IS ON  subathon day 31 🟢🟢Kick Stream☝️" data-viewers="1192" onclick="playStream('silent')"><span class="username">silent</span><span class="viewer-count">🟢1192</span></div>
     <div class="sub-item" data-category="56Survival" data-title="Mac with HabibiMC - Survival Day 3  - Nopixel 🟢🟢Kick Stream☝️" data-viewers="51" onclick="playStream('phantomzz')"><span class="username">phantomzz</span><span class="viewer-count">🟢51</span></div>
     <div class="sub-item" data-category="56Survival" data-title="Dio Ivanov  NoPixel  Sole Survivor POV 🟢🟢Kick Stream☝️" data-viewers="100" onclick="playStream('jonthebroski')"><span class="username">jonthebroski</span><span class="viewer-count">🟢100</span></div>
+    <div class="sub-item" data-category="56Survival" data-title="CAN I SURVIVA AN0THER DAY  TTS IS ON  subathon day 31 🟢🟢Kick Stream☝️" data-viewers="1192" onclick="playStream('silent')"><span class="username">silent</span><span class="viewer-count">🟢1192</span></div>
     <div class="sub-item" data-category="56Survival" data-title="survival season 7 day 3 - really cool camera pov - alex mushkin-domino 🟢🟢Kick Stream☝️" data-viewers="96" onclick="playStream('shadiko')"><span class="username">shadiko</span><span class="viewer-count">🟢96</span></div>
   </div>
 </body>
