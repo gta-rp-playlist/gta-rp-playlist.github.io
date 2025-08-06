@@ -9,9 +9,9 @@
 <body>
   <div id="sidebar">
     <div class="category" onclick="highlightCategory(this)" data-category="56Survival">56Survival</div>
-    <div class="sub-item" data-category="56Survival" data-title="roleplay  TTS IS ON  subathon day 30 🟢🟢Kick Stream☝️" data-viewers="1159" onclick="playStream('silent')"><span class="username">silent</span><span class="viewer-count">🟢1159</span></div>
     <div class="sub-item" data-category="56Survival" data-title="Mac with HabibiMC - Survival Day 2  - Nopixel 🟢🟢Kick Stream☝️" data-viewers="59" onclick="playStream('phantomzz')"><span class="username">phantomzz</span><span class="viewer-count">🟢59</span></div>
     <div class="sub-item" data-category="56Survival" data-title="Dio Ivanov  NoPixel  Sole Survivor POV 🟢🟢Kick Stream☝️" data-viewers="116" onclick="playStream('jonthebroski')"><span class="username">jonthebroski</span><span class="viewer-count">🟢116</span></div>
+    <div class="sub-item" data-category="56Survival" data-title="roleplay  TTS IS ON  subathon day 30 🟢🟢Kick Stream☝️" data-viewers="1159" onclick="playStream('silent')"><span class="username">silent</span><span class="viewer-count">🟢1159</span></div>
     <div class="sub-item" data-category="56Survival" data-title="merch NEW MERCH DROP 🔥 SURVIVING SURVIVAL DAY 2 🔥 FINN MILTON ADMC 🔥 NoPixel 4.0 WL  vod 🟢🟢Kick Stream☝️" data-viewers="53" onclick="playStream('sannmann')"><span class="username">sannmann</span><span class="viewer-count">🟢53</span></div>
   </div>
 </body>
