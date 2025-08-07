@@ -257,19 +257,8 @@ function setDefaultParams() {
         urlParams.set("limitstreams", limitStreams);
     }
 
-    // Determine stream count (usernames count or limitStreams fallback)
-    const streamCount = usernames.length || limitStreams;
-
-    // Auto-set quality based on stream count, only if not already set
-    if (!urlParams.has("quality")) {
-        let autoQuality = "high";
-        if (streamCount >= 13) {
-            autoQuality = "low";
-        } else if (streamCount >= 8) {
-            autoQuality = "medium";
-        }
-        urlParams.set("quality", autoQuality);
-    }
+    // Always set quality to "chunked", overriding any existing param
+    urlParams.set("quality", "chunked");
 
     const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
 
@@ -355,78 +344,204 @@ function setDefaultParams() {
     }
 
     function initializePlayers() {
-        const playersDivs = document.querySelectorAll(".twitch-embed");
-        let activePlayer = null;
+  const playersDivs = document.querySelectorAll(".twitch-embed");
+  let activePlayer = null;
 
-        playersDivs.forEach((playerDiv) => {
-            const playerId = playerDiv.id;
-            const username = playerDiv.getAttribute("data-username");
-            const isKick = !!playerDiv.querySelector("iframe[src*='kick.com']");
-            let hoverTimeout;
+  playersDivs.forEach((playerDiv) => {
+    const playerId = playerDiv.id;
+    const username = playerDiv.getAttribute("data-username");
+    const isKick = !!playerDiv.querySelector("iframe[src*='kick.com']");
+    let hoverTimeout;
+    let scale = 1; // Start at original size
 
-            const reloadKickPlayer = (div, user, muted) => {
-                const currentVolume = div.getAttribute("data-volume");
-                const desired = muted ? "playermuted" : "playerunmuted";
-                if (currentVolume === desired) return;
+    // Track current translation offsets (for moving/zooming)
+    let translateX = 0;
+    let translateY = 0;
+    let animatingToCenter = false;
 
-                div.innerHTML = "";
-                const iframe = document.createElement("iframe");
-                iframe.src = `https://player.kick.com/${user}?muted=${muted}&autoplay=true`;
-                iframe.frameBorder = "0";
-                iframe.allow = "autoplay; fullscreen";
-                Object.assign(iframe.style, { width: "100%", height: "100%" });
-                div.appendChild(iframe);
-                div.setAttribute("data-volume", desired);
-                div.classList.toggle("current-unmuted", !muted);
-            };
-
-            const switchToPlayer = () => {
-                if (activePlayer === playerId) return;
-
-                document.querySelectorAll(".twitch-embed").forEach((div) => {
-                    const isKick = !!div.querySelector("iframe[src*='kick.com']");
-                    const username = div.getAttribute("data-username");
-                    const currentVolume = div.getAttribute("data-volume");
-
-                    if (currentVolume !== "playermuted") {
-                        div.classList.remove("current-unmuted");
-                        div.setAttribute("data-volume", "playermuted");
-
-                        if (players[div.id]) {
-                            players[div.id].setMuted(true);
-                        }
-
-                        if (isKick) {
-                            div.innerHTML = "";
-                            const iframe = document.createElement("iframe");
-                            iframe.src = `https://player.kick.com/${username}?muted=true&autoplay=true`;
-                            iframe.frameBorder = "0";
-                            iframe.allow = "autoplay; fullscreen";
-                            Object.assign(iframe.style, { width: "100%", height: "100%" });
-                            div.appendChild(iframe);
-                        }
-                    }
-                });
-
-                if (players[playerId]) {
-                    players[playerId].setMuted(false);
-                } else if (isKick) {
-                    const currentVolume = playerDiv.getAttribute("data-volume");
-                    if (currentVolume !== "playerunmuted") {
-                        reloadKickPlayer(playerDiv, username, false);
-                    }
-                }
-
-                playerDiv.classList.add("current-unmuted");
-                playerDiv.setAttribute("data-volume", "playerunmuted");
-                activePlayer = playerId;
-            };
-
-            playerDiv.addEventListener("mouseenter", () => {
-                hoverTimeout = setTimeout(switchToPlayer, 1100);
-            });
-            playerDiv.addEventListener("mouseleave", () => clearTimeout(hoverTimeout));
-            playerDiv.addEventListener("touchstart", switchToPlayer);
-        });
+    // Ensure overlay div exists to capture wheel events over iframe
+    let overlay = playerDiv.querySelector(".overlay");
+    if (!overlay) {
+      overlay = document.createElement("div");
+      overlay.className = "overlay";
+      // Insert overlay as first child so it sits on top of iframe
+      playerDiv.insertBefore(overlay, playerDiv.firstChild);
     }
+
+    // Clamp helper to keep values in bounds
+    const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
+
+    // Smoothly move player to center of viewport
+    function moveToCenter(callback) {
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+      const rect = playerDiv.getBoundingClientRect();
+
+      const viewportCenterX = viewportWidth / 2;
+      const viewportCenterY = viewportHeight / 2;
+      const playerCenterX = rect.left + rect.width / 2;
+      const playerCenterY = rect.top + rect.height / 2;
+
+      // Calculate needed translation
+      translateX += viewportCenterX - playerCenterX;
+      translateY += viewportCenterY - playerCenterY;
+
+      animatingToCenter = true;
+      playerDiv.style.transition = "transform 0.3s ease";
+      playerDiv.style.transformOrigin = "top left";
+      playerDiv.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+
+      // After animation ends clear flag and call callback
+      const transitionEndHandler = () => {
+        animatingToCenter = false;
+        playerDiv.style.transition = "";
+        playerDiv.removeEventListener("transitionend", transitionEndHandler);
+        if (callback) callback();
+      };
+      playerDiv.addEventListener("transitionend", transitionEndHandler);
+    }
+
+    const reloadKickPlayer = (div, user, muted) => {
+      const currentVolume = div.getAttribute("data-volume");
+      const desired = muted ? "playermuted" : "playerunmuted";
+      if (currentVolume === desired) return;
+
+      div.innerHTML = ""; // Clear all contents
+
+      // Re-add overlay for scroll capture
+      const newOverlay = document.createElement("div");
+      newOverlay.className = "overlay";
+      div.appendChild(newOverlay);
+
+      const iframe = document.createElement("iframe");
+      iframe.src = `https://player.kick.com/${user}?muted=${muted}&autoplay=true`;
+      iframe.frameBorder = "0";
+      iframe.allow = "autoplay; fullscreen";
+      Object.assign(iframe.style, { width: "100%", height: "100%" });
+      div.appendChild(iframe);
+
+      div.setAttribute("data-volume", desired);
+      div.classList.toggle("current-unmuted", !muted);
+
+      // Reattach wheel event on new overlay
+      newOverlay.addEventListener("wheel", wheelHandler, { passive: false });
+    };
+
+    const switchToPlayer = () => {
+      if (activePlayer === playerId) return;
+
+      document.querySelectorAll(".twitch-embed").forEach((div) => {
+        const isKick = !!div.querySelector("iframe[src*='kick.com']");
+        const username = div.getAttribute("data-username");
+        const currentVolume = div.getAttribute("data-volume");
+
+        if (currentVolume !== "playermuted") {
+          div.classList.remove("current-unmuted");
+          div.setAttribute("data-volume", "playermuted");
+
+          if (players[div.id]) {
+            players[div.id].setMuted(true);
+          }
+
+          if (isKick) {
+            div.innerHTML = "";
+            const iframe = document.createElement("iframe");
+            iframe.src = `https://player.kick.com/${username}?muted=true&autoplay=true`;
+            iframe.frameBorder = "0";
+            iframe.allow = "autoplay; fullscreen";
+            Object.assign(iframe.style, { width: "100%", height: "100%" });
+            div.appendChild(iframe);
+
+            // Add overlay for scroll capture and attach event listener
+            const newOverlay = document.createElement("div");
+            newOverlay.className = "overlay";
+            div.insertBefore(newOverlay, div.firstChild);
+            newOverlay.addEventListener("wheel", wheelHandler, { passive: false });
+          }
+        }
+      });
+
+      if (players[playerId]) {
+        players[playerId].setMuted(false);
+      } else if (isKick) {
+        const currentVolume = playerDiv.getAttribute("data-volume");
+        if (currentVolume !== "playerunmuted") {
+          reloadKickPlayer(playerDiv, username, false);
+        }
+      }
+
+      playerDiv.classList.add("current-unmuted");
+      playerDiv.setAttribute("data-volume", "playerunmuted");
+      activePlayer = playerId;
+    };
+
+    // Wheel event handler with move-to-center + zoom logic
+    const wheelHandler = (e) => {
+  if (!playerDiv.classList.contains("current-unmuted")) return;
+
+  e.preventDefault();
+
+  const delta = e.deltaY;
+  const scaleStep = 0.25; // zoom speed
+
+  const viewportWidth = window.innerWidth;
+  const viewportHeight = window.innerHeight;
+
+  if (!playerDiv._scale) playerDiv._scale = 1;
+  if (!playerDiv._isCentered) playerDiv._isCentered = false;
+
+  let prevScale = playerDiv._scale;
+
+  if (delta < 0) {
+    playerDiv._scale = Math.min(playerDiv._scale + scaleStep, 5);
+  } else if (delta > 0 && playerDiv._scale > 1) {
+    playerDiv._scale = Math.max(1, playerDiv._scale - scaleStep);
+  }
+
+  // If zoom just crossed from 1 to >1, calculate translation to center once
+  if (prevScale === 1 && playerDiv._scale > 1) {
+    const rect = playerDiv.getBoundingClientRect();
+
+    const viewportCenterX = viewportWidth / 2;
+    const viewportCenterY = viewportHeight / 2;
+
+    const elementCenterX = rect.left + rect.width / 2;
+    const elementCenterY = rect.top + rect.height / 2;
+
+    playerDiv._translateX = viewportCenterX - elementCenterX;
+    playerDiv._translateY = viewportCenterY - elementCenterY;
+    playerDiv._isCentered = true;
+  }
+
+  // Reset when scale is back to 1
+  if (playerDiv._scale === 1) {
+    playerDiv._isCentered = false;
+    playerDiv.style.transformOrigin = "";
+    playerDiv.style.transform = `translate(0px, 0px) scale(1)`;
+    playerDiv.style.zIndex = "";
+    return;
+  }
+
+  // Keep last translation when zooming in/out after initial centering
+  const tx = playerDiv._translateX || 0;
+  const ty = playerDiv._translateY || 0;
+
+  playerDiv.style.transformOrigin = "center center";
+  playerDiv.style.transform = `translate(${tx}px, ${ty}px) scale(${playerDiv._scale})`;
+  playerDiv.style.zIndex = 9999;
+};
+
+    playerDiv.addEventListener("mouseenter", () => {
+      hoverTimeout = setTimeout(switchToPlayer, 1100);
+    });
+
+    playerDiv.addEventListener("mouseleave", () => {
+      clearTimeout(hoverTimeout);
+    });
+
+    playerDiv.addEventListener("touchstart", switchToPlayer);
+
+    overlay.addEventListener("wheel", wheelHandler, { passive: false });
+  });
+}
 });
