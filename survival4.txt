@@ -9,8 +9,8 @@
 <body>
   <div id="sidebar">
     <div class="category" onclick="highlightCategory(this)" data-category="56Survival">56Survival</div>
-    <div class="sub-item" data-category="56Survival" data-title="FINAL DAY OF SURVIVAL  -  THE GUILDis dead boxboxbootcamp 🟢🟢Kick Stream☝️" data-viewers="273" onclick="playStream('biotox')"><span class="username">biotox</span><span class="viewer-count">🟢273</span></div>
     <div class="sub-item" data-category="56Survival" data-title="Nekoda  NoPixel WL  Survival 🟢🟢Kick Stream☝️" data-viewers="0" onclick="playStream('malcolmglass')"><span class="username">malcolmglass</span><span class="viewer-count">🟢0</span></div>
+    <div class="sub-item" data-category="56Survival" data-title="FINAL DAY OF SURVIVAL  -  THE GUILDis dead boxboxbootcamp 🟢🟢Kick Stream☝️" data-viewers="273" onclick="playStream('biotox')"><span class="username">biotox</span><span class="viewer-count">🟢273</span></div>
     <div class="sub-item" data-category="56Survival" data-title="Eve Summers  Survival VII Finale Later  NoPixel 4.0 survival 🟢🟢Kick Stream☝️" data-viewers="136" onclick="playStream('eagleaye')"><span class="username">eagleaye</span><span class="viewer-count">🟢136</span></div>
   </div>
 </body>
