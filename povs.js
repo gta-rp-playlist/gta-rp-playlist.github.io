@@ -181,8 +181,6 @@ function sortCategories() {
     subItems.forEach(item => sidebar.appendChild(item));
   });
 }
-const thumbnailIntervals = new Map();
-
 function updateSidebarCategoryCount(category) {
   const sidebar = document.getElementById('sidebar');
   const subItems = sidebar.querySelectorAll(`.sub-item[data-category="${category}"]`);
@@ -196,15 +194,20 @@ function updateSidebarCategoryCount(category) {
 
 function refreshThumbnail(imgElement, baseUrl) {
   function updateImage() {
-    // Directly set src with cache-buster, no preloading or clearing
-    const timestamp = Date.now();
-    imgElement.src = `${baseUrl}?cb=${timestamp}`;
+    // Step 1: clear current image src to cause flicker
+    imgElement.removeAttribute("src");
+
+    // Step 2: after short delay, set new src with cache buster
+    setTimeout(() => {
+      const timestamp = Date.now();
+      imgElement.src = `${baseUrl}?cb=${timestamp}`;
+    }, 50); // 50ms delay to show flicker
   }
   updateImage();
   if (thumbnailIntervals.has(imgElement)) {
     clearInterval(thumbnailIntervals.get(imgElement));
   }
-  const intervalId = setInterval(updateImage, 10000);
+  const intervalId = setInterval(updateImage, 10000); // reload every 10 seconds
   thumbnailIntervals.set(imgElement, intervalId);
 }
 
@@ -218,13 +221,9 @@ function fetchAndUpdateSidebar_none() {
       if (data !== lastFetchedData) {
         lastFetchedData = data;
         const sidebar = document.getElementById('sidebar');
-
-        // Clear old intervals
-        thumbnailIntervals.forEach(intervalId => clearInterval(intervalId));
-        thumbnailIntervals.clear();
-
         sidebar.innerHTML = data;
 
+        // For each .sub-item, create/find thumbnail <img> and start cache-busted reload
         sidebar.querySelectorAll('.sub-item').forEach(item => {
           const thumb = item.getAttribute('data-thumbnail');
           if (!thumb) return;
@@ -243,6 +242,7 @@ function fetchAndUpdateSidebar_none() {
           refreshThumbnail(img, thumb);
         });
 
+        // Resort and relabel categories
         sortCategories();
 
         document.querySelectorAll('.category').forEach(e => {
@@ -255,6 +255,6 @@ function fetchAndUpdateSidebar_none() {
     .catch(() => {});
 }
 
-// Fetch sidebar every 20 seconds
+// Initial call and refresh every 60 seconds
 fetchAndUpdateSidebar_none();
-setInterval(fetchAndUpdateSidebar_none, 20000);
+setInterval(fetchAndUpdateSidebar_none, 60000);
