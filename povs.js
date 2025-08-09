@@ -192,20 +192,27 @@ function fetchAndUpdateSidebar_none() {
         lastFetchedData = data;
         document.getElementById('sidebar').innerHTML = data;
 
-        // ✅ Preload all thumbnails immediately
+        // Insert <img> elements dynamically with thumbnail URLs
         document.querySelectorAll('.sub-item').forEach(item => {
           const thumb = item.getAttribute('data-thumbnail');
-          const img = new Image();
-          img.src = thumb;
+          let imgEl = item.querySelector('img');
+          if (!imgEl) {
+            imgEl = document.createElement('img');
+            imgEl.alt = 'thumbnail';
+            item.insertBefore(imgEl, item.firstChild); // Insert at top
+          }
+          imgEl.src = thumb;
         });
 
-        // ✅ Re-sort and relabel categories
+        // Re-sort and relabel categories
         sortCategories();
 
         collapseAllSubItems();
+
         document.querySelectorAll('.category').forEach(e => {
           updateSidebarCategoryCount(e.dataset.category);
         });
+
         if (lastOpenedCategory) toggleSubItems(lastOpenedCategory);
       }
     })
