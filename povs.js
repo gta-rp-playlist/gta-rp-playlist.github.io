@@ -199,37 +199,33 @@ function fetchAndUpdateSidebar_none() {
     })
     .then(data => {
       console.log('Fetched data length:', data.length);
-      if (data !== lastFetchedData) {
-        lastFetchedData = data;
-        document.getElementById('sidebar').innerHTML = data;
 
-        // Preload all thumbnails immediately
-        document.querySelectorAll('.sub-item').forEach(item => {
-          const thumb = item.getAttribute('data-thumbnail');
-          const img = new Image();
-          img.src = thumb;
-        });
+      // Force update every time, ignoring whether data changed or not
+      lastFetchedData = data;
+      document.getElementById('sidebar').innerHTML = data;
 
-        // Debug: find peppo thumbnail and log its src
-        const peppoItem = Array.from(document.querySelectorAll('.sub-item'))
-          .find(item => item.querySelector('.username')?.textContent.trim() === 'peppo');
-        if (peppoItem) {
-          console.log('Peppo thumbnail URL:', peppoItem.getAttribute('data-thumbnail'));
-        } else {
-          console.log('Peppo sub-item not found');
-        }
+      // Preload all thumbnails immediately
+      document.querySelectorAll('.sub-item').forEach(item => {
+        const thumb = item.getAttribute('data-thumbnail');
+        const img = new Image();
+        img.src = thumb;
+      });
 
-        // Re-sort and relabel categories
-        sortCategories();
-
-        document.querySelectorAll('.category').forEach(e => {
-          updateSidebarCategoryCount(e.dataset.category);
-        });
-
-        // Removed toggleSubItems(lastOpenedCategory);
+      // Debug: find peppo thumbnail and log its src
+      const peppoItem = Array.from(document.querySelectorAll('.sub-item'))
+        .find(item => item.querySelector('.username')?.textContent.trim() === 'peppo');
+      if (peppoItem) {
+        console.log('Peppo thumbnail URL:', peppoItem.getAttribute('data-thumbnail'));
       } else {
-        console.log('No change in fetched data, skipping update');
+        console.log('Peppo sub-item not found');
       }
+
+      // Re-sort and relabel categories
+      sortCategories();
+
+      document.querySelectorAll('.category').forEach(e => {
+        updateSidebarCategoryCount(e.dataset.category);
+      });
     })
     .catch(err => {
       console.error('Fetch error:', err);
@@ -238,6 +234,7 @@ function fetchAndUpdateSidebar_none() {
 
 sortCategories();
 setInterval(fetchAndUpdateSidebar_none, 60000);
+
 
 
 
