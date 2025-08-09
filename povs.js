@@ -191,65 +191,50 @@ function updateSidebarCategoryCount(category) {
   }
 }
 function fetchAndUpdateSidebar_none() {
-  console.log('Fetching sidebar data...');
-  const cacheBuster = Date.now();
-  fetch(`https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data.txt?cb=${cacheBuster}`)
+  fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data.txt')
     .then(r => {
-      if (!r.ok) throw new Error('Network response not ok');
+      if (!r.ok) throw new Error();
       return r.text();
     })
     .then(data => {
-      console.log('Fetched data length:', data.length);
+      if (data !== lastFetchedData) {
+        lastFetchedData = data;
+        document.getElementById('sidebar').innerHTML = data;
 
-      lastFetchedData = data;
-      document.getElementById('sidebar').innerHTML = data;
+        // ✅ Preload all thumbnails immediately
+        document.querySelectorAll('.sub-item').forEach(item => {
+          const thumb = item.getAttribute('data-thumbnail');
+          const img = new Image();
+          img.src = thumb;
+        });
 
-      // Force reload thumbnails by adding cache-busting param on both:
-      // 1. preloading Image objects
-      document.querySelectorAll('.sub-item').forEach(item => {
-        const originalThumb = item.getAttribute('data-thumbnail');
-        const thumbWithCacheBuster = originalThumb + '?cb=' + cacheBuster;
+        // ✅ Re-sort and relabel categories
+        sortCategories();
 
-        // Preload image
-        const img = new Image();
-        img.src = thumbWithCacheBuster;
+        // Removed collapseAllSubItems();
 
-        // 2. Update any <img> elements inside sub-item to reload with cache-busting URL
-        const imgEl = item.querySelector('img');
-        if (imgEl) {
-          imgEl.src = thumbWithCacheBuster;
-        }
-      });
-
-      // Debug: log peppo thumbnail URL (without cache buster, original URL)
-      const peppoItem = Array.from(document.querySelectorAll('.sub-item'))
-        .find(item => item.querySelector('.username')?.textContent.trim() === 'peppo');
-      if (peppoItem) {
-        console.log('Peppo thumbnail URL:', peppoItem.getAttribute('data-thumbnail'));
-      } else {
-        console.log('Peppo sub-item not found');
+        document.querySelectorAll('.category').forEach(e => {
+          updateSidebarCategoryCount(e.dataset.category);
+        });
+        if (lastOpenedCategory) toggleSubItems(lastOpenedCategory);
       }
-
-      // Sort and relabel categories
-      sortCategories();
-
-      // Update category counts
-      document.querySelectorAll('.category').forEach(e => {
-        updateSidebarCategoryCount(e.dataset.category);
-      });
-
-      // toggleSubItems removed as requested
     })
-    .catch(err => {
-      console.error('Fetch error:', err);
-    });
+    .catch(() => {});
+}
+
+function updateSidebarCategoryCount(category) {
+  const sidebar = document.getElementById('sidebar');
+  const subItems = sidebar.querySelectorAll(`.sub-item[data-category="${category}"]`);
+  const count = subItems.length;
+  const categoryElement = sidebar.querySelector(`.category[data-category="${category}"]`);
+  if (categoryElement) {
+    const label = categoryElement.textContent.replace(/\(\d+\)/, '').trim();
+    categoryElement.innerHTML = `${label} <span class="user-count">(${count})</span>`;
+  }
 }
 
 sortCategories();
 setInterval(fetchAndUpdateSidebar_none, 60000);
-
-
-
 
 
 
