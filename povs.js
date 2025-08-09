@@ -213,7 +213,6 @@ function fetchAndUpdateSidebar_none() {
         // Re-sort and relabel categories
         sortCategories();
 
-        collapseAllSubItems();
         document.querySelectorAll('.category').forEach(e => {
           updateSidebarCategoryCount(e.dataset.category);
         });
@@ -229,5 +228,6 @@ function fetchAndUpdateSidebar_none() {
 
 sortCategories();
 setInterval(fetchAndUpdateSidebar_none, 60000);
+
 
 
