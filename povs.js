@@ -180,7 +180,16 @@ function sortCategories() {
     subItems.forEach(item => sidebar.appendChild(item));
   });
 }
-
+function updateSidebarCategoryCount(category) {
+  const sidebar = document.getElementById('sidebar');
+  const subItems = sidebar.querySelectorAll(`.sub-item[data-category="${category}"]`);
+  const count = subItems.length;
+  const categoryElement = sidebar.querySelector(`.category[data-category="${category}"]`);
+  if (categoryElement) {
+    const label = categoryElement.textContent.replace(/\(\d+\)/, '').trim();
+    categoryElement.innerHTML = `${label} <span class="user-count">(${count})</span>`;
+  }
+}
 function fetchAndUpdateSidebar_none() {
   console.log('Fetching sidebar data...');
   fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data.txt')
@@ -228,6 +237,7 @@ function fetchAndUpdateSidebar_none() {
 
 sortCategories();
 setInterval(fetchAndUpdateSidebar_none, 60000);
+
 
 
 
