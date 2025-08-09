@@ -204,13 +204,24 @@ function fetchAndUpdateSidebar_none() {
       lastFetchedData = data;
       document.getElementById('sidebar').innerHTML = data;
 
-      // Preload all thumbnails immediately
+      // Force reload thumbnails by adding cache-busting param on both:
+      // 1. preloading Image objects
       document.querySelectorAll('.sub-item').forEach(item => {
-        const thumb = item.getAttribute('data-thumbnail');
+        const originalThumb = item.getAttribute('data-thumbnail');
+        const thumbWithCacheBuster = originalThumb + '?cb=' + cacheBuster;
+
+        // Preload image
         const img = new Image();
-        img.src = thumb;
+        img.src = thumbWithCacheBuster;
+
+        // 2. Update any <img> elements inside sub-item to reload with cache-busting URL
+        const imgEl = item.querySelector('img');
+        if (imgEl) {
+          imgEl.src = thumbWithCacheBuster;
+        }
       });
 
+      // Debug: log peppo thumbnail URL (without cache buster, original URL)
       const peppoItem = Array.from(document.querySelectorAll('.sub-item'))
         .find(item => item.querySelector('.username')?.textContent.trim() === 'peppo');
       if (peppoItem) {
@@ -219,8 +230,10 @@ function fetchAndUpdateSidebar_none() {
         console.log('Peppo sub-item not found');
       }
 
+      // Sort and relabel categories
       sortCategories();
 
+      // Update category counts
       document.querySelectorAll('.category').forEach(e => {
         updateSidebarCategoryCount(e.dataset.category);
       });
@@ -234,6 +247,7 @@ function fetchAndUpdateSidebar_none() {
 
 sortCategories();
 setInterval(fetchAndUpdateSidebar_none, 60000);
+
 
 
 
