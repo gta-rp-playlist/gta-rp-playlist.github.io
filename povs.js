@@ -1,4 +1,5 @@
 
+
 let selectedStreams = [];
 let lastFetchedData = '';
 let lastOpenedCategory = '';
@@ -194,21 +195,16 @@ function updateSidebarCategoryCount(category) {
 
 function refreshThumbnail(imgElement, baseUrl) {
   function updateImage() {
-    // Step 1: clear current image src to cause flicker
+    // Clear current image src to avoid flicker
     imgElement.removeAttribute("src");
 
-    // Step 2: after short delay, set new src with cache buster
     setTimeout(() => {
       const timestamp = Date.now();
       imgElement.src = `${baseUrl}?cb=${timestamp}`;
-    }, 50); // 50ms delay to show flicker
+    }, 50);
   }
   updateImage();
-  if (thumbnailIntervals.has(imgElement)) {
-    clearInterval(thumbnailIntervals.get(imgElement));
-  }
-  const intervalId = setInterval(updateImage, 10000); // reload every 10 seconds
-  thumbnailIntervals.set(imgElement, intervalId);
+  setInterval(updateImage, 30000);
 }
 
 function fetchAndUpdateSidebar_none() {
@@ -258,3 +254,6 @@ function fetchAndUpdateSidebar_none() {
 // Initial call and refresh every 60 seconds
 fetchAndUpdateSidebar_none();
 setInterval(fetchAndUpdateSidebar_none, 60000);
+
+
+
