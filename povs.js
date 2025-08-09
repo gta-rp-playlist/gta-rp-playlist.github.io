@@ -225,7 +225,8 @@ function fetchAndUpdateSidebar_none() {
         document.querySelectorAll('.category').forEach(e => {
           updateSidebarCategoryCount(e.dataset.category);
         });
-        if (lastOpenedCategory) toggleSubItems(lastOpenedCategory);
+
+        // Removed toggleSubItems(lastOpenedCategory);
       } else {
         console.log('No change in fetched data, skipping update');
       }
