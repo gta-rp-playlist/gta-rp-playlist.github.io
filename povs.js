@@ -192,7 +192,8 @@ function updateSidebarCategoryCount(category) {
 }
 function fetchAndUpdateSidebar_none() {
   console.log('Fetching sidebar data...');
-  fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data.txt')
+  const cacheBuster = Date.now();
+  fetch(`https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data.txt?cb=${cacheBuster}`)
     .then(r => {
       if (!r.ok) throw new Error('Network response not ok');
       return r.text();
@@ -200,7 +201,6 @@ function fetchAndUpdateSidebar_none() {
     .then(data => {
       console.log('Fetched data length:', data.length);
 
-      // Force update every time, ignoring whether data changed or not
       lastFetchedData = data;
       document.getElementById('sidebar').innerHTML = data;
 
@@ -211,7 +211,6 @@ function fetchAndUpdateSidebar_none() {
         img.src = thumb;
       });
 
-      // Debug: find peppo thumbnail and log its src
       const peppoItem = Array.from(document.querySelectorAll('.sub-item'))
         .find(item => item.querySelector('.username')?.textContent.trim() === 'peppo');
       if (peppoItem) {
@@ -220,12 +219,13 @@ function fetchAndUpdateSidebar_none() {
         console.log('Peppo sub-item not found');
       }
 
-      // Re-sort and relabel categories
       sortCategories();
 
       document.querySelectorAll('.category').forEach(e => {
         updateSidebarCategoryCount(e.dataset.category);
       });
+
+      // toggleSubItems removed as requested
     })
     .catch(err => {
       console.error('Fetch error:', err);
