@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Force-refresh image</title>
+  <style>
+    html,body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0f1720;
+    }
+    img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 8px;
+      background: #111;
+      transition: opacity 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <img id="liveImage" alt="Live-updating thumbnail" />
+
+  <script>
+    const baseUrl = "https://images.kick.com/video_thumbnails/3BkB3aBNGk9b/T1GVidtXHpwj/480.webp";
+    const img = document.getElementById("liveImage");
+
+    function updateImage() {
+      const timestamp = Date.now();
+      const newSrc = `${baseUrl}?cb=${timestamp}`;
+
+      // Preload new image before swapping
+      const tempImg = new Image();
+      tempImg.onload = () => {
+        img.src = newSrc; // swap after it's loaded
+      };
+      tempImg.src = newSrc;
+    }
+
+    // Load once immediately
+    updateImage();
+
+    // Refresh every 30 seconds
+    setInterval(updateImage, 30000);
+  </script>
+</body>
+</html>
