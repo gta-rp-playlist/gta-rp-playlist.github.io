@@ -182,24 +182,35 @@ function sortCategories() {
 }
 
 function fetchAndUpdateSidebar_none() {
+  console.log('Fetching sidebar data...');
   fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data.txt')
     .then(r => {
-      if (!r.ok) throw new Error();
+      if (!r.ok) throw new Error('Network response not ok');
       return r.text();
     })
     .then(data => {
+      console.log('Fetched data length:', data.length);
       if (data !== lastFetchedData) {
         lastFetchedData = data;
         document.getElementById('sidebar').innerHTML = data;
 
-        // ✅ Preload all thumbnails immediately
+        // Preload all thumbnails immediately
         document.querySelectorAll('.sub-item').forEach(item => {
           const thumb = item.getAttribute('data-thumbnail');
           const img = new Image();
           img.src = thumb;
         });
 
-        // ✅ Re-sort and relabel categories
+        // Debug: find peppo thumbnail and log its src
+        const peppoItem = Array.from(document.querySelectorAll('.sub-item'))
+          .find(item => item.querySelector('.username')?.textContent.trim() === 'peppo');
+        if (peppoItem) {
+          console.log('Peppo thumbnail URL:', peppoItem.getAttribute('data-thumbnail'));
+        } else {
+          console.log('Peppo sub-item not found');
+        }
+
+        // Re-sort and relabel categories
         sortCategories();
 
         collapseAllSubItems();
@@ -207,11 +218,16 @@ function fetchAndUpdateSidebar_none() {
           updateSidebarCategoryCount(e.dataset.category);
         });
         if (lastOpenedCategory) toggleSubItems(lastOpenedCategory);
+      } else {
+        console.log('No change in fetched data, skipping update');
       }
     })
-    .catch(() => {});
+    .catch(err => {
+      console.error('Fetch error:', err);
+    });
 }
 
 sortCategories();
 setInterval(fetchAndUpdateSidebar_none, 60000);
+
 
