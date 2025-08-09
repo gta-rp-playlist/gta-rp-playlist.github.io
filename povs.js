@@ -1,3 +1,4 @@
+
 let selectedStreams = [];
 let lastFetchedData = '';
 let lastOpenedCategory = '';
@@ -180,25 +181,6 @@ function sortCategories() {
     subItems.forEach(item => sidebar.appendChild(item));
   });
 }
-
-// Store intervals to clear them when sidebar reloads
-const thumbnailIntervals = new Map();
-
-function refreshThumbnail(imgElement, baseUrl) {
-  function updateImage() {
-    const timestamp = Date.now();
-    const newSrc = `${baseUrl}?cb=${timestamp}`;
-    const tempImg = new Image();
-    tempImg.onload = () => {
-      imgElement.src = newSrc; // swap after preload
-    };
-    tempImg.src = newSrc;
-  }
-  updateImage();
-  const intervalId = setInterval(updateImage, 30000);
-  thumbnailIntervals.set(imgElement, intervalId);
-}
-
 function updateSidebarCategoryCount(category) {
   const sidebar = document.getElementById('sidebar');
   const subItems = sidebar.querySelectorAll(`.sub-item[data-category="${category}"]`);
@@ -208,6 +190,20 @@ function updateSidebarCategoryCount(category) {
     const label = categoryElement.textContent.replace(/\(\d+\)/, '').trim();
     categoryElement.innerHTML = `${label} <span class="user-count">(${count})</span>`;
   }
+}
+
+function refreshThumbnail(imgElement, baseUrl) {
+  function updateImage() {
+    // Clear current image src to avoid flicker
+    imgElement.removeAttribute("src");
+
+    setTimeout(() => {
+      const timestamp = Date.now();
+      imgElement.src = `${baseUrl}?cb=${timestamp}`;
+    }, 50);
+  }
+  updateImage();
+  setInterval(updateImage, 30000);
 }
 
 function fetchAndUpdateSidebar_none() {
@@ -220,14 +216,9 @@ function fetchAndUpdateSidebar_none() {
       if (data !== lastFetchedData) {
         lastFetchedData = data;
         const sidebar = document.getElementById('sidebar');
-
-        // Clear old thumbnail intervals to avoid duplicates
-        thumbnailIntervals.forEach(intervalId => clearInterval(intervalId));
-        thumbnailIntervals.clear();
-
         sidebar.innerHTML = data;
 
-        // For each .sub-item, insert or find thumbnail <img> and start live refresh
+        // For each .sub-item, create/find thumbnail <img> and start cache-busted reload
         sidebar.querySelectorAll('.sub-item').forEach(item => {
           const thumb = item.getAttribute('data-thumbnail');
           if (!thumb) return;
@@ -246,25 +237,19 @@ function fetchAndUpdateSidebar_none() {
           refreshThumbnail(img, thumb);
         });
 
-        // Resort categories and update counts
+        // Resort and relabel categories
         sortCategories();
 
         document.querySelectorAll('.category').forEach(e => {
           updateSidebarCategoryCount(e.dataset.category);
         });
 
-        if (lastOpenedCategory) {
-          toggleSubItems(lastOpenedCategory);
-        }
+        if (lastOpenedCategory) toggleSubItems(lastOpenedCategory);
       }
     })
-    .catch(err => {
-      console.error('Failed to fetch sidebar data:', err);
-    });
+    .catch(() => {});
 }
 
-// Initial call and periodic refresh every 60 seconds
+// Initial call and refresh every 60 seconds
 fetchAndUpdateSidebar_none();
 setInterval(fetchAndUpdateSidebar_none, 60000);
-
-
