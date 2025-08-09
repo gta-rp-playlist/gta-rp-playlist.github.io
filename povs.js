@@ -1,7 +1,187 @@
-let lastFetchedData = null;
-let lastOpenedCategory = null;
-const thumbnailIntervals = new Map();
 
+
+let selectedStreams = [];
+let lastFetchedData = '';
+let lastOpenedCategory = '';
+// Preload all thumbnails
+document.querySelectorAll('.sub-item').forEach(item => {
+  const thumb = item.getAttribute('data-thumbnail');
+  const img = new Image();
+  img.src = thumb;
+});
+function highlightCategory(el) {
+  document.querySelectorAll('.category').forEach(cat => cat.classList.remove('active'));
+  el.classList.add('active');
+
+  const category = el.getAttribute('data-category');
+  lastOpenedCategory = category;
+
+  let matchingItems = Array.from(document.querySelectorAll('.sub-item'))
+    .filter(item => item.getAttribute('data-category') === category);
+
+  matchingItems.sort((a, b) => {
+    const viewersA = parseInt(a.getAttribute('data-viewers'));
+    const viewersB = parseInt(b.getAttribute('data-viewers'));
+    return viewersB - viewersA;
+  });
+
+let gridHTML = `
+  <div class="add-all-bar">
+    <a href="#" id="add-all-link">+ Add All</a>
+    &nbsp;|&nbsp;
+    <a href="#" id="clear-all-link">✕ Clear All</a>
+  </div>
+  <div class="grid">
+`;
+
+// ✅ Track usernames seen
+const seenUsernames = new Set();
+
+matchingItems.forEach(item => {
+  let title = item.getAttribute('data-title');
+  const thumb = item.getAttribute('data-thumbnail');
+  const username = item.querySelector('.username').textContent.trim();
+  const viewers = item.getAttribute('data-viewers');
+
+  if (seenUsernames.has(username)) return; // Skip duplicate
+  seenUsernames.add(username);
+
+  let isKick = false;
+  if (title.includes('🟢🟢Kick Stream☝️')) {
+    title = title.replace('🟢🟢Kick Stream☝️', '').trim();
+    isKick = true;
+  }
+
+  const streamID = isKick ? `${username}-k` : username;
+  const showX = selectedStreams.includes(streamID);
+  const viewerLabel = isKick ? `🟢Viewers: ${viewers}` : `🔴Viewers: ${viewers}`;
+
+  gridHTML += `
+    <div class="grid-item ${showX ? 'selected' : ''}" data-username="${username}" data-platform="${isKick ? 'kick' : 'twitch'}">
+      <img src="${thumb}" alt="${title}">
+      <h3>${username}</h3>
+      <p>${title}</p>
+      <span>${viewerLabel}</span>
+      <button class="remove-x" style="display:${showX ? 'block' : 'none'};">X</button>
+    </div>
+  `;
+});
+
+gridHTML += '</div>';
+  document.getElementById('grid').innerHTML = gridHTML;
+
+  document.getElementById('add-all-link').addEventListener('click', e => {
+    e.preventDefault();
+    matchingItems.forEach(item => {
+      const username = item.querySelector('.username').textContent;
+      const title = item.getAttribute('data-title');
+      const isKick = title.includes('🟢🟢Kick Stream☝️');
+      const streamID = isKick ? `${username}-k` : username;
+      if (!selectedStreams.includes(streamID)) {
+        selectedStreams.push(streamID);
+      }
+    });
+    updateMultiURL();
+    highlightCategory(el);
+  });
+
+  document.getElementById('clear-all-link').addEventListener('click', e => {
+    e.preventDefault();
+    selectedStreams = [];
+    updateMultiURL();
+    highlightCategory(el);
+  });
+
+document.querySelectorAll('.grid-item').forEach(item => {
+  item.addEventListener('click', e => {
+    if (e.target.classList.contains('remove-x')) return;
+
+    const username = item.getAttribute('data-username');
+    const platform = item.getAttribute('data-platform');
+    const streamID = platform === 'kick' ? `${username}-k` : username;
+
+    if (selectedStreams.includes(streamID)) {
+      // Already selected → unselect it
+      selectedStreams = selectedStreams.filter(s => s !== streamID);
+      item.querySelector('.remove-x').style.display = 'none';
+      item.classList.remove('selected');
+    } else {
+      // Not selected → select it
+      selectedStreams.push(streamID);
+      item.querySelector('.remove-x').style.display = 'block';
+      item.classList.add('selected');
+    }
+
+    updateMultiURL();
+  });
+
+  item.querySelector('.remove-x').addEventListener('click', e => {
+    e.stopPropagation();
+    const username = item.getAttribute('data-username');
+    const platform = item.getAttribute('data-platform');
+    const streamID = platform === 'kick' ? `${username}-k` : username;
+
+    selectedStreams = selectedStreams.filter(s => s !== streamID);
+    item.querySelector('.remove-x').style.display = 'none';
+    item.classList.remove('selected');
+    updateMultiURL();
+  });
+});
+}
+
+function updateMultiURL() {
+  const base = 'https://multi.vaeb.io/';
+  const urlParts = selectedStreams.map(name => `<span class="stream">${name}</span>`);
+  const fullHTML = base + urlParts.join('/');
+  document.getElementById('multi-url').innerHTML = fullHTML;
+}
+
+document.getElementById('copy-url').addEventListener('click', function() {
+  const url = document.getElementById('multi-url').textContent;
+  navigator.clipboard.writeText(url).then(() => {
+    const status = document.getElementById('copy-status');
+    status.textContent = 'Copied!';
+    setTimeout(() => {
+      status.textContent = '';
+    }, 1500);
+  }).catch(err => {
+    console.error('Failed to copy:', err);
+  });
+});
+
+document.getElementById('open-url').addEventListener('click', () => {
+  window.open(document.getElementById('multi-url').textContent, '_blank');
+});
+
+// Hide all sub-items initially
+document.querySelectorAll('.sub-item').forEach(item => {
+  item.style.display = 'none';
+});
+
+function sortCategories() {
+  const sidebar = document.getElementById('sidebar');
+  const categories = Array.from(sidebar.querySelectorAll('.category'));
+
+  categories.sort((a, b) => {
+    const numA = parseInt(a.getAttribute('data-category').match(/^\d+/)[0]);
+    const numB = parseInt(b.getAttribute('data-category').match(/^\d+/)[0]);
+    return numA - numB;
+  });
+
+  categories.forEach(cat => {
+    const original = cat.textContent.trim();
+    const newLabel = original.replace(/^\d+/, '').trim();
+
+    const categoryName = cat.getAttribute('data-category');
+    const subItems = Array.from(sidebar.querySelectorAll(`.sub-item[data-category="${categoryName}"]`));
+    const numberOfUsers = subItems.length;
+
+    cat.innerHTML = `${newLabel} <span class="user-count">(${numberOfUsers})</span>`;
+
+    sidebar.appendChild(cat);
+    subItems.forEach(item => sidebar.appendChild(item));
+  });
+}
 function updateSidebarCategoryCount(category) {
   const sidebar = document.getElementById('sidebar');
   const subItems = sidebar.querySelectorAll(`.sub-item[data-category="${category}"]`);
@@ -14,44 +194,17 @@ function updateSidebarCategoryCount(category) {
 }
 
 function refreshThumbnail(imgElement, baseUrl) {
-  const container = imgElement.parentElement;
-
   function updateImage() {
-    // Remove old <img>
-    if (imgElement.parentElement) {
-      container.removeChild(imgElement);
-    }
+    // Clear current image src to avoid flicker
+    imgElement.removeAttribute("src");
 
-    // Create new <img>
-    const newImg = document.createElement('img');
-    newImg.className = 'thumbnail';
-    newImg.style.maxWidth = '100%';
-    newImg.style.borderRadius = '4px';
-    newImg.style.display = 'block';
-    newImg.style.marginTop = '6px';
-
-    // Set src after short delay with cache buster
     setTimeout(() => {
       const timestamp = Date.now();
-      newImg.src = `${baseUrl}?cb=${timestamp}`;
+      imgElement.src = `${baseUrl}?cb=${timestamp}`;
     }, 50);
-
-    // Append new <img>
-    container.appendChild(newImg);
-
-    // Update imgElement reference for next cycle
-    imgElement = newImg;
   }
-
   updateImage();
-
-  // Clear any previous interval for old imgElement to prevent duplicates
-  if (thumbnailIntervals.has(imgElement)) {
-    clearInterval(thumbnailIntervals.get(imgElement));
-  }
-
-  const intervalId = setInterval(updateImage, 10000);
-  thumbnailIntervals.set(imgElement, intervalId);
+  setInterval(updateImage, 30000);
 }
 
 function fetchAndUpdateSidebar_none() {
@@ -64,13 +217,9 @@ function fetchAndUpdateSidebar_none() {
       if (data !== lastFetchedData) {
         lastFetchedData = data;
         const sidebar = document.getElementById('sidebar');
-
-        // Clear all thumbnail intervals before replacing HTML
-        thumbnailIntervals.forEach(intervalId => clearInterval(intervalId));
-        thumbnailIntervals.clear();
-
         sidebar.innerHTML = data;
 
+        // For each .sub-item, create/find thumbnail <img> and start cache-busted reload
         sidebar.querySelectorAll('.sub-item').forEach(item => {
           const thumb = item.getAttribute('data-thumbnail');
           if (!thumb) return;
@@ -89,6 +238,7 @@ function fetchAndUpdateSidebar_none() {
           refreshThumbnail(img, thumb);
         });
 
+        // Resort and relabel categories
         sortCategories();
 
         document.querySelectorAll('.category').forEach(e => {
@@ -101,5 +251,9 @@ function fetchAndUpdateSidebar_none() {
     .catch(() => {});
 }
 
+// Initial call and refresh every 60 seconds
 fetchAndUpdateSidebar_none();
-setInterval(fetchAndUpdateSidebar_none, 20000);
+setInterval(fetchAndUpdateSidebar_none, 60000);
+
+
+
