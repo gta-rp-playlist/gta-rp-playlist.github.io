@@ -180,6 +180,25 @@ function sortCategories() {
     subItems.forEach(item => sidebar.appendChild(item));
   });
 }
+
+// Store intervals to clear them when sidebar reloads
+const thumbnailIntervals = new Map();
+
+function refreshThumbnail(imgElement, baseUrl) {
+  function updateImage() {
+    const timestamp = Date.now();
+    const newSrc = `${baseUrl}?cb=${timestamp}`;
+    const tempImg = new Image();
+    tempImg.onload = () => {
+      imgElement.src = newSrc; // swap after preload
+    };
+    tempImg.src = newSrc;
+  }
+  updateImage();
+  const intervalId = setInterval(updateImage, 30000);
+  thumbnailIntervals.set(imgElement, intervalId);
+}
+
 function updateSidebarCategoryCount(category) {
   const sidebar = document.getElementById('sidebar');
   const subItems = sidebar.querySelectorAll(`.sub-item[data-category="${category}"]`);
@@ -190,51 +209,62 @@ function updateSidebarCategoryCount(category) {
     categoryElement.innerHTML = `${label} <span class="user-count">(${count})</span>`;
   }
 }
+
 function fetchAndUpdateSidebar_none() {
   fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data.txt')
     .then(r => {
-      if (!r.ok) throw new Error();
+      if (!r.ok) throw new Error('Network response not ok');
       return r.text();
     })
     .then(data => {
       if (data !== lastFetchedData) {
         lastFetchedData = data;
-        document.getElementById('sidebar').innerHTML = data;
+        const sidebar = document.getElementById('sidebar');
 
-        // ✅ Preload all thumbnails immediately
-        document.querySelectorAll('.sub-item').forEach(item => {
+        // Clear old thumbnail intervals to avoid duplicates
+        thumbnailIntervals.forEach(intervalId => clearInterval(intervalId));
+        thumbnailIntervals.clear();
+
+        sidebar.innerHTML = data;
+
+        // For each .sub-item, insert or find thumbnail <img> and start live refresh
+        sidebar.querySelectorAll('.sub-item').forEach(item => {
           const thumb = item.getAttribute('data-thumbnail');
-          const img = new Image();
-          img.src = thumb;
+          if (!thumb) return;
+
+          let img = item.querySelector('img.thumbnail');
+          if (!img) {
+            img = document.createElement('img');
+            img.className = 'thumbnail';
+            img.style.maxWidth = '100%';
+            img.style.borderRadius = '4px';
+            img.style.display = 'block';
+            img.style.marginTop = '6px';
+            item.appendChild(img);
+          }
+
+          refreshThumbnail(img, thumb);
         });
 
-        // ✅ Re-sort and relabel categories
+        // Resort categories and update counts
         sortCategories();
-
-        // Removed collapseAllSubItems();
 
         document.querySelectorAll('.category').forEach(e => {
           updateSidebarCategoryCount(e.dataset.category);
         });
-        if (lastOpenedCategory) toggleSubItems(lastOpenedCategory);
+
+        if (lastOpenedCategory) {
+          toggleSubItems(lastOpenedCategory);
+        }
       }
     })
-    .catch(() => {});
+    .catch(err => {
+      console.error('Failed to fetch sidebar data:', err);
+    });
 }
 
-function updateSidebarCategoryCount(category) {
-  const sidebar = document.getElementById('sidebar');
-  const subItems = sidebar.querySelectorAll(`.sub-item[data-category="${category}"]`);
-  const count = subItems.length;
-  const categoryElement = sidebar.querySelector(`.category[data-category="${category}"]`);
-  if (categoryElement) {
-    const label = categoryElement.textContent.replace(/\(\d+\)/, '').trim();
-    categoryElement.innerHTML = `${label} <span class="user-count">(${count})</span>`;
-  }
-}
-
-sortCategories();
+// Initial call and periodic refresh every 60 seconds
+fetchAndUpdateSidebar_none();
 setInterval(fetchAndUpdateSidebar_none, 60000);
-
 
 
