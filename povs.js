@@ -192,27 +192,20 @@ function fetchAndUpdateSidebar_none() {
         lastFetchedData = data;
         document.getElementById('sidebar').innerHTML = data;
 
-        // Insert <img> elements dynamically with thumbnail URLs
+        // ✅ Preload all thumbnails immediately
         document.querySelectorAll('.sub-item').forEach(item => {
           const thumb = item.getAttribute('data-thumbnail');
-          let imgEl = item.querySelector('img');
-          if (!imgEl) {
-            imgEl = document.createElement('img');
-            imgEl.alt = 'thumbnail';
-            item.insertBefore(imgEl, item.firstChild); // Insert at top
-          }
-          imgEl.src = thumb;
+          const img = new Image();
+          img.src = thumb;
         });
 
-        // Re-sort and relabel categories
+        // ✅ Re-sort and relabel categories
         sortCategories();
 
         collapseAllSubItems();
-
         document.querySelectorAll('.category').forEach(e => {
           updateSidebarCategoryCount(e.dataset.category);
         });
-
         if (lastOpenedCategory) toggleSubItems(lastOpenedCategory);
       }
     })
@@ -221,3 +214,4 @@ function fetchAndUpdateSidebar_none() {
 
 sortCategories();
 setInterval(fetchAndUpdateSidebar_none, 60000);
+
