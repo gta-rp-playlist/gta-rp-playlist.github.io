@@ -1,13 +1,79 @@
 let selectedStreams = [];
 let lastFetchedData = '';
 let lastOpenedCategory = '';
-// Preload all thumbnails
-document.querySelectorAll('.sub-item').forEach(item => {
-  const thumb = item.getAttribute('data-thumbnail');
-  const img = new Image();
-  img.src = thumb;
-});
+
+// Preload all thumbnails on initial sidebar load (if needed)
+function preloadThumbnails() {
+  document.querySelectorAll('.sub-item').forEach(item => {
+    const thumb = item.getAttribute('data-thumbnail');
+    if (thumb) {
+      const img = new Image();
+      img.src = thumb;
+    }
+  });
+}
+
+// Remove all onclick="..." attributes from raw HTML string
+function stripOnclickAttributes(htmlString) {
+  return htmlString.replace(/onclick="[^"]*"/g, '');
+}
+
+// Bind click event to sidebar categories
+function bindSidebarEvents() {
+  document.querySelectorAll('#sidebar .category').forEach(cat => {
+    cat.onclick = () => {
+      highlightCategory(cat);
+    };
+  });
+}
+
+// Bind click events for grid items for selection toggling
+function bindGridItemEvents() {
+  document.querySelectorAll('.grid-item').forEach(item => {
+    item.onclick = e => {
+      if (e.target.classList.contains('remove-x')) return;
+      toggleGridItemSelection(item);
+    };
+    const removeBtn = item.querySelector('.remove-x');
+    if (removeBtn) {
+      removeBtn.onclick = e => {
+        e.stopPropagation();
+        unselectGridItem(item);
+      };
+    }
+  });
+}
+
+function toggleGridItemSelection(item) {
+  const username = item.getAttribute('data-username');
+  const platform = item.getAttribute('data-platform');
+  const streamID = platform === 'kick' ? `${username}-k` : username;
+
+  if (selectedStreams.includes(streamID)) {
+    selectedStreams = selectedStreams.filter(s => s !== streamID);
+    item.querySelector('.remove-x').style.display = 'none';
+    item.classList.remove('selected');
+  } else {
+    selectedStreams.push(streamID);
+    item.querySelector('.remove-x').style.display = 'block';
+    item.classList.add('selected');
+  }
+  updateMultiURL();
+}
+
+function unselectGridItem(item) {
+  const username = item.getAttribute('data-username');
+  const platform = item.getAttribute('data-platform');
+  const streamID = platform === 'kick' ? `${username}-k` : username;
+
+  selectedStreams = selectedStreams.filter(s => s !== streamID);
+  item.querySelector('.remove-x').style.display = 'none';
+  item.classList.remove('selected');
+  updateMultiURL();
+}
+
 function highlightCategory(el) {
+  if (!el) return;
   document.querySelectorAll('.category').forEach(cat => cat.classList.remove('active'));
   el.classList.add('active');
 
@@ -18,30 +84,32 @@ function highlightCategory(el) {
     .filter(item => item.getAttribute('data-category') === category);
 
   matchingItems.sort((a, b) => {
-    const viewersA = parseInt(a.getAttribute('data-viewers'));
-    const viewersB = parseInt(b.getAttribute('data-viewers'));
+    const viewersA = parseInt(a.getAttribute('data-viewers')) || 0;
+    const viewersB = parseInt(b.getAttribute('data-viewers')) || 0;
     return viewersB - viewersA;
   });
 
-let gridHTML = `
-  <div class="add-all-bar">
-    <a href="#" id="add-all-link">+ Add All</a>
-    &nbsp;|&nbsp;
-    <a href="#" id="clear-all-link">✕ Clear All</a>
-  </div>
-  <div class="grid">
-`;
+  let gridHTML = `
+    <div class="add-all-bar">
+      <a href="#" id="add-all-link">+ Add All</a>
+      &nbsp;|&nbsp;
+      <a href="#" id="clear-all-link">✕ Clear All</a>
+    </div>
+    <div class="grid">
+  `;
 
-// ✅ Track usernames seen
-const seenUsernames = new Set();
+  // Track usernames to avoid duplicates
+  const seenUsernames = new Set();
 
-matchingItems.forEach(item => {
-  let title = item.getAttribute('data-title');
-  const thumb = item.getAttribute('data-thumbnail');
-  const username = item.querySelector('.username').textContent.trim();
-  const viewers = item.getAttribute('data-viewers');
+  matchingItems.forEach(item => {
+  let title = item.getAttribute('data-title') || '';
+  const timestamp = Date.now();
+  const thumb = item.getAttribute('data-thumbnail') ? item.getAttribute('data-thumbnail') + '?cb=' + timestamp : '';
+  const usernameSpan = item.querySelector('.username');
+  const username = usernameSpan ? usernameSpan.textContent.trim() : '';
+  const viewers = item.getAttribute('data-viewers') || '0';
 
-  if (seenUsernames.has(username)) return; // Skip duplicate
+  if (!username || seenUsernames.has(username)) return; // skip duplicates or empty
   seenUsernames.add(username);
 
   let isKick = false;
@@ -65,76 +133,48 @@ matchingItems.forEach(item => {
   `;
 });
 
-gridHTML += '</div>';
+  gridHTML += '</div>';
   document.getElementById('grid').innerHTML = gridHTML;
 
-  document.getElementById('add-all-link').addEventListener('click', e => {
+  // Bind add all and clear all
+  document.getElementById('add-all-link').onclick = e => {
     e.preventDefault();
     matchingItems.forEach(item => {
-      const username = item.querySelector('.username').textContent;
-      const title = item.getAttribute('data-title');
+      const usernameSpan = item.querySelector('.username');
+      const username = usernameSpan ? usernameSpan.textContent.trim() : '';
+      if (!username) return;
+
+      const title = item.getAttribute('data-title') || '';
       const isKick = title.includes('🟢🟢Kick Stream☝️');
       const streamID = isKick ? `${username}-k` : username;
+
       if (!selectedStreams.includes(streamID)) {
         selectedStreams.push(streamID);
       }
     });
     updateMultiURL();
-    highlightCategory(el);
-  });
+    highlightCategory(el); // Refresh grid UI
+  };
 
-  document.getElementById('clear-all-link').addEventListener('click', e => {
+  document.getElementById('clear-all-link').onclick = e => {
     e.preventDefault();
     selectedStreams = [];
     updateMultiURL();
     highlightCategory(el);
-  });
+  };
 
-document.querySelectorAll('.grid-item').forEach(item => {
-  item.addEventListener('click', e => {
-    if (e.target.classList.contains('remove-x')) return;
-
-    const username = item.getAttribute('data-username');
-    const platform = item.getAttribute('data-platform');
-    const streamID = platform === 'kick' ? `${username}-k` : username;
-
-    if (selectedStreams.includes(streamID)) {
-      // Already selected → unselect it
-      selectedStreams = selectedStreams.filter(s => s !== streamID);
-      item.querySelector('.remove-x').style.display = 'none';
-      item.classList.remove('selected');
-    } else {
-      // Not selected → select it
-      selectedStreams.push(streamID);
-      item.querySelector('.remove-x').style.display = 'block';
-      item.classList.add('selected');
-    }
-
-    updateMultiURL();
-  });
-
-  item.querySelector('.remove-x').addEventListener('click', e => {
-    e.stopPropagation();
-    const username = item.getAttribute('data-username');
-    const platform = item.getAttribute('data-platform');
-    const streamID = platform === 'kick' ? `${username}-k` : username;
-
-    selectedStreams = selectedStreams.filter(s => s !== streamID);
-    item.querySelector('.remove-x').style.display = 'none';
-    item.classList.remove('selected');
-    updateMultiURL();
-  });
-});
+  // Bind grid item click events
+  bindGridItemEvents();
 }
 
 function updateMultiURL() {
   const base = 'https://multi.vaeb.io/';
-  const urlParts = selectedStreams.map(name => `<span class="stream">${name}</span>`);
-  const fullHTML = base + urlParts.join('/');
-  document.getElementById('multi-url').innerHTML = fullHTML;
+  const urlParts = selectedStreams.map(name => name);
+  const fullURL = base + urlParts.join('/');
+  document.getElementById('multi-url').textContent = fullURL;
 }
 
-document.getElementById('copy-url').addEventListener('click', function() {
+document.getElementById('copy-url').addEventListener('click', function () {
   const url = document.getElementById('multi-url').textContent;
   navigator.clipboard.writeText(url).then(() => {
     const status = document.getElementById('copy-status');
@@ -148,12 +188,8 @@ document.getElementById('copy-url').addEventListener('click', function() {
 });
 
 document.getElementById('open-url').addEventListener('click', () => {
-  window.open(document.getElementById('multi-url').textContent, '_blank');
-});
-
-// Hide all sub-items initially
-document.querySelectorAll('.sub-item').forEach(item => {
-  item.style.display = 'none';
+  const url = document.getElementById('multi-url').textContent;
+  window.open(url, '_blank');
 });
 
 function sortCategories() {
@@ -180,61 +216,62 @@ function sortCategories() {
     subItems.forEach(item => sidebar.appendChild(item));
   });
 }
-function updateSidebarCategoryCount(category) {
-  const sidebar = document.getElementById('sidebar');
-  const subItems = sidebar.querySelectorAll(`.sub-item[data-category="${category}"]`);
-  const count = subItems.length;
-  const categoryElement = sidebar.querySelector(`.category[data-category="${category}"]`);
-  if (categoryElement) {
-    const label = categoryElement.textContent.replace(/\(\d+\)/, '').trim();
-    categoryElement.innerHTML = `${label} <span class="user-count">(${count})</span>`;
+
+function clearGridItems() {
+  const gridContainer = document.getElementById('grid');
+  if (gridContainer) {
+    gridContainer.innerHTML = ''; // removes all grid items
   }
 }
-function fetchAndUpdateSidebar_none() {
+
+function clearGridItems() {
+  const gridContainer = document.getElementById('grid');
+  if (gridContainer) {
+    console.log('Clearing grid items...');
+    gridContainer.innerHTML = ''; // clear grid content safely
+  } else {
+    console.log('No grid container found to clear.');
+  }
+}
+
+function fetchAndUpdateSidebar() {
   fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data.txt')
     .then(r => {
-      if (!r.ok) throw new Error();
+      if (!r.ok) throw new Error('Failed to fetch sidebar data');
       return r.text();
     })
     .then(data => {
-      if (data !== lastFetchedData) {
-        lastFetchedData = data;
-        document.getElementById('sidebar').innerHTML = data;
+      // Always update regardless of data change
+      lastFetchedData = data;
 
-        // ✅ Preload all thumbnails immediately
-        document.querySelectorAll('.sub-item').forEach(item => {
-          const thumb = item.getAttribute('data-thumbnail');
-          const img = new Image();
-          img.src = thumb;
-        });
+      const cleanedHTML = stripOnclickAttributes(data);
+      document.getElementById('sidebar').innerHTML = cleanedHTML;
 
-        // ✅ Re-sort and relabel categories
-        sortCategories();
+      preloadThumbnails();
+      sortCategories();
+      bindSidebarEvents();
 
-        // Removed collapseAllSubItems();
+      setTimeout(() => {
+        clearGridItems();
 
-        document.querySelectorAll('.category').forEach(e => {
-          updateSidebarCategoryCount(e.dataset.category);
-        });
-        if (lastOpenedCategory) toggleSubItems(lastOpenedCategory);
-      }
+        if (lastOpenedCategory) {
+          const lastCat = document.querySelector(`.category[data-category="${lastOpenedCategory}"]`);
+          if (lastCat) highlightCategory(lastCat);
+          else {
+            const firstCat = document.querySelector('#sidebar .category');
+            if (firstCat) highlightCategory(firstCat);
+          }
+        } else {
+          const firstCat = document.querySelector('#sidebar .category');
+          if (firstCat) highlightCategory(firstCat);
+        }
+      }, 200);
     })
-    .catch(() => {});
+    .catch(err => {
+      console.error(err);
+    });
 }
 
-function updateSidebarCategoryCount(category) {
-  const sidebar = document.getElementById('sidebar');
-  const subItems = sidebar.querySelectorAll(`.sub-item[data-category="${category}"]`);
-  const count = subItems.length;
-  const categoryElement = sidebar.querySelector(`.category[data-category="${category}"]`);
-  if (categoryElement) {
-    const label = categoryElement.textContent.replace(/\(\d+\)/, '').trim();
-    categoryElement.innerHTML = `${label} <span class="user-count">(${count})</span>`;
-  }
-}
-
-sortCategories();
-setInterval(fetchAndUpdateSidebar_none, 60000);
-
-
-
+// Initial setup
+fetchAndUpdateSidebar();
+setInterval(fetchAndUpdateSidebar, 20000);
