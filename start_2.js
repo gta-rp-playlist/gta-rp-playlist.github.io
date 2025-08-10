@@ -88,10 +88,9 @@ function toggleSubItems(category) {
             }
         });
 
-        var currentPage = window.location.pathname.split('/').pop();
-        var server = currentPage === 'prodigy.html' ? 'prodigy' : 'nopixel';
 
-        var url = `filter.html?server=${server}&category=${encodeURIComponent(categoryName.trim())}`;
+        var url = `filter.html?category=${encodeURIComponent(categoryName.trim())}`;
+
 
 
         groupTitle.innerHTML = `${categoryName.trim()} <span class="user-count">(${numberOfUsers})</span> <span class="total_viewers_group">👁 ${totalViewers.toLocaleString()}</span> <span class="grid-link">[view all]</span>`;
