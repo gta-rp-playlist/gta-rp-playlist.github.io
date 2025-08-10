@@ -241,7 +241,6 @@ function fetchAndUpdateSidebar() {
       return r.text();
     })
     .then(data => {
-      // Always update regardless of data change
       lastFetchedData = data;
 
       const cleanedHTML = stripOnclickAttributes(data);
@@ -251,21 +250,20 @@ function fetchAndUpdateSidebar() {
       sortCategories();
       bindSidebarEvents();
 
-      setTimeout(() => {
-        clearGridItems();
+      // Immediately clear and rebuild grid without delay
+      clearGridItems();
 
-        if (lastOpenedCategory) {
-          const lastCat = document.querySelector(`.category[data-category="${lastOpenedCategory}"]`);
-          if (lastCat) highlightCategory(lastCat);
-          else {
-            const firstCat = document.querySelector('#sidebar .category');
-            if (firstCat) highlightCategory(firstCat);
-          }
-        } else {
+      if (lastOpenedCategory) {
+        const lastCat = document.querySelector(`.category[data-category="${lastOpenedCategory}"]`);
+        if (lastCat) highlightCategory(lastCat);
+        else {
           const firstCat = document.querySelector('#sidebar .category');
           if (firstCat) highlightCategory(firstCat);
         }
-      }, 200);
+      } else {
+        const firstCat = document.querySelector('#sidebar .category');
+        if (firstCat) highlightCategory(firstCat);
+      }
     })
     .catch(err => {
       console.error(err);
