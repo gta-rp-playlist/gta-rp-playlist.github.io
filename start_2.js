@@ -91,14 +91,8 @@ function toggleSubItems(category) {
         var currentPage = window.location.pathname.split('/').pop();
         var server = currentPage === 'prodigy.html' ? 'prodigy' : 'nopixel';
 
-        var url = `filter.html?server=${server}&category=${encodeURIComponent(categoryName.trim())}&limitstreams=25`;
-        if (numberOfUsers <= 6) {
-            url += '&quality=chunked';
-        } else if (numberOfUsers <= 12) {
-            url += '&quality=medium';
-        } else {
-            url += '&quality=low';
-        }
+        var url = `filter.html?server=${server}&category=${encodeURIComponent(categoryName.trim())}`;
+
 
         groupTitle.innerHTML = `${categoryName.trim()} <span class="user-count">(${numberOfUsers})</span> <span class="total_viewers_group">👁 ${totalViewers.toLocaleString()}</span> <span class="grid-link">[view all]</span>`;
 
