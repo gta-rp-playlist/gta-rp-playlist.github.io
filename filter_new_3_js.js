@@ -407,56 +407,65 @@ document.addEventListener("DOMContentLoaded", async () => {
             };
 
             const wheelHandler = (e) => {
-                if (!playerDiv.classList.contains("current-unmuted")) return;
+    if (!playerDiv.classList.contains("current-unmuted")) return;
 
-                e.preventDefault();
+    e.preventDefault();
 
-                const delta = e.deltaY;
-                const scaleStep = 0.25;
+    const delta = e.deltaY;
+    const scaleStep = 0.25;
 
-                const viewportWidth = window.innerWidth;
-                const viewportHeight = window.innerHeight;
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
 
-                if (!playerDiv._scale) playerDiv._scale = 1;
-                if (!playerDiv._isCentered) playerDiv._isCentered = false;
+    if (!playerDiv._scale) playerDiv._scale = 1;
+    if (!playerDiv._isCentered) playerDiv._isCentered = false;
 
-                let prevScale = playerDiv._scale;
+    const rect = playerDiv.getBoundingClientRect();
+    const originalWidth = rect.width / playerDiv._scale;
+    const originalHeight = rect.height / playerDiv._scale;
 
-                if (delta < 0) {
-                    playerDiv._scale = Math.min(playerDiv._scale + scaleStep, 5);
-                } else if (delta > 0 && playerDiv._scale > 1) {
-                    playerDiv._scale = Math.max(1, playerDiv._scale - scaleStep);
-                }
+    // Calculate max scale so scaled player fits viewport with some padding (optional)
+    const padding = 20; // px padding from edges
 
-                if (prevScale === 1 && playerDiv._scale > 1) {
-                    const rect = playerDiv.getBoundingClientRect();
+    const maxScaleWidth = (viewportWidth - padding * 2) / originalWidth;
+    const maxScaleHeight = (viewportHeight - padding * 2) / originalHeight;
+    const maxScale = Math.min(maxScaleWidth, maxScaleHeight, 5); // max 5 just as upper hard limit
 
-                    const viewportCenterX = viewportWidth / 2;
-                    const viewportCenterY = viewportHeight / 2;
+    let prevScale = playerDiv._scale;
 
-                    const elementCenterX = rect.left + rect.width / 2;
-                    const elementCenterY = rect.top + rect.height / 2;
+    if (delta < 0) {
+        playerDiv._scale = Math.min(playerDiv._scale + scaleStep, maxScale);
+    } else if (delta > 0 && playerDiv._scale > 1) {
+        playerDiv._scale = Math.max(1, playerDiv._scale - scaleStep);
+    }
 
-                    playerDiv._translateX = viewportCenterX - elementCenterX;
-                    playerDiv._translateY = viewportCenterY - elementCenterY;
-                    playerDiv._isCentered = true;
-                }
+    if (prevScale === 1 && playerDiv._scale > 1) {
+        const viewportCenterX = viewportWidth / 2;
+        const viewportCenterY = viewportHeight / 2;
 
-                if (playerDiv._scale === 1) {
-                    playerDiv._isCentered = false;
-                    playerDiv.style.transformOrigin = "";
-                    playerDiv.style.transform = `translate(0px, 0px) scale(1)`;
-                    playerDiv.style.zIndex = "";
-                    return;
-                }
+        const elementCenterX = rect.left + rect.width / 2;
+        const elementCenterY = rect.top + rect.height / 2;
 
-                const tx = playerDiv._translateX || 0;
-                const ty = playerDiv._translateY || 0;
+        playerDiv._translateX = viewportCenterX - elementCenterX;
+        playerDiv._translateY = viewportCenterY - elementCenterY;
+        playerDiv._isCentered = true;
+    }
 
-                playerDiv.style.transformOrigin = "center center";
-                playerDiv.style.transform = `translate(${tx}px, ${ty}px) scale(${playerDiv._scale})`;
-                playerDiv.style.zIndex = 9999;
-            };
+    if (playerDiv._scale === 1) {
+        playerDiv._isCentered = false;
+        playerDiv.style.transformOrigin = "";
+        playerDiv.style.transform = `translate(0px, 0px) scale(1)`;
+        playerDiv.style.zIndex = "";
+        return;
+    }
+
+    const tx = playerDiv._translateX || 0;
+    const ty = playerDiv._translateY || 0;
+
+    playerDiv.style.transformOrigin = "center center";
+    playerDiv.style.transform = `translate(${tx}px, ${ty}px) scale(${playerDiv._scale})`;
+    playerDiv.style.zIndex = 9999;
+};
 
             playerDiv.addEventListener("mouseenter", () => {
                 hoverTimeout = setTimeout(switchToPlayer, 1100);
