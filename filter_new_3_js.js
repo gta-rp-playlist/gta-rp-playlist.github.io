@@ -7,7 +7,78 @@ function getPlayerQuality(quality) {
 }
 const params = new URLSearchParams(window.location.search);
 const usernames = params.getAll('username');
+function addDeleteButton(div) {
+    const deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "❌";
+    Object.assign(deleteBtn.style, {
+        position: "absolute",
+        top: "4px",
+        right: "4px",
+        background: "transparent",
+        border: "none",
+        color: "red",
+        fontSize: "18px",
+        fontWeight: "bold",
+        cursor: "pointer",
+        zIndex: 10001,
+        padding: "0",
+        lineHeight: "1",
+        userSelect: "none",
+    });
+    deleteBtn.title = "Remove stream";
+    deleteBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        div.remove();
+        // Adjust layout after removal
+        const streamCount = document.querySelectorAll('#usernamesList iframe').length;
+        adjustLayout(streamCount);
+    });
+    div.appendChild(deleteBtn);
+}
+function resetZoom(playerDiv) {
+    playerDiv._scale = 1;
+    playerDiv._isCentered = false;
+    playerDiv._translateX = 0;
+    playerDiv._translateY = 0;
+    playerDiv.style.transformOrigin = "";
+    playerDiv.style.transform = "translate(0px, 0px) scale(1)";
+    playerDiv.style.zIndex = "";
+}
+function addPlatformLabel(div, username, isKick) {
+  // Remove existing label if any
+  const oldLabel = div.querySelector(".platform-label");
+  if (oldLabel) oldLabel.remove();
 
+  const label = document.createElement("a");
+  label.className = "platform-label";
+  label.textContent = isKick ? "K" : "T";
+
+  const cleanUsername = username.toLowerCase().endsWith("-k") ? username.slice(0, -2) : username;
+  label.href = isKick
+    ? `https://kick.com/${cleanUsername}`
+    : `https://twitch.tv/${username}`;
+  label.target = "_blank";
+  label.rel = "noopener noreferrer";
+
+  Object.assign(label.style, {
+    position: "absolute",
+    top: "6px",
+    left: "6px",
+    fontSize: "16px",
+    fontWeight: "700",
+    color: isKick ? "#00e701" : "#6441a5",
+    textDecoration: "none",
+    userSelect: "none",
+    zIndex: 10000,
+    cursor: "pointer",
+    padding: "0 4px",
+    backgroundColor: "transparent",
+  });
+
+  div.style.position = "relative"; // ensure position for label
+
+  div.appendChild(label);
+}
 function adjustLayout(streamCount) {
     const container = document.getElementById('usernamesList');
     const containerWidth = window.innerWidth;
@@ -161,67 +232,101 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     function renderUserStreams(usernames, container, extraInfo = []) {
-        container.classList.toggle("single-stream", usernames.length === 1);
+    container.classList.toggle("single-stream", usernames.length === 1);
 
-        usernames.forEach((username, index) => {
-            const div = document.createElement("div");
-            const info = extraInfo.find(u => u.username === username);
-            const title = info?.title || "";
+    usernames.forEach((username, index) => {
+        const div = document.createElement("div");
+        const info = extraInfo.find(u => u.username === username);
+        const title = info?.title || "";
 
-            div.className = "twitch-embed";
-            div.id = `player${index + 1}`;
-            div.setAttribute("data-username", username);
-            div.setAttribute("data-volume", index === 0 ? "playerunmuted" : "playermuted");
+        div.className = "twitch-embed";
+        div.id = `player${index + 1}`;
+        div.setAttribute("data-username", username);
+        div.setAttribute("data-volume", index === 0 ? "playerunmuted" : "playermuted");
+        div.style.position = "relative"; // for label and delete button positioning
 
-            container.appendChild(div);
-
-            const isKick = title.includes("Kick") || username.toLowerCase().includes("kick") || username.toLowerCase().endsWith("-k");
-            const cleanUsername = username.toLowerCase().endsWith("-k") ? username.slice(0, -2) : username;
-
-            if (isKick) {
-                const iframe = document.createElement("iframe");
-                iframe.src = `https://player.kick.com/${cleanUsername}?muted=${index !== 0}&autoplay=true`;
-                iframe.frameBorder = "0";
-                iframe.allow = "autoplay; fullscreen";
-                Object.assign(iframe.style, { width: "100%", height: "100%" });
-                div.appendChild(iframe);
-            } else {
-                const twitchPlayer = new Twitch.Embed(div.id, {
-                    width: "100%",
-                    height: "100%",
-                    channel: username,
-                    parent: ["127.0.0.1", "gta-rp-playlist.com"],
-                    muted: index !== 0,
-                    layout: "video",
-                });
-                players[div.id] = twitchPlayer;
-
-                twitchPlayer.addEventListener(Twitch.Embed.VIDEO_READY, () => {
-                    const playerObj = twitchPlayer.getPlayer();
-                    if (playerObj) {
-                        playerObj.setQuality(getPlayerQuality("chunked"));
-                    }
-
-                    if (index === 0) {
-                        twitchPlayer.setMuted(false);
-                    }
-                });
-            }
-
-            if (index === 0) {
-                div.classList.add("current-unmuted");
-            } else {
-                div.classList.add("muted");
-            }
+        // Create and add delete button
+        const deleteBtn = document.createElement("button");
+        deleteBtn.textContent = "❌";
+        Object.assign(deleteBtn.style, {
+            position: "absolute",
+            top: "4px",
+            right: "4px",
+            background: "transparent",
+            border: "none",
+            color: "red",
+            fontSize: "18px",
+            fontWeight: "bold",
+            cursor: "pointer",
+            zIndex: 10001,
+            padding: "0",
+            lineHeight: "1",
+            userSelect: "none",
         });
+        deleteBtn.title = "Remove stream";
+        deleteBtn.addEventListener("click", (e) => {
+            e.stopPropagation(); // prevent triggering other div events
+            div.remove();
+            // Optionally adjust layout after removal
+            const streamCount = document.querySelectorAll('#usernamesList iframe').length;
+            adjustLayout(streamCount);
+        });
+        div.appendChild(deleteBtn);
 
-        if (extraInfo.length) {
-            const titleEl = document.getElementById("categoryTitle");
-            titleEl.textContent = `Showing ${usernames.length} Streams in ${mappedCategories.join(", ")} on server ${server}`;
-            titleEl.style.display = "block";
-            setTimeout(() => (titleEl.style.display = "none"), 4000);
+        container.appendChild(div);
+
+        const isKick = title.includes("Kick") || username.toLowerCase().includes("kick") || username.toLowerCase().endsWith("-k");
+        const cleanUsername = username.toLowerCase().endsWith("-k") ? username.slice(0, -2) : username;
+
+        // Create clickable platform label
+        addPlatformLabel(div, username, isKick);
+
+        if (isKick) {
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://player.kick.com/${cleanUsername}?muted=${index !== 0}&autoplay=true`;
+    iframe.frameBorder = "0";
+    iframe.allow = "autoplay; fullscreen";
+    Object.assign(iframe.style, { width: "100%", height: "100%" });
+    div.appendChild(iframe);
+
+    addDeleteButton(div);
+} else {
+            const twitchPlayer = new Twitch.Embed(div.id, {
+                width: "100%",
+                height: "100%",
+                channel: username,
+                parent: ["127.0.0.1", "gta-rp-playlist.com"],
+                muted: index !== 0,
+                layout: "video",
+            });
+            players[div.id] = twitchPlayer;
+
+            twitchPlayer.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+                const playerObj = twitchPlayer.getPlayer();
+                if (playerObj) {
+                    playerObj.setQuality(getPlayerQuality("chunked"));
+                }
+
+                if (index === 0) {
+                    twitchPlayer.setMuted(false);
+                }
+            });
         }
+
+        if (index === 0) {
+            div.classList.add("current-unmuted");
+        } else {
+            div.classList.add("muted");
+        }
+    });
+
+    if (extraInfo.length) {
+        const titleEl = document.getElementById("categoryTitle");
+        titleEl.textContent = `Showing ${usernames.length} Streams in ${mappedCategories.join(", ")} on server ${server}`;
+        titleEl.style.display = "block";
+        setTimeout(() => (titleEl.style.display = "none"), 4000);
     }
+}
 
     function initializePlayers() {
         const playersDivs = document.querySelectorAll(".twitch-embed");
@@ -241,76 +346,93 @@ document.addEventListener("DOMContentLoaded", async () => {
             }
 
             const reloadKickPlayer = (div, user, muted) => {
-                const currentVolume = div.getAttribute("data-volume");
-                const desired = muted ? "playermuted" : "playerunmuted";
-                if (currentVolume === desired) return;
+    const currentVolume = div.getAttribute("data-volume");
+    const desired = muted ? "playermuted" : "playerunmuted";
+    if (currentVolume === desired) return;
 
-                div.innerHTML = "";
+    div.innerHTML = "";
 
-                const newOverlay = document.createElement("div");
-                newOverlay.className = "overlay";
-                div.appendChild(newOverlay);
+    const newOverlay = document.createElement("div");
+    newOverlay.className = "overlay";
+    div.appendChild(newOverlay);
 
-                const iframe = document.createElement("iframe");
-                const cleanUsername = username.toLowerCase().endsWith("-k") ? username.slice(0, -2) : username;
-                iframe.src = `https://player.kick.com/${cleanUsername}?muted=true&autoplay=true`;
-                iframe.frameBorder = "0";
-                iframe.allow = "autoplay; fullscreen";
-                Object.assign(iframe.style, { width: "100%", height: "100%" });
-                div.appendChild(iframe);
+    const iframe = document.createElement("iframe");
+    const cleanUsername = user.toLowerCase().endsWith("-k") ? user.slice(0, -2) : user;
+    iframe.src = `https://player.kick.com/${cleanUsername}?muted=${muted}&autoplay=true`;
+    iframe.frameBorder = "0";
+    iframe.allow = "autoplay; fullscreen";
+    Object.assign(iframe.style, { width: "100%", height: "100%" });
+    div.appendChild(iframe);
 
-                div.setAttribute("data-volume", desired);
-                div.classList.toggle("current-unmuted", !muted);
+    // Add platform label after iframe
+    addPlatformLabel(div, user, true);
 
-                newOverlay.addEventListener("wheel", wheelHandler, { passive: false });
-            };
+    // Add delete button
+    addDeleteButton(div);
+
+    div.setAttribute("data-volume", desired);
+    div.classList.toggle("current-unmuted", !muted);
+
+    newOverlay.addEventListener("wheel", wheelHandler, { passive: false });
+};
 
             const switchToPlayer = () => {
-                if (activePlayer === playerId) return;
+    if (activePlayer === playerId) return;
 
-                document.querySelectorAll(".twitch-embed").forEach((div) => {
-                    const isKick = !!div.querySelector("iframe[src*='kick.com']");
-                    const username = div.getAttribute("data-username");
-                    const currentVolume = div.getAttribute("data-volume");
+    document.querySelectorAll(".twitch-embed").forEach((div) => {
+        if (div.id !== playerId) {
+            resetZoom(div);
+        }
+        const isKick = !!div.querySelector("iframe[src*='kick.com']");
+        const username = div.getAttribute("data-username");
+        const currentVolume = div.getAttribute("data-volume");
 
-                    if (currentVolume !== "playermuted") {
-                        div.classList.remove("current-unmuted");
-                        div.setAttribute("data-volume", "playermuted");
+        if (currentVolume !== "playermuted") {
+    div.classList.remove("current-unmuted");
+    div.setAttribute("data-volume", "playermuted");
 
-                        if (players[div.id]) {
-                            players[div.id].setMuted(true);
-                        }
+    if (players[div.id]) {
+        players[div.id].setMuted(true);
+    }
 
-                        if (isKick) {
-                            div.innerHTML = "";
-                            const iframe = document.createElement("iframe");
-                            const cleanUsername = username.toLowerCase().endsWith("-k") ? username.slice(0, -2) : username;
-                            iframe.src = `https://player.kick.com/${cleanUsername}?muted=true&autoplay=true`;
-                            iframe.frameBorder = "0";
-                            iframe.allow = "autoplay; fullscreen";
-                            Object.assign(iframe.style, { width: "100%", height: "100%" });
-                            div.appendChild(iframe);
-                            const newOverlay = document.createElement("div");
-                            newOverlay.className = "overlay";
-                            div.insertBefore(newOverlay, div.firstChild);
-                            newOverlay.addEventListener("wheel", wheelHandler, { passive: false });
-                        }
-                    }
-                });
+    if (isKick) {
+        div.innerHTML = "";
 
-                if (players[playerId]) {
-                    players[playerId].setMuted(false);
-                } else if (isKick) {
-                    const currentVolume = playerDiv.getAttribute("data-volume");
-                    if (currentVolume !== "playerunmuted") {
-                        reloadKickPlayer(playerDiv, username, false);
-                    }
-                }
+        const iframe = document.createElement("iframe");
+        const cleanUsername = username.toLowerCase().endsWith("-k") ? username.slice(0, -2) : username;
+        iframe.src = `https://player.kick.com/${cleanUsername}?muted=true&autoplay=true`;
+        iframe.frameBorder = "0";
+        iframe.allow = "autoplay; fullscreen";
+        Object.assign(iframe.style, { width: "100%", height: "100%" });
+        div.appendChild(iframe);
 
-                playerDiv.classList.add("current-unmuted");
-                playerDiv.setAttribute("data-volume", "playerunmuted");
-                activePlayer = playerId;
-            };
+        // Add platform label after iframe
+        addPlatformLabel(div, username, true);
+
+        // Add delete button
+        addDeleteButton(div);
+
+        const newOverlay = document.createElement("div");
+        newOverlay.className = "overlay";
+        div.insertBefore(newOverlay, div.firstChild);
+        newOverlay.addEventListener("wheel", wheelHandler, { passive: false });
+    }
+}
+    });
+
+    if (players[playerId]) {
+        players[playerId].setMuted(false);
+    } else if (isKick) {
+        const currentVolume = playerDiv.getAttribute("data-volume");
+        if (currentVolume !== "playerunmuted") {
+            reloadKickPlayer(playerDiv, username, false);
+        }
+    }
+
+    playerDiv.classList.add("current-unmuted");
+    playerDiv.setAttribute("data-volume", "playerunmuted");
+    activePlayer = playerId;
+};
 
             const wheelHandler = (e) => {
                 if (!playerDiv.classList.contains("current-unmuted")) return;
