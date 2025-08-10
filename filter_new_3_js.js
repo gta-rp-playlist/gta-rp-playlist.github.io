@@ -27,15 +27,31 @@ function addDeleteButton(div) {
         userSelect: "none",
     });
     deleteBtn.title = "Remove stream";
+
     deleteBtn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        div.remove();
-        const streamCount = document.querySelectorAll('#usernamesList iframe').length;
+    e.stopPropagation();
+
+    div.remove();
+
+    setTimeout(() => {
+        const container = document.getElementById('usernamesList');
+        const streamCount = container.querySelectorAll('.twitch-embed').length;
+
+        if (streamCount === 1) {
+            container.classList.add('single-stream');
+        } else {
+            container.classList.remove('single-stream');
+        }
+
         adjustLayout(streamCount);
-    });
+
+        const remainingStreams = container.querySelectorAll('.twitch-embed');
+        remainingStreams.forEach(resetZoom);
+    }, 0);
+});
+
     div.appendChild(deleteBtn);
 }
-
 function resetZoom(playerDiv) {
     playerDiv._scale = 1;
     playerDiv._isCentered = false;
@@ -83,8 +99,8 @@ function addPlatformLabel(div, username, isKick) {
 
 function adjustLayout(streamCount) {
     const container = document.getElementById('usernamesList');
-    const containerWidth = window.innerWidth;
-    const containerHeight = window.innerHeight;
+    const containerWidth = container.clientWidth;
+    const containerHeight = container.clientHeight;
     const aspectRatio = 16 / 9;
     container.style.display = 'grid';
     container.style.height = '100vh';
