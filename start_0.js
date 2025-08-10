@@ -40,7 +40,6 @@ const categoryMappings = {
     'ktb'         : '28KTB',
     'ballas'      : '28Ballas',
     'lostmc'      : '29LostMC',
-    'lostmc'      : '24PizzaGang',
     'pizza'       : '24PizzaGang',
     'pizzagang'   : '24PizzaGang',
     'faceless'    : '30Faceless',
