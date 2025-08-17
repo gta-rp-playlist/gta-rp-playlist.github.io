@@ -2,16 +2,16 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="UnicornFrapp.us">
+<display-name>UnicornFrapp</display-name>
+</channel>
+
 <channel id="alliumm.us">
 <display-name>alliumm</display-name>
 </channel>
 
 <channel id="Blokeowski.us">
 <display-name>Blokeowski</display-name>
-</channel>
-
-<channel id="UnicornFrapp.us">
-<display-name>UnicornFrapp</display-name>
 </channel>
 
 <channel id="makeitmeansomething.us">
@@ -22,12 +22,20 @@
 <display-name>snekysly</display-name>
 </channel>
 
-<channel id="ThrustinJustin78.us">
-<display-name>ThrustinJustin78</display-name>
+<channel id="snekysly.us">
+<display-name>snekysly</display-name>
+</channel>
+
+<channel id="MrGlee.us">
+<display-name>MrGlee</display-name>
 </channel>
 
 <channel id="ThrustinJustin78.us">
 <display-name>ThrustinJustin78</display-name>
+</channel>
+
+<channel id="CafeinTTV.us">
+<display-name>CafeinTTV</display-name>
 </channel>
 
 <channel id="CafeinTTV.us">
@@ -42,20 +50,12 @@
 <display-name>margothesnail</display-name>
 </channel>
 
-<channel id="ReeceHecks.us">
-<display-name>ReeceHecks</display-name>
-</channel>
-
 <channel id="tjnvv.us">
 <display-name>tjnvv</display-name>
 </channel>
 
 <channel id="ogastrx.us">
 <display-name>ogastrx</display-name>
-</channel>
-
-<channel id="blur-o7.us">
-<display-name>blur-o7</display-name>
 </channel>
 
 <channel id="aus24.us">
@@ -82,44 +82,51 @@
 <display-name>sukhi_1</display-name>
 </channel>
 
+<programme start="20250817084552 +0000" stop="20250820034552 +0000" channel="UnicornFrapp.us">
+<title lang="en"> Remi Ironside - Senior Officer - Nopixel WL </title>
+<desc lang="en"> Started: 03:45 am
+Playing: Grand Theft Auto V
+Viewers: 47 </desc>
+</programme>
+
 <programme start="20250817081711 +0000" stop="20250820031711 +0000" channel="alliumm.us">
 <title lang="en"> CHIEF F0R THE WEEKEND - EMS - Alice Liddell - NoPixel WL 🚑 </title>
 <desc lang="en"> Started: 03:17 am
 Playing: Grand Theft Auto V
-Viewers: 53 </desc>
+Viewers: 56 </desc>
 </programme>
 
 <programme start="20250817050402 +0000" stop="20250820000402 +0000" channel="Blokeowski.us">
 <title lang="en"> NoPixel WL 18 - Ace Bundy - BLOODY GORGEOUS DAY - commands lifeline reachout supportservices blackdoginstitute </title>
 <desc lang="en"> Started: 12:04 am
 Playing: Grand Theft Auto V
-Viewers: 47 </desc>
-</programme>
-
-<programme start="20250817084552 +0000" stop="20250820034552 +0000" channel="UnicornFrapp.us">
-<title lang="en"> Remi Ironside - Senior Officer - Nopixel WL </title>
-<desc lang="en"> Started: 03:45 am
-Playing: Grand Theft Auto V
-Viewers: 32 </desc>
+Viewers: 42 </desc>
 </programme>
 
 <programme start="20250817053328 +0000" stop="20250820003328 +0000" channel="makeitmeansomething.us">
 <title lang="en"> Rocket Cane - Nopixel WL - Crayons - 18 - AAAAAAAA </title>
 <desc lang="en"> Started: 12:33 am
 Playing: Grand Theft Auto V
-Viewers: 34 </desc>
+Viewers: 29 </desc>
 </programme>
 
 <programme start="20250817054348 +0000" stop="20250820004348 +0000" channel="snekysly.us">
 <title lang="en"> Charlie Lockwood - Crayons - NoPixel WL </title>
 <desc lang="en"> Started: 12:43 am
 Playing: Grand Theft Auto V
-Viewers: 9 </desc>
+Viewers: 10 </desc>
 </programme>
 
-<programme start="20250817055440 +0000" stop="20250820005440 +0000" channel="ThrustinJustin78.us">
-<title lang="en"> Birthday Stream - 291 John Rhinehart - Nopixel WL </title>
-<desc lang="en"> Started: 12:54 am
+<programme start="20250817054348 +0000" stop="20250820004348 +0000" channel="snekysly.us">
+<title lang="en"> Charlie Lockwood - Crayons - NoPixel WL </title>
+<desc lang="en"> Started: 12:43 am
+Playing: Grand Theft Auto V
+Viewers: 10 </desc>
+</programme>
+
+<programme start="20250817053036 +0000" stop="20250820003036 +0000" channel="MrGlee.us">
+<title lang="en"> In hell they make you pick up trash - Sai Kou - Road Captain - Lost MC - NoPixel WL - socials - rustmoon </title>
+<desc lang="en"> Started: 12:30 am
 Playing: Grand Theft Auto V
 Viewers: 3 </desc>
 </programme>
@@ -135,7 +142,14 @@ Viewers: 3 </desc>
 <title lang="en"> 🥷NoPixel - 4th Day in The City - Tommy Rivka - Grinding For Houses  Cars - dc tangia join s </title>
 <desc lang="en"> Started: 03:50 pm
 Playing: Grand Theft Auto V
-Viewers: 2 </desc>
+Viewers: 1 </desc>
+</programme>
+
+<programme start="20250816205029 +0000" stop="20250819155029 +0000" channel="CafeinTTV.us">
+<title lang="en"> 🥷NoPixel - 4th Day in The City - Tommy Rivka - Grinding For Houses  Cars - dc tangia join s </title>
+<desc lang="en"> Started: 03:50 pm
+Playing: Grand Theft Auto V
+Viewers: 1 </desc>
 </programme>
 
 <programme start="20250817064241 +0000" stop="20250820014241 +0000" channel="Hellknight86.us">
@@ -149,77 +163,63 @@ Viewers: 1 </desc>
 <title lang="en"> Margo Escargot - Half Off - Nopixel WL </title>
 <desc lang="en"> Started: 2:22AM
 Playing: Grand Theft Auto V
-Viewers: 56 </desc>
+Viewers: 49 </desc>
 </programme>
 
-<programme start="20250817092052 +0000" stop="20250820042052 +0000" channel="ReeceHecks.us">
-<title lang="en"> NEW EMOTES- Cyan Crayon Reece Harper No pixel WL </title>
-<desc lang="en"> Started: 04:20 am
-Playing: Grand Theft Auto V
-Viewers: 1 </desc>
-</programme>
-
-<programme start="20250817000000 +0000" stop="20250820043621 +0000" channel="tjnvv.us">
+<programme start="20250817000000 +0000" stop="20250820044318 +0000" channel="tjnvv.us">
 <title lang="en"> My first stream. 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:14 pm
 Playing: No Pixel RP (GTA)
 Viewers: 883 </desc>
 </programme>
 
-<programme start="20250817000000 +0000" stop="20250820043621 +0000" channel="ogastrx.us">
+<programme start="20250817000000 +0000" stop="20250820044318 +0000" channel="ogastrx.us">
 <title lang="en"> ERP 🔺 Rex Pace ADMC NoPixel 4.0 WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:43 pm
 Playing: No Pixel RP (GTA)
-Viewers: 96 </desc>
+Viewers: 88 </desc>
 </programme>
 
-<programme start="20250817000000 +0000" stop="20250820043621 +0000" channel="blur-o7.us">
-<title lang="en"> Times of Peace Rai Dordai Blur Habibis x T10 NoPixel 4.0 WL 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 08:24 pm
-Playing: No Pixel RP (GTA)
-Viewers: 113 </desc>
-</programme>
-
-<programme start="20250817000000 +0000" stop="20250820043621 +0000" channel="aus24.us">
+<programme start="20250817000000 +0000" stop="20250820044318 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:14 am
 Playing: No Pixel RP (GTA)
-Viewers: 217 </desc>
+Viewers: 202 </desc>
 </programme>
 
-<programme start="20250817000000 +0000" stop="20250820043621 +0000" channel="makeitmeansomething.us">
+<programme start="20250817000000 +0000" stop="20250820044318 +0000" channel="makeitmeansomething.us">
 <title lang="en"> Rocket Cane Nopixel WL Crayons 18 AAAAAAAA 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:33 am
 Playing: No Pixel RP (GTA)
-Viewers: 5 </desc>
+Viewers: 4 </desc>
 </programme>
 
-<programme start="20250817000000 +0000" stop="20250820043621 +0000" channel="rexs.us">
+<programme start="20250817000000 +0000" stop="20250820044318 +0000" channel="rexs.us">
 <title lang="en"> Ricky Dallas 🤠 BCSO 🤠 Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:58 am
 Playing: No Pixel RP (GTA)
-Viewers: 78 </desc>
+Viewers: 76 </desc>
 </programme>
 
-<programme start="20250817000000 +0000" stop="20250820043621 +0000" channel="margothesnail.us">
+<programme start="20250817000000 +0000" stop="20250820044318 +0000" channel="margothesnail.us">
 <title lang="en"> Margo Escargot Half Off Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:22 am
 Playing: No Pixel RP (GTA)
-Viewers: 10 </desc>
+Viewers: 11 </desc>
 </programme>
 
-<programme start="20250817000000 +0000" stop="20250820043621 +0000" channel="harmless.us">
+<programme start="20250817000000 +0000" stop="20250820044318 +0000" channel="harmless.us">
 <title lang="en"> Perry Falken NoPixel 4.0 SBS Later 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:38 am
 Playing: No Pixel RP (GTA)
-Viewers: 187 </desc>
+Viewers: 188 </desc>
 </programme>
 
-<programme start="20250817000000 +0000" stop="20250820043621 +0000" channel="sukhi_1.us">
+<programme start="20250817000000 +0000" stop="20250820044318 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel Besties Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:33 am
 Playing: No Pixel RP (GTA)
-Viewers: 34 </desc>
+Viewers: 83 </desc>
 </programme>
 
 
