@@ -172,8 +172,186 @@ function updateMultiURL() {
   const urlParts = selectedStreams.map(name => name);
   const fullURL = base + urlParts.join('/');
   document.getElementById('multi-url').textContent = fullURL;
-}
 
+  // Show "Play USERNAME on this page" button if only one stream is selected
+  let playButton = document.getElementById('play-single-btn');
+
+  if (selectedStreams.length === 1) {
+    const username = selectedStreams[0].replace(/-k$/, '').toUpperCase(); // Username in caps
+    if (!playButton) {
+      playButton = document.createElement('button');
+      playButton.id = 'play-single-btn';
+      playButton.style.marginLeft = '10px';
+      document.getElementById('open-url').after(playButton);
+    }
+    playButton.textContent = `Play ${username} on this page`;
+    playButton.style.display = 'inline-block';
+    playButton.style.backgroundColor = '#ff0000'; // bright red
+    playButton.style.color = '#ffffff';
+    playButton.style.border = 'none';
+    playButton.style.padding = '8px 16px';
+    playButton.style.borderRadius = '6px';
+    playButton.style.cursor = 'pointer';
+playButton.onclick = () => {
+  // Remove existing player
+  let existingPlayer = document.getElementById('floating-player');
+  if (existingPlayer) existingPlayer.remove();
+
+  // Create floating player
+  const playerDiv = document.createElement('div');
+  playerDiv.id = 'floating-player';
+  playerDiv.style.position = 'fixed';
+  playerDiv.style.background = '#000';
+  playerDiv.style.border = '2px solid #ff0000';
+  playerDiv.style.borderRadius = '8px';
+  playerDiv.style.zIndex = '9999';
+  playerDiv.style.display = 'flex';
+  playerDiv.style.flexDirection = 'column';
+  playerDiv.style.cursor = 'default';
+  playerDiv.style.transform = 'translate(0px,0px) scale(1)';
+  let currentScale = 1;
+
+  // Medium size: 70% viewport width
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+  const playerWidth = vw * 0.7;
+  const playerHeight = playerWidth * 9 / 16; // keep 16:9 ratio
+
+  playerDiv.style.width = playerWidth + 'px';
+  playerDiv.style.height = playerHeight + 'px';
+  playerDiv.style.top = `calc(50% - ${playerHeight / 2}px)`;
+  playerDiv.style.left = `calc(50% - ${playerWidth / 2}px)`;
+  playerDiv.style.right = 'auto';
+  playerDiv.style.bottom = 'auto';
+
+  // Controls
+  const controls = document.createElement('div');
+  controls.className = 'controls';
+  controls.style.display = 'flex';
+  controls.style.justifyContent = 'flex-end';
+  controls.style.background = '#111';
+  controls.style.padding = '4px';
+  controls.style.borderBottom = '1px solid #444';
+  controls.style.cursor = 'grab';
+
+  const minimizeBtn = document.createElement('button');
+  minimizeBtn.textContent = '−';
+  const maximizeBtn = document.createElement('button');
+  maximizeBtn.textContent = '⬜';
+  const closeBtn = document.createElement('button');
+  closeBtn.textContent = '✕';
+
+  [minimizeBtn, maximizeBtn, closeBtn].forEach(btn => {
+    btn.style.marginLeft = '4px';
+    btn.style.background = '#ff0000';
+    btn.style.color = '#fff';
+    btn.style.border = 'none';
+    btn.style.padding = '2px 6px';
+    btn.style.borderRadius = '4px';
+    btn.style.cursor = 'pointer';
+  });
+
+  controls.appendChild(minimizeBtn);
+  controls.appendChild(maximizeBtn);
+  controls.appendChild(closeBtn);
+  playerDiv.appendChild(controls);
+
+  // Video wrapper
+  const videoWrapper = document.createElement('div');
+  videoWrapper.style.flex = '1';
+  videoWrapper.style.overflow = 'hidden';
+  videoWrapper.style.position = 'relative';
+
+  // Determine platform
+  const selectedItem = document.querySelector('.grid-item.selected'); 
+  const username = selectedItem.getAttribute('data-username');
+  const platform = selectedItem.getAttribute('data-platform'); 
+  const isKick = platform === 'kick';
+
+  const src = isKick
+    ? `https://player.kick.com/${username}?muted=false&autoplay=true`
+    : `https://player.twitch.tv/?channel=${username}&parent=${window.location.hostname}&autoplay=true`;
+
+  // Embed iframe
+  const iframe = document.createElement('iframe');
+  iframe.src = src;
+  iframe.allow = 'autoplay; fullscreen';
+  iframe.style.width = '100%';
+  iframe.style.height = '100%';
+  iframe.style.border = 'none';
+  videoWrapper.appendChild(iframe);
+  playerDiv.appendChild(videoWrapper);
+
+  document.body.appendChild(playerDiv);
+
+  // Drag from controls
+  controls.addEventListener('mousedown', e => {
+    e.preventDefault();
+    controls.style.cursor = 'grabbing';
+    let startX = e.clientX;
+    let startY = e.clientY;
+
+    const style = window.getComputedStyle(playerDiv);
+    const matrix = new DOMMatrixReadOnly(style.transform);
+    let offsetX = matrix.m41;
+    let offsetY = matrix.m42;
+
+    function onMouseMove(eMove) {
+      const dx = eMove.clientX - startX;
+      const dy = eMove.clientY - startY;
+      playerDiv.style.transform = `translate(${offsetX + dx}px, ${offsetY + dy}px) scale(${currentScale})`;
+    }
+
+    function onMouseUp() {
+      window.removeEventListener('mousemove', onMouseMove);
+      window.removeEventListener('mouseup', onMouseUp);
+      controls.style.cursor = 'grab';
+    }
+
+    window.addEventListener('mousemove', onMouseMove);
+    window.addEventListener('mouseup', onMouseUp);
+  });
+
+// Zoom on wheel
+controls.addEventListener('wheel', e => {
+  e.preventDefault();
+  currentScale += e.deltaY * -0.0015; 
+  currentScale = Math.min(Math.max(0.5, currentScale), 1.2); // max 1.2x
+  const style = window.getComputedStyle(playerDiv);
+  const matrix = new DOMMatrixReadOnly(style.transform);
+  const offsetX = matrix.m41;
+  const offsetY = matrix.m42;
+  playerDiv.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${currentScale})`;
+});
+
+  // Minimize / Maximize / Close
+  minimizeBtn.onclick = () => {
+    playerDiv.style.transition = 'all 0.3s ease';
+    playerDiv.style.width = '200px';
+    playerDiv.style.height = '40px';
+    playerDiv.style.top = '0px';
+    playerDiv.style.left = 'calc(50% - 100px)';
+    playerDiv.style.right = 'auto';
+    playerDiv.style.bottom = 'auto';
+    videoWrapper.style.display = 'none';
+  };
+
+  maximizeBtn.onclick = () => {
+    playerDiv.style.transition = 'all 0.3s ease';
+    playerDiv.style.width = playerWidth + 'px';
+    playerDiv.style.height = playerHeight + 'px';
+    playerDiv.style.top = `calc(50% - ${playerHeight / 2}px)`;
+    playerDiv.style.left = `calc(50% - ${playerWidth / 2}px)`;
+    videoWrapper.style.display = 'block';
+  };
+
+  closeBtn.onclick = () => playerDiv.remove();
+};
+
+  } else if (playButton) {
+    playButton.style.display = 'none';
+  }
+}
 document.getElementById('copy-url').addEventListener('click', function () {
   const url = document.getElementById('multi-url').textContent;
   navigator.clipboard.writeText(url).then(() => {
