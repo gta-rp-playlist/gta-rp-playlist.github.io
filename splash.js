@@ -243,7 +243,7 @@ function fetchAndUpdateSidebar() {
 
 window.onload = () => {
     fetchAndUpdateSidebar();
-    setInterval(fetchAndUpdateSidebar, 10000);
+    setInterval(fetchAndUpdateSidebar, 90000);
 };
 
 // =======================
