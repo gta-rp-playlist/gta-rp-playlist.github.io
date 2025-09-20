@@ -64,6 +64,7 @@ const categoryMappings = {
     'hoa'         : '45HOA',
     'doc'         : '41DOC',
     'lifers'      : '42Lifers',
+    'merchants'   : '30Merchants',
     'tsl'         : '46TSL',
     'bbmc'        : '47BBMC',
     'hiddenmc'    : '48HiddenMC',
