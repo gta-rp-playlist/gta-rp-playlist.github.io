@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="brakketts.us">
+<display-name>brakketts</display-name>
+</channel>
+
 <channel id="Silbullet.us">
 <display-name>Silbullet</display-name>
 </channel>
@@ -18,12 +22,12 @@
 <display-name>alliumm</display-name>
 </channel>
 
-<channel id="MissScarletRose.us">
-<display-name>MissScarletRose</display-name>
-</channel>
-
 <channel id="Blokeowski.us">
 <display-name>Blokeowski</display-name>
+</channel>
+
+<channel id="MissScarletRose.us">
+<display-name>MissScarletRose</display-name>
 </channel>
 
 <channel id="MrGlee.us">
@@ -42,14 +46,6 @@
 <display-name>curvyelephant</display-name>
 </channel>
 
-<channel id="brakketts.us">
-<display-name>brakketts</display-name>
-</channel>
-
-<channel id="firecrackthat.us">
-<display-name>firecrackthat</display-name>
-</channel>
-
 <channel id="bozo.us">
 <display-name>bozo</display-name>
 </channel>
@@ -58,12 +54,16 @@
 <display-name>alyssajeanaf</display-name>
 </channel>
 
-<channel id="xqc.us">
-<display-name>xqc</display-name>
-</channel>
-
 <channel id="kaicenat.us">
 <display-name>kaicenat</display-name>
+</channel>
+
+<channel id="AnnaMayMight.us">
+<display-name>AnnaMayMight</display-name>
+</channel>
+
+<channel id="MartyrdomNZ.us">
+<display-name>MartyrdomNZ</display-name>
 </channel>
 
 <channel id="tjnvv.us">
@@ -82,10 +82,6 @@
 <display-name>aus24</display-name>
 </channel>
 
-<channel id="makeitmeansomething.us">
-<display-name>makeitmeansomething</display-name>
-</channel>
-
 <channel id="harmless.us">
 <display-name>harmless</display-name>
 </channel>
@@ -98,53 +94,64 @@
 <display-name>rexs</display-name>
 </channel>
 
+<channel id="daisyks.us">
+<display-name>daisyks</display-name>
+</channel>
+
+<programme start="20250923082426 +0000" stop="20250926032426 +0000" channel="brakketts.us">
+<title lang="en"> Senior Deputy - Tommy Horver - Nopixel </title>
+<desc lang="en"> Started: 3:24AM
+Playing: Grand Theft Auto V
+Viewers: 1 </desc>
+</programme>
+
 <programme start="20250923004344 +0000" stop="20250925194344 +0000" channel="Silbullet.us">
 <title lang="en"> Interviews - Lt. Maple 297 - LSPD - NoPixel WL 4.0 - gtarecap clip </title>
 <desc lang="en"> Started: 7:43PM
 Playing: Grand Theft Auto V
-Viewers: 53 </desc>
+Viewers: 54 </desc>
 </programme>
 
 <programme start="20250922233007 +0000" stop="20250925183007 +0000" channel="crystalst.us">
 <title lang="en"> a cozy cop morning ☕ </title>
 <desc lang="en"> Started: 6:30PM
 Playing: Grand Theft Auto V
-Viewers: 203 </desc>
+Viewers: 253 </desc>
 </programme>
 
 <programme start="20250923020117 +0000" stop="20250925210117 +0000" channel="NateKarama.us">
 <title lang="en"> Sneaky Nopixel WL 4.0 </title>
 <desc lang="en"> Started: 09:01 pm
 Playing: Grand Theft Auto V
-Viewers: 201 </desc>
+Viewers: 199 </desc>
 </programme>
 
 <programme start="20250923075311 +0000" stop="20250926025311 +0000" channel="alliumm.us">
 <title lang="en"> weewooo - EMS - Alice Liddell - NoPixel WL 🚑 </title>
 <desc lang="en"> Started: 02:53 am
 Playing: Grand Theft Auto V
-Viewers: 47 </desc>
-</programme>
-
-<programme start="20250923031807 +0000" stop="20250925221807 +0000" channel="MissScarletRose.us">
-<title lang="en"> 🌹 Scarlet Rose🌹 - Nopixel WL </title>
-<desc lang="en"> Started: 10:18 pm
-Playing: Grand Theft Auto V
-Viewers: 22 </desc>
+Viewers: 37 </desc>
 </programme>
 
 <programme start="20250923051157 +0000" stop="20250926001157 +0000" channel="Blokeowski.us">
 <title lang="en"> NoPixel WL 18 - Barmy Wattlesby - WHATS THIS THEN - commands lifeline reachout supportservices blackdoginstitute </title>
 <desc lang="en"> Started: 12:11 am
 Playing: Grand Theft Auto V
-Viewers: 16 </desc>
+Viewers: 24 </desc>
+</programme>
+
+<programme start="20250923031807 +0000" stop="20250925221807 +0000" channel="MissScarletRose.us">
+<title lang="en"> 🌹 Scarlet Rose🌹 - Nopixel WL </title>
+<desc lang="en"> Started: 10:18 pm
+Playing: Grand Theft Auto V
+Viewers: 21 </desc>
 </programme>
 
 <programme start="20250923061309 +0000" stop="20250926011309 +0000" channel="MrGlee.us">
 <title lang="en"> Oh God Almost A Week Till Yom Kippur - LFFL - Sai Kou - NoPixel WL - socials </title>
 <desc lang="en"> Started: 01:13 am
 Playing: Grand Theft Auto V
-Viewers: 8 </desc>
+Viewers: 9 </desc>
 </programme>
 
 <programme start="20250923070800 +0000" stop="20250926020800 +0000" channel="basHYYEE.us">
@@ -158,112 +165,105 @@ Viewers: 1 </desc>
 <title lang="en"> DEEK MAGNUM LATE NIGHT - DND NIGHT - BCSO 515 - </title>
 <desc lang="en"> Started: 10:13PM
 Playing: Grand Theft Auto V
-Viewers: 69 </desc>
+Viewers: 71 </desc>
 </programme>
 
 <programme start="20250923063557 +0000" stop="20250926013557 +0000" channel="curvyelephant.us">
 <title lang="en"> Matt Rhodes - nopixel - </title>
 <desc lang="en"> Started: 1:35AM
 Playing: Grand Theft Auto V
-Viewers: 303 </desc>
-</programme>
-
-<programme start="20250923082426 +0000" stop="20250926032426 +0000" channel="brakketts.us">
-<title lang="en"> Senior Deputy - Tommy Horver - Nopixel </title>
-<desc lang="en"> Started: 3:24AM
-Playing: Grand Theft Auto V
-Viewers: 1 </desc>
-</programme>
-
-<programme start="20250923044811 +0000" stop="20250925234811 +0000" channel="firecrackthat.us">
-<title lang="en"> Stumbles Fumbles - NoPixel WL </title>
-<desc lang="en"> Started: 11:48PM
-Playing: Grand Theft Auto V
-Viewers: 56 </desc>
+Viewers: 315 </desc>
 </programme>
 
 <programme start="20250923025506 +0000" stop="20250925215506 +0000" channel="bozo.us">
 <title lang="en"> Bozo - The Great Pickle-A-Thon [Day 25] - NoPixel WL - nextgoal twitter 7tv subtember </title>
 <desc lang="en"> Started: 9:55PM
 Playing: Grand Theft Auto V
-Viewers: 24 </desc>
+Viewers: 22 </desc>
 </programme>
 
 <programme start="20250922234729 +0000" stop="20250925184729 +0000" channel="alyssajeanaf.us">
 <title lang="en"> Daphne Malone. Mob Ruins. To the Ground. ProdigyRP⭐️recap </title>
 <desc lang="en"> Started: 6:47PM
 Playing: Grand Theft Auto V
-Viewers: 82 </desc>
-</programme>
-
-<programme start="20250922234854 +0000" stop="20250925184854 +0000" channel="xqc.us">
-<title lang="en"> 🦾LIVE 🦾NOW 🦾DRAMA 🦾NEWS 🦾STUFF 🦾IDK 🦾GAMES 🦾REACTS 🦾WHATEVER 🦾390390900000000000000038 🦾CLANKER 🦾 </title>
-<desc lang="en"> Started: 6:48PM
-Playing: SILENT HILL ƒ
-Viewers: 15256 </desc>
+Viewers: 70 </desc>
 </programme>
 
 <programme start="20250922221026 +0000" stop="20250925171026 +0000" channel="kaicenat.us">
 <title lang="en"> 🟥MAFIATHON 3🟥DAY 22🟥15% OF REVENUE GOING TO SCHOOL IN NIGERIA🟥LEBRON JAMES CUT MY HAIR AT 1 MILLION SUBS🟥 </title>
 <desc lang="en"> Started: 5:10PM
 Playing: Just Chatting
-Viewers: 92782 </desc>
+Viewers: 103228 </desc>
 </programme>
 
-<programme start="20250923000000 +0000" stop="20250926032819 +0000" channel="tjnvv.us">
+<programme start="20250923081832 +0000" stop="20250926031832 +0000" channel="AnnaMayMight.us">
+<title lang="en"> [18][UK][50] Martha - Fishface - NoPixel 4.0 NP WL </title>
+<desc lang="en"> Started: 03:18 am
+Playing: Grand Theft Auto V
+Viewers: 15 </desc>
+</programme>
+
+<programme start="20250923082736 +0000" stop="20250926032736 +0000" channel="MartyrdomNZ.us">
+<title lang="en"> 459 - SGT Dan Fischer - NoPixel 4.0 WL - last twitch stream </title>
+<desc lang="en"> Started: 03:27 am
+Playing: Grand Theft Auto V
+Viewers: 1 </desc>
+</programme>
+
+<programme start="20250923000000 +0000" stop="20250926033637 +0000" channel="tjnvv.us">
 <title lang="en"> My first stream. 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:14 pm
 Playing: No Pixel RP (GTA)
 Viewers: 883 </desc>
 </programme>
 
-<programme start="20250923000000 +0000" stop="20250926032819 +0000" channel="xqc.us">
+<programme start="20250923000000 +0000" stop="20250926033637 +0000" channel="xqc.us">
 <title lang="en"> 🦾LIVE 🦾NOW 🦾DRAMA 🦾NEWS 🦾STUFF 🦾IDK 🦾GAMES 🦾REACTS 🦾WHATEVER 🦾390390900000000000000038 🦾CLANKER 🦾 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:49 pm
 Playing: Silent Hill f
-Viewers: 5206 </desc>
+Viewers: 6453 </desc>
 </programme>
 
-<programme start="20250923000000 +0000" stop="20250926032819 +0000" channel="silbullet.us">
+<programme start="20250923000000 +0000" stop="20250926033637 +0000" channel="silbullet.us">
 <title lang="en"> Interviews Lt. Maple 297 LSPD NoPixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:43 pm
 Playing: No Pixel RP (GTA)
-Viewers: 41 </desc>
+Viewers: 46 </desc>
 </programme>
 
-<programme start="20250923000000 +0000" stop="20250926032819 +0000" channel="aus24.us">
+<programme start="20250923000000 +0000" stop="20250926033637 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:10 am
 Playing: No Pixel RP (GTA)
-Viewers: 111 </desc>
+Viewers: 116 </desc>
 </programme>
 
-<programme start="20250923000000 +0000" stop="20250926032819 +0000" channel="makeitmeansomething.us">
-<title lang="en"> Rocket Cane Nopixel WL Crayons 18 Dairy Free Icecream Fund 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 12:25 am
-Playing: No Pixel RP (GTA)
-Viewers: 5 </desc>
-</programme>
-
-<programme start="20250923000000 +0000" stop="20250926032819 +0000" channel="harmless.us">
+<programme start="20250923000000 +0000" stop="20250926033637 +0000" channel="harmless.us">
 <title lang="en"> SCHMIDTEMBER 23-30 Maynard Idiot Schmidt Besties NoPixel 4.0 TTS 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:08 am
 Playing: No Pixel RP (GTA)
 Viewers: 472 </desc>
 </programme>
 
-<programme start="20250923000000 +0000" stop="20250926032819 +0000" channel="choponz.us">
+<programme start="20250923000000 +0000" stop="20250926033637 +0000" channel="choponz.us">
 <title lang="en"> 👹RED GARAGE DEMON👹BESTIES👹NOPIXEL 4.0👹 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:42 am
 Playing: No Pixel RP (GTA)
-Viewers: 17 </desc>
+Viewers: 23 </desc>
 </programme>
 
-<programme start="20250923000000 +0000" stop="20250926032819 +0000" channel="rexs.us">
+<programme start="20250923000000 +0000" stop="20250926033637 +0000" channel="rexs.us">
 <title lang="en"> Ricky Dallas 🤠 BCSO 🤠 Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:54 am
 Playing: No Pixel RP (GTA)
-Viewers: 40 </desc>
+Viewers: 42 </desc>
+</programme>
+
+<programme start="20250923000000 +0000" stop="20250926033637 +0000" channel="daisyks.us">
+<title lang="en"> Daisy Ortiz Nopixel Promise not broken, 24 HOURS afk a lot 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 03:36 am
+Playing: No Pixel RP (GTA)
+Viewers: 0 </desc>
 </programme>
 
 
