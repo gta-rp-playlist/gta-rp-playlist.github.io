@@ -206,7 +206,7 @@ body {
 
 #streamdata {
     position: absolute; /* Positioned relative to its container */
-    bottom: 5%; /* Responsive bottom position */
+    bottom: 3%; /* Responsive bottom position */
     left: 81%; /* Responsive left position */
     font-size: .9vw; /* Use vw for responsive font size */
     z-index: 40;
