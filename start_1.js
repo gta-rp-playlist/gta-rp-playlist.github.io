@@ -181,6 +181,7 @@ function fetchAndUpdateNumbers() {
 
         const excludedCategories = ['02LSPD', '03BCSO'];
         const usernameSet = new Set();
+        let grandTotal = 0;
 
         doc.querySelectorAll('.sub-item').forEach(item => {
             const category = item.getAttribute('data-category');
@@ -189,14 +190,27 @@ function fetchAndUpdateNumbers() {
                 if (usernameEl) {
                     usernameSet.add(usernameEl.textContent.trim());
                 }
+
+                // 🔹 Count viewers for allowed categories
+                const viewerText = item.querySelector('.viewer-count')?.textContent || "";
+                const numbers = viewerText.match(/\d+/g);
+                if (numbers) {
+                    grandTotal += numbers.map(Number).reduce((a, b) => a + b, 0);
+                }
             }
         });
 
         // Replace the count in the numbersData string
-        const updatedNumbers = numbersData.replace(/Number of streams:\s*\d+/i, `Number of streams: ${usernameSet.size}`);
+        const updatedNumbers = numbersData.replace(
+            /Number of streams:\s*\d+/i,
+            `Number of streams: ${usernameSet.size}`
+        );
+
+        // Add Total Viewers line
+        const finalOutput = `${updatedNumbers}<br>Total Viewers: ${grandTotal.toLocaleString()}`;
 
         // Output to the DOM
-        document.getElementById('streamdata').innerHTML = updatedNumbers;
+        document.getElementById('streamdata').innerHTML = finalOutput;
     })
     .catch(() => {});
 }
