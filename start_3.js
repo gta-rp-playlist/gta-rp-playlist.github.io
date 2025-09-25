@@ -41,17 +41,21 @@ function playStream(streamName) {
 
     highlightClickedUsername(lowerCaseStreamName);
 
-    // Fade out immediately
-    ["top-menu", "chat", "streamInfo"].forEach(id => {
-        const el = document.getElementById(id);
-        if (el) {
-            el.style.transition = "opacity 0.5s ease";
-            el.style.opacity = 0;
-            // Fully hide after fade out
-            setTimeout(() => { el.style.display = "none"; }, 500);
-        }
-    });
+    // Detect mobile device
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
-    // Fade back in after 4 seconds
-    revealElementsAfterDelay(["top-menu", "chat", "streamInfo"], 4000, 1000);
+    if (!isMobile) {
+        // Fade out immediately
+        ["top-menu", "chat", "streamInfo"].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) {
+                el.style.transition = "opacity 0.5s ease";
+                el.style.opacity = 0;
+                setTimeout(() => { el.style.display = "none"; }, 500);
+            }
+        });
+
+        // Fade back in after 4 seconds
+        revealElementsAfterDelay(["top-menu", "chat", "streamInfo"], 4000, 1000);
+    }
 }
