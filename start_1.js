@@ -183,37 +183,59 @@ function fetchAndUpdateNumbers() {
         const usernameSet = new Set();
         let grandTotal = 0;
 
+        // Collect usernames + viewer counts
         doc.querySelectorAll('.sub-item').forEach(item => {
             const category = item.getAttribute('data-category');
-            if (!excludedCategories.includes(category)) {
-                const usernameEl = item.querySelector('.username');
-                if (usernameEl) {
-                    usernameSet.add(usernameEl.textContent.trim());
-                }
+            const usernameEl = item.querySelector('.username');
+            if (!category || !usernameEl) return;
 
-                // 🔹 Count viewers for allowed categories
-                const viewerText = item.querySelector('.viewer-count')?.textContent || "";
-                const numbers = viewerText.match(/\d+/g);
-                if (numbers) {
-                    grandTotal += numbers.map(Number).reduce((a, b) => a + b, 0);
+            const username = usernameEl.textContent.trim();
+            if (!excludedCategories.includes(category)) {
+                usernameSet.add(username);
+            }
+
+            // Count viewers
+            const viewerText = item.querySelector('.viewer-count')?.textContent || "";
+            const numbers = viewerText.match(/\d+/g);
+            if (numbers) {
+                grandTotal += numbers.map(Number).reduce((a, b) => a + b, 0);
+            }
+        });
+
+        // Check for 01Cops that aren’t in LSPD or BCSO
+        const copsUsernames = [];
+        doc.querySelectorAll('.sub-item[data-category="01Cops"]').forEach(item => {
+            const username = item.querySelector('.username')?.textContent.trim();
+            if (username) {
+                const inExcluded = excludedCategories.some(cat =>
+                    [...doc.querySelectorAll(`.sub-item[data-category="${cat}"] .username`)]
+                        .some(u => u.textContent.trim() === username)
+                );
+                if (!inExcluded) {
+                    copsUsernames.push(username);
                 }
             }
         });
 
-        // Replace the count in the numbersData string
+        if (copsUsernames.length > 0) {
+            console.log("🔍 01Cops not in LSPD/BCSO:", copsUsernames);
+        }
+
+        // Replace the count in numbers.txt text
         const updatedNumbers = numbersData.replace(
             /Number of streams:\s*\d+/i,
             `Number of streams: ${usernameSet.size}`
         );
 
-        // Add Total Viewers line
+        // Build final output (no cops usernames shown here)
         const finalOutput = `${updatedNumbers}<br>Total Viewers: ${grandTotal.toLocaleString()}`;
 
-        // Output to the DOM
+        // Output to DOM
         document.getElementById('streamdata').innerHTML = finalOutput;
     })
     .catch(() => {});
 }
+
 function fetchAndUpdateSidebar_2() {
     fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data2.txt')
         .then(r => {
