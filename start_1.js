@@ -170,7 +170,6 @@ function fetchAndUpdateSidebar_none() {
         .catch(() => {});
 }
 function fetchAndUpdateNumbers() {
-    // First fetch both files: numbers.txt and data.txt
     Promise.all([
         fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/numbers.txt').then(r => r.text()),
         fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data.txt').then(r => r.text())
@@ -179,7 +178,6 @@ function fetchAndUpdateNumbers() {
         const parser = new DOMParser();
         const doc = parser.parseFromString(streamData, 'text/html');
 
-        const excludedCategories = ['02LSPD', '03BCSO'];
         const usernameSet = new Set();
         let grandTotal = 0;
 
@@ -190,14 +188,16 @@ function fetchAndUpdateNumbers() {
             if (!category || !usernameEl) return;
 
             const username = usernameEl.textContent.trim();
-            if (!excludedCategories.includes(category)) {
+
+            // ✅ Exclude any group with "lspd" or "bcso" anywhere in data-category
+            if (!/lspd|bcso/i.test(category)) {
                 usernameSet.add(username);
             }
 
-            // Count viewers
+            // Count viewers (but DO count viewers from excluded categories? or exclude them too?)
             const viewerText = item.querySelector('.viewer-count')?.textContent || "";
             const numbers = viewerText.match(/\d+/g);
-            if (numbers) {
+            if (numbers && !/lspd|bcso/i.test(category)) { // <-- Exclude viewer counts also
                 grandTotal += numbers.map(Number).reduce((a, b) => a + b, 0);
             }
         });
@@ -207,9 +207,9 @@ function fetchAndUpdateNumbers() {
         doc.querySelectorAll('.sub-item[data-category="01Cops"]').forEach(item => {
             const username = item.querySelector('.username')?.textContent.trim();
             if (username) {
-                const inExcluded = excludedCategories.some(cat =>
-                    [...doc.querySelectorAll(`.sub-item[data-category="${cat}"] .username`)]
-                        .some(u => u.textContent.trim() === username)
+                const inExcluded = [...doc.querySelectorAll('.sub-item')].some(u =>
+                    /lspd|bcso/i.test(u.getAttribute('data-category')) &&
+                    u.querySelector('.username')?.textContent.trim() === username
                 );
                 if (!inExcluded) {
                     copsUsernames.push(username);
@@ -221,21 +221,17 @@ function fetchAndUpdateNumbers() {
             console.log("🔍 01Cops not in LSPD/BCSO:", copsUsernames);
         }
 
-        // Replace the count in numbers.txt text
         const updatedNumbers = numbersData.replace(
             /Number of streams:\s*\d+/i,
             `Number of streams: ${usernameSet.size}`
         );
 
-        // Build final output (no cops usernames shown here)
         const finalOutput = `${updatedNumbers}<br>Total Viewers: ${grandTotal.toLocaleString()}`;
 
-        // Output to DOM
         document.getElementById('streamdata').innerHTML = finalOutput;
     })
     .catch(() => {});
 }
-
 function fetchAndUpdateSidebar_2() {
     fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data2.txt')
         .then(r => {
