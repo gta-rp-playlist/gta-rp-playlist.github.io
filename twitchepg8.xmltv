@@ -2,16 +2,20 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="moosetaffy.us">
+<display-name>moosetaffy</display-name>
+</channel>
+
 <channel id="crystalst.us">
 <display-name>crystalst</display-name>
 </channel>
 
-<channel id="chocolatechipruki.us">
-<display-name>chocolatechipruki</display-name>
-</channel>
-
 <channel id="sock22.us">
 <display-name>sock22</display-name>
+</channel>
+
+<channel id="chocolatechipruki.us">
+<display-name>chocolatechipruki</display-name>
 </channel>
 
 <channel id="lemon7__.us">
@@ -32,10 +36,6 @@
 
 <channel id="katecirrus.us">
 <display-name>katecirrus</display-name>
-</channel>
-
-<channel id="moosetaffy.us">
-<display-name>moosetaffy</display-name>
 </channel>
 
 <channel id="tjnvv.us">
@@ -106,11 +106,33 @@
 <display-name>roxmiral</display-name>
 </channel>
 
+<channel id="moosetaffy.us">
+<display-name>moosetaffy</display-name>
+</channel>
+
+<channel id="cheever7.us">
+<display-name>cheever7</display-name>
+</channel>
+
+<programme start="20251011121920 +0000" stop="20251014071920 +0000" channel="moosetaffy.us">
+<title lang="en"> Patar Bellosh - ProdigyRP - Discord GamerSupps POBox OperaGX Minecraft #AD </title>
+<desc lang="en"> Started: 7:19AM
+Playing: Grand Theft Auto V
+Viewers: 103 </desc>
+</programme>
+
 <programme start="20251011111049 +0000" stop="20251014061049 +0000" channel="crystalst.us">
 <title lang="en"> ✨crystal clear - nopixel ~ </title>
 <desc lang="en"> Started: 6:10AM
 Playing: Grand Theft Auto V
-Viewers: 284 </desc>
+Viewers: 282 </desc>
+</programme>
+
+<programme start="20251011083538 +0000" stop="20251014033538 +0000" channel="sock22.us">
+<title lang="en"> Snr. Officer Richard Dark - NoPixel - Discord - 🎃SPOOKY EMOTES LIVE🎃 </title>
+<desc lang="en"> Started: 3:35AM
+Playing: Grand Theft Auto V
+Viewers: 436 </desc>
 </programme>
 
 <programme start="20251011100921 +0000" stop="20251014050921 +0000" channel="chocolatechipruki.us">
@@ -118,13 +140,6 @@ Viewers: 284 </desc>
 <desc lang="en"> Started: 05:09 am
 Playing: Grand Theft Auto V
 Viewers: 8 </desc>
-</programme>
-
-<programme start="20251011083538 +0000" stop="20251014033538 +0000" channel="sock22.us">
-<title lang="en"> Snr. Officer Richard Dark - NoPixel - Discord - 🎃SPOOKY EMOTES LIVE🎃 </title>
-<desc lang="en"> Started: 3:35AM
-Playing: Grand Theft Auto V
-Viewers: 429 </desc>
 </programme>
 
 <programme start="20251011111631 +0000" stop="20251014061631 +0000" channel="lemon7__.us">
@@ -145,7 +160,7 @@ Viewers: 1 </desc>
 <title lang="en"> Sergio Lopez - 🐍Hydra🐍 - NoPixel </title>
 <desc lang="en"> Started: 4:07AM
 Playing: Grand Theft Auto V
-Viewers: 15 </desc>
+Viewers: 13 </desc>
 </programme>
 
 <programme start="20251011092949 +0000" stop="20251014042949 +0000" channel="yodarrell.us">
@@ -159,133 +174,140 @@ Viewers: 1 </desc>
 <title lang="en"> Phoebe Violet - Merchants - saving the city but most importantly opening satchels - NP WL </title>
 <desc lang="en"> Started: 4:36AM
 Playing: Grand Theft Auto V
-Viewers: 8 </desc>
+Viewers: 10 </desc>
 </programme>
 
-<programme start="20251011121920 +0000" stop="20251014071920 +0000" channel="moosetaffy.us">
-<title lang="en"> Patar Bellosh - ProdigyRP - Discord GamerSupps POBox OperaGX Minecraft #AD </title>
-<desc lang="en"> Started: 7:19AM
-Playing: Grand Theft Auto V
-Viewers: 4 </desc>
-</programme>
-
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="tjnvv.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="tjnvv.us">
 <title lang="en"> My first stream. 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:14 pm
 Playing: No Pixel RP (GTA)
 Viewers: 883 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="simo.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="simo.us">
 <title lang="en"> Rodney Fuel Zoomer on duty NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:33 pm
 Playing: No Pixel RP (GTA)
-Viewers: 465 </desc>
+Viewers: 454 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="aus24.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:28 am
 Playing: No Pixel RP (GTA)
-Viewers: 181 </desc>
+Viewers: 172 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="ogastrx.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="ogastrx.us">
 <title lang="en"> Partner Push The Modern Cowboy Rex Pace ADMC NoPixel 4.0 WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:45 am
 Playing: No Pixel RP (GTA)
 Viewers: 36 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="vanillayoshee.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="vanillayoshee.us">
 <title lang="en"> Eliyanna just does stuff Ali NOPIXEL WL 4.0 pushing -- partner lurk 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:22 am
 Playing: No Pixel RP (GTA)
-Viewers: 21 </desc>
+Viewers: 26 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="yodarrell.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="yodarrell.us">
 <title lang="en"> Dante Rivers Merchants 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:29 am
-Playing: No Pixel RP (GTA)
-Viewers: 9 </desc>
-</programme>
-
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="katecirrus.us">
-<title lang="en"> Phoebe Violet Merchants saving the city but most importantly opening satchels NP WL 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 04:36 am
 Playing: No Pixel RP (GTA)
 Viewers: 6 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="reina.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="katecirrus.us">
+<title lang="en"> Phoebe Violet Merchants saving the city but most importantly opening satchels NP WL 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 04:36 am
+Playing: No Pixel RP (GTA)
+Viewers: 5 </desc>
+</programme>
+
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="reina.us">
 <title lang="en"> Mona is super smart ❤️ Hades ❤️ Prodigy RP discord socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:08 am
 Playing: Grand Theft Auto V (GTA)
-Viewers: 33 </desc>
+Viewers: 34 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="sanityybro.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="sanityybro.us">
 <title lang="en"> Larry Porter Besties Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:07 am
 Playing: No Pixel RP (GTA)
-Viewers: 90 </desc>
+Viewers: 88 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="chocolatechipruki.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="chocolatechipruki.us">
 <title lang="en"> Bianca Wade Oxy Merchant Nopixel 4.0 WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:09 am
 Playing: No Pixel RP (GTA)
-Viewers: 7 </desc>
+Viewers: 2 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="rerolldota.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="rerolldota.us">
 <title lang="en"> Nopixel WL 230 Nova Push For Partner Start 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:24 am
 Playing: No Pixel RP (GTA)
 Viewers: 32 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="sanesfx.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="sanesfx.us">
 <title lang="en"> Aziz Shaw Besties No Pixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:49 am
 Playing: No Pixel RP (GTA)
 Viewers: 55 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="lemon77.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="lemon77.us">
 <title lang="en"> Roy Hughes Merchants Nopixel 4.0 stream of all time 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:16 am
 Playing: No Pixel RP (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="abbottjake.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="abbottjake.us">
 <title lang="en"> getting on so aziz isnt alone he will ditch me the second he gets the chance 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:19 am
 Playing: No Pixel RP (GTA)
-Viewers: 254 </desc>
+Viewers: 268 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="zuck.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="zuck.us">
 <title lang="en"> 🐸 Zuck - Besties HA Twitter zuck_ttv 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:45 am
 Playing: No Pixel RP (GTA)
-Viewers: 86 </desc>
+Viewers: 94 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="52chains.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="52chains.us">
 <title lang="en"> Carmine Capmine socials Nopixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:12 am
 Playing: No Pixel RP (GTA)
-Viewers: 97 </desc>
+Viewers: 238 </desc>
 </programme>
 
-<programme start="20251011000000 +0000" stop="20251014072117 +0000" channel="roxmiral.us">
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="roxmiral.us">
 <title lang="en"> Nikki Khan - Good Cop 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:12 am
 Playing: No Pixel RP (GTA)
-Viewers: 29 </desc>
+Viewers: 66 </desc>
+</programme>
+
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="moosetaffy.us">
+<title lang="en"> Patar Bellosh - ProdigyRP - Discord GamerSupps POBox 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 07:19 am
+Playing: Grand Theft Auto V (GTA)
+Viewers: 7 </desc>
+</programme>
+
+<programme start="20251011000000 +0000" stop="20251014072817 +0000" channel="cheever7.us">
+<title lang="en"> Rent Free Ruth Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 07:23 am
+Playing: No Pixel RP (GTA)
+Viewers: 14 </desc>
 </programme>
 
 
