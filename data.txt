@@ -1,8 +1,4 @@
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
-      <div class="sub-item" data-category="01Cops" data-title="DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/xekaIKTHqMkv/480.webp" data-viewers="60" onclick="playStream('aus24')">
-        <span class="username">aus24</span>
-        <span class="viewer-count">🟢60</span>
-      </div>
       <div class="sub-item" data-category="01Cops" data-title="✨crystal clear | nopixel ~" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_crystalst-854x480.jpg" data-viewers="438" onclick="playStream('crystalst')">
         <span class="username">crystalst</span>
         <span class="viewer-count">🔴438</span>
@@ -11,19 +7,19 @@
         <span class="username">harmless</span>
         <span class="viewer-count">🟢312</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Remi Ironside - Senior Officer - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="34" onclick="playStream('UnicornFrapp')">
+      <div class="sub-item" data-category="01Cops" data-title="Remi Ironside - Senior Officer - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="33" onclick="playStream('UnicornFrapp')">
         <span class="username">UnicornFrapp</span>
-        <span class="viewer-count">🔴34</span>
+        <span class="viewer-count">🔴33</span>
       </div>
       <div class="sub-item" data-category="01Cops" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="1" onclick="playStream('Hellknight86')">
         <span class="username">Hellknight86</span>
         <span class="viewer-count">🔴1</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
-      <div class="sub-item" data-category="02LSPD" data-title="DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/xekaIKTHqMkv/480.webp" data-viewers="60" onclick="playStream('aus24')">
+      <div class="sub-item" data-category="01Cops" data-title="DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/xekaIKTHqMkv/480.webp" data-viewers="59" onclick="playStream('aus24')">
         <span class="username">aus24</span>
-        <span class="viewer-count">🟢60</span>
+        <span class="viewer-count">🟢59</span>
       </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
       <div class="sub-item" data-category="02LSPD" data-title="✨crystal clear | nopixel ~" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_crystalst-854x480.jpg" data-viewers="438" onclick="playStream('crystalst')">
         <span class="username">crystalst</span>
         <span class="viewer-count">🔴438</span>
@@ -36,25 +32,24 @@
         <span class="username">Hellknight86</span>
         <span class="viewer-count">🔴1</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
-      <div class="sub-item" data-category="07Doctors" data-title="~💎Ruby Sapphire💎~💜L-Crim Purple Crayon💜 ~ NoPixel 4.0 WL ~ Come Say Hi ~ 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/4JGVVoIZABdl/HGaU0FtBuvN9/480.webp" data-viewers="6" onclick="playStream('emalee12')">
-        <span class="username">emalee12</span>
-        <span class="viewer-count">🟢6</span>
+      <div class="sub-item" data-category="02LSPD" data-title="DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/xekaIKTHqMkv/480.webp" data-viewers="59" onclick="playStream('aus24')">
+        <span class="username">aus24</span>
+        <span class="viewer-count">🟢59</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
-      <div class="sub-item" data-category="10Besties" data-title="👹BESTIES BILLY👹THE WHISKEY KINGS REVOLT The Silent Barrel👹NOPIXEL 4.0👹24hr 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BOb5xmmZRbre/u53cQjKPi7OI/480.webp" data-viewers="11" onclick="playStream('choponz')">
+      <div class="sub-item" data-category="10Besties" data-title="👹BESTIES BILLY👹THE WHISKEY KINGS REVOLT The Silent Barrel👹NOPIXEL 4.0👹24hr 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BOb5xmmZRbre/u53cQjKPi7OI/480.webp" data-viewers="9" onclick="playStream('choponz')">
         <span class="username">choponz</span>
-        <span class="viewer-count">🟢9 🔴2</span>
+        <span class="viewer-count">🟢6 🔴3</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="15ADMC">15ADMC</div>
-      <div class="sub-item" data-category="15ADMC" data-title="RAID PREPARATION 💀 Edbert Ropeburn 💀 ADMC HC 💀 NOPIXEL WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/ReAAO8KPVlFY/j8NAbwSaPZ7Q/480.webp" data-viewers="238" onclick="playStream('heyimzed')">
+      <div class="sub-item" data-category="15ADMC" data-title="RAID PREPARATION 💀 Edbert Ropeburn 💀 ADMC HC 💀 NOPIXEL WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/ReAAO8KPVlFY/j8NAbwSaPZ7Q/480.webp" data-viewers="241" onclick="playStream('heyimzed')">
         <span class="username">heyimzed</span>
-        <span class="viewer-count">🟢238</span>
+        <span class="viewer-count">🟢241</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="25Kaneshiro">25Kaneshiro</div>
-      <div class="sub-item" data-category="25Kaneshiro" data-title="[NoPixel WL] Shinsei Izanami and Ivy ✅ Why ✅ Even ✅ Bother ✅ ROAD TO KICK VERIFICATION Discord 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/5qvSPmdaGSpM/d7RjxQT0Mc5L/480.webp" data-viewers="27" onclick="playStream('xNoctelle')">
-        <span class="username">xNoctelle</span>
-        <span class="viewer-count">🟢22 🔴5</span>
+    <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
+      <div class="sub-item" data-category="07Doctors" data-title="~💎Ruby Sapphire💎~💜L-Crim Purple Crayon💜 ~ NoPixel 4.0 WL ~ Come Say Hi ~ 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/4JGVVoIZABdl/HGaU0FtBuvN9/480.webp" data-viewers="5" onclick="playStream('emalee12')">
+        <span class="username">emalee12</span>
+        <span class="viewer-count">🟢5</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="41Crayons">41Crayons</div>
       <div class="sub-item" data-category="41Crayons" data-title="Rocket Cane Nopixel WL Crayons 18 MUSIC CREATION FUND 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Rbu5roQDwENR/keHYIP0M4dCn/480.webp" data-viewers="12" onclick="playStream('makeitmeansomething')">
@@ -65,14 +60,19 @@
         <span class="username">Emalee12</span>
         <span class="viewer-count">🔴10</span>
       </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="25Kaneshiro">25Kaneshiro</div>
+      <div class="sub-item" data-category="25Kaneshiro" data-title="[NoPixel WL] Shinsei Izanami and Ivy ✅ Why ✅ Even ✅ Bother ✅ ROAD TO KICK VERIFICATION Discord 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/5qvSPmdaGSpM/d7RjxQT0Mc5L/480.webp" data-viewers="27" onclick="playStream('xNoctelle')">
+        <span class="username">xNoctelle</span>
+        <span class="viewer-count">🟢23 🔴4</span>
+      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
-      <div class="sub-item" data-category="03BCSO" data-title="Remi Ironside - Senior Officer - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="34" onclick="playStream('UnicornFrapp')">
+      <div class="sub-item" data-category="03BCSO" data-title="Remi Ironside - Senior Officer - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="33" onclick="playStream('UnicornFrapp')">
         <span class="username">UnicornFrapp</span>
-        <span class="viewer-count">🔴34</span>
+        <span class="viewer-count">🔴33</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="Just To Turn It Around - LFFL - Sai Kou - NoPixel WL - socials" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mrglee-854x480.jpg" data-viewers="5" onclick="playStream('MrGlee')">
+      <div class="sub-item" data-category="58Uncategorized" data-title="Just To Turn It Around - LFFL - Sai Kou - NoPixel WL - socials" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mrglee-854x480.jpg" data-viewers="4" onclick="playStream('MrGlee')">
         <span class="username">MrGlee</span>
-        <span class="viewer-count">🔴5</span>
+        <span class="viewer-count">🔴4</span>
       </div>
 
