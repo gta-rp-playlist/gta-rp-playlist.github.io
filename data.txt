@@ -1,11 +1,21 @@
+    <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
+      <div class="sub-item" data-category="58Uncategorized" data-title="(short lil strim IDK)✨dawn✨nopixel wl" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_neverossa-854x480.jpg" data-viewers="64" onclick="playStream('NeveRossa')">
+        <span class="username">NeveRossa</span>
+        <span class="viewer-count">🔴64</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="57Independent">57Independent</div>
+      <div class="sub-item" data-category="57Independent" data-title="[18][UK][50] Martha - doobidoobidoo - NoPixel 4.0 NP WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_annamaymight-854x480.jpg" data-viewers="25" onclick="playStream('AnnaMayMight')">
+        <span class="username">AnnaMayMight</span>
+        <span class="viewer-count">🔴25</span>
+      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
+      <div class="sub-item" data-category="01Cops" data-title="371 Snr Deputy Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="15" onclick="playStream('ollie2313')">
+        <span class="username">ollie2313</span>
+        <span class="viewer-count">🔴15</span>
+      </div>
       <div class="sub-item" data-category="01Cops" data-title="Deputy Betty Briskett | BCSO | 396 | Nopixel WL | Crispy Briskett&#39;s fRIGAY" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kerazane-854x480.jpg" data-viewers="6" onclick="playStream('kerazane')">
         <span class="username">kerazane</span>
         <span class="viewer-count">🔴6</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="371 Snr Deputy Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="16" onclick="playStream('ollie2313')">
-        <span class="username">ollie2313</span>
-        <span class="viewer-count">🔴16</span>
       </div>
       <div class="sub-item" data-category="01Cops" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="5" onclick="playStream('Hellknight86')">
         <span class="username">Hellknight86</span>
@@ -16,28 +26,18 @@
         <span class="viewer-count">🔴313</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
+      <div class="sub-item" data-category="03BCSO" data-title="371 Snr Deputy Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="15" onclick="playStream('ollie2313')">
+        <span class="username">ollie2313</span>
+        <span class="viewer-count">🔴15</span>
+      </div>
       <div class="sub-item" data-category="03BCSO" data-title="Deputy Betty Briskett | BCSO | 396 | Nopixel WL | Crispy Briskett&#39;s fRIGAY" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kerazane-854x480.jpg" data-viewers="6" onclick="playStream('kerazane')">
         <span class="username">kerazane</span>
         <span class="viewer-count">🔴6</span>
       </div>
-      <div class="sub-item" data-category="03BCSO" data-title="371 Snr Deputy Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="16" onclick="playStream('ollie2313')">
-        <span class="username">ollie2313</span>
-        <span class="viewer-count">🔴16</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="(short lil strim IDK)✨dawn✨nopixel wl" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_neverossa-854x480.jpg" data-viewers="62" onclick="playStream('NeveRossa')">
-        <span class="username">NeveRossa</span>
-        <span class="viewer-count">🔴62</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="57Independent">57Independent</div>
-      <div class="sub-item" data-category="57Independent" data-title="[18][UK][50] Martha - doobidoobidoo - NoPixel 4.0 NP WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_annamaymight-854x480.jpg" data-viewers="16" onclick="playStream('AnnaMayMight')">
-        <span class="username">AnnaMayMight</span>
-        <span class="viewer-count">🔴16</span>
-      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
-      <div class="sub-item" data-category="30Merchants" data-title="Bianca Wade - Oxy Merchant - Nopixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_chocolatechipruki-854x480.jpg" data-viewers="11" onclick="playStream('chocolatechipruki')">
+      <div class="sub-item" data-category="30Merchants" data-title="Bianca Wade - Oxy Merchant - Nopixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_chocolatechipruki-854x480.jpg" data-viewers="12" onclick="playStream('chocolatechipruki')">
         <span class="username">chocolatechipruki</span>
-        <span class="viewer-count">🔴11</span>
+        <span class="viewer-count">🔴12</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
       <div class="sub-item" data-category="02LSPD" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="5" onclick="playStream('Hellknight86')">
