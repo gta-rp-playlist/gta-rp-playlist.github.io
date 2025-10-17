@@ -59,6 +59,7 @@ const categoryMappings = {
     'guild'       : '39Guild',
     'angels'      : '40Angels',
     'crayons'     : '41Crayons',
+    'iconicz'     : '30Iconicz',
     'oldcops'     : '41OldCops',
     'lumberjacks' : '42LumberJacks',
     'wsmc'        : '43WSMC',
