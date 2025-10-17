@@ -50,6 +50,8 @@ const categoryMappings = {
     'golfgang'       : '40GolfGang',
     'civgang'     : '33CivGang',
     'italians'    : '34Italians',
+    'ravensmc'    : '29RavensMC',
+    'ravens'    : '29RavensMC',
     'cg'          : '36CG',
     'cg_2'        : '37CG_2',
     'theproject'  : '38TheProject',
