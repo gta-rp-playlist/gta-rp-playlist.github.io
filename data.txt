@@ -1,4 +1,18 @@
+    <div class="category" onclick="highlightCategory(this)" data-category="28Hounds">28Hounds</div>
+      <div class="sub-item" data-category="28Hounds" data-title="Kelly Dean NP 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7wwP2GBI4zYO/XhyBDaNbXOyq/480.webp" data-viewers="60" onclick="playStream('leonarwho')">
+        <span class="username">leonarwho</span>
+        <span class="viewer-count">🟢60</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="57Independent">57Independent</div>
+      <div class="sub-item" data-category="57Independent" data-title="🏝️ Lelani Kamealoha Local Hawawiian making some grindz🏄‍♀️ NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/QMeqKqcUb2RT/OpGzIpHF0HaJ/480.webp" data-viewers="3" onclick="playStream('im-the-owl')">
+        <span class="username">im-the-owl</span>
+        <span class="viewer-count">🟢2 🔴1</span>
+      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
+      <div class="sub-item" data-category="01Cops" data-title="DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/POP3sIYPiFEX/480.webp" data-viewers="125" onclick="playStream('aus24')">
+        <span class="username">aus24</span>
+        <span class="viewer-count">🟢125</span>
+      </div>
       <div class="sub-item" data-category="01Cops" data-title="✨crystal cLear | pokemon za later !" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_crystalst-854x480.jpg" data-viewers="348" onclick="playStream('crystalst')">
         <span class="username">crystalst</span>
         <span class="viewer-count">🔴348</span>
@@ -7,35 +21,45 @@
         <span class="username">UnicornFrapp</span>
         <span class="viewer-count">🔴56</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="2" onclick="playStream('Hellknight86')">
+      <div class="sub-item" data-category="01Cops" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="3" onclick="playStream('Hellknight86')">
         <span class="username">Hellknight86</span>
-        <span class="viewer-count">🔴2</span>
+        <span class="viewer-count">🔴3</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
+      <div class="sub-item" data-category="02LSPD" data-title="DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/POP3sIYPiFEX/480.webp" data-viewers="125" onclick="playStream('aus24')">
+        <span class="username">aus24</span>
+        <span class="viewer-count">🟢125</span>
+      </div>
       <div class="sub-item" data-category="02LSPD" data-title="✨crystal cLear | pokemon za later !" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_crystalst-854x480.jpg" data-viewers="348" onclick="playStream('crystalst')">
         <span class="username">crystalst</span>
         <span class="viewer-count">🔴348</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="2" onclick="playStream('Hellknight86')">
+      <div class="sub-item" data-category="02LSPD" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="3" onclick="playStream('Hellknight86')">
         <span class="username">Hellknight86</span>
-        <span class="viewer-count">🔴2</span>
+        <span class="viewer-count">🔴3</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="45HOA">45HOA</div>
+      <div class="sub-item" data-category="45HOA" data-title="ROD LONG NOPIXEL 4.0 LIL GUY DOES BIG THINGS 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fdWCvhhlSJge/R3YuiYfSesJY/480.webp" data-viewers="92" onclick="playStream('beetle')">
+        <span class="username">beetle</span>
+        <span class="viewer-count">🟢92</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="41Crayons">41Crayons</div>
+      <div class="sub-item" data-category="41Crayons" data-title="Rocket Cane Nopixel WL Crayons 18 Music Fund 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Rbu5roQDwENR/75KHOSUYXwub/480.webp" data-viewers="7" onclick="playStream('makeitmeansomething')">
+        <span class="username">makeitmeansomething</span>
+        <span class="viewer-count">🟢2 🔴5</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="SEAN MF DEANE - NOPIXEL WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_idksean-854x480.jpg" data-viewers="53" onclick="playStream('idksean')">
+      <div class="sub-item" data-category="58Uncategorized" data-title="SEAN MF DEANE - NOPIXEL WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_idksean-854x480.jpg" data-viewers="52" onclick="playStream('idksean')">
         <span class="username">idksean</span>
-        <span class="viewer-count">🔴53</span>
+        <span class="viewer-count">🔴52</span>
       </div>
       <div class="sub-item" data-category="58Uncategorized" data-title="Youre coming back down and you really dont mind - LFFL - Sai Kou - NoPixel WL - socials" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mrglee-854x480.jpg" data-viewers="9" onclick="playStream('MrGlee')">
         <span class="username">MrGlee</span>
         <span class="viewer-count">🔴9</span>
       </div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="LIDDY -- NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hiliddy-854x480.jpg" data-viewers="1" onclick="playStream('HiLiddy')">
-        <span class="username">HiLiddy</span>
-        <span class="viewer-count">🔴1</span>
-      </div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="No Pixel: Clark Kent" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_jugwrld-854x480.jpg" data-viewers="2" onclick="playStream('JUGwrld')">
+      <div class="sub-item" data-category="58Uncategorized" data-title="No Pixel: Clark Kent" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_jugwrld-854x480.jpg" data-viewers="3" onclick="playStream('JUGwrld')">
         <span class="username">JUGwrld</span>
-        <span class="viewer-count">🔴2</span>
+        <span class="viewer-count">🔴3</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
       <div class="sub-item" data-category="03BCSO" data-title="Remi Ironside - Senior Officer - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="56" onclick="playStream('UnicornFrapp')">
@@ -43,18 +67,8 @@
         <span class="viewer-count">🔴56</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="24RaidersMC">24RaidersMC</div>
-      <div class="sub-item" data-category="24RaidersMC" data-title="Duke Ramsey - Raiders MC - Chamberlain and Old Lady - NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nareus-854x480.jpg" data-viewers="13" onclick="playStream('Nareus')">
+      <div class="sub-item" data-category="24RaidersMC" data-title="Duke Ramsey - Raiders MC - Chamberlain and Old Lady - NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nareus-854x480.jpg" data-viewers="15" onclick="playStream('Nareus')">
         <span class="username">Nareus</span>
-        <span class="viewer-count">🔴13</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="41Crayons">41Crayons</div>
-      <div class="sub-item" data-category="41Crayons" data-title="Rocket Cane - Nopixel WL - Crayons - 18 - Music Fund" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_makeitmeansomething-854x480.jpg" data-viewers="7" onclick="playStream('makeitmeansomething')">
-        <span class="username">makeitmeansomething</span>
-        <span class="viewer-count">🔴7</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="57Independent">57Independent</div>
-      <div class="sub-item" data-category="57Independent" data-title="🏝️ Lelani Kamealoha - Local Hawawiian making some grindz🏄‍♀️- NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_im_the_owl-854x480.jpg" data-viewers="1" onclick="playStream('im_the_owl')">
-        <span class="username">im_the_owl</span>
-        <span class="viewer-count">🔴1</span>
+        <span class="viewer-count">🔴15</span>
       </div>
 
