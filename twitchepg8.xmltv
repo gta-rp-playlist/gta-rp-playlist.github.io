@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="timmac.us">
+<display-name>timmac</display-name>
+</channel>
+
 <channel id="kalcyon.us">
 <display-name>kalcyon</display-name>
 </channel>
@@ -20,14 +24,6 @@
 
 <channel id="makeitmeansomething.us">
 <display-name>makeitmeansomething</display-name>
-</channel>
-
-<channel id="timmac.us">
-<display-name>timmac</display-name>
-</channel>
-
-<channel id="xqc.us">
-<display-name>xqc</display-name>
 </channel>
 
 <channel id="tjnvv.us">
@@ -54,10 +50,6 @@
 <display-name>kingjayclouted</display-name>
 </channel>
 
-<channel id="choponz.us">
-<display-name>choponz</display-name>
-</channel>
-
 <channel id="kalcyon.us">
 <display-name>kalcyon</display-name>
 </channel>
@@ -78,18 +70,25 @@
 <display-name>aus24</display-name>
 </channel>
 
+<programme start="20251103080711 +0000" stop="20251106030711 +0000" channel="timmac.us">
+<title lang="en"> Deputy Commish Mack - BAN GIVEAWAY EVERY 50 SUBS - Prodigy RP - @Timmac </title>
+<desc lang="en"> Started: 3:07AM
+Playing: Grand Theft Auto V
+Viewers: 158 </desc>
+</programme>
+
 <programme start="20251103050622 +0000" stop="20251106000622 +0000" channel="kalcyon.us">
 <title lang="en"> Late Night Onfire - Prodigy WL - Multistream @kalcyon </title>
 <desc lang="en"> Started: 12:06AM
 Playing: Grand Theft Auto V
-Viewers: 74 </desc>
+Viewers: 70 </desc>
 </programme>
 
 <programme start="20251103060752 +0000" stop="20251106010752 +0000" channel="brakketts.us">
 <title lang="en"> Tommy Horver - Double Barrel Cadets - Nopixel WL </title>
 <desc lang="en"> Started: 1:07AM
 Playing: Grand Theft Auto V
-Viewers: 38 </desc>
+Viewers: 46 </desc>
 </programme>
 
 <programme start="20251102165534 +0000" stop="20251105115534 +0000" channel="crystalst.us">
@@ -103,7 +102,7 @@ Viewers: 360 </desc>
 <title lang="en"> Just A Lil Goblin- LFFL - Sai Kou - NoPixel WL - socials </title>
 <desc lang="en"> Started: 12:12 am
 Playing: Grand Theft Auto V
-Viewers: 19 </desc>
+Viewers: 22 </desc>
 </programme>
 
 <programme start="20251103054520 +0000" stop="20251106004520 +0000" channel="makeitmeansomething.us">
@@ -113,102 +112,81 @@ Playing: Grand Theft Auto V
 Viewers: 7 </desc>
 </programme>
 
-<programme start="20251103080711 +0000" stop="20251106030711 +0000" channel="timmac.us">
-<title lang="en"> Deputy Commish Mack - BAN GIVEAWAY EVERY 50 SUBS - Prodigy RP - @Timmac </title>
-<desc lang="en"> Started: 3:07AM
-Playing: Grand Theft Auto V
-Viewers: 122 </desc>
-</programme>
-
-<programme start="20251102191442 +0000" stop="20251105141442 +0000" channel="xqc.us">
-<title lang="en"> 🐈LIVE🐈CLICK🐈HERE🐈DRAMA🐈NEWS🐈STUFF🐈REACTS🐈GAMES🐈VIDEOS🐈CLIPS🐈WOW🐈IM BACK🐈HOME🐈YAY🐈 </title>
-<desc lang="en"> Started: 2:14PM
-Playing: ARC Raiders
-Viewers: 13229 </desc>
-</programme>
-
-<programme start="20251103000000 +0000" stop="20251106031318 +0000" channel="tjnvv.us">
+<programme start="20251103000000 +0000" stop="20251106032118 +0000" channel="tjnvv.us">
 <title lang="en"> My first stream. 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:14 pm
 Playing: No Pixel RP (GTA)
 Viewers: 883 </desc>
 </programme>
 
-<programme start="20251103000000 +0000" stop="20251106031318 +0000" channel="crystalst.us">
+<programme start="20251103000000 +0000" stop="20251106032118 +0000" channel="crystalst.us">
 <title lang="en"> ✨crystal cLear academy day ~ 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:58 pm
 Playing: No Pixel RP (GTA)
-Viewers: 143 </desc>
+Viewers: 141 </desc>
 </programme>
 
-<programme start="20251103000000 +0000" stop="20251106031318 +0000" channel="xqc.us">
+<programme start="20251103000000 +0000" stop="20251106032118 +0000" channel="xqc.us">
 <title lang="en"> 🐈LIVE🐈CLICK🐈HERE🐈DRAMA🐈NEWS🐈STUFF🐈REACTS🐈GAMES🐈VIDEOS🐈CLIPS🐈WOW🐈IM BACK🐈HOME🐈YAY🐈 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:14 pm
 Playing: ARC Raiders
-Viewers: 4505 </desc>
+Viewers: 4453 </desc>
 </programme>
 
-<programme start="20251103000000 +0000" stop="20251106031318 +0000" channel="simo.us">
+<programme start="20251103000000 +0000" stop="20251106032118 +0000" channel="simo.us">
 <title lang="en"> Rodney Fuel Zoomer Returns NoPixel GTA RP 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:30 pm
 Playing: No Pixel RP (GTA)
-Viewers: 399 </desc>
+Viewers: 398 </desc>
 </programme>
 
-<programme start="20251103000000 +0000" stop="20251106031319 +0000" channel="zuck.us">
+<programme start="20251103000000 +0000" stop="20251106032118 +0000" channel="zuck.us">
 <title lang="en"> 🐸 Zuck Besties HA NoPixel 4.0 Twitter Zuck_TTV 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:22 pm
 Playing: No Pixel RP (GTA)
-Viewers: 87 </desc>
+Viewers: 89 </desc>
 </programme>
 
-<programme start="20251103000000 +0000" stop="20251106031319 +0000" channel="kingjayclouted.us">
+<programme start="20251103000000 +0000" stop="20251106032118 +0000" channel="kingjayclouted.us">
 <title lang="en"> 🚔 603 Snr Ofc. J. Stone 🚔 LSPD Police Patrol Lifestyle RP V2 GTA6 Graphics discord pc graphics 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:27 pm
 Playing: Grand Theft Auto V (GTA)
-Viewers: 4 </desc>
-</programme>
-
-<programme start="20251103000000 +0000" stop="20251106031319 +0000" channel="choponz.us">
-<title lang="en"> 🤖Billy Strut🤖Besties🤖Recovering🤖Discord🤖 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 11:39 pm
-Playing: No Pixel RP (GTA)
 Viewers: 5 </desc>
 </programme>
 
-<programme start="20251103000000 +0000" stop="20251106031319 +0000" channel="kalcyon.us">
+<programme start="20251103000000 +0000" stop="20251106032118 +0000" channel="kalcyon.us">
 <title lang="en"> Late Night Onfire - Prodigy WL - Multistream kalcyon 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:06 am
 Playing: Grand Theft Auto V (GTA)
-Viewers: 11 </desc>
+Viewers: 12 </desc>
 </programme>
 
-<programme start="20251103000000 +0000" stop="20251106031319 +0000" channel="thatguygp.us">
+<programme start="20251103000000 +0000" stop="20251106032118 +0000" channel="thatguygp.us">
 <title lang="en"> Jamal Nopixel BESTIES 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:04 am
 Playing: No Pixel RP (GTA)
 Viewers: 155 </desc>
 </programme>
 
-<programme start="20251103000000 +0000" stop="20251106031319 +0000" channel="sukhi_1.us">
+<programme start="20251103000000 +0000" stop="20251106032118 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel Besties Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:49 am
 Playing: No Pixel RP (GTA)
-Viewers: 38 </desc>
+Viewers: 37 </desc>
 </programme>
 
-<programme start="20251103000000 +0000" stop="20251106031319 +0000" channel="harmless.us">
+<programme start="20251103000000 +0000" stop="20251106032118 +0000" channel="harmless.us">
 <title lang="en"> Perry Falken NoPixel 4.0 TTS 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:46 am
 Playing: No Pixel RP (GTA)
-Viewers: 133 </desc>
+Viewers: 183 </desc>
 </programme>
 
-<programme start="20251103000000 +0000" stop="20251106031319 +0000" channel="aus24.us">
+<programme start="20251103000000 +0000" stop="20251106032118 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:54 am
 Playing: No Pixel RP (GTA)
-Viewers: 50 </desc>
+Viewers: 51 </desc>
 </programme>
 
 
