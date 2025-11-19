@@ -2,12 +2,12 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="kyle.us">
-<display-name>kyle</display-name>
-</channel>
-
 <channel id="abdulhd.us">
 <display-name>abdulhd</display-name>
+</channel>
+
+<channel id="kyle.us">
+<display-name>kyle</display-name>
 </channel>
 
 <channel id="TheBigMeech.us">
@@ -38,6 +38,10 @@
 <display-name>chocolatechipruki</display-name>
 </channel>
 
+<channel id="SpekCypher.us">
+<display-name>SpekCypher</display-name>
+</channel>
+
 <channel id="OmicronzZz.us">
 <display-name>OmicronzZz</display-name>
 </channel>
@@ -46,12 +50,12 @@
 <display-name>Hellknight86</display-name>
 </channel>
 
-<channel id="SamOatss.us">
-<display-name>SamOatss</display-name>
-</channel>
-
 <channel id="burn.us">
 <display-name>burn</display-name>
+</channel>
+
+<channel id="SamOatss.us">
+<display-name>SamOatss</display-name>
 </channel>
 
 <channel id="artbybaha.us">
@@ -72,10 +76,6 @@
 
 <channel id="curvyelephant.us">
 <display-name>curvyelephant</display-name>
-</channel>
-
-<channel id="SpekCypher.us">
-<display-name>SpekCypher</display-name>
 </channel>
 
 <channel id="sukhi_1.us">
@@ -186,67 +186,74 @@
 <display-name>koszull</display-name>
 </channel>
 
-<programme start="20251119130010 +0000" stop="20251122080010 +0000" channel="kyle.us">
-<title lang="en"> CHIEF OF POLICE KYLE PRED - nopixel 4.0 </title>
-<desc lang="en"> Started: 8:00AM
-Playing: Grand Theft Auto V
-Viewers: 1318 </desc>
-</programme>
-
 <programme start="20251119072037 +0000" stop="20251122022037 +0000" channel="abdulhd.us">
 <title lang="en"> Abdul THE TEA GOBLIN - NoPixel WL - YouTube Discord instagram </title>
 <desc lang="en"> Started: 2:20AM
 Playing: Grand Theft Auto V
-Viewers: 1875 </desc>
+Viewers: 1869 </desc>
+</programme>
+
+<programme start="20251119130010 +0000" stop="20251122080010 +0000" channel="kyle.us">
+<title lang="en"> CHIEF OF POLICE KYLE PRED - nopixel 4.0 </title>
+<desc lang="en"> Started: 8:00AM
+Playing: Grand Theft Auto V
+Viewers: 1327 </desc>
 </programme>
 
 <programme start="20251119125355 +0000" stop="20251122075355 +0000" channel="TheBigMeech.us">
 <title lang="en"> LeonSPD Cassidy - Birthday Bonanza Friday ExpressVpn </title>
 <desc lang="en"> Started: 7:53AM
 Playing: Grand Theft Auto V
-Viewers: 113 </desc>
+Viewers: 115 </desc>
 </programme>
 
 <programme start="20251119143455 +0000" stop="20251122093455 +0000" channel="lisajfc.us">
 <title lang="en"> 465 Opal Pryce I NoPixel WL 4.0 </title>
 <desc lang="en"> Started: 9:34AM
 Playing: Grand Theft Auto V
-Viewers: 47 </desc>
+Viewers: 48 </desc>
 </programme>
 
 <programme start="20251119120200 +0000" stop="20251122070200 +0000" channel="Myles_Away.us">
 <title lang="en"> LSPD STUBBLE - NOPIXEL 4.0 </title>
 <desc lang="en"> Started: 07:02 am
 Playing: Grand Theft Auto V
-Viewers: 176 </desc>
+Viewers: 184 </desc>
 </programme>
 
 <programme start="20251119110553 +0000" stop="20251122060553 +0000" channel="rerolldota.us">
 <title lang="en"> Nopixel WL - LSPD - 230 Nova </title>
 <desc lang="en"> Started: 06:05 am
 Playing: Grand Theft Auto V
-Viewers: 29 </desc>
+Viewers: 31 </desc>
 </programme>
 
 <programme start="20251119130738 +0000" stop="20251122080738 +0000" channel="ollie2313.us">
 <title lang="en"> 371 Snr Deputy Matilda Murphy - BCSO - NoPixel WL 4.0 </title>
 <desc lang="en"> Started: 08:07 am
 Playing: Grand Theft Auto V
-Viewers: 29 </desc>
+Viewers: 32 </desc>
 </programme>
 
 <programme start="20251119140109 +0000" stop="20251122090109 +0000" channel="Dyoti.us">
 <title lang="en"> 🔴Joe Rosner - GODS CHOSEN COP - NoPixel 🔴 </title>
 <desc lang="en"> Started: 09:01 am
 Playing: Grand Theft Auto V
-Viewers: 16 </desc>
+Viewers: 18 </desc>
 </programme>
 
 <programme start="20251119084708 +0000" stop="20251122034708 +0000" channel="chocolatechipruki.us">
 <title lang="en"> Bianca Wade - Merchants - Nopixel 4.0 WL </title>
 <desc lang="en"> Started: 03:47 am
 Playing: Grand Theft Auto V
-Viewers: 9 </desc>
+Viewers: 8 </desc>
+</programme>
+
+<programme start="20251119144714 +0000" stop="20251122094714 +0000" channel="SpekCypher.us">
+<title lang="en"> 👺💵 Hopefully Court Case This Week (Multi-stream Day 15) 👺💵 - Luis Fernandes - NoPixel 4.0 - Discord Twitter </title>
+<desc lang="en"> Started: 09:47 am
+Playing: Grand Theft Auto V
+Viewers: 7 </desc>
 </programme>
 
 <programme start="20251119140017 +0000" stop="20251122090017 +0000" channel="OmicronzZz.us">
@@ -260,13 +267,6 @@ Viewers: 4 </desc>
 <title lang="en"> Antoine Du Sucre - Chaos Legion Prospect Day 23 - Nopixel WL </title>
 <desc lang="en"> Started: 05:32 am
 Playing: Grand Theft Auto V
-Viewers: 2 </desc>
-</programme>
-
-<programme start="20251119142502 +0000" stop="20251122092502 +0000" channel="SamOatss.us">
-<title lang="en"> 🔥 IM DRUNK 🔥 CHECK MY X 🔥 LINKS 🔥 NOPIXEL WL 🔥 OFFICER MARCUS WADE 🔥 LSPD 🔥 #1 RAGEBAITER 🔥 #1 DRIVER </title>
-<desc lang="en"> Started: 09:25 am
-Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
@@ -274,234 +274,234 @@ Viewers: 1 </desc>
 <title lang="en"> PD BOT MAKES A CHOICE. -- Multistreaming Madness </title>
 <desc lang="en"> Started: 9:43AM
 Playing: Grand Theft Auto V
-Viewers: 325 </desc>
+Viewers: 458 </desc>
+</programme>
+
+<programme start="20251119142502 +0000" stop="20251122092502 +0000" channel="SamOatss.us">
+<title lang="en"> 🔥 IM DRUNK 🔥 CHECK MY X 🔥 LINKS 🔥 NOPIXEL WL 🔥 OFFICER MARCUS WADE 🔥 LSPD 🔥 #1 RAGEBAITER 🔥 #1 DRIVER </title>
+<desc lang="en"> Started: 09:25 am
+Playing: Grand Theft Auto V
+Viewers: 0 </desc>
 </programme>
 
 <programme start="20251119143708 +0000" stop="20251122093708 +0000" channel="artbybaha.us">
 <title lang="en"> Cuddles - Nopixel WL </title>
 <desc lang="en"> Started: 9:37AM
 Playing: Grand Theft Auto V
-Viewers: 23 </desc>
+Viewers: 22 </desc>
 </programme>
 
 <programme start="20251119014609 +0000" stop="20251121204609 +0000" channel="Kerazane.us">
 <title lang="en"> Deputy Betty Briskett - BCSO - 396 - Nopixel WL - Crispy Brisketts Wednesday </title>
 <desc lang="en"> Started: 8:46PM
 Playing: Grand Theft Auto V
-Viewers: 95 </desc>
+Viewers: 89 </desc>
 </programme>
 
 <programme start="20251119130051 +0000" stop="20251122080051 +0000" channel="claytonerp.us">
 <title lang="en"> CAPTAIN JEB🟪NOPIXEL 4.0 </title>
 <desc lang="en"> Started: 8:00AM
 Playing: Grand Theft Auto V
-Viewers: 64 </desc>
+Viewers: 62 </desc>
 </programme>
 
 <programme start="20251119130144 +0000" stop="20251122080144 +0000" channel="farmhouse78.us">
 <title lang="en"> Steven Hayes - ProdigyRP - Variety - No Noot November - @farmhouse78 </title>
 <desc lang="en"> Started: 8:01AM
 Playing: Grand Theft Auto V
-Viewers: 83 </desc>
+Viewers: 79 </desc>
 </programme>
 
 <programme start="20251119110338 +0000" stop="20251122060338 +0000" channel="curvyelephant.us">
 <title lang="en"> Matt Rhodes - nopixel - </title>
 <desc lang="en"> Started: 6:03AM
 Playing: Grand Theft Auto V
-Viewers: 278 </desc>
+Viewers: 287 </desc>
 </programme>
 
-<programme start="20251119144714 +0000" stop="20251122094714 +0000" channel="SpekCypher.us">
-<title lang="en"> 👺💵 Hopefully Court Case This Week (Multi-stream Day 15) 👺💵 - Luis Fernandes - NoPixel 4.0 - Discord Twitter </title>
-<desc lang="en"> Started: 09:47 am
-Playing: Grand Theft Auto V
-Viewers: 6 </desc>
-</programme>
-
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="sukhi_1.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel Besties Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:59 am
 Playing: No Pixel RP (GTA)
-Viewers: 641 </desc>
+Viewers: 630 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="kongfue.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="kongfue.us">
 <title lang="en"> KJ HADES NoPixel discord NEW EMOTES 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:06 am
 Playing: No Pixel RP (GTA)
-Viewers: 281 </desc>
+Viewers: 286 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="jeimiru.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="jeimiru.us">
 <title lang="en"> Benz 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:32 am
 Playing: No Pixel RP (GTA)
-Viewers: 202 </desc>
+Viewers: 232 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="chocolatechipruki.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="chocolatechipruki.us">
 <title lang="en"> Bianca Wade Merchants Nopixel 4.0 WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:47 am
 Playing: No Pixel RP (GTA)
 Viewers: 10 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="sanityybro.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="sanityybro.us">
 <title lang="en"> Larry Porter Besties Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:49 am
 Playing: No Pixel RP (GTA)
-Viewers: 21 </desc>
+Viewers: 19 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="arckon.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="arckon.us">
 <title lang="en"> REDSEC-RP Day NoPixel arckon 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:31 am
 Playing: No Pixel RP (GTA)
-Viewers: 22 </desc>
+Viewers: 23 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="tinyspark.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="tinyspark.us">
 <title lang="en"> 318 Daisy Dukakis Captain Lil Guy NoPixel What is a schedule 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:21 am
 Playing: No Pixel RP (GTA)
-Viewers: 186 </desc>
+Viewers: 177 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="capped.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="capped.us">
 <title lang="en"> BATTLEFIELD REDSEC WITH ARCKON GTA LATER discord 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:34 am
 Playing: No Pixel RP (GTA)
-Viewers: 215 </desc>
+Viewers: 205 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="either.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="either.us">
 <title lang="en"> JADEN CHRISTOPHER - NOPIXEL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:54 am
-Playing: No Pixel RP (GTA)
-Viewers: 136 </desc>
-</programme>
-
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="cydrose.us">
-<title lang="en"> Sgt. Maeve Wolfe BCSO NP 4.0 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 06:45 am
 Playing: No Pixel RP (GTA)
 Viewers: 128 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="lauti.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="cydrose.us">
+<title lang="en"> Sgt. Maeve Wolfe BCSO NP 4.0 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 06:45 am
+Playing: No Pixel RP (GTA)
+Viewers: 154 </desc>
+</programme>
+
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="lauti.us">
 <title lang="en"> shes fucking crazy.. but she is free dill e. dough nopixel wl lauti 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:57 am
 Playing: No Pixel RP (GTA)
-Viewers: 39 </desc>
+Viewers: 38 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="vgsbrendan.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="vgsbrendan.us">
 <title lang="en"> Axel Bjorg Hydra IDK HOW IM AWAKE 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:12 am
 Playing: No Pixel RP (GTA)
 Viewers: 28 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="justkiku.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="justkiku.us">
 <title lang="en"> Aiko Young MANOR 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:23 am
 Playing: No Pixel RP (GTA)
-Viewers: 76 </desc>
+Viewers: 59 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="arniev.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="arniev.us">
 <title lang="en"> hello its me 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:26 am
 Playing: No Pixel RP (GTA)
-Viewers: 236 </desc>
+Viewers: 206 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="sanesfx.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="sanesfx.us">
 <title lang="en"> Verification Re-Run Aziz Shaw Besties No Pixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:29 am
 Playing: No Pixel RP (GTA)
-Viewers: 70 </desc>
+Viewers: 68 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="travpiper.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="travpiper.us">
 <title lang="en"> CORRUPTION IS BACK NOPIXEL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:36 am
 Playing: No Pixel RP (GTA)
-Viewers: 487 </desc>
+Viewers: 526 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="0reed.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="0reed.us">
 <title lang="en"> REED - PROBABLY SHOOT SOMEONE AND BE BORING NOPIXEL 4.0 WL THE CARDLESS 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:43 am
 Playing: No Pixel RP (GTA)
-Viewers: 223 </desc>
+Viewers: 224 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="uhsnow.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="uhsnow.us">
 <title lang="en"> ALBERTO KING 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:49 am
 Playing: No Pixel RP (GTA)
-Viewers: 527 </desc>
+Viewers: 573 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="berryyboo.us">
+<programme start="20251119000000 +0000" stop="20251122100619 +0000" channel="berryyboo.us">
 <title lang="en"> Officer Viv schedule in shambles LSPD NoPixel 4.0 socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:58 am
 Playing: No Pixel RP (GTA)
-Viewers: 166 </desc>
+Viewers: 168 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="claytonerp.us">
+<programme start="20251119000000 +0000" stop="20251122100620 +0000" channel="claytonerp.us">
 <title lang="en"> CAPTAIN JEB🟪NOPIXEL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:00 am
 Playing: No Pixel RP (GTA)
-Viewers: 241 </desc>
+Viewers: 233 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="irishgt.us">
+<programme start="20251119000000 +0000" stop="20251122100620 +0000" channel="irishgt.us">
 <title lang="en"> Sgt Tadhg McQuillen BCSO NoPixel 4.0 WL socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:36 am
 Playing: No Pixel RP (GTA)
-Viewers: 114 </desc>
+Viewers: 118 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="dyoti.us">
+<programme start="20251119000000 +0000" stop="20251122100620 +0000" channel="dyoti.us">
 <title lang="en"> 🔴Joe Rosner GODS CHOSEN COP NoPixel 🔴 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:01 am
 Playing: No Pixel RP (GTA)
-Viewers: 11 </desc>
+Viewers: 10 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="kieron.us">
+<programme start="20251119000000 +0000" stop="20251122100620 +0000" channel="kieron.us">
 <title lang="en"> Michael Verse Surely internet doesnt die again 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:04 am
 Playing: No Pixel RP (GTA)
-Viewers: 27 </desc>
+Viewers: 22 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="kate.us">
+<programme start="20251119000000 +0000" stop="20251122100620 +0000" channel="kate.us">
 <title lang="en"> CAFE PLANNING and Dep Mayor Veronica tiktok and ig kate.ttv 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:06 am
 Playing: No Pixel RP (GTA)
-Viewers: 308 </desc>
+Viewers: 439 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="henrychaos.us">
+<programme start="20251119000000 +0000" stop="20251122100620 +0000" channel="henrychaos.us">
 <title lang="en"> Henry Chaos in Los Santos NoPixel 4.0 WL 18 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:31 am
 Playing: No Pixel RP (GTA)
-Viewers: 9 </desc>
+Viewers: 8 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="burn.us">
+<programme start="20251119000000 +0000" stop="20251122100620 +0000" channel="burn.us">
 <title lang="en"> PD BOT MAKES A CHOICE. -- Multistreaming Madness 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:43 am
 Playing: No Pixel RP (GTA)
-Viewers: 55 </desc>
+Viewers: 91 </desc>
 </programme>
 
-<programme start="20251119000000 +0000" stop="20251122095619 +0000" channel="koszull.us">
+<programme start="20251119000000 +0000" stop="20251122100620 +0000" channel="koszull.us">
 <title lang="en"> 🟢 🚓Jack Vos Officer 🟢 🚓 475 NoPixel 4.0 WL 🟢N 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:50 am
 Playing: No Pixel RP (GTA)
