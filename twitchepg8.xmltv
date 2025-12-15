@@ -2,12 +2,12 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="Hedisaurus.us">
-<display-name>Hedisaurus</display-name>
-</channel>
-
 <channel id="sock22.us">
 <display-name>sock22</display-name>
+</channel>
+
+<channel id="Hedisaurus.us">
+<display-name>Hedisaurus</display-name>
 </channel>
 
 <channel id="Blokeowski.us">
@@ -22,16 +22,16 @@
 <display-name>ArtTigg</display-name>
 </channel>
 
-<channel id="CrimsoneTV.us">
-<display-name>CrimsoneTV</display-name>
-</channel>
-
 <channel id="harmless.us">
 <display-name>harmless</display-name>
 </channel>
 
 <channel id="SpitfireQG.us">
 <display-name>SpitfireQG</display-name>
+</channel>
+
+<channel id="CrimsoneTV.us">
+<display-name>CrimsoneTV</display-name>
 </channel>
 
 <channel id="Kerazane.us">
@@ -98,25 +98,29 @@
 <display-name>abbottjake</display-name>
 </channel>
 
-<programme start="20251215070632 +0000" stop="20251218020632 +0000" channel="Hedisaurus.us">
-<title lang="en"> NoPixel WL Ramona the Ranger 💜- Sorry if Ive been quiet while RPing.. Im a terrible strimmer. </title>
-<desc lang="en"> Started: 02:06 am
-Playing: Grand Theft Auto V
-Viewers: 65 </desc>
-</programme>
+<channel id="ghotties.us">
+<display-name>ghotties</display-name>
+</channel>
 
 <programme start="20251215084128 +0000" stop="20251218034128 +0000" channel="sock22.us">
 <title lang="en"> Richard Dark - NoPixel </title>
 <desc lang="en"> Started: 3:41AM
 Playing: Grand Theft Auto V
-Viewers: 40 </desc>
+Viewers: 51 </desc>
+</programme>
+
+<programme start="20251215070632 +0000" stop="20251218020632 +0000" channel="Hedisaurus.us">
+<title lang="en"> NoPixel WL Ramona the Ranger 💜- Sorry if Ive been quiet while RPing.. Im a terrible strimmer. </title>
+<desc lang="en"> Started: 02:06 am
+Playing: Grand Theft Auto V
+Viewers: 62 </desc>
 </programme>
 
 <programme start="20251215030626 +0000" stop="20251217220626 +0000" channel="Blokeowski.us">
 <title lang="en"> NoPixel WL 18 - WSMC - Ace Bundy - BLOODY GORGEOUS DAY - commands lifeline reachout supportservices blackdoginstitute </title>
 <desc lang="en"> Started: 10:06 pm
 Playing: Grand Theft Auto V
-Viewers: 37 </desc>
+Viewers: 35 </desc>
 </programme>
 
 <programme start="20251215044828 +0000" stop="20251217234828 +0000" channel="makeitmeansomething.us">
@@ -130,21 +134,14 @@ Viewers: 10 </desc>
 <title lang="en"> Emma Leigh - Hounds MC Prospect - NoPixel WL </title>
 <desc lang="en"> Started: 02:08 pm
 Playing: Grand Theft Auto V
-Viewers: 9 </desc>
-</programme>
-
-<programme start="20251215054200 +0000" stop="20251218004200 +0000" channel="CrimsoneTV.us">
-<title lang="en"> Jack Turner - Lost MC - New Chapterr - NoPixel 4.0 - short stream </title>
-<desc lang="en"> Started: 12:42 am
-Playing: Grand Theft Auto V
-Viewers: 3 </desc>
+Viewers: 10 </desc>
 </programme>
 
 <programme start="20251215045808 +0000" stop="20251217235808 +0000" channel="harmless.us">
 <title lang="en"> Perry Falken - NoPixel 4.0 </title>
 <desc lang="en"> Started: 11:58PM
 Playing: Grand Theft Auto V
-Viewers: 137 </desc>
+Viewers: 135 </desc>
 </programme>
 
 <programme start="20251215041533 +0000" stop="20251217231533 +0000" channel="SpitfireQG.us">
@@ -154,116 +151,130 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
+<programme start="20251215054200 +0000" stop="20251218004200 +0000" channel="CrimsoneTV.us">
+<title lang="en"> Jack Turner - Lost MC - New Chapterr - NoPixel 4.0 - short stream </title>
+<desc lang="en"> Started: 12:42 am
+Playing: Grand Theft Auto V
+Viewers: 2 </desc>
+</programme>
+
 <programme start="20251215041053 +0000" stop="20251217231053 +0000" channel="Kerazane.us">
 <title lang="en"> SENIOR Deputy Betty Briskett - BCSO - 396 - Nopixel WL - Crispy Brisketts moody monday </title>
 <desc lang="en"> Started: 11:10PM
 Playing: Grand Theft Auto V
-Viewers: 28 </desc>
+Viewers: 34 </desc>
 </programme>
 
 <programme start="20251215001323 +0000" stop="20251217191323 +0000" channel="margothesnail.us">
 <title lang="en"> Margo Escargot, Crackhead - 5.0 Invite - Nopixel WL </title>
 <desc lang="en"> Started: 7:13PM
 Playing: Grand Theft Auto V
-Viewers: 70 </desc>
+Viewers: 68 </desc>
 </programme>
 
 <programme start="20251215021841 +0000" stop="20251217211841 +0000" channel="kittenqg.us">
 <title lang="en"> Lily Night-Sky - NoPixel WL - 5.0 invitee - Clowncil - 18 - disclaimer </title>
 <desc lang="en"> Started: 9:18PM
 Playing: Grand Theft Auto V
-Viewers: 47 </desc>
+Viewers: 48 </desc>
 </programme>
 
 <programme start="20251215035643 +0000" stop="20251217225643 +0000" channel="firecrackthat.us">
 <title lang="en"> stumbles fumbles - nopixel 4.0 </title>
 <desc lang="en"> Started: 10:56PM
 Playing: Grand Theft Auto V
-Viewers: 72 </desc>
+Viewers: 69 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="arttigg.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="arttigg.us">
 <title lang="en"> Emma Leigh Actually Awake For NA Hounds MC Prospect 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:08 pm
 Playing: No Pixel RP (GTA)
-Viewers: 44 </desc>
+Viewers: 42 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="simo.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="simo.us">
 <title lang="en"> Reggie Might NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:40 pm
 Playing: No Pixel RP (GTA)
-Viewers: 387 </desc>
+Viewers: 389 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="margothesnail.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="margothesnail.us">
 <title lang="en"> Margo Escargot, Crackhead 5.0 Invite Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:13 pm
 Playing: Grand Theft Auto V (GTA)
-Viewers: 13 </desc>
+Viewers: 14 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="firecrackthat.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="firecrackthat.us">
 <title lang="en"> stumbles fumbles nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 10:56 pm
 Playing: No Pixel RP (GTA)
-Viewers: 4 </desc>
+Viewers: 3 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="choponz.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="choponz.us">
 <title lang="en"> 🚨HELP ME GET MY GREEN TICK🚨BILLY STRUT🚨BESTIES🚨NOPIXEL 4.0🚨TIKTOK🚨TWITTER🚨YOUTUBE🚨DISCORD🚨INSTA 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:40 pm
 Playing: No Pixel RP (GTA)
-Viewers: 11 </desc>
+Viewers: 10 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="rexs.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="rexs.us">
 <title lang="en"> LT Ricky Dallas 🤠 BCSO 🤠 Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:53 pm
 Playing: No Pixel RP (GTA)
-Viewers: 81 </desc>
+Viewers: 78 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="harmless.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="harmless.us">
 <title lang="en"> Perry Falken NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:58 pm
 Playing: No Pixel RP (GTA)
-Viewers: 203 </desc>
+Viewers: 206 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="aus24.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:10 am
 Playing: No Pixel RP (GTA)
-Viewers: 154 </desc>
+Viewers: 161 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="hedisaurus.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="hedisaurus.us">
 <title lang="en"> NoPixel WL Ramona the Ranger 💜- Sorry if Ive been quiet while RPing.. Im a terrible strimmer. 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:06 am
 Playing: No Pixel RP (GTA)
-Viewers: 82 </desc>
+Viewers: 77 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="sukhi_1.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel Besties Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:18 am
 Playing: No Pixel RP (GTA)
 Viewers: 153 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="thatguygp.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="thatguygp.us">
 <title lang="en"> Jamal Nopixel BESTIES 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:35 am
 Playing: No Pixel RP (GTA)
 Viewers: 97 </desc>
 </programme>
 
-<programme start="20251215000000 +0000" stop="20251218035150 +0000" channel="abbottjake.us">
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="abbottjake.us">
 <title lang="en"> i didnt stream because i was ill and now im a bit less ill so i will stream hello i am live 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:44 am
 Playing: No Pixel RP (GTA)
-Viewers: 13 </desc>
+Viewers: 17 </desc>
+</programme>
+
+<programme start="20251215000000 +0000" stop="20251218035619 +0000" channel="ghotties.us">
+<title lang="en"> Dixie Demspey KITTENS GOIONG CRAZY IN HERE 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 03:52 am
+Playing: No Pixel RP (GTA)
+Viewers: 1 </desc>
 </programme>
 
 
