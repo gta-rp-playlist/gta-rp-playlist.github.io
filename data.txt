@@ -3,10 +3,6 @@
         <span class="username">abdulhd</span>
         <span class="viewer-count">🔴817</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="weewOo - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_alliumm-854x480.jpg" data-viewers="91" onclick="playStream('alliumm')">
-        <span class="username">alliumm</span>
-        <span class="viewer-count">🔴91</span>
-      </div>
       <div class="sub-item" data-category="01Cops" data-title="🌺 Lelani Kamealoha - Day 21 - Probie Deputy - NoPixel Whitelist 🏄‍♀️" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_im_the_owl-854x480.jpg" data-viewers="29" onclick="playStream('im_the_owl')">
         <span class="username">im_the_owl</span>
         <span class="viewer-count">🔴29</span>
@@ -20,9 +16,10 @@
         <span class="username">abdulhd</span>
         <span class="viewer-count">🔴817</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="weewOo - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_alliumm-854x480.jpg" data-viewers="91" onclick="playStream('alliumm')">
-        <span class="username">alliumm</span>
-        <span class="viewer-count">🔴91</span>
+    <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
+      <div class="sub-item" data-category="30Merchants" data-title="Bianca Wade - NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_amanthi___-854x480.jpg" data-viewers="30" onclick="playStream('amanthi___')">
+        <span class="username">amanthi___</span>
+        <span class="viewer-count">🔴30</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
       <div class="sub-item" data-category="03BCSO" data-title="🌺 Lelani Kamealoha - Day 21 - Probie Deputy - NoPixel Whitelist 🏄‍♀️" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_im_the_owl-854x480.jpg" data-viewers="29" onclick="playStream('im_the_owl')">
@@ -33,14 +30,9 @@
         <span class="username">kerazane</span>
         <span class="viewer-count">🔴35</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
-      <div class="sub-item" data-category="30Merchants" data-title="Bianca Wade - NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_amanthi___-854x480.jpg" data-viewers="24" onclick="playStream('amanthi___')">
-        <span class="username">amanthi___</span>
-        <span class="viewer-count">🔴24</span>
-      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="27Crackheads">27Crackheads</div>
-      <div class="sub-item" data-category="27Crackheads" data-title="Margo Escargot, Crackhead | 5.0 Invite! | Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_margothesnail-854x480.jpg" data-viewers="76" onclick="playStream('margothesnail')">
+      <div class="sub-item" data-category="27Crackheads" data-title="Margo Escargot, Crackhead | 5.0 Invite! | Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_margothesnail-854x480.jpg" data-viewers="81" onclick="playStream('margothesnail')">
         <span class="username">margothesnail</span>
-        <span class="viewer-count">🔴76</span>
+        <span class="viewer-count">🔴81</span>
       </div>
 
