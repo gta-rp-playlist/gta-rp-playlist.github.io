@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="timmac.us">
+<display-name>timmac</display-name>
+</channel>
+
 <channel id="abdulhd.us">
 <display-name>abdulhd</display-name>
 </channel>
@@ -26,20 +30,12 @@
 <display-name>UnicornFrapp</display-name>
 </channel>
 
-<channel id="makeitmeansomething.us">
-<display-name>makeitmeansomething</display-name>
-</channel>
-
 <channel id="lunchyrp.us">
 <display-name>lunchyrp</display-name>
 </channel>
 
 <channel id="Hellknight86.us">
 <display-name>Hellknight86</display-name>
-</channel>
-
-<channel id="timmac.us">
-<display-name>timmac</display-name>
 </channel>
 
 <channel id="acezproduction.us">
@@ -74,10 +70,6 @@
 <display-name>harmless</display-name>
 </channel>
 
-<channel id="kingjayclouted.us">
-<display-name>kingjayclouted</display-name>
-</channel>
-
 <channel id="simo.us">
 <display-name>simo</display-name>
 </channel>
@@ -110,6 +102,13 @@
 <display-name>ghotties</display-name>
 </channel>
 
+<programme start="20251224100007 +0000" stop="20251227050007 +0000" channel="timmac.us">
+<title lang="en"> Merry Christmas- Prodigy RP - @Timmac </title>
+<desc lang="en"> Started: 5:00AM
+Playing: Grand Theft Auto V
+Viewers: 132 </desc>
+</programme>
+
 <programme start="20251224081759 +0000" stop="20251227031759 +0000" channel="abdulhd.us">
 <title lang="en"> Abdul - HAPPY HOLDAYS - NoPixel WL - VARIETY @abdulhd_variety YouTube Discord instagram </title>
 <desc lang="en"> Started: 3:17AM
@@ -128,21 +127,21 @@ Viewers: 4 </desc>
 <title lang="en"> ❄️lil chill christmas eve night :) </title>
 <desc lang="en"> Started: 7:40PM
 Playing: Grand Theft Auto V
-Viewers: 548 </desc>
+Viewers: 522 </desc>
 </programme>
 
 <programme start="20251224082056 +0000" stop="20251227032056 +0000" channel="curvyelephant.us">
 <title lang="en"> matt rhodes - smol strum - nopixel - </title>
 <desc lang="en"> Started: 3:20AM
 Playing: Grand Theft Auto V
-Viewers: 286 </desc>
+Viewers: 312 </desc>
 </programme>
 
 <programme start="20251224060948 +0000" stop="20251227010948 +0000" channel="Blokeowski.us">
 <title lang="en"> NoPixel WL 18 - Barmy Wattlesby - WHATS THIS THEN - commands lifeline reachout supportservices blackdoginstitute </title>
 <desc lang="en"> Started: 01:09 am
 Playing: Grand Theft Auto V
-Viewers: 44 </desc>
+Viewers: 39 </desc>
 </programme>
 
 <programme start="20251224050930 +0000" stop="20251227000930 +0000" channel="UnicornFrapp.us">
@@ -152,18 +151,11 @@ Playing: Grand Theft Auto V
 Viewers: 37 </desc>
 </programme>
 
-<programme start="20251224040223 +0000" stop="20251226230223 +0000" channel="makeitmeansomething.us">
-<title lang="en"> Rocket Cane -  - Nopixel WL - 18 - RELEASE MUSIC FUND </title>
-<desc lang="en"> Started: 11:02 pm
-Playing: Grand Theft Auto V
-Viewers: 7 </desc>
-</programme>
-
 <programme start="20251224092345 +0000" stop="20251227042345 +0000" channel="lunchyrp.us">
 <title lang="en"> Storm Truepa - Nopixel WL </title>
 <desc lang="en"> Started: 04:23 am
 Playing: Grand Theft Auto V
-Viewers: 1 </desc>
+Viewers: 2 </desc>
 </programme>
 
 <programme start="20251224083728 +0000" stop="20251227033728 +0000" channel="Hellknight86.us">
@@ -173,130 +165,116 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20251224100007 +0000" stop="20251227050007 +0000" channel="timmac.us">
-<title lang="en"> Merry Christmas- Prodigy RP - @Timmac </title>
-<desc lang="en"> Started: 5:00AM
-Playing: Grand Theft Auto V
-Viewers: 68 </desc>
-</programme>
-
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="acezproduction.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="acezproduction.us">
 <title lang="en"> 🌰🐿️ ACHEZ PEREZ - HABIBI MC VP🔥 4.0 NOPIXEL WL 👀 GTA RP AcezProduction 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:03 pm
 Playing: No Pixel RP (GTA)
-Viewers: 198 </desc>
+Viewers: 192 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="zuck.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="zuck.us">
 <title lang="en"> 🐸 Zuck Besties HA NoPixel 4.0 Twitter Zuck_TTV 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:34 pm
 Playing: No Pixel RP (GTA)
-Viewers: 163 </desc>
+Viewers: 157 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="crystalst.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="crystalst.us">
 <title lang="en"> ❄️lil chill christmas eve night 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:40 pm
 Playing: No Pixel RP (GTA)
-Viewers: 117 </desc>
+Viewers: 114 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="silbullet.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="silbullet.us">
 <title lang="en"> MERRY CHRISTMAS EVE Almost 1k Followers Lt. Maple 297 LSPD NoPixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:01 pm
-Playing: No Pixel RP (GTA)
-Viewers: 69 </desc>
-</programme>
-
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="aus24.us">
-<title lang="en"> DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 11:17 pm
-Playing: No Pixel RP (GTA)
-Viewers: 121 </desc>
-</programme>
-
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="tinyspark.us">
-<title lang="en"> 318 Daisy Dukakis NoPixel New mom until Kylie comes back with milk 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 11:44 pm
-Playing: No Pixel RP (GTA)
-Viewers: 164 </desc>
-</programme>
-
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="arckon.us">
-<title lang="en"> Beric NoPixel arckon REDSEC with an Egg Later 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 12:24 am
 Playing: No Pixel RP (GTA)
 Viewers: 71 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="harmless.us">
-<title lang="en"> Perry Falken NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="aus24.us">
+<title lang="en"> DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 11:17 pm
+Playing: No Pixel RP (GTA)
+Viewers: 120 </desc>
+</programme>
+
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="tinyspark.us">
+<title lang="en"> 318 Daisy Dukakis NoPixel New mom until Kylie comes back with milk 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 11:44 pm
+Playing: No Pixel RP (GTA)
+Viewers: 168 </desc>
+</programme>
+
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="arckon.us">
+<title lang="en"> Beric NoPixel arckon REDSEC with an Egg Later 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 12:24 am
+Playing: No Pixel RP (GTA)
+Viewers: 69 </desc>
+</programme>
+
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="harmless.us">
+<title lang="en"> Maynard Idiot Schmidt Besties NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:33 am
 Playing: No Pixel RP (GTA)
-Viewers: 183 </desc>
+Viewers: 186 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="kingjayclouted.us">
-<title lang="en"> 🚓 Hiring Police Comm. Stone The 90s Vice Rp GTA6 Realistic Graphics Mod Serious Roleplay Cop RP discord pc graphics dev 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 01:26 am
-Playing: Grand Theft Auto V (GTA)
-Viewers: 1 </desc>
-</programme>
-
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="simo.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="simo.us">
 <title lang="en"> Reggie CrackElf Might Christmas Menace NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:41 am
 Playing: No Pixel RP (GTA)
-Viewers: 379 </desc>
+Viewers: 382 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="roxmiral.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="roxmiral.us">
 <title lang="en"> Nikki Khan - 2 days till proper christmas New PC 1080p 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:58 am
 Playing: No Pixel RP (GTA)
 Viewers: 57 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="sukhi_1.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel Besties Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:05 am
 Playing: No Pixel RP (GTA)
-Viewers: 234 </desc>
+Viewers: 239 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="abdulhd.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="abdulhd.us">
 <title lang="en"> OFFICER ABDUL - NoPixel - YouTube Discord instagram 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:18 am
 Playing: No Pixel RP (GTA)
-Viewers: 209 </desc>
+Viewers: 207 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="simpless.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="simpless.us">
 <title lang="en"> gamin 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:24 am
 Playing: No Pixel RP (GTA)
-Viewers: 316 </desc>
+Viewers: 311 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="jjfried.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="jjfried.us">
 <title lang="en"> 17-24 Jace Barter BCSO Nopixel 4.0 CRIMMUS EVE haircut 1130 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:28 am
 Playing: No Pixel RP (GTA)
-Viewers: 55 </desc>
+Viewers: 62 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="berryyboo.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="berryyboo.us">
 <title lang="en"> Viv🎄LSPD🎄Happy Holidays🎄NoPixel 4.0🎄socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:35 am
 Playing: No Pixel RP (GTA)
-Viewers: 90 </desc>
+Viewers: 97 </desc>
 </programme>
 
-<programme start="20251224000000 +0000" stop="20251227050649 +0000" channel="ghotties.us">
+<programme start="20251224000000 +0000" stop="20251227051318 +0000" channel="ghotties.us">
 <title lang="en"> Dixie Dempsey MERRY CWISMAS 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:04 am
 Playing: No Pixel RP (GTA)
-Viewers: 1 </desc>
+Viewers: 16 </desc>
 </programme>
 
 
