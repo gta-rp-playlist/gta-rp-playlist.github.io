@@ -10,10 +10,6 @@
 <display-name>Blokeowski</display-name>
 </channel>
 
-<channel id="rerolldota.us">
-<display-name>rerolldota</display-name>
-</channel>
-
 <channel id="blur_o7.us">
 <display-name>blur_o7</display-name>
 </channel>
@@ -24,6 +20,10 @@
 
 <channel id="kittenqg.us">
 <display-name>kittenqg</display-name>
+</channel>
+
+<channel id="rerolldota.us">
+<display-name>rerolldota</display-name>
 </channel>
 
 <channel id="olivegarden.us">
@@ -66,32 +66,29 @@
 <display-name>jjfried</display-name>
 </channel>
 
+<channel id="capped.us">
+<display-name>capped</display-name>
+</channel>
+
 <programme start="20251229035555 +0000" stop="20251231225555 +0000" channel="UnicornFrapp.us">
 <title lang="en"> Remi Ironside - Sargent Somehow - Nopixel WL </title>
 <desc lang="en"> Started: 10:55 pm
 Playing: Grand Theft Auto V
-Viewers: 77 </desc>
+Viewers: 91 </desc>
 </programme>
 
 <programme start="20251229030515 +0000" stop="20251231220515 +0000" channel="Blokeowski.us">
 <title lang="en"> NoPixel WL 18 - LSPD - Crikey Thompson - HELLAURRRRRRRR - commands lifeline reachout supportservices blackdoginstitute </title>
 <desc lang="en"> Started: 10:05 pm
 Playing: Grand Theft Auto V
-Viewers: 52 </desc>
-</programme>
-
-<programme start="20251228230811 +0000" stop="20251231180811 +0000" channel="rerolldota.us">
-<title lang="en"> Nopixel WL - 545 Nova - Subathon ( Asleep For Timer ) [RE-RUN] </title>
-<desc lang="en"> Started: 06:08 pm
-Playing: Grand Theft Auto V
-Viewers: 31 </desc>
+Viewers: 46 </desc>
 </programme>
 
 <programme start="20251229004159 +0000" stop="20251231194159 +0000" channel="blur_o7.us">
 <title lang="en"> Jack Ryder - LSPD #407 - NoPixel 4.0 WL </title>
 <desc lang="en"> Started: 07:41 pm
 Playing: Grand Theft Auto V
-Viewers: 15 </desc>
+Viewers: 16 </desc>
 </programme>
 
 <programme start="20251229083000 +0000" stop="20260101033000 +0000" channel="Hellknight86.us">
@@ -105,77 +102,91 @@ Viewers: 1 </desc>
 <title lang="en"> Lily Night-Sky - NoPixel WL - 5.0 invitee - Clowncil - 18 - disclaimer </title>
 <desc lang="en"> Started: 1:12AM
 Playing: Grand Theft Auto V
-Viewers: 73 </desc>
+Viewers: 74 </desc>
 </programme>
 
-<programme start="20251229000000 +0000" stop="20260101045617 +0000" channel="olivegarden.us">
+<programme start="20251229100412 +0000" stop="20260101050412 +0000" channel="rerolldota.us">
+<title lang="en"> Nopixel WL - 545 Nova - Subathon Spin </title>
+<desc lang="en"> Started: 05:04 am
+Playing: Grand Theft Auto V
+Viewers: 14 </desc>
+</programme>
+
+<programme start="20251229000000 +0000" stop="20260101050617 +0000" channel="olivegarden.us">
 <title lang="en"> Sad Boi Sunday Royce Strayz NoPixel 4.0 WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:51 pm
 Playing: No Pixel RP (GTA)
-Viewers: 73 </desc>
+Viewers: 72 </desc>
 </programme>
 
-<programme start="20251229000000 +0000" stop="20260101045617 +0000" channel="cosmic-chimp.us">
+<programme start="20251229000000 +0000" stop="20260101050617 +0000" channel="cosmic-chimp.us">
 <title lang="en"> Julio the little Guy Vagos 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:52 pm
 Playing: No Pixel RP (GTA)
-Viewers: 94 </desc>
+Viewers: 97 </desc>
 </programme>
 
-<programme start="20251229000000 +0000" stop="20260101045617 +0000" channel="aus24.us">
+<programme start="20251229000000 +0000" stop="20260101050618 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:16 pm
+Playing: No Pixel RP (GTA)
+Viewers: 235 </desc>
+</programme>
+
+<programme start="20251229000000 +0000" stop="20260101050618 +0000" channel="simpless.us">
+<title lang="en"> gamin 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 03:08 am
+Playing: No Pixel RP (GTA)
+Viewers: 335 </desc>
+</programme>
+
+<programme start="20251229000000 +0000" stop="20260101050618 +0000" channel="roxmiral.us">
+<title lang="en"> Nikki Khan - now its new years stuff New PC 1080p 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 03:11 am
+Playing: No Pixel RP (GTA)
+Viewers: 109 </desc>
+</programme>
+
+<programme start="20251229000000 +0000" stop="20260101050618 +0000" channel="sukhi_1.us">
+<title lang="en"> Lucky Torkel Besties Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 03:22 am
 Playing: No Pixel RP (GTA)
 Viewers: 227 </desc>
 </programme>
 
-<programme start="20251229000000 +0000" stop="20260101045618 +0000" channel="simpless.us">
-<title lang="en"> gamin 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 03:08 am
-Playing: No Pixel RP (GTA)
-Viewers: 281 </desc>
-</programme>
-
-<programme start="20251229000000 +0000" stop="20260101045618 +0000" channel="roxmiral.us">
-<title lang="en"> Nikki Khan - now its new years stuff New PC 1080p 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 03:11 am
-Playing: No Pixel RP (GTA)
-Viewers: 115 </desc>
-</programme>
-
-<programme start="20251229000000 +0000" stop="20260101045618 +0000" channel="sukhi_1.us">
-<title lang="en"> Lucky Torkel Besties Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 03:22 am
-Playing: No Pixel RP (GTA)
-Viewers: 213 </desc>
-</programme>
-
-<programme start="20251229000000 +0000" stop="20260101045618 +0000" channel="kyrienolife.us">
+<programme start="20251229000000 +0000" stop="20260101050618 +0000" channel="kyrienolife.us">
 <title lang="en"> PARTNER GRIND Coop NoPixel Besties short stream 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:45 am
+Playing: No Pixel RP (GTA)
+Viewers: 47 </desc>
+</programme>
+
+<programme start="20251229000000 +0000" stop="20260101050618 +0000" channel="ghotties.us">
+<title lang="en"> Dixie Dempsey tired 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 03:59 am
+Playing: No Pixel RP (GTA)
+Viewers: 69 </desc>
+</programme>
+
+<programme start="20251229000000 +0000" stop="20260101050618 +0000" channel="berryyboo.us">
+<title lang="en"> Viv☃️LSPD☃️NoPixel 4.0☃️socials 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 04:34 am
+Playing: No Pixel RP (GTA)
+Viewers: 140 </desc>
+</programme>
+
+<programme start="20251229000000 +0000" stop="20260101050618 +0000" channel="jjfried.us">
+<title lang="en"> 22-24 Jace Barter BCSO Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 04:51 am
 Playing: No Pixel RP (GTA)
 Viewers: 38 </desc>
 </programme>
 
-<programme start="20251229000000 +0000" stop="20260101045618 +0000" channel="ghotties.us">
-<title lang="en"> Dixie Dempsey tired 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 03:59 am
+<programme start="20251229000000 +0000" stop="20260101050618 +0000" channel="capped.us">
+<title lang="en"> The Faceless NoPixel discord 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 04:57 am
 Playing: No Pixel RP (GTA)
-Viewers: 68 </desc>
-</programme>
-
-<programme start="20251229000000 +0000" stop="20260101045618 +0000" channel="berryyboo.us">
-<title lang="en"> Viv☃️LSPD☃️NoPixel 4.0☃️socials 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 04:34 am
-Playing: No Pixel RP (GTA)
-Viewers: 94 </desc>
-</programme>
-
-<programme start="20251229000000 +0000" stop="20260101045618 +0000" channel="jjfried.us">
-<title lang="en"> 22-24 Jace Barter BCSO Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 04:51 am
-Playing: No Pixel RP (GTA)
-Viewers: 4 </desc>
+Viewers: 96 </desc>
 </programme>
 
 
