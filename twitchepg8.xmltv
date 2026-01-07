@@ -6,16 +6,12 @@
 <display-name>dumpykdog</display-name>
 </channel>
 
-<channel id="chodie.us">
-<display-name>chodie</display-name>
-</channel>
-
 <channel id="abdulhd.us">
 <display-name>abdulhd</display-name>
 </channel>
 
-<channel id="harmless.us">
-<display-name>harmless</display-name>
+<channel id="chodie.us">
+<display-name>chodie</display-name>
 </channel>
 
 <channel id="NateKarama.us">
@@ -26,8 +22,16 @@
 <display-name>zaxx386</display-name>
 </channel>
 
+<channel id="harmless.us">
+<display-name>harmless</display-name>
+</channel>
+
 <channel id="dadsyuk.us">
 <display-name>dadsyuk</display-name>
+</channel>
+
+<channel id="alliumm.us">
+<display-name>alliumm</display-name>
 </channel>
 
 <channel id="blur_o7.us">
@@ -36,10 +40,6 @@
 
 <channel id="Kerse.us">
 <display-name>Kerse</display-name>
-</channel>
-
-<channel id="alliumm.us">
-<display-name>alliumm</display-name>
 </channel>
 
 <channel id="makeitmeansomething.us">
@@ -74,10 +74,6 @@
 <display-name>dumpykdog</display-name>
 </channel>
 
-<channel id="barky.us">
-<display-name>barky</display-name>
-</channel>
-
 <channel id="natekarama.us">
 <display-name>natekarama</display-name>
 </channel>
@@ -96,14 +92,6 @@
 
 <channel id="rayc.us">
 <display-name>rayc</display-name>
-</channel>
-
-<channel id="superbunneh.us">
-<display-name>superbunneh</display-name>
-</channel>
-
-<channel id="lysium.us">
-<display-name>lysium</display-name>
 </channel>
 
 <channel id="kieron.us">
@@ -128,10 +116,6 @@
 
 <channel id="slimeoz.us">
 <display-name>slimeoz</display-name>
-</channel>
-
-<channel id="itsnicvic.us">
-<display-name>itsnicvic</display-name>
 </channel>
 
 <channel id="qift.us">
@@ -178,6 +162,10 @@
 <display-name>abdulhd</display-name>
 </channel>
 
+<channel id="oyamec.us">
+<display-name>oyamec</display-name>
+</channel>
+
 <programme start="20260106180945 +0000" stop="20260109130945 +0000" channel="dumpykdog.us">
 <title lang="en"> Brodee - Worldz end season 2 - Back at it- Follow: @dumpykdog </title>
 <desc lang="en"> Started: 1:09PM
@@ -185,25 +173,18 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260106183303 +0000" stop="20260109133303 +0000" channel="chodie.us">
-<title lang="en"> Cleg LaCroix 🚨 TWE 🚨 ProdigyRP 🟢🟣 pp </title>
-<desc lang="en"> Started: 1:33PM
-Playing: Grand Theft Auto V
-Viewers: 98 </desc>
-</programme>
-
 <programme start="20260107054141 +0000" stop="20260110004141 +0000" channel="abdulhd.us">
 <title lang="en"> Abdul - Traffic Police NoPixel WL - VARIETY @abdulhd_variety - Multi-Streaming 🟣🟢🔴 YouTube Discord instagram </title>
 <desc lang="en"> Started: 12:41AM
 Playing: Grand Theft Auto V
-Viewers: 355 </desc>
+Viewers: 750 </desc>
 </programme>
 
-<programme start="20260107042555 +0000" stop="20260109232555 +0000" channel="harmless.us">
-<title lang="en"> Perry Falken - NoPixel </title>
-<desc lang="en"> Started: 11:25PM
+<programme start="20260106183303 +0000" stop="20260109133303 +0000" channel="chodie.us">
+<title lang="en"> Cleg LaCroix 🚨 TWE 🚨 ProdigyRP 🟢🟣 pp </title>
+<desc lang="en"> Started: 1:33PM
 Playing: Grand Theft Auto V
-Viewers: 64 </desc>
+Viewers: 78 </desc>
 </programme>
 
 <programme start="20260106212258 +0000" stop="20260109162258 +0000" channel="NateKarama.us">
@@ -217,21 +198,35 @@ Viewers: 282 </desc>
 <title lang="en"> Moose Knuckles - Clown - Dr. Muz - Stansfeld Belaney - Clowncil - NoPixel WL - Epic Creator Code: ZAXX386 </title>
 <desc lang="en"> Started: 09:04 pm
 Playing: Grand Theft Auto V
-Viewers: 82 </desc>
+Viewers: 80 </desc>
+</programme>
+
+<programme start="20260107042555 +0000" stop="20260109232555 +0000" channel="harmless.us">
+<title lang="en"> Perry Falken - NoPixel </title>
+<desc lang="en"> Started: 11:25PM
+Playing: Grand Theft Auto V
+Viewers: 128 </desc>
 </programme>
 
 <programme start="20260106173520 +0000" stop="20260109123520 +0000" channel="dadsyuk.us">
 <title lang="en"> 225 Sgt Vi Gray - Totally normal and fine - No Pixel WL - discord </title>
 <desc lang="en"> Started: 12:35 pm
 Playing: Grand Theft Auto V
-Viewers: 58 </desc>
+Viewers: 54 </desc>
+</programme>
+
+<programme start="20260107054306 +0000" stop="20260110004306 +0000" channel="alliumm.us">
+<title lang="en"> weEwoo - PD - Alice Liddell - NoPixel WL 🚨 </title>
+<desc lang="en"> Started: 12:43 am
+Playing: Grand Theft Auto V
+Viewers: 18 </desc>
 </programme>
 
 <programme start="20260106222335 +0000" stop="20260109172335 +0000" channel="blur_o7.us">
 <title lang="en"> 437 Jack Ryder - LSPD - NoPixel WL </title>
 <desc lang="en"> Started: 05:23 pm
 Playing: Grand Theft Auto V
-Viewers: 17 </desc>
+Viewers: 15 </desc>
 </programme>
 
 <programme start="20260106235415 +0000" stop="20260109185415 +0000" channel="Kerse.us">
@@ -239,13 +234,6 @@ Viewers: 17 </desc>
 <desc lang="en"> Started: 06:54 pm
 Playing: Grand Theft Auto V
 Viewers: 15 </desc>
-</programme>
-
-<programme start="20260107054306 +0000" stop="20260110004306 +0000" channel="alliumm.us">
-<title lang="en"> weEwoo - PD - Alice Liddell - NoPixel WL 🚨 </title>
-<desc lang="en"> Started: 12:43 am
-Playing: Grand Theft Auto V
-Viewers: 14 </desc>
 </programme>
 
 <programme start="20260107040713 +0000" stop="20260109230713 +0000" channel="makeitmeansomething.us">
@@ -273,217 +261,196 @@ Viewers: 1 </desc>
 <title lang="en"> Margo Escargot, Crackhead - 5.0 Invite - Nopixel WL </title>
 <desc lang="en"> Started: 11:03PM
 Playing: Grand Theft Auto V
-Viewers: 37 </desc>
+Viewers: 32 </desc>
 </programme>
 
 <programme start="20260107044412 +0000" stop="20260109234412 +0000" channel="firecrackthat.us">
 <title lang="en"> stumbles fumbles - nopixel 4.0 </title>
 <desc lang="en"> Started: 11:44PM
 Playing: Grand Theft Auto V
-Viewers: 46 </desc>
+Viewers: 47 </desc>
 </programme>
 
 <programme start="20260106190853 +0000" stop="20260109140853 +0000" channel="xqc.us">
 <title lang="en"> 🦖LIVE🦖CLICK🦖DRAMA🦖CLICK🦖PULL UP🦖REACT🦖VIDEOS🦖RECORD🦖STUFF🦖MADMAN🦖BEST PLAYER🦖OF ALL GAMES🦖 </title>
 <desc lang="en"> Started: 2:08PM
 Playing: League of Legends
-Viewers: 14518 </desc>
+Viewers: 14926 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="dasmehdi.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="dasmehdi.us">
 <title lang="en"> Director Brian Knight - NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:36 am
 Playing: No Pixel RP (GTA)
-Viewers: 881 </desc>
+Viewers: 871 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="dumpykdog.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="dumpykdog.us">
 <title lang="en"> Brodee  Worldz end season 2  Back at it Follow dumpykdog 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:09 pm
 Playing: Grand Theft Auto V (GTA)
-Viewers: 17 </desc>
+Viewers: 16 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="barky.us">
-<title lang="en"> THOMPSON TWAINZZZ  Tommy Thompson  The Worldz End RP  🌟 shorts 🌟 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 03:14 pm
-Playing: Grand Theft Auto V (GTA)
-Viewers: 199 </desc>
-</programme>
-
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="natekarama.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="natekarama.us">
 <title lang="en"> Sneaky-Nate 5.0 INVITEE 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:24 pm
 Playing: No Pixel RP (GTA)
-Viewers: 65 </desc>
+Viewers: 64 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="crystalst.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="crystalst.us">
 <title lang="en"> ✨cant sleep, i stream ~ 19hrs 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:23 pm
 Playing: No Pixel RP (GTA)
-Viewers: 162 </desc>
+Viewers: 168 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="justkiku.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="justkiku.us">
 <title lang="en"> Aiko Young  The Worldz End  Final Order 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
-Viewers: 139 </desc>
+Viewers: 151 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="acezproduction.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="acezproduction.us">
 <title lang="en"> 🌰🐿️ ACHEZ PEREZ - WORLDZ END ZOMBIES SERVER 👀  GTA RP AcezProduction 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
-Viewers: 167 </desc>
+Viewers: 170 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="rayc.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="rayc.us">
 <title lang="en"> 🔥 RAYMOND ROMANOV  ZOMBIES WORLDZ END GTARP  FACELESS OPERATION ASSAULT TOMORROW  socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:04 pm
 Playing: Grand Theft Auto V (GTA)
 Viewers: 704 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="superbunneh.us">
-<title lang="en"> Mila Smoak on Worldz End RP  ❤️ 🐇 1641 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 06:07 pm
-Playing: Grand Theft Auto V (GTA)
-Viewers: 2 </desc>
-</programme>
-
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="lysium.us">
-<title lang="en"> ZOMBIE SLAYER BENJI - THE WORLDZ END RP 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 06:39 pm
-Playing: Grand Theft Auto V (GTA)
-Viewers: 846 </desc>
-</programme>
-
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="kieron.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="kieron.us">
 <title lang="en"> Surviving the Zombie Apocalypse  Michael Verse  Worldz End 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:52 pm
 Playing: Grand Theft Auto V (GTA)
-Viewers: 18 </desc>
+Viewers: 17 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="kerse.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="kerse.us">
 <title lang="en"> Kerse Livestream - NoPixel WL - Willie Banger - Pasghetti - Biscuits 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:54 pm
 Playing: No Pixel RP (GTA)
 Viewers: 2 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="rexs.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="rexs.us">
 <title lang="en"> LT Ricky Dallas 🤠 BCSO 🤠 Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:07 pm
 Playing: No Pixel RP (GTA)
-Viewers: 154 </desc>
+Viewers: 149 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="ms_star.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="ms_star.us">
 <title lang="en"> SUBATHON TOMORROW ★ Luna Fawkes ★ TheWorldZEnd ★ ms_star 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:16 pm
 Playing: Grand Theft Auto V (GTA)
-Viewers: 88 </desc>
+Viewers: 121 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="leeakrish.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="leeakrish.us">
 <title lang="en"> Raffy Lee hmm No Pixel 4.0 WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:19 pm
 Playing: No Pixel RP (GTA)
 Viewers: 2 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="slimeoz.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="slimeoz.us">
 <title lang="en"> BigMac - tictac - Nopixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 07:50 pm
 Playing: No Pixel RP (GTA)
-Viewers: 43 </desc>
+Viewers: 45 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005618 +0000" channel="itsnicvic.us">
-<title lang="en"> Emmy lives to see another day ☆ NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 07:59 pm
-Playing: No Pixel RP (GTA)
-Viewers: 24 </desc>
-</programme>
-
-<programme start="20260107000000 +0000" stop="20260110005619 +0000" channel="qift.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="qift.us">
 <title lang="en"> WINTER TALKS TO EMMY... surely ₊ ˚ ♡ STRAYZ ᨐฅ -- qift 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:01 pm
 Playing: No Pixel RP (GTA)
-Viewers: 124 </desc>
+Viewers: 122 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005619 +0000" channel="olivegarden.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="olivegarden.us">
 <title lang="en"> Third Wheel Simulator Royce Strayz NoPixel 4.0 WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:32 pm
 Playing: No Pixel RP (GTA)
-Viewers: 73 </desc>
+Viewers: 69 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005619 +0000" channel="itzdeanyy.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="itzdeanyy.us">
 <title lang="en"> Deany Zombie Fighter Muggs TWE WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:59 pm
 Playing: Grand Theft Auto V (GTA)
 Viewers: 2 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005619 +0000" channel="kingjayclouted.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="kingjayclouted.us">
 <title lang="en"> DEV 📖 BULLWORTH UNIVERISTY RP  Fivem Mapper and Coder  Custom Bully Map Fivem Server  GTA6 Realistic Graphics Mod  discord pc graphics 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
-Viewers: 6 </desc>
+Viewers: 5 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005619 +0000" channel="silbullet.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="silbullet.us">
 <title lang="en"> Lt. Maple 297 LSPD NoPixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:00 pm
 Playing: No Pixel RP (GTA)
-Viewers: 74 </desc>
+Viewers: 65 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005619 +0000" channel="margothesnail.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="margothesnail.us">
 <title lang="en"> Margo Escargot, Crackhead 5.0 Invite Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:03 pm
 Playing: No Pixel RP (GTA)
-Viewers: 13 </desc>
+Viewers: 11 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005619 +0000" channel="aus24.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="aus24.us">
 <title lang="en"> DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:11 pm
 Playing: No Pixel RP (GTA)
-Viewers: 69 </desc>
+Viewers: 64 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005619 +0000" channel="harmless.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="harmless.us">
 <title lang="en"> Perry Falken NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:26 pm
 Playing: No Pixel RP (GTA)
-Viewers: 202 </desc>
+Viewers: 207 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005619 +0000" channel="choponz.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="choponz.us">
 <title lang="en"> Return to Los Santos Besties NOPIXEL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:33 pm
 Playing: No Pixel RP (GTA)
-Viewers: 82 </desc>
+Viewers: 76 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005619 +0000" channel="firecrackthat.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="firecrackthat.us">
 <title lang="en"> stumbles fumbles nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:44 pm
 Playing: No Pixel RP (GTA)
 Viewers: 4 </desc>
 </programme>
 
-<programme start="20260107000000 +0000" stop="20260110005619 +0000" channel="abdulhd.us">
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="abdulhd.us">
 <title lang="en"> Abdul - NoPixel WL - Traffic Police - Multi-Streaming 🟢🟣🔴 YouTube Discord instagram 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 12:41 am
 Playing: No Pixel RP (GTA)
-Viewers: 266 </desc>
+Viewers: 276 </desc>
+</programme>
+
+<programme start="20260107000000 +0000" stop="20260110010620 +0000" channel="oyamec.us">
+<title lang="en"> Kaya at the end of the world... again..  The WorldZ End 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 
+Playing: Grand Theft Auto V (GTA)
+Viewers: 0 </desc>
 </programme>
 
 
