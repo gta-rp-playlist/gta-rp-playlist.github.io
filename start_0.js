@@ -60,6 +60,7 @@ const categoryMappings = {
     'theproject'  : '38TheProject',
     'project'     : '38TheProject',
     'guild'       : '39Guild',
+    'phoenix'     : '26Phoenix',
     'angels'      : '40Angels',
     'crayons'     : '41Crayons',
     'iconicz'     : '30Iconicz',
