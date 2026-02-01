@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="shotz.us">
+<display-name>shotz</display-name>
+</channel>
+
 <channel id="moosetaffy.us">
 <display-name>moosetaffy</display-name>
 </channel>
@@ -28,10 +32,6 @@
 
 <channel id="ste_eire.us">
 <display-name>ste_eire</display-name>
-</channel>
-
-<channel id="shotz.us">
-<display-name>shotz</display-name>
 </channel>
 
 <channel id="luka_aus.us">
@@ -118,32 +118,43 @@
 <display-name>traycee</display-name>
 </channel>
 
+<channel id="52chains.us">
+<display-name>52chains</display-name>
+</channel>
+
+<programme start="20260201142206 +0000" stop="20260204092206 +0000" channel="shotz.us">
+<title lang="en"> 🐉 Vinny MOOOstone 🐉Chang Gang🐉ProdigyRP 🐉 Merch🐉 Starf0rge Coffee TTS 🐉 s @shotz </title>
+<desc lang="en"> Started: 9:22AM
+Playing: Grand Theft Auto V
+Viewers: 377 </desc>
+</programme>
+
 <programme start="20260201123701 +0000" stop="20260204073701 +0000" channel="moosetaffy.us">
 <title lang="en"> Rejeb - Zombie Server - Mandem Game Night - No Pixel Maybe Tonight - Marvel OperaGX #ad Discord POBox </title>
 <desc lang="en"> Started: 7:37AM
 Playing: Grand Theft Auto V
-Viewers: 182 </desc>
+Viewers: 163 </desc>
 </programme>
 
 <programme start="20260131210033 +0000" stop="20260203160033 +0000" channel="crystalst.us">
 <title lang="en"> ✨cozy lspd academy day pt.2 </title>
 <desc lang="en"> Started: 4:00PM
 Playing: Grand Theft Auto V
-Viewers: 291 </desc>
+Viewers: 278 </desc>
 </programme>
 
 <programme start="20260201075040 +0000" stop="20260204025040 +0000" channel="curvyelephant.us">
 <title lang="en"> matt rhodes - nopixel - </title>
 <desc lang="en"> Started: 2:50AM
 Playing: Grand Theft Auto V
-Viewers: 640 </desc>
+Viewers: 642 </desc>
 </programme>
 
 <programme start="20260201125339 +0000" stop="20260204075339 +0000" channel="Stoner_Minded.us">
 <title lang="en"> Snr Officer Frank Williams - NoPixel WL - Multistreaming </title>
 <desc lang="en"> Started: 07:53 am
 Playing: Grand Theft Auto V
-Viewers: 19 </desc>
+Viewers: 20 </desc>
 </programme>
 
 <programme start="20260201093555 +0000" stop="20260204043555 +0000" channel="katecirrus.us">
@@ -157,28 +168,21 @@ Viewers: 35 </desc>
 <title lang="en"> KYLE PRED - nopixel 4.0 </title>
 <desc lang="en"> Started: 8:01AM
 Playing: Grand Theft Auto V
-Viewers: 1828 </desc>
+Viewers: 2047 </desc>
 </programme>
 
 <programme start="20260201130551 +0000" stop="20260204080551 +0000" channel="ste_eire.us">
 <title lang="en"> ste - some chill rp while I watch Man United - Among us lobby at 5 </title>
 <desc lang="en"> Started: 8:05AM
 Playing: Grand Theft Auto V
-Viewers: 265 </desc>
-</programme>
-
-<programme start="20260201142206 +0000" stop="20260204092206 +0000" channel="shotz.us">
-<title lang="en"> 🐉 Vinny MOOOstone 🐉Chang Gang🐉ProdigyRP 🐉 Merch🐉 Starf0rge Coffee TTS 🐉 s @shotz </title>
-<desc lang="en"> Started: 9:22AM
-Playing: Grand Theft Auto V
-Viewers: 160 </desc>
+Viewers: 247 </desc>
 </programme>
 
 <programme start="20260201120604 +0000" stop="20260204070604 +0000" channel="luka_aus.us">
 <title lang="en"> NoPixel 4.0 WL - Gazz Maloo - LOSTMC Diamond Chapter - WAR WITH NEW BABYLON </title>
 <desc lang="en"> Started: 7:06AM
 Playing: Grand Theft Auto V
-Viewers: 51 </desc>
+Viewers: 53 </desc>
 </programme>
 
 <programme start="20260201133323 +0000" stop="20260204083323 +0000" channel="plashir.us">
@@ -188,137 +192,144 @@ Playing: Grand Theft Auto V
 Viewers: 2 </desc>
 </programme>
 
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="crystalst.us">
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="crystalst.us">
 <title lang="en"> ✨cozy lspd academy day pt.2 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:00 pm
 Playing: No Pixel RP (GTA)
-Viewers: 163 </desc>
+Viewers: 160 </desc>
 </programme>
 
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="rexs.us">
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="rexs.us">
 <title lang="en"> Captain Ricky Dallas 🤠 BCSO 🤠 Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:37 pm
-Playing: No Pixel RP (GTA)
-Viewers: 83 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="aus24.us">
-<title lang="en"> DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 11:19 pm
-Playing: No Pixel RP (GTA)
-Viewers: 131 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="sock22.us">
-<title lang="en"> Richard Dark 📝Detective Time🔎 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 03:52 am
-Playing: No Pixel RP (GTA)
-Viewers: 446 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="roxmiral.us">
-<title lang="en"> Nikki Khan - Hi 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 04:01 am
-Playing: No Pixel RP (GTA)
-Viewers: 126 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="berryyboo.us">
-<title lang="en"> Snr Officer Viv personal Snr to Sgt Nikki Khan LSPD NoPixel 4.0 socials 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 04:39 am
-Playing: No Pixel RP (GTA)
-Viewers: 268 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="matteu.us">
-<title lang="en"> ⋆˚࿔ RAIDING FACELESS PEOPLE 🌀 SR INTERCEPTOR MAN LUCAS MILLER 🌀 discord socials ࿔˚⋆ 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 06:36 am
-Playing: No Pixel RP (GTA)
-Viewers: 426 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="luka_aus.us">
-<title lang="en"> Gazz Maloo LOSTMC Diamond Chapter WAR WITH NEW BABYLON 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 07:06 am
-Playing: No Pixel RP (GTA)
-Viewers: 39 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="maximusblack.us">
-<title lang="en"> OTT - BSK VS ESB The Great EGO War Prodigy 2.8 Update  WPTG NordVPN Incogni 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 
-Playing: Grand Theft Auto V (GTA)
-Viewers: 577 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="moosetaffy.us">
-<title lang="en"> Rejeb - Zombie Server - Mandem Game Night - No Pixel Maybe Tonight - Marvel OperaGX ad Discord POBox 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 07:37 am
-Playing: No Pixel RP (GTA)
-Viewers: 25 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="stonerminded.us">
-<title lang="en"> Snr Officer Frank Williams NoPixel WL Multistreaming 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 07:53 am
-Playing: No Pixel RP (GTA)
-Viewers: 9 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="either.us">
-<title lang="en"> JADEN CHILL ASS SUNDAY CHRISTOPHER HYDRA GANG GOAT NOPIXEL 4.0 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 07:56 am
-Playing: No Pixel RP (GTA)
-Viewers: 94 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="cheez.us">
-<title lang="en"> FiveM Arena Season 4 Use Code Cheez For 5 Off Gemz 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 08:17 am
-Playing: Grand Theft Auto V (GTA)
-Viewers: 213 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="myles_away.us">
-<title lang="en"> NOPIXEL 4.0 STUBBLE 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 08:27 am
-Playing: No Pixel RP (GTA)
-Viewers: 14 </desc>
-</programme>
-
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="denis3d.us">
-<title lang="en"> 🔴 NoPixel Dev - FIXING MY ASSET LIBRARY MADGE 🔴 links instant blender NoPixel 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 08:30 am
 Playing: No Pixel RP (GTA)
 Viewers: 88 </desc>
 </programme>
 
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="arniev.us">
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="aus24.us">
+<title lang="en"> DAVENPORT LSPD NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 11:19 pm
+Playing: No Pixel RP (GTA)
+Viewers: 139 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="sock22.us">
+<title lang="en"> Richard Dark 📝Detective Time🔎 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 03:52 am
+Playing: No Pixel RP (GTA)
+Viewers: 458 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="roxmiral.us">
+<title lang="en"> Nikki Khan - Hi 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 04:01 am
+Playing: No Pixel RP (GTA)
+Viewers: 129 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="berryyboo.us">
+<title lang="en"> Snr Officer Viv personal Snr to Sgt Nikki Khan LSPD NoPixel 4.0 socials 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 04:39 am
+Playing: No Pixel RP (GTA)
+Viewers: 259 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="matteu.us">
+<title lang="en"> ⋆˚࿔ RAIDING FACELESS PEOPLE 🌀 SR INTERCEPTOR MAN LUCAS MILLER 🌀 discord socials ࿔˚⋆ 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 06:36 am
+Playing: No Pixel RP (GTA)
+Viewers: 439 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="luka_aus.us">
+<title lang="en"> Gazz Maloo LOSTMC Diamond Chapter WAR WITH NEW BABYLON 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 07:06 am
+Playing: No Pixel RP (GTA)
+Viewers: 43 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="maximusblack.us">
+<title lang="en"> OTT - BSK VS ESB The Great EGO War Prodigy 2.8 Update  WPTG NordVPN Incogni 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 
+Playing: Grand Theft Auto V (GTA)
+Viewers: 595 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="moosetaffy.us">
+<title lang="en"> Rejeb - Zombie Server - Mandem Game Night - No Pixel Maybe Tonight - Marvel OperaGX ad Discord POBox 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 07:37 am
+Playing: No Pixel RP (GTA)
+Viewers: 31 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="stonerminded.us">
+<title lang="en"> Snr Officer Frank Williams NoPixel WL Multistreaming 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 07:53 am
+Playing: No Pixel RP (GTA)
+Viewers: 6 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="either.us">
+<title lang="en"> JADEN CHILL ASS SUNDAY CHRISTOPHER HYDRA GANG GOAT NOPIXEL 4.0 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 07:56 am
+Playing: No Pixel RP (GTA)
+Viewers: 98 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="cheez.us">
+<title lang="en"> FiveM Arena Season 4 Use Code Cheez For 5 Off Gemz 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 08:17 am
+Playing: Grand Theft Auto V (GTA)
+Viewers: 205 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="myles_away.us">
+<title lang="en"> STUBBLE  ONX  PD ACADEMY AFTER THEN DM STUFF AND HAROLD 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 08:27 am
+Playing: Grand Theft Auto V (GTA)
+Viewers: 13 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="denis3d.us">
+<title lang="en"> 🔴 NoPixel Dev - FIXING MY ASSET LIBRARY MADGE 🔴 links instant blender NoPixel 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 08:30 am
+Playing: No Pixel RP (GTA)
+Viewers: 90 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="arniev.us">
 <title lang="en"> unbanned from cs2 today 333 W VALVE THANKS F0R THE 7 DAYS BAN 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:43 am
 Playing: No Pixel RP (GTA)
-Viewers: 252 </desc>
+Viewers: 231 </desc>
 </programme>
 
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="biotox.us">
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="biotox.us">
 <title lang="en"> BJORN NOPIXEL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:00 am
 Playing: No Pixel RP (GTA)
-Viewers: 214 </desc>
+Viewers: 244 </desc>
 </programme>
 
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="silent.us">
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="silent.us">
 <title lang="en"> ROLEPLAYER 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:12 am
 Playing: No Pixel RP (GTA)
-Viewers: 430 </desc>
+Viewers: 498 </desc>
 </programme>
 
-<programme start="20260201000000 +0000" stop="20260204092818 +0000" channel="traycee.us">
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="traycee.us">
 <title lang="en"> Lexi Law 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 09:21 am
 Playing: No Pixel RP (GTA)
-Viewers: 12 </desc>
+Viewers: 28 </desc>
+</programme>
+
+<programme start="20260201000000 +0000" stop="20260204093653 +0000" channel="52chains.us">
+<title lang="en"> Obadiah Blaine City socials Nopixel 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 09:27 am
+Playing: No Pixel RP (GTA)
+Viewers: 135 </desc>
 </programme>
 
 
