@@ -75,6 +75,7 @@ const categoryMappings = {
     'tsl'         : '46TSL',
     'bbmc'        : '47BBMC',
     'hiddenmc'    : '48HiddenMC',
+    'gsf'    : '48GSF',
     'c4'          : '49C4',
     'streetbratz' : '50StreetBratz',
     'diamonddogs' : '51DiamondDogs',
