@@ -2,10 +2,6 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="brakketts.us">
-<display-name>brakketts</display-name>
-</channel>
-
 <channel id="crystalst.us">
 <display-name>crystalst</display-name>
 </channel>
@@ -28,6 +24,10 @@
 
 <channel id="agingercoin.us">
 <display-name>agingercoin</display-name>
+</channel>
+
+<channel id="brakketts.us">
+<display-name>brakketts</display-name>
 </channel>
 
 <channel id="harmless.us">
@@ -98,6 +98,52 @@
 <display-name>arckon</display-name>
 </channel>
 
+<channel id="chasrp.us">
+<display-name>chasrp</display-name>
+</channel>
+
+<programme start="20260304060258 +0000" stop="20260307010258 +0000" channel="crystalst.us">
+<title lang="en"> ✨just chilling x </title>
+<desc lang="en"> Started: 1:02AM
+Playing: Grand Theft Auto V
+Viewers: 266 </desc>
+</programme>
+
+<programme start="20260304035520 +0000" stop="20260306225520 +0000" channel="UnicornFrapp.us">
+<title lang="en"> Remi Ironside - Little Guy - Nopixel WL </title>
+<desc lang="en"> Started: 10:55 pm
+Playing: Grand Theft Auto V
+Viewers: 60 </desc>
+</programme>
+
+<programme start="20260304054132 +0000" stop="20260307004132 +0000" channel="alliumm.us">
+<title lang="en"> wEewoo - PD - Alice Liddell - NoPixel WL 🚨 </title>
+<desc lang="en"> Started: 12:41 am
+Playing: Grand Theft Auto V
+Viewers: 42 </desc>
+</programme>
+
+<programme start="20260304050504 +0000" stop="20260307000504 +0000" channel="MrGlee.us">
+<title lang="en"> Less Than A Day Till Expert Witness - LFFL - Sai Kou - NoPixel WL - socials </title>
+<desc lang="en"> Started: 12:05 am
+Playing: Grand Theft Auto V
+Viewers: 13 </desc>
+</programme>
+
+<programme start="20260304024217 +0000" stop="20260306214217 +0000" channel="MissScarletRose.us">
+<title lang="en"> 🌹 Scarlet Rose🌹 - Nopixel WL </title>
+<desc lang="en"> Started: 09:42 pm
+Playing: Grand Theft Auto V
+Viewers: 8 </desc>
+</programme>
+
+<programme start="20260304073914 +0000" stop="20260307023914 +0000" channel="agingercoin.us">
+<title lang="en"> Dobby Rasher - BCSO - NoPixel WL </title>
+<desc lang="en"> Started: 02:39 am
+Playing: Grand Theft Auto V
+Viewers: 2 </desc>
+</programme>
+
 <programme start="20260304053016 +0000" stop="20260307003016 +0000" channel="brakketts.us">
 <title lang="en"> Tommy Horver - Nopixel WL </title>
 <desc lang="en"> Started: 12:30AM
@@ -105,165 +151,130 @@ Playing: Grand Theft Auto V
 Viewers: 8 </desc>
 </programme>
 
-<programme start="20260304060258 +0000" stop="20260307010258 +0000" channel="crystalst.us">
-<title lang="en"> ✨just chilling x </title>
-<desc lang="en"> Started: 1:02AM
-Playing: Grand Theft Auto V
-Viewers: 220 </desc>
-</programme>
-
-<programme start="20260304035520 +0000" stop="20260306225520 +0000" channel="UnicornFrapp.us">
-<title lang="en"> Remi Ironside - Little Guy - Nopixel WL </title>
-<desc lang="en"> Started: 10:55 pm
-Playing: Grand Theft Auto V
-Viewers: 59 </desc>
-</programme>
-
-<programme start="20260304054132 +0000" stop="20260307004132 +0000" channel="alliumm.us">
-<title lang="en"> wEewoo - PD - Alice Liddell - NoPixel WL 🚨 </title>
-<desc lang="en"> Started: 12:41 am
-Playing: Grand Theft Auto V
-Viewers: 45 </desc>
-</programme>
-
-<programme start="20260304050504 +0000" stop="20260307000504 +0000" channel="MrGlee.us">
-<title lang="en"> Less Than A Day Till Expert Witness - LFFL - Sai Kou - NoPixel WL - socials </title>
-<desc lang="en"> Started: 12:05 am
-Playing: Grand Theft Auto V
-Viewers: 12 </desc>
-</programme>
-
-<programme start="20260304024217 +0000" stop="20260306214217 +0000" channel="MissScarletRose.us">
-<title lang="en"> 🌹 Scarlet Rose🌹 - Nopixel WL </title>
-<desc lang="en"> Started: 09:42 pm
-Playing: Grand Theft Auto V
-Viewers: 7 </desc>
-</programme>
-
-<programme start="20260304073914 +0000" stop="20260307023914 +0000" channel="agingercoin.us">
-<title lang="en"> Dobby Rasher - BCSO - NoPixel WL </title>
-<desc lang="en"> Started: 02:39 am
-Playing: Grand Theft Auto V
-Viewers: 3 </desc>
-</programme>
-
 <programme start="20260304041647 +0000" stop="20260306231647 +0000" channel="harmless.us">
 <title lang="en"> Perry Falken - NoPixel 4.0 - TTS </title>
 <desc lang="en"> Started: 11:16PM
 Playing: Grand Theft Auto V
-Viewers: 78 </desc>
+Viewers: 76 </desc>
 </programme>
 
 <programme start="20260303233909 +0000" stop="20260306183909 +0000" channel="ashthesleeper.us">
 <title lang="en"> ISSA VELLI - COME HANGOUT - EVERY 5 GIFTED I SPIN A WHEEL TO BE PUNISHED </title>
 <desc lang="en"> Started: 6:39PM
 Playing: Grand Theft Auto V
-Viewers: 14 </desc>
+Viewers: 17 </desc>
 </programme>
 
 <programme start="20260304084407 +0000" stop="20260307034407 +0000" channel="Kerazane.us">
 <title lang="en"> Deputy Betty Briskett - BCSO - 396 - Nopixel WL - Crispy Brisketts Wednesday </title>
 <desc lang="en"> Started: 3:44AM
 Playing: Grand Theft Auto V
-Viewers: 43 </desc>
+Viewers: 46 </desc>
 </programme>
 
 <programme start="20260304010125 +0000" stop="20260306200125 +0000" channel="arttigg.us">
 <title lang="en"> Kyra Warner - EMS Trainee - NoPixel WL </title>
 <desc lang="en"> Started: 8:01PM
 Playing: Grand Theft Auto V
-Viewers: 5 </desc>
+Viewers: 6 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="sun-bae.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="sun-bae.us">
 <title lang="en"> Charlie Moore Phoenix 🐦‍🔥 OUTSIDE 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:35 pm
 Playing: No Pixel RP (GTA)
 Viewers: 48 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="kieron.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="kieron.us">
 <title lang="en"> Michael Verse WAR Habibis NoPixel 4.0 WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:34 pm
 Playing: No Pixel RP (GTA)
-Viewers: 214 </desc>
+Viewers: 198 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="ashthesleeper.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="ashthesleeper.us">
 <title lang="en"> ISSA VELLI COME HANGOUT EVERY 5 GIFTED I SPIN A WHEEL TO BE PUNISHED 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:39 pm
 Playing: No Pixel RP (GTA)
 Viewers: 22 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="arttigg.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="arttigg.us">
 <title lang="en"> Kyra Warner EMS Trainee 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:01 pm
 Playing: No Pixel RP (GTA)
-Viewers: 25 </desc>
+Viewers: 31 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="silbullet.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="silbullet.us">
 <title lang="en"> UNCAPPED BIRTHDAY SUBATHON DAY 2 Lt. Maple 297 LSPD NoPixel WL 4.0 subs 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 10:57 pm
 Playing: No Pixel RP (GTA)
-Viewers: 85 </desc>
+Viewers: 89 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="harmless.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="harmless.us">
 <title lang="en"> Perry Falken NoPixel 4.0 TTS 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:16 pm
 Playing: No Pixel RP (GTA)
-Viewers: 337 </desc>
+Viewers: 334 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="aus24.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="aus24.us">
 <title lang="en"> Davenport LSPD NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:26 pm
 Playing: No Pixel RP (GTA)
-Viewers: 155 </desc>
+Viewers: 152 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="rexs.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="rexs.us">
 <title lang="en"> Captain Ricky Dallas IS BACK 🤠 BCSO 🤠 Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:44 pm
 Playing: No Pixel RP (GTA)
-Viewers: 61 </desc>
+Viewers: 57 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="crystalst.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="crystalst.us">
 <title lang="en"> ✨just chilling x 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:03 am
 Playing: No Pixel RP (GTA)
-Viewers: 121 </desc>
+Viewers: 115 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="killoeog.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="killoeog.us">
 <title lang="en"> Jordan JJ Jameson LSPD PPO 691 NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 01:19 am
 Playing: No Pixel RP (GTA)
 Viewers: 17 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="mkelley.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="mkelley.us">
 <title lang="en"> 42nd Birthday Stream Degen Hours Weed Guy 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 02:50 am
 Playing: No Pixel RP (GTA)
-Viewers: 27 </desc>
+Viewers: 28 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="sukhi_1.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel Besties Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 03:18 am
 Playing: No Pixel RP (GTA)
-Viewers: 230 </desc>
+Viewers: 225 </desc>
 </programme>
 
-<programme start="20260304000000 +0000" stop="20260307043650 +0000" channel="arckon.us">
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="arckon.us">
 <title lang="en"> Beric Aster PT NoPixel arckon nosleep TheLebronOfRevivingTeammates 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:32 am
 Playing: No Pixel RP (GTA)
-Viewers: 15 </desc>
+Viewers: 20 </desc>
+</programme>
+
+<programme start="20260304000000 +0000" stop="20260307044318 +0000" channel="chasrp.us">
+<title lang="en"> THE BENCH 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 04:37 am
+Playing: No Pixel RP (GTA)
+Viewers: 23 </desc>
 </programme>
 
 
