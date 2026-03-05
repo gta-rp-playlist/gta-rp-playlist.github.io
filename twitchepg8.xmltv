@@ -2,10 +2,6 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="Blokeowski.us">
-<display-name>Blokeowski</display-name>
-</channel>
-
 <channel id="rerolldota.us">
 <display-name>rerolldota</display-name>
 </channel>
@@ -28,6 +24,10 @@
 
 <channel id="luke7carr.us">
 <display-name>luke7carr</display-name>
+</channel>
+
+<channel id="luka_aus.us">
+<display-name>luka_aus</display-name>
 </channel>
 
 <channel id="sun-bae.us">
@@ -110,46 +110,43 @@
 <display-name>stankxo</display-name>
 </channel>
 
-<programme start="20260305031005 +0000" stop="20260307221005 +0000" channel="Blokeowski.us">
-<title lang="en"> NoPixel WL - 18 - TW - DOC - Garry Hills - BIG BAD PRISON GUARD - discord beyondblue commands supportservices blackdoginstitute </title>
-<desc lang="en"> Started: 10:10 pm
-Playing: Grand Theft Auto V
-Viewers: 55 </desc>
-</programme>
+<channel id="luka_aus.us">
+<display-name>luka_aus</display-name>
+</channel>
 
 <programme start="20260305093635 +0000" stop="20260308043635 +0000" channel="rerolldota.us">
 <title lang="en"> Nopixel WL - 545.Sgt Nova </title>
 <desc lang="en"> Started: 04:36 am
 Playing: Grand Theft Auto V
-Viewers: 40 </desc>
+Viewers: 39 </desc>
 </programme>
 
 <programme start="20260305072423 +0000" stop="20260308012423 +0000" channel="Hellknight86.us">
 <title lang="en"> LSPD Officer Viktor Schmidt - Nopixel WL </title>
 <desc lang="en"> Started: 02:24 am
 Playing: Grand Theft Auto V
-Viewers: 16 </desc>
+Viewers: 13 </desc>
 </programme>
 
 <programme start="20260305075024 +0000" stop="20260308015024 +0000" channel="agingercoin.us">
 <title lang="en"> Dobby Rasher - BCSO - NoPixel WL </title>
 <desc lang="en"> Started: 02:50 am
 Playing: Grand Theft Auto V
-Viewers: 14 </desc>
+Viewers: 13 </desc>
 </programme>
 
 <programme start="20260305063002 +0000" stop="20260308013002 +0000" channel="crystalst.us">
 <title lang="en"> ✨just chilling x </title>
 <desc lang="en"> Started: 1:30AM
 Playing: Grand Theft Auto V
-Viewers: 299 </desc>
+Viewers: 295 </desc>
 </programme>
 
 <programme start="20260305115343 +0000" stop="20260308065343 +0000" channel="FreyaMorningstar.us">
 <title lang="en"> { UnCapped Day 3} Cami Dommie Fraser -- NP WL {ENVtuber} kofi discord </title>
 <desc lang="en"> Started: 06:53 am
 Playing: Grand Theft Auto V
-Viewers: 4 </desc>
+Viewers: 5 </desc>
 </programme>
 
 <programme start="20260305010839 +0000" stop="20260307200839 +0000" channel="luke7carr.us">
@@ -159,144 +156,158 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="sun-bae.us">
+<programme start="20260305122227 +0000" stop="20260308072227 +0000" channel="luka_aus.us">
+<title lang="en"> NoPixel 4.0 WL - Gazz Maloo - LOSTMC Diamond Chapter - MAG CONNECT </title>
+<desc lang="en"> Started: 7:22AM
+Playing: Grand Theft Auto V
+Viewers: 1 </desc>
+</programme>
+
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="sun-bae.us">
 <title lang="en"> Charlie Moore Phoenix 🐦‍🔥 OUTSIDE 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 04:35 pm
 Playing: No Pixel RP (GTA)
 Viewers: 48 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="bundie.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="bundie.us">
 <title lang="en"> Kiwi I would like to deeply apologize to the Vagos f0r my actions last night they do not represent me as a person and I am Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:43 pm
 Playing: No Pixel RP (GTA)
-Viewers: 55 </desc>
+Viewers: 43 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="carrzzz.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="carrzzz.us">
 <title lang="en"> Luke Grayson Habibis NoPixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 08:08 pm
 Playing: No Pixel RP (GTA)
-Viewers: 117 </desc>
+Viewers: 118 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="harmless.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="harmless.us">
 <title lang="en"> Perry Falken NoPixel 4.0 TTS 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:05 pm
 Playing: No Pixel RP (GTA)
-Viewers: 330 </desc>
+Viewers: 353 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="aus24.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="aus24.us">
 <title lang="en"> Davenport LSPD NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 11:03 pm
 Playing: No Pixel RP (GTA)
-Viewers: 123 </desc>
+Viewers: 129 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="killoeog.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="killoeog.us">
 <title lang="en"> Jordan JJ Jameson LSPD PPO 691 NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:33 am
+Playing: No Pixel RP (GTA)
+Viewers: 12 </desc>
+</programme>
+
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="crystalst.us">
+<title lang="en"> ✨just chilling x 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 01:30 am
+Playing: No Pixel RP (GTA)
+Viewers: 72 </desc>
+</programme>
+
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="sock22.us">
+<title lang="en"> SGT Richard Dark RESTRUCTURE TYME 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 03:07 am
+Playing: No Pixel RP (GTA)
+Viewers: 358 </desc>
+</programme>
+
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="sukhi_1.us">
+<title lang="en"> Lucky Torkel Besties Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 03:29 am
+Playing: No Pixel RP (GTA)
+Viewers: 538 </desc>
+</programme>
+
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="rerolldota.us">
+<title lang="en"> Nopixel WL 545 Sgt.Nova 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 04:36 am
 Playing: No Pixel RP (GTA)
 Viewers: 9 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="crystalst.us">
-<title lang="en"> ✨just chilling x 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 01:30 am
-Playing: No Pixel RP (GTA)
-Viewers: 69 </desc>
-</programme>
-
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="sock22.us">
-<title lang="en"> SGT Richard Dark RESTRUCTURE TYME 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 03:07 am
-Playing: No Pixel RP (GTA)
-Viewers: 356 </desc>
-</programme>
-
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="sukhi_1.us">
-<title lang="en"> Lucky Torkel Besties Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 03:29 am
-Playing: No Pixel RP (GTA)
-Viewers: 566 </desc>
-</programme>
-
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="rerolldota.us">
-<title lang="en"> Nopixel WL 545 Sgt.Nova 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 04:36 am
-Playing: No Pixel RP (GTA)
-Viewers: 10 </desc>
-</programme>
-
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="moboking.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="moboking.us">
 <title lang="en"> Ellis RUNNING F0R SHERIFF Pinzon BCSO Nopixel RP 4.0 WL GTA V 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:22 am
 Playing: No Pixel RP (GTA)
-Viewers: 97 </desc>
+Viewers: 109 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="jjfried.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="jjfried.us">
 <title lang="en"> consistency 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:28 am
 Playing: No Pixel RP (GTA)
-Viewers: 125 </desc>
+Viewers: 128 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="sanityybro.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="sanityybro.us">
 <title lang="en"> Larry Porter Besties Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 05:45 am
 Playing: No Pixel RP (GTA)
-Viewers: 27 </desc>
+Viewers: 29 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="lauti.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="lauti.us">
 <title lang="en"> dill e. dough hydra lauti 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:11 am
 Playing: No Pixel RP (GTA)
-Viewers: 68 </desc>
+Viewers: 72 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="jeimiru.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="jeimiru.us">
 <title lang="en"> Benz 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:12 am
 Playing: No Pixel RP (GTA)
-Viewers: 139 </desc>
+Viewers: 153 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="berryyboo.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="berryyboo.us">
 <title lang="en"> Ass. Chief Viv Survivor of The Vivening NoPixel 4.0 socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:16 am
 Playing: No Pixel RP (GTA)
-Viewers: 291 </desc>
+Viewers: 306 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="leonarwho.us">
-<title lang="en"> Jack Bilby🔫 LSPD GOLDEN CHILD 🔫 discord socials 🟢🟢Kick Stream☝️ </title>
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="leonarwho.us">
+<title lang="en"> Kelly Dean🔫 Roys Criminal Husband 🔫 discord socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:18 am
 Playing: No Pixel RP (GTA)
-Viewers: 66 </desc>
+Viewers: 67 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="kioshima.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="kioshima.us">
 <title lang="en"> Claude Petit - Hydra csdrop 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:29 am
 Playing: No Pixel RP (GTA)
-Viewers: 149 </desc>
+Viewers: 153 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="rexs.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="rexs.us">
 <title lang="en"> Captain Ricky Dallas shorter stream 🤠 BCSO 🤠 Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:24 am
 Playing: No Pixel RP (GTA)
-Viewers: 21 </desc>
+Viewers: 24 </desc>
 </programme>
 
-<programme start="20260305000000 +0000" stop="20260308072150 +0000" channel="stankxo.us">
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="stankxo.us">
 <title lang="en"> prime raccoon 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 06:57 am
 Playing: No Pixel RP (GTA)
-Viewers: 40 </desc>
+Viewers: 28 </desc>
+</programme>
+
+<programme start="20260305000000 +0000" stop="20260308072822 +0000" channel="luka_aus.us">
+<title lang="en"> Gazz Maloo SGT AT ARMS LOSTMC Diamond Chapter New Mag Connect In Town 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 07:22 am
+Playing: No Pixel RP (GTA)
+Viewers: 1 </desc>
 </programme>
 
 
