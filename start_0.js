@@ -24,6 +24,8 @@ const categoryMappings = {
     'strays'      : '13Strayz',
     'stray'      : '13Strayz',
     'manor'       : '14Manor',
+    'dullahans'        : '15Dullahans',
+    'dullahan'        : '15Dullahans',
     'admc'        : '15ADMC',
     'chaoslegion' : '16ChaosLegion',
     'clowns'      : '17Clowns',
