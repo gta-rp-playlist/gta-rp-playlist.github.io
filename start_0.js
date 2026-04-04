@@ -4,6 +4,7 @@ const categoryMappings = {
     'cops'        : '01Cops',
     'lspd'        : '02LSPD',
     'bcso'        : '03BCSO',
+    'odpd'        : '03ODPD',
     'marshalls'   : '04Marshalls',
     'government'  : '06Government',
     'doctors'     : '07Doctors',
