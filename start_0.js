@@ -27,6 +27,7 @@ const categoryMappings = {
     'chaoslegion' : '16ChaosLegion',
     'clowns'      : '17Clowns',
     'saints'      : '18Saints',
+    'vice'      : '18Vice',
     'fnf'         : '19FnF',
     'fatf'        : '19FnF',
     'f&f'         : '19FnF',
