@@ -1,4 +1,3 @@
-
 function sortCategories() {
     var sidebar = document.getElementById('sidebar');
     var categories = Array.from(sidebar.getElementsByClassName('category'));
@@ -137,7 +136,6 @@ function fetchAndUpdateSidebar() {
         .catch(() => {});
 }
 
-
 function findUserCategory(username) {
     const items = document.querySelectorAll('.sub-item');
     for (let item of items) {
@@ -169,6 +167,7 @@ function fetchAndUpdateSidebar_none() {
         })
         .catch(() => {});
 }
+
 function fetchAndUpdateNumbers() {
     Promise.all([
         fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/numbers.txt').then(r => r.text()),
@@ -181,7 +180,6 @@ function fetchAndUpdateNumbers() {
         const usernameSet = new Set();
         let grandTotal = 0;
 
-        // Collect usernames + viewer counts
         doc.querySelectorAll('.sub-item').forEach(item => {
             const category = item.getAttribute('data-category');
             const usernameEl = item.querySelector('.username');
@@ -189,26 +187,25 @@ function fetchAndUpdateNumbers() {
 
             const username = usernameEl.textContent.trim();
 
-            // ✅ Exclude any group with "lspd" or "bcso" anywhere in data-category
-            if (!/lspd|bcso/i.test(category)) {
+            // ❌ EXCLUDE lspd, bcso, 03odpd
+            if (!/lspd|bcso|03odpd/i.test(category)) {
                 usernameSet.add(username);
             }
 
-            // Count viewers (but DO count viewers from excluded categories? or exclude them too?)
             const viewerText = item.querySelector('.viewer-count')?.textContent || "";
             const numbers = viewerText.match(/\d+/g);
-            if (numbers && !/lspd|bcso/i.test(category)) { // <-- Exclude viewer counts also
+            if (numbers && !/lspd|bcso|03odpd/i.test(category)) { 
                 grandTotal += numbers.map(Number).reduce((a, b) => a + b, 0);
             }
         });
 
-        // Check for 01Cops that aren’t in LSPD or BCSO
+        // Check for 01Cops not in excluded groups
         const copsUsernames = [];
         doc.querySelectorAll('.sub-item[data-category="01Cops"]').forEach(item => {
             const username = item.querySelector('.username')?.textContent.trim();
             if (username) {
                 const inExcluded = [...doc.querySelectorAll('.sub-item')].some(u =>
-                    /lspd|bcso/i.test(u.getAttribute('data-category')) &&
+                    /lspd|bcso|03odpd/i.test(u.getAttribute('data-category')) &&
                     u.querySelector('.username')?.textContent.trim() === username
                 );
                 if (!inExcluded) {
@@ -218,7 +215,7 @@ function fetchAndUpdateNumbers() {
         });
 
         if (copsUsernames.length > 0) {
-            console.log("🔍 01Cops not in LSPD/BCSO:", copsUsernames);
+            console.log("🔍 01Cops not in LSPD/BCSO/03ODPD:", copsUsernames);
         }
 
         const updatedNumbers = numbersData.replace(
@@ -232,6 +229,7 @@ function fetchAndUpdateNumbers() {
     })
     .catch(() => {});
 }
+
 function fetchAndUpdateSidebar_2() {
     fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data2.txt')
         .then(r => {
@@ -257,6 +255,7 @@ function fetchAndUpdateSidebar_2() {
         })
         .catch(() => {});
 }
+
 function fetchAndUpdateSidebar_2_none() {
     fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/data2.txt')
         .then(r => {
@@ -277,6 +276,7 @@ function fetchAndUpdateSidebar_2_none() {
         })
         .catch(() => {});
 }
+
 function fetchAndUpdateNumbers_2() {
     fetch('https://raw.githubusercontent.com/gta-rp-playlist/gta-rp-playlist.github.io/refs/heads/main/numbers2.txt')
         .then(r => {
