@@ -1,83 +1,75 @@
-    <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
-      <div class="sub-item" data-category="01Cops" data-title="weewoO - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_alliumm-854x480.jpg" data-viewers="96" onclick="playStream('alliumm')">
-        <span class="username">alliumm</span>
-        <span class="viewer-count">🔴96</span>
+    <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
+      <div class="sub-item" data-category="30Merchants" data-title="Bianca Wade - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_amanthi___-854x480.jpg" data-viewers="115" onclick="playStream('amanthi___')">
+        <span class="username">amanthi___</span>
+        <span class="viewer-count">🔴115</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="371 Sgt-Wildlife Warden Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="31" onclick="playStream('ollie2313')">
+    <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
+      <div class="sub-item" data-category="01Cops" data-title="371 Sgt-Wildlife Warden Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="32" onclick="playStream('ollie2313')">
         <span class="username">ollie2313</span>
-        <span class="viewer-count">🔴31</span>
+        <span class="viewer-count">🔴32</span>
       </div>
       <div class="sub-item" data-category="01Cops" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="1" onclick="playStream('Hellknight86')">
         <span class="username">Hellknight86</span>
         <span class="viewer-count">🔴1</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Richard Dark | NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/V80R4tY7Pv3l/FFcw6z9eCaNJ/480.webp" data-viewers="282" onclick="playStream('sock22')">
-        <span class="username">sock22</span>
-        <span class="viewer-count">🟢282</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="Perry Falken | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/WTDrLuZ6TCGl/480.webp" data-viewers="408" onclick="playStream('harmless')">
+      <div class="sub-item" data-category="01Cops" data-title="Perry Falken | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/WTDrLuZ6TCGl/480.webp" data-viewers="415" onclick="playStream('harmless')">
         <span class="username">harmless</span>
-        <span class="viewer-count">🟢408</span>
+        <span class="viewer-count">🟢415</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="CHIEF OF POLICE KYLE PRED - nopixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/JkS6aJz1H9En/hnWRZGccqYb2/480.webp" data-viewers="403" onclick="playStream('kyle')">
+      <div class="sub-item" data-category="01Cops" data-title="Richard Dark | NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/V80R4tY7Pv3l/FFcw6z9eCaNJ/480.webp" data-viewers="257" onclick="playStream('sock22')">
+        <span class="username">sock22</span>
+        <span class="viewer-count">🟢257</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="CHIEF OF POLICE KYLE PRED - nopixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/JkS6aJz1H9En/hnWRZGccqYb2/480.webp" data-viewers="454" onclick="playStream('kyle')">
         <span class="username">kyle</span>
-        <span class="viewer-count">🟢403</span>
+        <span class="viewer-count">🟢454</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Cpt. Maeve Wolfe | BCSO | NP 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/82ce1Bpge2L7/sORcEVzQvKHq/480.webp" data-viewers="93" onclick="playStream('cydrose')">
+      <div class="sub-item" data-category="01Cops" data-title="Cpt. Maeve Wolfe | BCSO | NP 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/82ce1Bpge2L7/sORcEVzQvKHq/480.webp" data-viewers="97" onclick="playStream('cydrose')">
         <span class="username">cydrose</span>
-        <span class="viewer-count">🟢93</span>
+        <span class="viewer-count">🟢97</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Ass. Chief Viv | LSPD | NoPixel 4.0 | !socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/LVnlaU4CYUPQ/lQg3kEh8zMt6/480.webp" data-viewers="342" onclick="playStream('berryyboo')">
-        <span class="username">berryyboo</span>
-        <span class="viewer-count">🟢342</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="Nopixel WL | 545 Sgt.Nova 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BXePZgJ6R3QE/e57JImVQhEpH/480.webp" data-viewers="34" onclick="playStream('rerolldota')">
+      <div class="sub-item" data-category="01Cops" data-title="Nopixel WL | 545 Sgt.Nova 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BXePZgJ6R3QE/e57JImVQhEpH/480.webp" data-viewers="38" onclick="playStream('rerolldota')">
         <span class="username">rerolldota</span>
-        <span class="viewer-count">🟢10 🔴24</span>
+        <span class="viewer-count">🟢10 🔴28</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="Ass. Chief Viv | LSPD | NoPixel 4.0 | !socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/LVnlaU4CYUPQ/lQg3kEh8zMt6/480.webp" data-viewers="353" onclick="playStream('berryyboo')">
+        <span class="username">berryyboo</span>
+        <span class="viewer-count">🟢353</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="48GSF">48GSF</div>
+      <div class="sub-item" data-category="48GSF" data-title="Dick Chiclets - Nopixel - merch" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_flomcnasty_tv-854x480.jpg" data-viewers="35" onclick="playStream('FloMcNasty_TV')">
+        <span class="username">FloMcNasty_TV</span>
+        <span class="viewer-count">🔴35</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
+      <div class="sub-item" data-category="03BCSO" data-title="371 Sgt-Wildlife Warden Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="32" onclick="playStream('ollie2313')">
+        <span class="username">ollie2313</span>
+        <span class="viewer-count">🔴32</span>
+      </div>
+      <div class="sub-item" data-category="03BCSO" data-title="Richard Dark | NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/V80R4tY7Pv3l/FFcw6z9eCaNJ/480.webp" data-viewers="257" onclick="playStream('sock22')">
+        <span class="username">sock22</span>
+        <span class="viewer-count">🟢257</span>
+      </div>
+      <div class="sub-item" data-category="03BCSO" data-title="Cpt. Maeve Wolfe | BCSO | NP 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/82ce1Bpge2L7/sORcEVzQvKHq/480.webp" data-viewers="97" onclick="playStream('cydrose')">
+        <span class="username">cydrose</span>
+        <span class="viewer-count">🟢97</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
-      <div class="sub-item" data-category="02LSPD" data-title="weewoO - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_alliumm-854x480.jpg" data-viewers="96" onclick="playStream('alliumm')">
-        <span class="username">alliumm</span>
-        <span class="viewer-count">🔴96</span>
-      </div>
       <div class="sub-item" data-category="02LSPD" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="1" onclick="playStream('Hellknight86')">
         <span class="username">Hellknight86</span>
         <span class="viewer-count">🔴1</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Perry Falken | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/WTDrLuZ6TCGl/480.webp" data-viewers="408" onclick="playStream('harmless')">
+      <div class="sub-item" data-category="02LSPD" data-title="Perry Falken | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/WTDrLuZ6TCGl/480.webp" data-viewers="415" onclick="playStream('harmless')">
         <span class="username">harmless</span>
-        <span class="viewer-count">🟢408</span>
+        <span class="viewer-count">🟢415</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Ass. Chief Viv | LSPD | NoPixel 4.0 | !socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/LVnlaU4CYUPQ/lQg3kEh8zMt6/480.webp" data-viewers="342" onclick="playStream('berryyboo')">
-        <span class="username">berryyboo</span>
-        <span class="viewer-count">🟢342</span>
-      </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Nopixel WL | 545 Sgt.Nova 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BXePZgJ6R3QE/e57JImVQhEpH/480.webp" data-viewers="34" onclick="playStream('rerolldota')">
+      <div class="sub-item" data-category="02LSPD" data-title="Nopixel WL | 545 Sgt.Nova 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BXePZgJ6R3QE/e57JImVQhEpH/480.webp" data-viewers="38" onclick="playStream('rerolldota')">
         <span class="username">rerolldota</span>
-        <span class="viewer-count">🟢10 🔴24</span>
+        <span class="viewer-count">🟢10 🔴28</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
-      <div class="sub-item" data-category="30Merchants" data-title="Bianca Wade - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_amanthi___-854x480.jpg" data-viewers="58" onclick="playStream('amanthi___')">
-        <span class="username">amanthi___</span>
-        <span class="viewer-count">🔴58</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="48GSF">48GSF</div>
-      <div class="sub-item" data-category="48GSF" data-title="Dick Chiclets - Nopixel - merch" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_flomcnasty_tv-854x480.jpg" data-viewers="33" onclick="playStream('FloMcNasty_TV')">
-        <span class="username">FloMcNasty_TV</span>
-        <span class="viewer-count">🔴33</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
-      <div class="sub-item" data-category="03BCSO" data-title="371 Sgt-Wildlife Warden Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="31" onclick="playStream('ollie2313')">
-        <span class="username">ollie2313</span>
-        <span class="viewer-count">🔴31</span>
-      </div>
-      <div class="sub-item" data-category="03BCSO" data-title="Richard Dark | NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/V80R4tY7Pv3l/FFcw6z9eCaNJ/480.webp" data-viewers="282" onclick="playStream('sock22')">
-        <span class="username">sock22</span>
-        <span class="viewer-count">🟢282</span>
-      </div>
-      <div class="sub-item" data-category="03BCSO" data-title="Cpt. Maeve Wolfe | BCSO | NP 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/82ce1Bpge2L7/sORcEVzQvKHq/480.webp" data-viewers="93" onclick="playStream('cydrose')">
-        <span class="username">cydrose</span>
-        <span class="viewer-count">🟢93</span>
+      <div class="sub-item" data-category="02LSPD" data-title="Ass. Chief Viv | LSPD | NoPixel 4.0 | !socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/LVnlaU4CYUPQ/lQg3kEh8zMt6/480.webp" data-viewers="353" onclick="playStream('berryyboo')">
+        <span class="username">berryyboo</span>
+        <span class="viewer-count">🟢353</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
       <div class="sub-item" data-category="58Uncategorized" data-title="Glimpse of the future - Clemmie - NoPixel WL - c:" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_falloftheseason-854x480.jpg" data-viewers="1" onclick="playStream('FalloftheSeason')">
@@ -89,39 +81,39 @@
         <span class="viewer-count">🔴1</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
-      <div class="sub-item" data-category="10Besties" data-title="Lucky Torkel | Besties | Nopixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/SdnLQHf3LoI5/5lRFPrbx487p/480.webp" data-viewers="532" onclick="playStream('sukhi_1')">
-        <span class="username">sukhi_1</span>
-        <span class="viewer-count">🟢532</span>
-      </div>
-      <div class="sub-item" data-category="10Besties" data-title="🐸 Zuck | Besties | NoPixel 4.0 Twitter @zuck_ttv !socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/0UScKXMGCpnm/7sx3MfYI6cgc/480.webp" data-viewers="77" onclick="playStream('zuck')">
+      <div class="sub-item" data-category="10Besties" data-title="🐸 Zuck | Besties | NoPixel 4.0 Twitter @zuck_ttv !socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/0UScKXMGCpnm/7sx3MfYI6cgc/480.webp" data-viewers="80" onclick="playStream('zuck')">
         <span class="username">zuck</span>
-        <span class="viewer-count">🟢77</span>
+        <span class="viewer-count">🟢80</span>
       </div>
-      <div class="sub-item" data-category="10Besties" data-title="SUBATHON | REAL | SHERIFF | Besties | NOPIXEL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/ZCUe09zqK67K/5Gm8haCB4fjO/480.webp" data-viewers="469" onclick="playStream('travpiper')">
+      <div class="sub-item" data-category="10Besties" data-title="Lucky Torkel | Besties | Nopixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/SdnLQHf3LoI5/5lRFPrbx487p/480.webp" data-viewers="525" onclick="playStream('sukhi_1')">
+        <span class="username">sukhi_1</span>
+        <span class="viewer-count">🟢525</span>
+      </div>
+      <div class="sub-item" data-category="10Besties" data-title="SUBATHON | REAL | SHERIFF | Besties | NOPIXEL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/ZCUe09zqK67K/5Gm8haCB4fjO/480.webp" data-viewers="476" onclick="playStream('travpiper')">
         <span class="username">travpiper</span>
-        <span class="viewer-count">🟢469</span>
+        <span class="viewer-count">🟢476</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03ODPD">03ODPD</div>
-      <div class="sub-item" data-category="03ODPD" data-title="CHIEF OF POLICE KYLE PRED - nopixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/JkS6aJz1H9En/hnWRZGccqYb2/480.webp" data-viewers="403" onclick="playStream('kyle')">
+      <div class="sub-item" data-category="03ODPD" data-title="CHIEF OF POLICE KYLE PRED - nopixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/JkS6aJz1H9En/hnWRZGccqYb2/480.webp" data-viewers="454" onclick="playStream('kyle')">
         <span class="username">kyle</span>
-        <span class="viewer-count">🟢403</span>
+        <span class="viewer-count">🟢454</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="11Hydra">11Hydra</div>
-      <div class="sub-item" data-category="11Hydra" data-title="Lilly &quot;Megaphone Brat&quot; Bogorov || VENDETTA INITIATION, ZENDETTA THINGS || Variety later || Hydra NP WL || !gamersupps !yt 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/PZIwS4kwoRJN/jo6yj49Iu5Bu/480.webp" data-viewers="176" onclick="playStream('chillypanda')">
+      <div class="sub-item" data-category="11Hydra" data-title="Lilly &quot;Megaphone Brat&quot; Bogorov || VENDETTA INITIATION, ZENDETTA THINGS || Variety later || Hydra NP WL || !gamersupps !yt 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/PZIwS4kwoRJN/jo6yj49Iu5Bu/480.webp" data-viewers="166" onclick="playStream('chillypanda')">
         <span class="username">chillypanda</span>
-        <span class="viewer-count">🟢176</span>
+        <span class="viewer-count">🟢166</span>
       </div>
-      <div class="sub-item" data-category="11Hydra" data-title="Claude Petit - Hydra 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/uOlSV5HXb0np/CVzTurZ146f0/480.webp" data-viewers="426" onclick="playStream('kioshima')">
+      <div class="sub-item" data-category="11Hydra" data-title="Claude Petit - Hydra 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/uOlSV5HXb0np/CVzTurZ146f0/480.webp" data-viewers="405" onclick="playStream('kioshima')">
         <span class="username">kioshima</span>
-        <span class="viewer-count">🟢426</span>
+        <span class="viewer-count">🟢405</span>
       </div>
-      <div class="sub-item" data-category="11Hydra" data-title="Early bird gets the worm 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/CkU5UeUNGJCO/pqkcOB57DtIz/480.webp" data-viewers="227" onclick="playStream('jjfried')">
-        <span class="username">jjfried</span>
-        <span class="viewer-count">🟢227</span>
-      </div>
-      <div class="sub-item" data-category="11Hydra" data-title="oakley stallion 🎀 hydra | nopixel wl | @yuukidav 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/2Ig5I2t7whnd/mXAzP49dUDzc/480.webp" data-viewers="132" onclick="playStream('yuukidav')">
+      <div class="sub-item" data-category="11Hydra" data-title="oakley stallion 🎀 hydra | nopixel wl | @yuukidav 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/2Ig5I2t7whnd/mXAzP49dUDzc/480.webp" data-viewers="122" onclick="playStream('yuukidav')">
         <span class="username">yuukidav</span>
-        <span class="viewer-count">🟢132</span>
+        <span class="viewer-count">🟢122</span>
+      </div>
+      <div class="sub-item" data-category="11Hydra" data-title="Early bird gets the worm 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/CkU5UeUNGJCO/pqkcOB57DtIz/480.webp" data-viewers="229" onclick="playStream('jjfried')">
+        <span class="username">jjfried</span>
+        <span class="viewer-count">🟢229</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="16ChaosLegion">16ChaosLegion</div>
       <div class="sub-item" data-category="16ChaosLegion" data-title="Glimpse of the future | Clemmie | NoPixel WL | c: 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/O09CWdM6pYzN/hrz2tvWez8mJ/480.webp" data-viewers="2" onclick="playStream('falloftheseason')">
