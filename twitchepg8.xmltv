@@ -2,10 +2,6 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="Allium.us">
-<display-name>Allium</display-name>
-</channel>
-
 <channel id="FalloftheSeason.us">
 <display-name>FalloftheSeason</display-name>
 </channel>
@@ -14,8 +10,16 @@
 <display-name>lemon7__</display-name>
 </channel>
 
+<channel id="Allium.us">
+<display-name>Allium</display-name>
+</channel>
+
 <channel id="Hellknight86.us">
 <display-name>Hellknight86</display-name>
+</channel>
+
+<channel id="hotted89.us">
+<display-name>hotted89</display-name>
 </channel>
 
 <channel id="kittenqg.us">
@@ -24,10 +28,6 @@
 
 <channel id="charlthemisfit.us">
 <display-name>charlthemisfit</display-name>
-</channel>
-
-<channel id="hotted89.us">
-<display-name>hotted89</display-name>
 </channel>
 
 <channel id="whippy.us">
@@ -74,12 +74,9 @@
 <display-name>hotted89</display-name>
 </channel>
 
-<programme start="20260606062255 +0000" stop="20260609012255 +0000" channel="Allium.us">
-<title lang="en"> weewOo - PD - Alice Liddell - NoPixel WL 🚨 </title>
-<desc lang="en"> Started: 01:22 am
-Playing: Grand Theft Auto V
-Viewers: 134 </desc>
-</programme>
+<channel id="rerolldota.us">
+<display-name>rerolldota</display-name>
+</channel>
 
 <programme start="20260606110450 +0000" stop="20260609060450 +0000" channel="FalloftheSeason.us">
 <title lang="en"> solo dolo stuff - Clem - NoPixel WL - c: </title>
@@ -95,6 +92,13 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
+<programme start="20260606062255 +0000" stop="20260609012255 +0000" channel="Allium.us">
+<title lang="en"> weewOo - PD - Alice Liddell - NoPixel WL 🚨 </title>
+<desc lang="en"> Started: 01:22 am
+Playing: Grand Theft Auto V
+Viewers: 131 </desc>
+</programme>
+
 <programme start="20260606082733 +0000" stop="20260609032733 +0000" channel="Hellknight86.us">
 <title lang="en"> LSPD Officer Viktor Schmidt - Nopixel WL </title>
 <desc lang="en"> Started: 03:27 am
@@ -102,102 +106,109 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
+<programme start="20260606115955 +0000" stop="20260609065955 +0000" channel="hotted89.us">
+<title lang="en"> 389 Matthew Espinoz - BCSO - Nopixel WL </title>
+<desc lang="en"> Started: 6:59AM
+Playing: Grand Theft Auto V
+Viewers: 21 </desc>
+</programme>
+
 <programme start="20260606100308 +0000" stop="20260609050308 +0000" channel="kittenqg.us">
 <title lang="en"> Lily Night-Sky - ProdigyRP - NoPixel 5.0 Invitee - 18 - disclaimer </title>
 <desc lang="en"> Started: 5:03AM
 Playing: Grand Theft Auto V
-Viewers: 65 </desc>
+Viewers: 62 </desc>
 </programme>
 
 <programme start="20260606101634 +0000" stop="20260609051634 +0000" channel="charlthemisfit.us">
 <title lang="en"> Maeve Gray - Chill AU vibes f0r now - nopixel </title>
 <desc lang="en"> Started: 5:16AM
 Playing: Grand Theft Auto V
-Viewers: 31 </desc>
+Viewers: 30 </desc>
 </programme>
 
-<programme start="20260606115955 +0000" stop="20260609065955 +0000" channel="hotted89.us">
-<title lang="en"> 389 Matthew Espinoz - BCSO - Nopixel WL </title>
-<desc lang="en"> Started: 6:59AM
-Playing: Grand Theft Auto V
-Viewers: 12 </desc>
-</programme>
-
-<programme start="20260606000000 +0000" stop="20260609070655 +0000" channel="whippy.us">
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="whippy.us">
 <title lang="en"> SUBATHON - WHIPPY.SHOP - CROCODILE STEVE - PRODIGY 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 158 </desc>
 </programme>
 
-<programme start="20260606000000 +0000" stop="20260609070655 +0000" channel="simo.us">
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="simo.us">
 <title lang="en"> Reggie Might | We are a good egg | NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 14 </desc>
 </programme>
 
-<programme start="20260606000000 +0000" stop="20260609070655 +0000" channel="silbullet.us">
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="silbullet.us">
 <title lang="en"> Lt. Maple 297 | LSPD | NoPixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 6 </desc>
 </programme>
 
-<programme start="20260606000000 +0000" stop="20260609070655 +0000" channel="roxmiral.us">
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="roxmiral.us">
 <title lang="en"> Nikki Khan - another one - NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 50 </desc>
 </programme>
 
-<programme start="20260606000000 +0000" stop="20260609070655 +0000" channel="aus24.us">
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="aus24.us">
 <title lang="en"> Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260606000000 +0000" stop="20260609070655 +0000" channel="sock22.us">
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="sock22.us">
 <title lang="en"> Richard Dark | NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 21 </desc>
 </programme>
 
-<programme start="20260606000000 +0000" stop="20260609070655 +0000" channel="sukhi_1.us">
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel | Besties | Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 25 </desc>
 </programme>
 
-<programme start="20260606000000 +0000" stop="20260609070655 +0000" channel="wildflowerwonder.us">
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="wildflowerwonder.us">
 <title lang="en"> Samantha Sanders (累) - Dragon Horde Gold Collector | Kaneshiro 兵士 | Yokai 妖怪 | NoPixelWL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 13 </desc>
 </programme>
 
-<programme start="20260606000000 +0000" stop="20260609070655 +0000" channel="lemon77.us">
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="lemon77.us">
 <title lang="en"> Roy Hughes | Nopixel 4.0 WL | The Consortium | stream of all time 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260606000000 +0000" stop="20260609070655 +0000" channel="falloftheseason.us">
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="falloftheseason.us">
 <title lang="en"> solo dolo stuff | Clem | NoPixel WL | c: 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260606000000 +0000" stop="20260609070655 +0000" channel="hotted89.us">
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="hotted89.us">
 <title lang="en"> 389 Matthew Espinoz - BCSO - Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
+</programme>
+
+<programme start="20260606000000 +0000" stop="20260609071255 +0000" channel="rerolldota.us">
+<title lang="en"> Nopixel WL | 545 Sgt.Nova 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 
+Playing: Grand Theft Auto V (GTA)
+Viewers: 1 </desc>
 </programme>
 
 
