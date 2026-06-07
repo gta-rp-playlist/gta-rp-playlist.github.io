@@ -12,21 +12,21 @@
         <span class="viewer-count">🔴24</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
-      <div class="sub-item" data-category="01Cops" data-title="weewoO - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_allium-854x480.jpg" data-viewers="67" onclick="playStream('Allium')">
+      <div class="sub-item" data-category="01Cops" data-title="weewoO - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_allium-854x480.jpg" data-viewers="72" onclick="playStream('Allium')">
         <span class="username">Allium</span>
-        <span class="viewer-count">🔴67</span>
+        <span class="viewer-count">🔴72</span>
       </div>
       <div class="sub-item" data-category="01Cops" data-title="Remi Ironside - Little Guy - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="38" onclick="playStream('UnicornFrapp')">
         <span class="username">UnicornFrapp</span>
         <span class="viewer-count">🔴38</span>
       </div>
+      <div class="sub-item" data-category="01Cops" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="1" onclick="playStream('Hellknight86')">
+        <span class="username">Hellknight86</span>
+        <span class="viewer-count">🔴1</span>
+      </div>
       <div class="sub-item" data-category="01Cops" data-title="Short Shift - Officer Fontaine - NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_coolman2315-854x480.jpg" data-viewers="1" onclick="playStream('coolman2315')">
         <span class="username">coolman2315</span>
         <span class="viewer-count">🔴1</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="2" onclick="playStream('Hellknight86')">
-        <span class="username">Hellknight86</span>
-        <span class="viewer-count">🔴2</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
       <div class="sub-item" data-category="03BCSO" data-title="Remi Ironside - Little Guy - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="38" onclick="playStream('UnicornFrapp')">
@@ -44,19 +44,19 @@
         <span class="viewer-count">🔴11</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="41Crayons">41Crayons</div>
-      <div class="sub-item" data-category="41Crayons" data-title="~💎Ruby Sapphire💎 ~ 💜L-Crim Purple Crayon💜 ~ NoPixel 4.0 WL ~ Come Say Hi ~" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_emalee12-854x480.jpg" data-viewers="8" onclick="playStream('Emalee12')">
+      <div class="sub-item" data-category="41Crayons" data-title="~💎Ruby Sapphire💎 ~ 💜L-Crim Purple Crayon💜 ~ NoPixel 4.0 WL ~ Come Say Hi ~" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_emalee12-854x480.jpg" data-viewers="11" onclick="playStream('Emalee12')">
         <span class="username">Emalee12</span>
-        <span class="viewer-count">🔴8</span>
+        <span class="viewer-count">🔴11</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
+      <div class="sub-item" data-category="02LSPD" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="1" onclick="playStream('Hellknight86')">
+        <span class="username">Hellknight86</span>
+        <span class="viewer-count">🔴1</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="04Marshalls">04Marshalls</div>
       <div class="sub-item" data-category="04Marshalls" data-title="Jiang Wayne - cooked - NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nismodoma-854x480.jpg" data-viewers="1" onclick="playStream('NismoDOMA')">
         <span class="username">NismoDOMA</span>
         <span class="viewer-count">🔴1</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
-      <div class="sub-item" data-category="02LSPD" data-title="LSPD Officer Viktor Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="2" onclick="playStream('Hellknight86')">
-        <span class="username">Hellknight86</span>
-        <span class="viewer-count">🔴2</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="27Crackheads">27Crackheads</div>
       <div class="sub-item" data-category="27Crackheads" data-title="Margo Escargot, Crack Roach | NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_margothesnail-854x480.jpg" data-viewers="50" onclick="playStream('margothesnail')">
