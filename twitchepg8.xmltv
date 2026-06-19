@@ -2,16 +2,20 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="rerolldota.us">
-<display-name>rerolldota</display-name>
-</channel>
-
 <channel id="amanthi___.us">
 <display-name>amanthi___</display-name>
 </channel>
 
+<channel id="rerolldota.us">
+<display-name>rerolldota</display-name>
+</channel>
+
 <channel id="ollie2313.us">
 <display-name>ollie2313</display-name>
+</channel>
+
+<channel id="CrayJayxD.us">
+<display-name>CrayJayxD</display-name>
 </channel>
 
 <channel id="CrayJayxD.us">
@@ -36,6 +40,14 @@
 
 <channel id="luka_aus.us">
 <display-name>luka_aus</display-name>
+</channel>
+
+<channel id="umad.us">
+<display-name>umad</display-name>
+</channel>
+
+<channel id="Tqcoman.us">
+<display-name>Tqcoman</display-name>
 </channel>
 
 <channel id="im-baguette.us">
@@ -122,12 +134,9 @@
 <display-name>jeimiru</display-name>
 </channel>
 
-<programme start="20260619115832 +0000" stop="20260622065832 +0000" channel="rerolldota.us">
-<title lang="en"> Nopixel WL - 545 Sgt.Nova </title>
-<desc lang="en"> Started: 06:58 am
-Playing: Grand Theft Auto V
-Viewers: 40 </desc>
-</programme>
+<channel id="chillypanda.us">
+<display-name>chillypanda</display-name>
+</channel>
 
 <programme start="20260619063624 +0000" stop="20260622013624 +0000" channel="amanthi___.us">
 <title lang="en"> Bianca Wade - Zendetta - Nopixel WL 4.0 </title>
@@ -136,11 +145,25 @@ Playing: Grand Theft Auto V
 Viewers: 46 </desc>
 </programme>
 
+<programme start="20260619115832 +0000" stop="20260622065832 +0000" channel="rerolldota.us">
+<title lang="en"> Nopixel WL - 545 Sgt.Nova </title>
+<desc lang="en"> Started: 06:58 am
+Playing: Grand Theft Auto V
+Viewers: 37 </desc>
+</programme>
+
 <programme start="20260619131230 +0000" stop="20260622081230 +0000" channel="ollie2313.us">
 <title lang="en"> 371 Sgt-Wildlife Warden Matilda Murphy - BCSO - NoPixel WL 4.0 </title>
 <desc lang="en"> Started: 08:12 am
 Playing: Grand Theft Auto V
-Viewers: 18 </desc>
+Viewers: 23 </desc>
+</programme>
+
+<programme start="20260619105438 +0000" stop="20260622055438 +0000" channel="CrayJayxD.us">
+<title lang="en"> Looking For Adventures ~Zendetta Layla Cray Dragonav~ Short Stream - Nopixel WL </title>
+<desc lang="en"> Started: 05:54 am
+Playing: Grand Theft Auto V
+Viewers: 10 </desc>
 </programme>
 
 <programme start="20260619105438 +0000" stop="20260622055438 +0000" channel="CrayJayxD.us">
@@ -161,172 +184,193 @@ Viewers: 3 </desc>
 <title lang="en"> Phoebe Violet - Consortium - BIG HEIST BIG HEIST - NP WL </title>
 <desc lang="en"> Started: 8:06AM
 Playing: Grand Theft Auto V
-Viewers: 9 </desc>
+Viewers: 12 </desc>
 </programme>
 
 <programme start="20260619120243 +0000" stop="20260622070243 +0000" channel="artbybaha.us">
 <title lang="en"> Cuddles - Consortium - Heist Day - Nopixel WL </title>
 <desc lang="en"> Started: 7:02AM
 Playing: Grand Theft Auto V
-Viewers: 52 </desc>
+Viewers: 55 </desc>
 </programme>
 
 <programme start="20260619104453 +0000" stop="20260622054453 +0000" channel="falloftheseason.us">
 <title lang="en"> another day - Clem - NoPixel WL - c: </title>
 <desc lang="en"> Started: 5:44AM
 Playing: Grand Theft Auto V
-Viewers: 25 </desc>
+Viewers: 22 </desc>
 </programme>
 
 <programme start="20260619122038 +0000" stop="20260622072038 +0000" channel="luka_aus.us">
 <title lang="en"> Nopixel WL - Gazz Maloo - LostMC </title>
 <desc lang="en"> Started: 7:20AM
 Playing: Grand Theft Auto V
-Viewers: 11 </desc>
+Viewers: 14 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="im-baguette.us">
+<programme start="20260619132849 +0000" stop="20260622082849 +0000" channel="umad.us">
+<title lang="en"> Sergio Lopez - 🐍Hydra🐍 - NoPixel </title>
+<desc lang="en"> Started: 8:28AM
+Playing: Grand Theft Auto V
+Viewers: 9 </desc>
+</programme>
+
+<programme start="20260619132531 +0000" stop="20260622082531 +0000" channel="Tqcoman.us">
+<title lang="en"> Tay Quan of ze conzortium - robbing the vault or sum - NoPixel WL - </title>
+<desc lang="en"> Started: 08:25 am
+Playing: Grand Theft Auto V
+Viewers: 5 </desc>
+</programme>
+
+<programme start="20260619000000 +0000" stop="20260622083652 +0000" channel="im-baguette.us">
 <title lang="en"> TONIGHT IS THE NIGHT! PROLLY DRAMA BUT ALSO PROLLY PARTNER (we are very very close)🙏 | Trips | KC x Yokai 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="leonarwho.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="leonarwho.us">
 <title lang="en"> Jack Bilby | LSPD | NoPixel WL 4.0 GTA RP | !discord !socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 21 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="aus24.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="aus24.us">
 <title lang="en"> Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 7 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="harmless.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="harmless.us">
 <title lang="en"> !GTAMarathon | Perry Falken | NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 453 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="sock22.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="sock22.us">
 <title lang="en"> Richard Dark | 📝CID Planning🔍 | NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 3 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="roxmiral.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="roxmiral.us">
 <title lang="en"> Nikki Khan - You are a WIDOW Nikki - NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="sukhi_1.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="sukhi_1.us">
 <title lang="en"> Lucky Torkel | Besties | Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 55 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="thatguygp.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="thatguygp.us">
 <title lang="en"> Jamal | BESTIES | NOPIXEL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 32 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="falloftheseason.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="falloftheseason.us">
 <title lang="en"> another day | Clem | NoPixel WL | c: 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="travpiper.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="travpiper.us">
 <title lang="en"> PETERS | NOPIXEL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="neverossa.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="neverossa.us">
 <title lang="en"> ✨dawn✨ (LEARNING TO DRAW TOO) !kofi 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="kioshima.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="kioshima.us">
 <title lang="en"> Claude Petit - Hydra 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 57 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="novazfov.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="novazfov.us">
 <title lang="en"> Zeek Kacem nopixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="rerolldota.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="rerolldota.us">
 <title lang="en"> Nopixel WL | 545 Sgt.Nova 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="cydrose.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="cydrose.us">
 <title lang="en"> Captain Maeve Wolfe | BCSO | NP 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 24 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="stankxo.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="stankxo.us">
 <title lang="en"> raccoon in the AM 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 18 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="luka_aus.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="luka_aus.us">
 <title lang="en"> Nopixel WL | Gazz Maloo | LostMC 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="oozi.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="oozi.us">
 <title lang="en"> larry knox, nopixelwl 🧛 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 6 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="defac3d.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="defac3d.us">
 <title lang="en"> DENZEL - NOPIXEL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 16 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="claytonerp.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="claytonerp.us">
 <title lang="en"> ODPD WAGES WAR AGAINST THE MARSHALS | NOPIXEL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 22 </desc>
 </programme>
 
-<programme start="20260619000000 +0000" stop="20260622082818 +0000" channel="jeimiru.us">
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="jeimiru.us">
 <title lang="en"> Benz | Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 
+Playing: Grand Theft Auto V (GTA)
+Viewers: 0 </desc>
+</programme>
+
+<programme start="20260619000000 +0000" stop="20260622083653 +0000" channel="chillypanda.us">
+<title lang="en"> Lilly "Megaphone Brat" Bogorov || actually on the run??? mecha chameleon lobby later|| Hydra x Zendetta || NP WL || !gamersupps !yt 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
