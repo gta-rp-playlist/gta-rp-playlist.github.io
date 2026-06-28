@@ -3,14 +3,23 @@
         <span class="username">uhsnow</span>
         <span class="viewer-count">🔴718</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Nopixel WL - 545 Sgt.Nova" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_rerolldota-854x480.jpg" data-viewers="31" onclick="playStream('rerolldota')">
+      <div class="sub-item" data-category="01Cops" data-title="Kyle Pred is the true Villain - nopixel 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kyle-854x480.jpg" data-viewers="19" onclick="playStream('kyle')">
+        <span class="username">kyle</span>
+        <span class="viewer-count">🔴19</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="Nopixel WL - 545 Sgt.Nova" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_rerolldota-854x480.jpg" data-viewers="36" onclick="playStream('rerolldota')">
         <span class="username">rerolldota</span>
-        <span class="viewer-count">🔴31</span>
+        <span class="viewer-count">🔴36</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="03ODPD">03ODPD</div>
+      <div class="sub-item" data-category="03ODPD" data-title="Kyle Pred is the true Villain - nopixel 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kyle-854x480.jpg" data-viewers="19" onclick="playStream('kyle')">
+        <span class="username">kyle</span>
+        <span class="viewer-count">🔴19</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
-      <div class="sub-item" data-category="02LSPD" data-title="Nopixel WL - 545 Sgt.Nova" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_rerolldota-854x480.jpg" data-viewers="31" onclick="playStream('rerolldota')">
+      <div class="sub-item" data-category="02LSPD" data-title="Nopixel WL - 545 Sgt.Nova" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_rerolldota-854x480.jpg" data-viewers="36" onclick="playStream('rerolldota')">
         <span class="username">rerolldota</span>
-        <span class="viewer-count">🔴31</span>
+        <span class="viewer-count">🔴36</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
       <div class="sub-item" data-category="30Merchants" data-title="Phoebe Violet | Consortium | never getting arrested (too good at driving pov) | NP WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_katecirrus-854x480.jpg" data-viewers="80" onclick="playStream('katecirrus')">
