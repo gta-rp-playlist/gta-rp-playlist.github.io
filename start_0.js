@@ -8,6 +8,7 @@ const categoryMappings = {
     'marshalls'   : '04Marshalls',
     'government'  : '06Government',
     'doctors'     : '07Doctors',
+    'cleveland'    : '09Cleveland',
     'babylon'    : '09Babylon',
     'ncypress'    : '09NCypress',
     'nourf'       : '09NCypress',
