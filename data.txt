@@ -14,34 +14,43 @@
         <span class="viewer-count">🔴43</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
+      <div class="sub-item" data-category="01Cops" data-title="weEwoo - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_allium-854x480.jpg" data-viewers="31" onclick="playStream('Allium')">
+        <span class="username">Allium</span>
+        <span class="viewer-count">🔴31</span>
+      </div>
       <div class="sub-item" data-category="01Cops" data-title="Elle cop - Nopixel WL - LSPD" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_purplebeansprout-854x480.jpg" data-viewers="2" onclick="playStream('Purplebeansprout')">
         <span class="username">Purplebeansprout</span>
         <span class="viewer-count">🔴2</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/uJHg8whVk2KW/480.webp" data-viewers="209" onclick="playStream('aus24')">
+      <div class="sub-item" data-category="01Cops" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/uJHg8whVk2KW/480.webp" data-viewers="206" onclick="playStream('aus24')">
         <span class="username">aus24</span>
-        <span class="viewer-count">🟢209</span>
+        <span class="viewer-count">🟢206</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Rodney Fuel | Sorting out issues | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/bH7q17B5Pdae/XTA5gkrOjibB/480.webp" data-viewers="319" onclick="playStream('simo')">
+      <div class="sub-item" data-category="01Cops" data-title="Rodney Fuel | Sorting out issues | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/bH7q17B5Pdae/XTA5gkrOjibB/480.webp" data-viewers="321" onclick="playStream('simo')">
         <span class="username">simo</span>
-        <span class="viewer-count">🟢319</span>
+        <span class="viewer-count">🟢321</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
-      <div class="sub-item" data-category="10Besties" data-title="gamin 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/felYuVId0iZG/8NosEDbjmpqz/480.webp" data-viewers="48" onclick="playStream('simpless')">
+      <div class="sub-item" data-category="10Besties" data-title="gamin 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/felYuVId0iZG/8NosEDbjmpqz/480.webp" data-viewers="74" onclick="playStream('simpless')">
         <span class="username">simpless</span>
-        <span class="viewer-count">🟢48</span>
+        <span class="viewer-count">🟢74</span>
       </div>
-      <div class="sub-item" data-category="10Besties" data-title="Maynard &#39;Idiot&#39; Schmidt | Besties | NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/PLXzw32Y0gnI/480.webp" data-viewers="230" onclick="playStream('harmless')">
+      <div class="sub-item" data-category="10Besties" data-title="Maynard &#39;Idiot&#39; Schmidt | Besties | NoPixel 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/PLXzw32Y0gnI/480.webp" data-viewers="233" onclick="playStream('harmless')">
         <span class="username">harmless</span>
-        <span class="viewer-count">🟢230</span>
+        <span class="viewer-count">🟢233</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
-      <div class="sub-item" data-category="02LSPD" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/uJHg8whVk2KW/480.webp" data-viewers="209" onclick="playStream('aus24')">
+      <div class="sub-item" data-category="02LSPD" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/uJHg8whVk2KW/480.webp" data-viewers="206" onclick="playStream('aus24')">
         <span class="username">aus24</span>
-        <span class="viewer-count">🟢209</span>
+        <span class="viewer-count">🟢206</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Rodney Fuel | Sorting out issues | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/bH7q17B5Pdae/XTA5gkrOjibB/480.webp" data-viewers="319" onclick="playStream('simo')">
+      <div class="sub-item" data-category="02LSPD" data-title="Rodney Fuel | Sorting out issues | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/bH7q17B5Pdae/XTA5gkrOjibB/480.webp" data-viewers="321" onclick="playStream('simo')">
         <span class="username">simo</span>
-        <span class="viewer-count">🟢319</span>
+        <span class="viewer-count">🟢321</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="11Hydra">11Hydra</div>
+      <div class="sub-item" data-category="11Hydra" data-title="Jasper Johns l Hydra l 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Ck3jFIhRa3kK/cSZSyUhGqMJ1/480.webp" data-viewers="5" onclick="playStream('scratchrp')">
+        <span class="username">scratchrp</span>
+        <span class="viewer-count">🟢5</span>
       </div>
 
