@@ -47,11 +47,6 @@
         <span class="username">mikethebard</span>
         <span class="viewer-count">🔴118</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
-      <div class="sub-item" data-category="07Doctors" data-title="Kyra Roux-Warner | EMS Lieutenant | Married | NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_arttigg-854x480.jpg" data-viewers="1" onclick="playStream('arttigg')">
-        <span class="username">arttigg</span>
-        <span class="viewer-count">🔴1</span>
-      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
       <div class="sub-item" data-category="58Uncategorized" data-title="rp and then life is strange - nopixel 4.0 wl - 1 year affiliate anniversary" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_dylhazz-854x480.jpg" data-viewers="47" onclick="playStream('dylhazz')">
         <span class="username">dylhazz</span>
@@ -61,8 +56,13 @@
         <span class="username">JennaEmbers</span>
         <span class="viewer-count">🔴43</span>
       </div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="Eden Crest - Hopefully game doesnt crash again right - NoPixel WL GTA RP - meta" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_leviathren-854x480.jpg" data-viewers="2" onclick="playStream('leviathren')">
+      <div class="sub-item" data-category="58Uncategorized" data-title="Eden Crest - Hopefully game doesnt crash again right - NoPixel WL GTA RP - meta" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_leviathren-854x480.jpg" data-viewers="3" onclick="playStream('leviathren')">
         <span class="username">leviathren</span>
-        <span class="viewer-count">🔴2</span>
+        <span class="viewer-count">🔴3</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
+      <div class="sub-item" data-category="07Doctors" data-title="Kyra Roux-Warner | EMS Lieutenant | Married | NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_arttigg-854x480.jpg" data-viewers="1" onclick="playStream('arttigg')">
+        <span class="username">arttigg</span>
+        <span class="viewer-count">🔴1</span>
       </div>
 
