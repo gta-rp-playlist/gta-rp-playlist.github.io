@@ -1,42 +1,46 @@
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
-      <div class="sub-item" data-category="01Cops" data-title="Remi Ironside - Little Guy - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="57" onclick="playStream('UnicornFrapp')">
+      <div class="sub-item" data-category="01Cops" data-title="Remi Ironside - Little Guy - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="54" onclick="playStream('UnicornFrapp')">
         <span class="username">UnicornFrapp</span>
-        <span class="viewer-count">🔴57</span>
+        <span class="viewer-count">🔴54</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="weEwoo - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_allium-854x480.jpg" data-viewers="41" onclick="playStream('Allium')">
+      <div class="sub-item" data-category="01Cops" data-title="weEwoo - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_allium-854x480.jpg" data-viewers="43" onclick="playStream('Allium')">
         <span class="username">Allium</span>
-        <span class="viewer-count">🔴41</span>
+        <span class="viewer-count">🔴43</span>
       </div>
       <div class="sub-item" data-category="01Cops" data-title="Ethan Kayo | Probably a Short One | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/lu64m5ycYiXL/yQq5pynEHxUj/480.webp" data-viewers="12" onclick="playStream('thebigbrickz')">
         <span class="username">thebigbrickz</span>
         <span class="viewer-count">🟢12</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/fp8VMGq8XnrO/480.webp" data-viewers="202" onclick="playStream('aus24')">
+      <div class="sub-item" data-category="01Cops" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/fp8VMGq8XnrO/480.webp" data-viewers="195" onclick="playStream('aus24')">
         <span class="username">aus24</span>
-        <span class="viewer-count">🟢202</span>
+        <span class="viewer-count">🟢195</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
-      <div class="sub-item" data-category="03BCSO" data-title="Remi Ironside - Little Guy - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="57" onclick="playStream('UnicornFrapp')">
+      <div class="sub-item" data-category="03BCSO" data-title="Remi Ironside - Little Guy - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="54" onclick="playStream('UnicornFrapp')">
         <span class="username">UnicornFrapp</span>
-        <span class="viewer-count">🔴57</span>
+        <span class="viewer-count">🔴54</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
+      <div class="sub-item" data-category="10Besties" data-title="gamin 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/felYuVId0iZG/mymM9qkFCO2c/480.webp" data-viewers="133" onclick="playStream('simpless')">
+        <span class="username">simpless</span>
+        <span class="viewer-count">🟢133</span>
+      </div>
+      <div class="sub-item" data-category="10Besties" data-title="Dixie Dempsey | Nopixel 4.0 - only a few hours 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/eZH8izMKRVLY/xpU3ZEYpogws/480.webp" data-viewers="17" onclick="playStream('ghotties')">
+        <span class="username">ghotties</span>
+        <span class="viewer-count">🟢17</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
       <div class="sub-item" data-category="02LSPD" data-title="Ethan Kayo | Probably a Short One | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/lu64m5ycYiXL/yQq5pynEHxUj/480.webp" data-viewers="12" onclick="playStream('thebigbrickz')">
         <span class="username">thebigbrickz</span>
         <span class="viewer-count">🟢12</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/fp8VMGq8XnrO/480.webp" data-viewers="202" onclick="playStream('aus24')">
+      <div class="sub-item" data-category="02LSPD" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/fp8VMGq8XnrO/480.webp" data-viewers="195" onclick="playStream('aus24')">
         <span class="username">aus24</span>
-        <span class="viewer-count">🟢202</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
-      <div class="sub-item" data-category="10Besties" data-title="gamin 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/felYuVId0iZG/mymM9qkFCO2c/480.webp" data-viewers="120" onclick="playStream('simpless')">
-        <span class="username">simpless</span>
-        <span class="viewer-count">🟢120</span>
+        <span class="viewer-count">🟢195</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="04Marshalls">04Marshalls</div>
-      <div class="sub-item" data-category="04Marshalls" data-title="JAMES MCCALLISTER | EVERYTHING IS FINE :) | !discord 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/URS2Mhhfjvis/XgFCHpSOjWJv/480.webp" data-viewers="220" onclick="playStream('itsfabelz')">
+      <div class="sub-item" data-category="04Marshalls" data-title="JAMES MCCALLISTER | EVERYTHING IS FINE :) | !discord 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/URS2Mhhfjvis/XgFCHpSOjWJv/480.webp" data-viewers="221" onclick="playStream('itsfabelz')">
         <span class="username">itsfabelz</span>
-        <span class="viewer-count">🟢220</span>
+        <span class="viewer-count">🟢221</span>
       </div>
 
