@@ -1,92 +1,105 @@
     <div class="category" onclick="highlightCategory(this)" data-category="09Cleveland">09Cleveland</div>
-      <div class="sub-item" data-category="09Cleveland" data-title="Eliza D. Stellano Dalton | monday | NoPixel" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kaelea-854x480.jpg" data-viewers="26" onclick="playStream('kaelea')">
+      <div class="sub-item" data-category="09Cleveland" data-title="Eliza D. Stellano Dalton | monday | NoPixel" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kaelea-854x480.jpg" data-viewers="31" onclick="playStream('kaelea')">
         <span class="username">kaelea</span>
-        <span class="viewer-count">🔴26</span>
+        <span class="viewer-count">🔴31</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
       <div class="sub-item" data-category="01Cops" data-title="lil chill night x" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_crystalst-854x480.jpg" data-viewers="133" onclick="playStream('crystalst')">
         <span class="username">crystalst</span>
         <span class="viewer-count">🔴133</span>
       </div>
+      <div class="sub-item" data-category="01Cops" data-title="Ricardo Ricky Venezia - LSPD - NoPixel - goals - alerts - rogue - BOX GANG - discord.gg-mg4r" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mg4r-854x480.jpg" data-viewers="57" onclick="playStream('MG4R')">
+        <span class="username">MG4R</span>
+        <span class="viewer-count">🔴57</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="371 Sgt-Wildlife Warden Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="22" onclick="playStream('ollie2313')">
+        <span class="username">ollie2313</span>
+        <span class="viewer-count">🔴22</span>
+      </div>
       <div class="sub-item" data-category="01Cops" data-title="Nopixel WL - 545 Sgt.Nova - 12 Days Till Birthday Yippie" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_rerolldota-854x480.jpg" data-viewers="21" onclick="playStream('rerolldota')">
         <span class="username">rerolldota</span>
         <span class="viewer-count">🔴21</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="371 Sgt-Wildlife Warden Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="21" onclick="playStream('ollie2313')">
-        <span class="username">ollie2313</span>
-        <span class="viewer-count">🔴21</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="Dee LinQ - ODPD - Sergeant - No Pixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_thedlinquent-854x480.jpg" data-viewers="16" onclick="playStream('TheDlinQuenT')">
-        <span class="username">TheDlinQuenT</span>
-        <span class="viewer-count">🔴16</span>
       </div>
       <div class="sub-item" data-category="01Cops" data-title="🐬Monday Machinations 🦑 - ODPD - Lt.Nathaniel Greyson - NoPixel" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_aristotelian-854x480.jpg" data-viewers="16" onclick="playStream('Aristotelian')">
         <span class="username">Aristotelian</span>
         <span class="viewer-count">🔴16</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="LSPD Officer Viktor Liability Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="2" onclick="playStream('Hellknight86')">
+      <div class="sub-item" data-category="01Cops" data-title="Dee LinQ - ODPD - Sergeant - No Pixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_thedlinquent-854x480.jpg" data-viewers="15" onclick="playStream('TheDlinQuenT')">
+        <span class="username">TheDlinQuenT</span>
+        <span class="viewer-count">🔴15</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="LSPD Officer Viktor Liability Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="3" onclick="playStream('Hellknight86')">
         <span class="username">Hellknight86</span>
-        <span class="viewer-count">🔴2</span>
+        <span class="viewer-count">🔴3</span>
       </div>
       <div class="sub-item" data-category="01Cops" data-title="🟣619 Ivan Crowe LSPD - Nopixel WL🟣" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_deadlydom-854x480.jpg" data-viewers="1" onclick="playStream('DeadlyDom')">
         <span class="username">DeadlyDom</span>
         <span class="viewer-count">🔴1</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="Ricardo Ricky Venezia - LSPD - NoPixel - goals - alerts - rogue - BOX GANG - discord.gg-mg4r" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mg4r-854x480.jpg" data-viewers="47" onclick="playStream('MG4R')">
-        <span class="username">MG4R</span>
-        <span class="viewer-count">🔴47</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
       <div class="sub-item" data-category="02LSPD" data-title="lil chill night x" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_crystalst-854x480.jpg" data-viewers="133" onclick="playStream('crystalst')">
         <span class="username">crystalst</span>
         <span class="viewer-count">🔴133</span>
       </div>
+      <div class="sub-item" data-category="02LSPD" data-title="Ricardo Ricky Venezia - LSPD - NoPixel - goals - alerts - rogue - BOX GANG - discord.gg-mg4r" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mg4r-854x480.jpg" data-viewers="57" onclick="playStream('MG4R')">
+        <span class="username">MG4R</span>
+        <span class="viewer-count">🔴57</span>
+      </div>
       <div class="sub-item" data-category="02LSPD" data-title="Nopixel WL - 545 Sgt.Nova - 12 Days Till Birthday Yippie" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_rerolldota-854x480.jpg" data-viewers="21" onclick="playStream('rerolldota')">
         <span class="username">rerolldota</span>
         <span class="viewer-count">🔴21</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="LSPD Officer Viktor Liability Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="2" onclick="playStream('Hellknight86')">
+      <div class="sub-item" data-category="02LSPD" data-title="LSPD Officer Viktor Liability Schmidt - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="3" onclick="playStream('Hellknight86')">
         <span class="username">Hellknight86</span>
-        <span class="viewer-count">🔴2</span>
+        <span class="viewer-count">🔴3</span>
       </div>
       <div class="sub-item" data-category="02LSPD" data-title="🟣619 Ivan Crowe LSPD - Nopixel WL🟣" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_deadlydom-854x480.jpg" data-viewers="1" onclick="playStream('DeadlyDom')">
         <span class="username">DeadlyDom</span>
         <span class="viewer-count">🔴1</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Ricardo Ricky Venezia - LSPD - NoPixel - goals - alerts - rogue - BOX GANG - discord.gg-mg4r" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mg4r-854x480.jpg" data-viewers="47" onclick="playStream('MG4R')">
-        <span class="username">MG4R</span>
-        <span class="viewer-count">🔴47</span>
-      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="57Independent">57Independent</div>
-      <div class="sub-item" data-category="57Independent" data-title="✨dawn✨ nopixel wl✨ - kofi" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_neverossa-854x480.jpg" data-viewers="46" onclick="playStream('NeveRossa')">
+      <div class="sub-item" data-category="57Independent" data-title="✨dawn✨ nopixel wl✨ - kofi" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_neverossa-854x480.jpg" data-viewers="36" onclick="playStream('NeveRossa')">
         <span class="username">NeveRossa</span>
-        <span class="viewer-count">🔴46</span>
+        <span class="viewer-count">🔴36</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="Debra Peterson - NoPixel" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_polargranola-854x480.jpg" data-viewers="12" onclick="playStream('PolarGranola')">
-        <span class="username">PolarGranola</span>
-        <span class="viewer-count">🔴12</span>
-      </div>
-      <div class="sub-item" data-category="57Independent" data-title="KYLE PRED IS THE MC - nopixel 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kyle-854x480.jpg" data-viewers="1607" onclick="playStream('kyle')">
+      <div class="sub-item" data-category="57Independent" data-title="KYLE PRED IS THE MC - nopixel 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kyle-854x480.jpg" data-viewers="1516" onclick="playStream('kyle')">
         <span class="username">kyle</span>
-        <span class="viewer-count">🔴1607</span>
+        <span class="viewer-count">🔴1516</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="KJ - THE PEOPLE&#39;S MILITIA | NoPixel 4.0 | !discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kongfue-854x480.jpg" data-viewers="3" onclick="playStream('kongfue')">
+      <div class="sub-item" data-category="57Independent" data-title="KJ - THE PEOPLE&#39;S MILITIA | NoPixel 4.0 | !discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kongfue-854x480.jpg" data-viewers="4" onclick="playStream('kongfue')">
         <span class="username">kongfue</span>
-        <span class="viewer-count">🔴3</span>
+        <span class="viewer-count">🔴4</span>
+      </div>
+      <div class="sub-item" data-category="57Independent" data-title="Debra Peterson - NoPixel" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_polargranola-854x480.jpg" data-viewers="11" onclick="playStream('PolarGranola')">
+        <span class="username">PolarGranola</span>
+        <span class="viewer-count">🔴11</span>
       </div>
       <div class="sub-item" data-category="57Independent" data-title="😧Normie Reece✨DUMB CIV✨NoPixel WL 4.0✨GTA V Roleplay✨🌃" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_aheeyuh-854x480.jpg" data-viewers="1" onclick="playStream('Aheeyuh')">
         <span class="username">Aheeyuh</span>
         <span class="viewer-count">🔴1</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
-      <div class="sub-item" data-category="03BCSO" data-title="371 Sgt-Wildlife Warden Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="21" onclick="playStream('ollie2313')">
+      <div class="sub-item" data-category="03BCSO" data-title="371 Sgt-Wildlife Warden Matilda Murphy - BCSO - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ollie2313-854x480.jpg" data-viewers="22" onclick="playStream('ollie2313')">
         <span class="username">ollie2313</span>
-        <span class="viewer-count">🔴21</span>
+        <span class="viewer-count">🔴22</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
+      <div class="sub-item" data-category="30Merchants" data-title="Cuddles Consortium - the return of the mask - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_artbybaha-854x480.jpg" data-viewers="90" onclick="playStream('artbybaha')">
+        <span class="username">artbybaha</span>
+        <span class="viewer-count">🔴90</span>
+      </div>
+      <div class="sub-item" data-category="30Merchants" data-title="Dante Rivers - Los Santos Most Wanted -  NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_yodarrell-854x480.jpg" data-viewers="3" onclick="playStream('yodarrell')">
+        <span class="username">yodarrell</span>
+        <span class="viewer-count">🔴3</span>
+      </div>
+      <div class="sub-item" data-category="30Merchants" data-title="Bank heist day - Hari Upandpay - NP WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ne0eht-854x480.jpg" data-viewers="3" onclick="playStream('ne0eht')">
+        <span class="username">ne0eht</span>
+        <span class="viewer-count">🔴3</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03ODPD">03ODPD</div>
-      <div class="sub-item" data-category="03ODPD" data-title="Dee LinQ - ODPD - Sergeant - No Pixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_thedlinquent-854x480.jpg" data-viewers="16" onclick="playStream('TheDlinQuenT')">
+      <div class="sub-item" data-category="03ODPD" data-title="Dee LinQ - ODPD - Sergeant - No Pixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_thedlinquent-854x480.jpg" data-viewers="15" onclick="playStream('TheDlinQuenT')">
         <span class="username">TheDlinQuenT</span>
-        <span class="viewer-count">🔴16</span>
+        <span class="viewer-count">🔴15</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
       <div class="sub-item" data-category="07Doctors" data-title="Nakari Amari - greatest EMS - NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_equinax_-854x480.jpg" data-viewers="13" onclick="playStream('Equinax_')">
@@ -97,27 +110,14 @@
         <span class="username">kate</span>
         <span class="viewer-count">🔴155</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
-      <div class="sub-item" data-category="30Merchants" data-title="Dante Rivers - Los Santos Most Wanted -  NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_yodarrell-854x480.jpg" data-viewers="3" onclick="playStream('yodarrell')">
-        <span class="username">yodarrell</span>
-        <span class="viewer-count">🔴3</span>
-      </div>
-      <div class="sub-item" data-category="30Merchants" data-title="Cuddles Consortium - the return of the mask - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_artbybaha-854x480.jpg" data-viewers="86" onclick="playStream('artbybaha')">
-        <span class="username">artbybaha</span>
-        <span class="viewer-count">🔴86</span>
-      </div>
-      <div class="sub-item" data-category="30Merchants" data-title="Bank heist day - Hari Upandpay - NP WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ne0eht-854x480.jpg" data-viewers="3" onclick="playStream('ne0eht')">
-        <span class="username">ne0eht</span>
-        <span class="viewer-count">🔴3</span>
-      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
       <div class="sub-item" data-category="58Uncategorized" data-title="Habob - NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_habobrp-854x480.jpg" data-viewers="10" onclick="playStream('HabobRP')">
         <span class="username">HabobRP</span>
         <span class="viewer-count">🔴10</span>
       </div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="Quiet Day Come and Chill~Zendetta and Consortium Layla Cray Dragonav~ Short Stream - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_crayjayxd-854x480.jpg" data-viewers="5" onclick="playStream('CrayJayxD')">
+      <div class="sub-item" data-category="58Uncategorized" data-title="Quiet Day Come and Chill~Zendetta and Consortium Layla Cray Dragonav~ Short Stream - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_crayjayxd-854x480.jpg" data-viewers="6" onclick="playStream('CrayJayxD')">
         <span class="username">CrayJayxD</span>
-        <span class="viewer-count">🔴5</span>
+        <span class="viewer-count">🔴6</span>
       </div>
       <div class="sub-item" data-category="58Uncategorized" data-title="Twang Miller - Poor Struggle [D: 2]4 - NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_tsor_twang-854x480.jpg" data-viewers="1" onclick="playStream('TSOR_Twang')">
         <span class="username">TSOR_Twang</span>
@@ -129,13 +129,13 @@
         <span class="viewer-count">🔴9</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="32Vagos">32Vagos</div>
-      <div class="sub-item" data-category="32Vagos" data-title="- Axl Rain - Vagos - NoPixel - discord- sub" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_rxmbln-854x480.jpg" data-viewers="6" onclick="playStream('Rxmbln')">
+      <div class="sub-item" data-category="32Vagos" data-title="- Axl Rain - Vagos - NoPixel - discord- sub" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_rxmbln-854x480.jpg" data-viewers="7" onclick="playStream('Rxmbln')">
         <span class="username">Rxmbln</span>
-        <span class="viewer-count">🔴6</span>
+        <span class="viewer-count">🔴7</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="30Faceless">30Faceless</div>
-      <div class="sub-item" data-category="30Faceless" data-title="Cuddles Consortium - the return of the mask - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_artbybaha-854x480.jpg" data-viewers="86" onclick="playStream('artbybaha')">
+      <div class="sub-item" data-category="30Faceless" data-title="Cuddles Consortium - the return of the mask - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_artbybaha-854x480.jpg" data-viewers="90" onclick="playStream('artbybaha')">
         <span class="username">artbybaha</span>
-        <span class="viewer-count">🔴86</span>
+        <span class="viewer-count">🔴90</span>
       </div>
 
