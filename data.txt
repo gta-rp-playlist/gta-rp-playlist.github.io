@@ -3,13 +3,13 @@
         <span class="username">crystalst</span>
         <span class="viewer-count">🔴257</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Remi Ironside - Screaming Internally - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="31" onclick="playStream('UnicornFrapp')">
+      <div class="sub-item" data-category="01Cops" data-title="Remi Ironside - Screaming Internally - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="32" onclick="playStream('UnicornFrapp')">
         <span class="username">UnicornFrapp</span>
-        <span class="viewer-count">🔴31</span>
+        <span class="viewer-count">🔴32</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Elle cop - Nopixel WL - LSPD" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_purplebeansprout-854x480.jpg" data-viewers="4" onclick="playStream('Purplebeansprout')">
+      <div class="sub-item" data-category="01Cops" data-title="Elle cop - Nopixel WL - LSPD" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_purplebeansprout-854x480.jpg" data-viewers="2" onclick="playStream('Purplebeansprout')">
         <span class="username">Purplebeansprout</span>
-        <span class="viewer-count">🔴4</span>
+        <span class="viewer-count">🔴2</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
       <div class="sub-item" data-category="02LSPD" data-title="lil chill night x" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_crystalst-854x480.jpg" data-viewers="257" onclick="playStream('crystalst')">
@@ -17,13 +17,18 @@
         <span class="viewer-count">🔴257</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
-      <div class="sub-item" data-category="03BCSO" data-title="Remi Ironside - Screaming Internally - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="31" onclick="playStream('UnicornFrapp')">
+      <div class="sub-item" data-category="03BCSO" data-title="Remi Ironside - Screaming Internally - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="32" onclick="playStream('UnicornFrapp')">
         <span class="username">UnicornFrapp</span>
-        <span class="viewer-count">🔴31</span>
+        <span class="viewer-count">🔴32</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="41Crayons">41Crayons</div>
-      <div class="sub-item" data-category="41Crayons" data-title="~💎Ruby Sapphire💎 ~ 💜L-Crim Purple Crayon💜 ~ NoPixel 4.0 WL ~ Come Say Hi ~" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_emalee12-854x480.jpg" data-viewers="22" onclick="playStream('Emalee12')">
+      <div class="sub-item" data-category="41Crayons" data-title="~💎Ruby Sapphire💎 ~ 💜L-Crim Purple Crayon💜 ~ NoPixel 4.0 WL ~ Come Say Hi ~" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_emalee12-854x480.jpg" data-viewers="21" onclick="playStream('Emalee12')">
         <span class="username">Emalee12</span>
-        <span class="viewer-count">🔴22</span>
+        <span class="viewer-count">🔴21</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
+      <div class="sub-item" data-category="30Merchants" data-title="Bianca Wade - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_amanthi___-854x480.jpg" data-viewers="15" onclick="playStream('amanthi___')">
+        <span class="username">amanthi___</span>
+        <span class="viewer-count">🔴15</span>
       </div>
 
