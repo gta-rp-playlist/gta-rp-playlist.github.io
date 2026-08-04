@@ -21,18 +21,23 @@
         <span class="username">CowsMooingNSuch</span>
         <span class="viewer-count">🔴1</span>
       </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="09Cleveland">09Cleveland</div>
+      <div class="sub-item" data-category="09Cleveland" data-title="Cole Turner Prison Life - Nopixel WL - GTA RP" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_yunoquest-854x480.jpg" data-viewers="10" onclick="playStream('YunoQuest')">
+        <span class="username">YunoQuest</span>
+        <span class="viewer-count">🔴10</span>
+      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="57Independent">57Independent</div>
-      <div class="sub-item" data-category="57Independent" data-title="🌹 Scarlet Rose🌹 - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_missscarletrose-854x480.jpg" data-viewers="8" onclick="playStream('MissScarletRose')">
+      <div class="sub-item" data-category="57Independent" data-title="🌹 Scarlet Rose🌹 - Nopixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_missscarletrose-854x480.jpg" data-viewers="9" onclick="playStream('MissScarletRose')">
         <span class="username">MissScarletRose</span>
-        <span class="viewer-count">🔴8</span>
+        <span class="viewer-count">🔴9</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="How could Chester do this - Chester Fields - No Pixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_chester_fieldz-854x480.jpg" data-viewers="3" onclick="playStream('Chester_Fieldz')">
+      <div class="sub-item" data-category="57Independent" data-title="How could Chester do this - Chester Fields - No Pixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_chester_fieldz-854x480.jpg" data-viewers="5" onclick="playStream('Chester_Fieldz')">
         <span class="username">Chester_Fieldz</span>
-        <span class="viewer-count">🔴3</span>
+        <span class="viewer-count">🔴5</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="Nicholas Reyes - Book Guy - Another Book Day - NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_thefabling-854x480.jpg" data-viewers="2" onclick="playStream('TheFabling')">
+      <div class="sub-item" data-category="57Independent" data-title="Nicholas Reyes - Book Guy - Another Book Day - NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_thefabling-854x480.jpg" data-viewers="3" onclick="playStream('TheFabling')">
         <span class="username">TheFabling</span>
-        <span class="viewer-count">🔴2</span>
+        <span class="viewer-count">🔴3</span>
       </div>
       <div class="sub-item" data-category="57Independent" data-title="Raffy Lee- No Pixel 4.0 WL - multi stream" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_leeakrish-854x480.jpg" data-viewers="2" onclick="playStream('LeeAkrish')">
         <span class="username">LeeAkrish</span>
@@ -43,14 +48,14 @@
         <span class="username">NismoDOMA</span>
         <span class="viewer-count">🔴1</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
-      <div class="sub-item" data-category="07Doctors" data-title="Kyra Roux-Warner | EMS Lieutenant | Married | NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_arttigg-854x480.jpg" data-viewers="2" onclick="playStream('arttigg')">
-        <span class="username">arttigg</span>
-        <span class="viewer-count">🔴2</span>
-      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="17Clowns">17Clowns</div>
-      <div class="sub-item" data-category="17Clowns" data-title="🔥 Feeling well enough to stream, chill stream? 🔥 Ember Quinn-Bell 🔥 Clowncil 🔥 Nopixel 5.0 Invitee 🔥 !starforge !GFUEL #GFUEL 🔥" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ninjajessica-854x480.jpg" data-viewers="294" onclick="playStream('ninjajessica')">
+      <div class="sub-item" data-category="17Clowns" data-title="🔥 Feeling well enough to stream, chill stream? 🔥 Ember Quinn-Bell 🔥 Clowncil 🔥 Nopixel 5.0 Invitee 🔥 !starforge !GFUEL #GFUEL 🔥" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ninjajessica-854x480.jpg" data-viewers="270" onclick="playStream('ninjajessica')">
         <span class="username">ninjajessica</span>
-        <span class="viewer-count">🔴294</span>
+        <span class="viewer-count">🔴270</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
+      <div class="sub-item" data-category="07Doctors" data-title="Kyra Roux-Warner | EMS Lieutenant | Married | NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_arttigg-854x480.jpg" data-viewers="1" onclick="playStream('arttigg')">
+        <span class="username">arttigg</span>
+        <span class="viewer-count">🔴1</span>
       </div>
 
