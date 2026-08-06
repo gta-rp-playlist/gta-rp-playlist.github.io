@@ -2,20 +2,20 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="brakketts.us">
+<display-name>brakketts</display-name>
+</channel>
+
 <channel id="crystalst.us">
 <display-name>crystalst</display-name>
 </channel>
 
-<channel id="JennaEmbers.us">
-<display-name>JennaEmbers</display-name>
-</channel>
-
-<channel id="Blokeowski.us">
-<display-name>Blokeowski</display-name>
-</channel>
-
 <channel id="sykkuno.us">
 <display-name>sykkuno</display-name>
+</channel>
+
+<channel id="JennaEmbers.us">
+<display-name>JennaEmbers</display-name>
 </channel>
 
 <channel id="UnicornFrapp.us">
@@ -24,10 +24,6 @@
 
 <channel id="Purplebeansprout.us">
 <display-name>Purplebeansprout</display-name>
-</channel>
-
-<channel id="brakketts.us">
-<display-name>brakketts</display-name>
 </channel>
 
 <channel id="NinjaJessica.us">
@@ -40,6 +36,10 @@
 
 <channel id="xqc.us">
 <display-name>xqc</display-name>
+</channel>
+
+<channel id="BlackHammerHDx.us">
+<display-name>BlackHammerHDx</display-name>
 </channel>
 
 <channel id="whippy.us">
@@ -90,48 +90,6 @@
 <display-name>firecrackthat</display-name>
 </channel>
 
-<programme start="20260805170046 +0000" stop="20260808120046 +0000" channel="crystalst.us">
-<title lang="en"> lil chill night x </title>
-<desc lang="en"> Started: 12:00PM
-Playing: Grand Theft Auto V
-Viewers: 175 </desc>
-</programme>
-
-<programme start="20260805235511 +0000" stop="20260808185511 +0000" channel="JennaEmbers.us">
-<title lang="en"> Jordan Miles - Dig dig dig - NoPixel 4.0 WL </title>
-<desc lang="en"> Started: 06:55 pm
-Playing: Grand Theft Auto V
-Viewers: 38 </desc>
-</programme>
-
-<programme start="20260806043359 +0000" stop="20260808233359 +0000" channel="Blokeowski.us">
-<title lang="en"> NoPixel WL - 18 - 5.0 INVITE - PD - Crikey Thompson - HELLAURR - discord commands supportservices blackdoginstitute </title>
-<desc lang="en"> Started: 11:33 pm
-Playing: Grand Theft Auto V
-Viewers: 24 </desc>
-</programme>
-
-<programme start="20260805190749 +0000" stop="20260808140749 +0000" channel="sykkuno.us">
-<title lang="en"> JUICER YRG COBBLEVERSE </title>
-<desc lang="en"> Started: 2:07PM
-Playing: YRG Cobbleverse
-Viewers: 1106 </desc>
-</programme>
-
-<programme start="20260806045956 +0000" stop="20260808235956 +0000" channel="UnicornFrapp.us">
-<title lang="en"> Mina Flatstone - A Criminal - Nopixel WL </title>
-<desc lang="en"> Started: 11:59 pm
-Playing: Grand Theft Auto V
-Viewers: 9 </desc>
-</programme>
-
-<programme start="20260806051150 +0000" stop="20260809001150 +0000" channel="Purplebeansprout.us">
-<title lang="en"> Most dysfunctional functional team - Nopixel WL - LSPD </title>
-<desc lang="en"> Started: 12:11 am
-Playing: Grand Theft Auto V
-Viewers: 3 </desc>
-</programme>
-
 <programme start="20260806054944 +0000" stop="20260809004944 +0000" channel="brakketts.us">
 <title lang="en"> BCSO 315 - Tommy Horver - Nopixel </title>
 <desc lang="en"> Started: 12:49AM
@@ -139,105 +97,147 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
+<programme start="20260805170046 +0000" stop="20260808120046 +0000" channel="crystalst.us">
+<title lang="en"> lil chill night x </title>
+<desc lang="en"> Started: 12:00PM
+Playing: Grand Theft Auto V
+Viewers: 146 </desc>
+</programme>
+
+<programme start="20260805190749 +0000" stop="20260808140749 +0000" channel="sykkuno.us">
+<title lang="en"> JUICER YRG COBBLEVERSE </title>
+<desc lang="en"> Started: 2:07PM
+Playing: YRG Cobbleverse
+Viewers: 1098 </desc>
+</programme>
+
+<programme start="20260805235511 +0000" stop="20260808185511 +0000" channel="JennaEmbers.us">
+<title lang="en"> Jordan Miles - Dig dig dig - NoPixel 4.0 WL </title>
+<desc lang="en"> Started: 06:55 pm
+Playing: Grand Theft Auto V
+Viewers: 37 </desc>
+</programme>
+
+<programme start="20260806045956 +0000" stop="20260808235956 +0000" channel="UnicornFrapp.us">
+<title lang="en"> Mina Flatstone - A Criminal - Nopixel WL </title>
+<desc lang="en"> Started: 11:59 pm
+Playing: Grand Theft Auto V
+Viewers: 13 </desc>
+</programme>
+
+<programme start="20260806051150 +0000" stop="20260809001150 +0000" channel="Purplebeansprout.us">
+<title lang="en"> Most dysfunctional functional team - Nopixel WL - LSPD </title>
+<desc lang="en"> Started: 12:11 am
+Playing: Grand Theft Auto V
+Viewers: 5 </desc>
+</programme>
+
 <programme start="20260805182729 +0000" stop="20260808132729 +0000" channel="NinjaJessica.us">
 <title lang="en"> 🔥 Ember Quinn-Bell 🔥 Clowncil 🔥 Nopixel 5.0 Invitee 🔥 GFUEL #GFUEL 🔥 </title>
 <desc lang="en"> Started: 1:27PM
 Playing: Grand Theft Auto V
-Viewers: 54 </desc>
+Viewers: 53 </desc>
 </programme>
 
 <programme start="20260806053748 +0000" stop="20260809003748 +0000" channel="firecrackthat.us">
 <title lang="en"> Stumbles Fumbles - Clowncil X Funny Bones MC - NoPixel 4.0 </title>
 <desc lang="en"> Started: 12:37AM
 Playing: Grand Theft Auto V
-Viewers: 18 </desc>
+Viewers: 29 </desc>
 </programme>
 
 <programme start="20260805180051 +0000" stop="20260808130051 +0000" channel="xqc.us">
 <title lang="en"> 👈LIVE👈CLICK👈HERE👈DRAMA👈NEWS👈VIDEOS👈GAMES👈COBBLEMON DAY3👈ALSO👈LONG WALK GAME👈FINISHSING👈HOPEFULY👈LOCK IN👈 </title>
 <desc lang="en"> Started: 1:00PM
 Playing: YRG Cobbleverse
-Viewers: 18343 </desc>
+Viewers: 18613 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="whippy.us">
+<programme start="20260806055124 +0000" stop="20260809005124 +0000" channel="BlackHammerHDx.us">
+<title lang="en"> 🚨👮🏽‍♂️430 - Officer Jason Ward👮🏽‍♂️🚨 - #LSPD - #NoPixel WL - </title>
+<desc lang="en"> Started: 12:51 am
+Playing: Grand Theft Auto V
+Viewers: 5 </desc>
+</programme>
+
+<programme start="20260806000000 +0000" stop="20260809005619 +0000" channel="whippy.us">
 <title lang="en"> SUBATHON - Nopixel RP - Dundee - https://whippy.shop/ 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="crystalst.us">
+<programme start="20260806000000 +0000" stop="20260809005619 +0000" channel="crystalst.us">
 <title lang="en"> lil chill night x 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="harry.us">
+<programme start="20260806000000 +0000" stop="20260809005619 +0000" channel="harry.us">
 <title lang="en"> HARRY BROWN THE FACELESS | NOPIXEL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 25 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="rayc.us">
+<programme start="20260806000000 +0000" stop="20260809005619 +0000" channel="rayc.us">
 <title lang="en"> ❌ NO PHONE CALLS ❌ HUNTED BY EVERYONE | RAYMOND ROMANOV | NOPIXEL 4.0 | MISTFALL HUNTER AFTER! | !socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 153 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="simo.us">
+<programme start="20260806000000 +0000" stop="20260809005619 +0000" channel="simo.us">
 <title lang="en"> Reggie Might | Nice and chill quiet day | NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 22 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="paperstackerj.us">
+<programme start="20260806000000 +0000" stop="20260809005620 +0000" channel="paperstackerj.us">
 <title lang="en"> Bonesy !discord @paperstackerj 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 3 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="cosmic-chimp.us">
+<programme start="20260806000000 +0000" stop="20260809005620 +0000" channel="cosmic-chimp.us">
 <title lang="en"> Julio Frost Nopixel WL ( i just woke up ) 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="qift.us">
+<programme start="20260806000000 +0000" stop="20260809005620 +0000" channel="qift.us">
 <title lang="en"> winter plans batchup's wedding — nopixel wl | @qift !discord !ref 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 3 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="wildflowerwonder.us">
+<programme start="20260806000000 +0000" stop="20260809005620 +0000" channel="wildflowerwonder.us">
 <title lang="en"> Skyler "Ghost" Sparks - ERP Recovery Program | San Andras State Marshals | NoPixelWL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="silbullet.us">
+<programme start="20260806000000 +0000" stop="20260809005620 +0000" channel="silbullet.us">
 <title lang="en"> Lt. Maple 297 | LSPD | NoPixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 48 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="aus24.us">
+<programme start="20260806000000 +0000" stop="20260809005620 +0000" channel="aus24.us">
 <title lang="en"> Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 34 </desc>
 </programme>
 
-<programme start="20260806000000 +0000" stop="20260809005150 +0000" channel="firecrackthat.us">
+<programme start="20260806000000 +0000" stop="20260809005620 +0000" channel="firecrackthat.us">
 <title lang="en"> Stumbles Fumbles | Clowncil X Funny Bones MC | NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
