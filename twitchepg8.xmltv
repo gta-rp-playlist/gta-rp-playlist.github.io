@@ -2,12 +2,12 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="zaxx386.us">
-<display-name>zaxx386</display-name>
-</channel>
-
 <channel id="katecirrus.us">
 <display-name>katecirrus</display-name>
+</channel>
+
+<channel id="zaxx386.us">
+<display-name>zaxx386</display-name>
 </channel>
 
 <channel id="UnicornFrapp.us">
@@ -18,16 +18,16 @@
 <display-name>Blokeowski</display-name>
 </channel>
 
+<channel id="raeof_sunshine_.us">
+<display-name>raeof_sunshine_</display-name>
+</channel>
+
 <channel id="makeitmeansomething.us">
 <display-name>makeitmeansomething</display-name>
 </channel>
 
 <channel id="Soulsrp.us">
 <display-name>Soulsrp</display-name>
-</channel>
-
-<channel id="raeof_sunshine_.us">
-<display-name>raeof_sunshine_</display-name>
 </channel>
 
 <channel id="SpitfireQG.us">
@@ -74,13 +74,6 @@
 <display-name>rexs</display-name>
 </channel>
 
-<programme start="20260809033156 +0000" stop="20260811223156 +0000" channel="zaxx386.us">
-<title lang="en"> Moose Knuckles - Clowncil - NoPixel WL </title>
-<desc lang="en"> Started: 10:31 pm
-Playing: Grand Theft Auto V
-Viewers: 98 </desc>
-</programme>
-
 <programme start="20260809063249 +0000" stop="20260812013249 +0000" channel="katecirrus.us">
 <title lang="en"> Nell Slater - cop interview yikes - NoPixel WL </title>
 <desc lang="en"> Started: 1:32AM
@@ -88,18 +81,32 @@ Playing: Grand Theft Auto V
 Viewers: 7 </desc>
 </programme>
 
+<programme start="20260809033156 +0000" stop="20260811223156 +0000" channel="zaxx386.us">
+<title lang="en"> Moose Knuckles - Clowncil - NoPixel WL </title>
+<desc lang="en"> Started: 10:31 pm
+Playing: Grand Theft Auto V
+Viewers: 99 </desc>
+</programme>
+
 <programme start="20260809060131 +0000" stop="20260812010131 +0000" channel="UnicornFrapp.us">
 <title lang="en"> Remi Ironside - Screaming Internally - Nopixel WL </title>
 <desc lang="en"> Started: 01:01 am
 Playing: Grand Theft Auto V
-Viewers: 26 </desc>
+Viewers: 27 </desc>
 </programme>
 
 <programme start="20260809061008 +0000" stop="20260812011008 +0000" channel="Blokeowski.us">
 <title lang="en"> NoPixel WL - 18 - 5.0 INVITE - Ace Bundy - GDAY LEGENDS - supportservices discord commands blackdoginstitute </title>
 <desc lang="en"> Started: 01:10 am
 Playing: Grand Theft Auto V
-Viewers: 27 </desc>
+Viewers: 22 </desc>
+</programme>
+
+<programme start="20260809021810 +0000" stop="20260811211810 +0000" channel="raeof_sunshine_.us">
+<title lang="en"> Lacys Alive - Nopixel WL </title>
+<desc lang="en"> Started: 09:18 pm
+Playing: Grand Theft Auto V
+Viewers: 10 </desc>
 </programme>
 
 <programme start="20260809052703 +0000" stop="20260812002703 +0000" channel="makeitmeansomething.us">
@@ -112,13 +119,6 @@ Viewers: 10 </desc>
 <programme start="20260809032320 +0000" stop="20260811222320 +0000" channel="Soulsrp.us">
 <title lang="en"> Deputy Rohan • NoPixel WL </title>
 <desc lang="en"> Started: 10:23 pm
-Playing: Grand Theft Auto V
-Viewers: 8 </desc>
-</programme>
-
-<programme start="20260809021810 +0000" stop="20260811211810 +0000" channel="raeof_sunshine_.us">
-<title lang="en"> Lacys Alive - Nopixel WL </title>
-<desc lang="en"> Started: 09:18 pm
 Playing: Grand Theft Auto V
 Viewers: 8 </desc>
 </programme>
@@ -148,52 +148,52 @@ Viewers: 50 </desc>
 <title lang="en"> KAI X SPEED MINECRAFT MARATHON BEATING ALL BOSSES *HARDCORE* (Wither, Warden, Elder Guardian, Ender Dragon) </title>
 <desc lang="en"> Started: 4:02PM
 Playing: Minecraft
-Viewers: 28804 </desc>
+Viewers: 27509 </desc>
 </programme>
 
-<programme start="20260809000000 +0000" stop="20260812015619 +0000" channel="whippy.us">
+<programme start="20260809000000 +0000" stop="20260812020620 +0000" channel="whippy.us">
 <title lang="en"> subathon 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 241 </desc>
 </programme>
 
-<programme start="20260809000000 +0000" stop="20260812015619 +0000" channel="leonarwho.us">
+<programme start="20260809000000 +0000" stop="20260812020621 +0000" channel="leonarwho.us">
 <title lang="en"> Bilby | LSPD | NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 13 </desc>
 </programme>
 
-<programme start="20260809000000 +0000" stop="20260812015619 +0000" channel="simo.us">
+<programme start="20260809000000 +0000" stop="20260812020621 +0000" channel="simo.us">
 <title lang="en"> Reggie Might | Just another normal day | NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 13 </desc>
 </programme>
 
-<programme start="20260809000000 +0000" stop="20260812015619 +0000" channel="harmless.us">
+<programme start="20260809000000 +0000" stop="20260812020621 +0000" channel="harmless.us">
 <title lang="en"> Perry Falken | NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 13 </desc>
 </programme>
 
-<programme start="20260809000000 +0000" stop="20260812015619 +0000" channel="aus24.us">
+<programme start="20260809000000 +0000" stop="20260812020621 +0000" channel="aus24.us">
 <title lang="en"> Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 3 </desc>
 </programme>
 
-<programme start="20260809000000 +0000" stop="20260812015619 +0000" channel="katecirrus.us">
+<programme start="20260809000000 +0000" stop="20260812020621 +0000" channel="katecirrus.us">
 <title lang="en"> Nell Slater | cop interview yikes! | NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260809000000 +0000" stop="20260812015619 +0000" channel="rexs.us">
+<programme start="20260809000000 +0000" stop="20260812020621 +0000" channel="rexs.us">
 <title lang="en"> Ricky Dallas Makes an Appearance -> getting slammed on repeat in russia until i git gud 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
