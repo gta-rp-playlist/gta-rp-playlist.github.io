@@ -6,12 +6,12 @@
 <display-name>UnicornFrapp</display-name>
 </channel>
 
-<channel id="BlackHammerHDx.us">
-<display-name>BlackHammerHDx</display-name>
-</channel>
-
 <channel id="Soulsrp.us">
 <display-name>Soulsrp</display-name>
+</channel>
+
+<channel id="BlackHammerHDx.us">
+<display-name>BlackHammerHDx</display-name>
 </channel>
 
 <channel id="ZadyNite.us">
@@ -34,18 +34,15 @@
 <display-name>aus24</display-name>
 </channel>
 
+<channel id="ghotties.us">
+<display-name>ghotties</display-name>
+</channel>
+
 <programme start="20260813035513 +0000" stop="20260815225513 +0000" channel="UnicornFrapp.us">
 <title lang="en"> Remi Ironside - N0t So Little Guy - Nopixel WL </title>
 <desc lang="en"> Started: 10:55 pm
 Playing: Grand Theft Auto V
 Viewers: 58 </desc>
-</programme>
-
-<programme start="20260813055327 +0000" stop="20260816005327 +0000" channel="BlackHammerHDx.us">
-<title lang="en"> 430 - Officer Jason Ward maybe Daniel - LSPD - NoPixel WL - Dual Stream Kick-Twitch @BlackHammerHD </title>
-<desc lang="en"> Started: 12:53 am
-Playing: Grand Theft Auto V
-Viewers: 17 </desc>
 </programme>
 
 <programme start="20260813023104 +0000" stop="20260815213104 +0000" channel="Soulsrp.us">
@@ -55,6 +52,13 @@ Playing: Grand Theft Auto V
 Viewers: 15 </desc>
 </programme>
 
+<programme start="20260813055327 +0000" stop="20260816005327 +0000" channel="BlackHammerHDx.us">
+<title lang="en"> 430 - Officer Jason Ward maybe Daniel - LSPD - NoPixel WL - Dual Stream Kick-Twitch @BlackHammerHD </title>
+<desc lang="en"> Started: 12:53 am
+Playing: Grand Theft Auto V
+Viewers: 13 </desc>
+</programme>
+
 <programme start="20260813035354 +0000" stop="20260815225354 +0000" channel="ZadyNite.us">
 <title lang="en"> NoPixel - GTA RP with ZadyNite </title>
 <desc lang="en"> Started: 10:53 pm
@@ -62,32 +66,39 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260813000000 +0000" stop="20260816041318 +0000" channel="itsfabelz.us">
+<programme start="20260813000000 +0000" stop="20260816042150 +0000" channel="itsfabelz.us">
 <title lang="en"> State Marshal James McCallister | !discord 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 41 </desc>
 </programme>
 
-<programme start="20260813000000 +0000" stop="20260816041318 +0000" channel="stormskii.us">
+<programme start="20260813000000 +0000" stop="20260816042150 +0000" channel="stormskii.us">
 <title lang="en"> Storm Skii | not a scooby do whats going on but finally back (only for today) | NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260813000000 +0000" stop="20260816041318 +0000" channel="jack.us">
+<programme start="20260813000000 +0000" stop="20260816042150 +0000" channel="jack.us">
 <title lang="en"> YEAH 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260813000000 +0000" stop="20260816041318 +0000" channel="aus24.us">
+<programme start="20260813000000 +0000" stop="20260816042150 +0000" channel="aus24.us">
 <title lang="en"> Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
+</programme>
+
+<programme start="20260813000000 +0000" stop="20260816042150 +0000" channel="ghotties.us">
+<title lang="en"> Dixie Dempsey | Nopixel 4.0 | Besties 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 
+Playing: Grand Theft Auto V (GTA)
+Viewers: 31 </desc>
 </programme>
 
 
