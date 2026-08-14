@@ -7,38 +7,43 @@
         <span class="username">Purplebeansprout</span>
         <span class="viewer-count">🔴2</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Nopixel WL | 545 Sgt.Nova | Birthday Tomorrow | NPV OUT SOON! 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BXePZgJ6R3QE/cPCxUXboRjgi/480.webp" data-viewers="6" onclick="playStream('rerolldota')">
+      <div class="sub-item" data-category="01Cops" data-title="Nopixel WL | 545 Sgt.Nova | Birthday Tomorrow | NPV OUT SOON! 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BXePZgJ6R3QE/cPCxUXboRjgi/480.webp" data-viewers="19" onclick="playStream('rerolldota')">
         <span class="username">rerolldota</span>
-        <span class="viewer-count">🟢6</span>
+        <span class="viewer-count">🟢6 🔴13</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/Ri5fX7BHqqgG/480.webp" data-viewers="198" onclick="playStream('aus24')">
+      <div class="sub-item" data-category="01Cops" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/Ri5fX7BHqqgG/480.webp" data-viewers="199" onclick="playStream('aus24')">
         <span class="username">aus24</span>
-        <span class="viewer-count">🟢198</span>
+        <span class="viewer-count">🟢199</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
+      <div class="sub-item" data-category="02LSPD" data-title="Nopixel WL | 545 Sgt.Nova | Birthday Tomorrow | NPV OUT SOON! 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BXePZgJ6R3QE/cPCxUXboRjgi/480.webp" data-viewers="19" onclick="playStream('rerolldota')">
+        <span class="username">rerolldota</span>
+        <span class="viewer-count">🟢6 🔴13</span>
+      </div>
+      <div class="sub-item" data-category="02LSPD" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/Ri5fX7BHqqgG/480.webp" data-viewers="199" onclick="playStream('aus24')">
+        <span class="username">aus24</span>
+        <span class="viewer-count">🟢199</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
+      <div class="sub-item" data-category="58Uncategorized" data-title="TJ To A New Chapter - Consortium - NopixelWL - 1k followers &#x3D; 24hr" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_itsbaldlion-854x480.jpg" data-viewers="1" onclick="playStream('itsbaldlion')">
+        <span class="username">itsbaldlion</span>
+        <span class="viewer-count">🔴1</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
-      <div class="sub-item" data-category="10Besties" data-title="CHAOS MOD. beating the game 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/0T9BCeQ85jHx/Fe3WCMUu5seO/480.webp" data-viewers="177" onclick="playStream('jack')">
+      <div class="sub-item" data-category="10Besties" data-title="CHAOS MOD. beating the game 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/0T9BCeQ85jHx/Fe3WCMUu5seO/480.webp" data-viewers="169" onclick="playStream('jack')">
         <span class="username">jack</span>
-        <span class="viewer-count">🟢177</span>
+        <span class="viewer-count">🟢169</span>
       </div>
-      <div class="sub-item" data-category="10Besties" data-title="gamin 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/felYuVId0iZG/lYQpNK09Nfvx/480.webp" data-viewers="350" onclick="playStream('simpless')">
+      <div class="sub-item" data-category="10Besties" data-title="gamin 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/felYuVId0iZG/lYQpNK09Nfvx/480.webp" data-viewers="367" onclick="playStream('simpless')">
         <span class="username">simpless</span>
-        <span class="viewer-count">🟢350</span>
+        <span class="viewer-count">🟢367</span>
+      </div>
+      <div class="sub-item" data-category="10Besties" data-title="Larry Porter | Besties | Nopixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/YmXeRN64N9rX/j1hTd45HelYd/480.webp" data-viewers="25" onclick="playStream('sanityybro')">
+        <span class="username">sanityybro</span>
+        <span class="viewer-count">🟢25</span>
       </div>
       <div class="sub-item" data-category="10Besties" data-title="Dixie Dempsey | Nopixel 4.0 | Besties 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/eZH8izMKRVLY/FB8NpUS8KF5C/480.webp" data-viewers="79" onclick="playStream('ghotties')">
         <span class="username">ghotties</span>
         <span class="viewer-count">🟢79</span>
-      </div>
-      <div class="sub-item" data-category="10Besties" data-title="Larry Porter | Besties | Nopixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/YmXeRN64N9rX/j1hTd45HelYd/480.webp" data-viewers="27" onclick="playStream('sanityybro')">
-        <span class="username">sanityybro</span>
-        <span class="viewer-count">🟢27</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
-      <div class="sub-item" data-category="02LSPD" data-title="Nopixel WL | 545 Sgt.Nova | Birthday Tomorrow | NPV OUT SOON! 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BXePZgJ6R3QE/cPCxUXboRjgi/480.webp" data-viewers="6" onclick="playStream('rerolldota')">
-        <span class="username">rerolldota</span>
-        <span class="viewer-count">🟢6</span>
-      </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/Ri5fX7BHqqgG/480.webp" data-viewers="198" onclick="playStream('aus24')">
-        <span class="username">aus24</span>
-        <span class="viewer-count">🟢198</span>
       </div>
 
