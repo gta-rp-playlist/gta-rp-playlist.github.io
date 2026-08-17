@@ -1,15 +1,15 @@
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
-      <div class="sub-item" data-category="01Cops" data-title="wEewoo - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_allium-854x480.jpg" data-viewers="65" onclick="playStream('Allium')">
+      <div class="sub-item" data-category="01Cops" data-title="wEewoo - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_allium-854x480.jpg" data-viewers="63" onclick="playStream('Allium')">
         <span class="username">Allium</span>
-        <span class="viewer-count">🔴65</span>
+        <span class="viewer-count">🔴63</span>
       </div>
       <div class="sub-item" data-category="01Cops" data-title="Remi Ironside - Snapping - Nopixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="43" onclick="playStream('UnicornFrapp')">
         <span class="username">UnicornFrapp</span>
         <span class="viewer-count">🔴43</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/xxXmsAW0lWEK/480.webp" data-viewers="209" onclick="playStream('aus24')">
+      <div class="sub-item" data-category="01Cops" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/xxXmsAW0lWEK/480.webp" data-viewers="206" onclick="playStream('aus24')">
         <span class="username">aus24</span>
-        <span class="viewer-count">🟢209</span>
+        <span class="viewer-count">🟢206</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
       <div class="sub-item" data-category="03BCSO" data-title="Remi Ironside - Snapping - Nopixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornfrapp-854x480.jpg" data-viewers="43" onclick="playStream('UnicornFrapp')">
@@ -26,21 +26,21 @@
         <span class="viewer-count">🔴10</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
-      <div class="sub-item" data-category="10Besties" data-title="gamin 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/felYuVId0iZG/EN8fOh1PKVvL/480.webp" data-viewers="382" onclick="playStream('simpless')">
-        <span class="username">simpless</span>
-        <span class="viewer-count">🟢382</span>
-      </div>
-      <div class="sub-item" data-category="10Besties" data-title="Lovemore - @CyberPowerUK !specs 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/5k7FuTg2DRBe/Vdn2QtbiVyHC/480.webp" data-viewers="90" onclick="playStream('caramel')">
-        <span class="username">caramel</span>
-        <span class="viewer-count">🟢90</span>
-      </div>
-      <div class="sub-item" data-category="10Besties" data-title="Storm Skii | early bird is kinda flippin sleepy | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/rXVTRhBlVEn8/mEKNeQQP2Atg/480.webp" data-viewers="15" onclick="playStream('stormskii')">
+      <div class="sub-item" data-category="10Besties" data-title="Storm Skii | early bird is kinda flippin sleepy | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/rXVTRhBlVEn8/mEKNeQQP2Atg/480.webp" data-viewers="16" onclick="playStream('stormskii')">
         <span class="username">stormskii</span>
-        <span class="viewer-count">🟢15</span>
+        <span class="viewer-count">🟢16</span>
+      </div>
+      <div class="sub-item" data-category="10Besties" data-title="gamin 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/felYuVId0iZG/EN8fOh1PKVvL/480.webp" data-viewers="387" onclick="playStream('simpless')">
+        <span class="username">simpless</span>
+        <span class="viewer-count">🟢387</span>
+      </div>
+      <div class="sub-item" data-category="10Besties" data-title="Lovemore - @CyberPowerUK !specs 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/5k7FuTg2DRBe/Vdn2QtbiVyHC/480.webp" data-viewers="88" onclick="playStream('caramel')">
+        <span class="username">caramel</span>
+        <span class="viewer-count">🟢88</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
-      <div class="sub-item" data-category="02LSPD" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/xxXmsAW0lWEK/480.webp" data-viewers="209" onclick="playStream('aus24')">
+      <div class="sub-item" data-category="02LSPD" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/xxXmsAW0lWEK/480.webp" data-viewers="206" onclick="playStream('aus24')">
         <span class="username">aus24</span>
-        <span class="viewer-count">🟢209</span>
+        <span class="viewer-count">🟢206</span>
       </div>
 
