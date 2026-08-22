@@ -8,9 +8,22 @@
         <span class="viewer-count">🔴43</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
+      <div class="sub-item" data-category="01Cops" data-title="🚨👮‍♂️430 - Officer Jason Ward 👮‍♂️🚨- LSPD - NoPixel WL - Dual Stream Kick-Twitch @BlackHammerHD" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_blackhammerhdx-854x480.jpg" data-viewers="8" onclick="playStream('BlackHammerHDx')">
+        <span class="username">BlackHammerHDx</span>
+        <span class="viewer-count">🔴8</span>
+      </div>
       <div class="sub-item" data-category="01Cops" data-title="Nell Slater (maybe probably not idk) | not a cop main | NP WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_katecirrus-854x480.jpg" data-viewers="24" onclick="playStream('katecirrus')">
         <span class="username">katecirrus</span>
         <span class="viewer-count">🔴24</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
+      <div class="sub-item" data-category="58Uncategorized" data-title="🌈🤬 SKITTLES 📣 Nopixel 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_maritmeow-854x480.jpg" data-viewers="1" onclick="playStream('maritmeow')">
+        <span class="username">maritmeow</span>
+        <span class="viewer-count">🔴1</span>
+      </div>
+      <div class="sub-item" data-category="58Uncategorized" data-title="Jon Tren - the hunt begins - nopixel 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_jpurkey-854x480.jpg" data-viewers="1" onclick="playStream('jpurkey')">
+        <span class="username">jpurkey</span>
+        <span class="viewer-count">🔴1</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
       <div class="sub-item" data-category="02LSPD" data-title="Nell Slater (maybe probably not idk) | not a cop main | NP WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_katecirrus-854x480.jpg" data-viewers="24" onclick="playStream('katecirrus')">
@@ -21,11 +34,6 @@
       <div class="sub-item" data-category="57Independent" data-title="KYLE PRED - nopixel 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kyle-854x480.jpg" data-viewers="1321" onclick="playStream('kyle')">
         <span class="username">kyle</span>
         <span class="viewer-count">🔴1321</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="🌈🤬 SKITTLES 📣 Nopixel 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_maritmeow-854x480.jpg" data-viewers="1" onclick="playStream('maritmeow')">
-        <span class="username">maritmeow</span>
-        <span class="viewer-count">🔴1</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
       <div class="sub-item" data-category="30Merchants" data-title="Hari Upandpay - Among Us and then NP - NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ne0eht-854x480.jpg" data-viewers="1" onclick="playStream('ne0eht')">
