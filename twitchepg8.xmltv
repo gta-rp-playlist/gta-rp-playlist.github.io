@@ -10,6 +10,10 @@
 <display-name>Boosted</display-name>
 </channel>
 
+<channel id="BlackHammerHDx.us">
+<display-name>BlackHammerHDx</display-name>
+</channel>
+
 <channel id="makeitmeansomething.us">
 <display-name>makeitmeansomething</display-name>
 </channel>
@@ -26,16 +30,12 @@
 <display-name>Emalee12</display-name>
 </channel>
 
-<channel id="BlackHammerHDx.us">
-<display-name>BlackHammerHDx</display-name>
+<channel id="Hellknight86.us">
+<display-name>Hellknight86</display-name>
 </channel>
 
 <channel id="CowsMooingNSuch.us">
 <display-name>CowsMooingNSuch</display-name>
-</channel>
-
-<channel id="Hellknight86.us">
-<display-name>Hellknight86</display-name>
 </channel>
 
 <channel id="LilTranq.us">
@@ -48,10 +48,6 @@
 
 <channel id="capped.us">
 <display-name>capped</display-name>
-</channel>
-
-<channel id="itsholmes.us">
-<display-name>itsholmes</display-name>
 </channel>
 
 <channel id="harry.us">
@@ -82,29 +78,32 @@
 <display-name>itsfabelz</display-name>
 </channel>
 
-<channel id="thebigbrickz.us">
-<display-name>thebigbrickz</display-name>
-</channel>
-
 <programme start="20260822014602 +0000" stop="20260824204602 +0000" channel="zaxx386.us">
 <title lang="en"> Moose Knuckles - Clowncil - NoPixel WL </title>
 <desc lang="en"> Started: 08:46 pm
 Playing: Grand Theft Auto V
-Viewers: 165 </desc>
+Viewers: 147 </desc>
 </programme>
 
 <programme start="20260822004957 +0000" stop="20260824194957 +0000" channel="Boosted.us">
 <title lang="en"> Lost Souls. PT.2 l Benny Razer l NoPixelWL NPV SOOOON MULTISTREAM </title>
 <desc lang="en"> Started: 07:49 pm
 Playing: Grand Theft Auto V
-Viewers: 29 </desc>
+Viewers: 30 </desc>
+</programme>
+
+<programme start="20260822050634 +0000" stop="20260825000634 +0000" channel="BlackHammerHDx.us">
+<title lang="en"> 🚨👮‍♂️430 - Officer Jason Ward 👮‍♂️🚨- LSPD - NoPixel WL - Dual Stream Kick-Twitch @BlackHammerHD </title>
+<desc lang="en"> Started: 12:06 am
+Playing: Grand Theft Auto V
+Viewers: 13 </desc>
 </programme>
 
 <programme start="20260822021356 +0000" stop="20260824211356 +0000" channel="makeitmeansomething.us">
 <title lang="en"> Rocket Cane - Clown - Nopixel WL - 18 </title>
 <desc lang="en"> Started: 09:13 pm
 Playing: Grand Theft Auto V
-Viewers: 11 </desc>
+Viewers: 12 </desc>
 </programme>
 
 <programme start="20260822054142 +0000" stop="20260825004142 +0000" channel="Nadette.us">
@@ -118,33 +117,26 @@ Viewers: 11 </desc>
 <title lang="en"> Happy Friday - LFFL - Sai Kou - NoPixel WL - socials </title>
 <desc lang="en"> Started: 12:32 am
 Playing: Grand Theft Auto V
-Viewers: 10 </desc>
+Viewers: 9 </desc>
 </programme>
 
 <programme start="20260821214653 +0000" stop="20260824164653 +0000" channel="Emalee12.us">
 <title lang="en"> ~👑Zola Jade👑 ~ ⚕️Attending Doctor⚕️ ~ NoPixel 4.0 WL ~ Come Say Hi ~ </title>
 <desc lang="en"> Started: 04:46 pm
 Playing: Grand Theft Auto V
-Viewers: 9 </desc>
-</programme>
-
-<programme start="20260822050634 +0000" stop="20260825000634 +0000" channel="BlackHammerHDx.us">
-<title lang="en"> 🚨👮‍♂️430 - Officer Jason Ward 👮‍♂️🚨- LSPD - NoPixel WL - Dual Stream Kick-Twitch @BlackHammerHD </title>
-<desc lang="en"> Started: 12:06 am
-Playing: Grand Theft Auto V
-Viewers: 10 </desc>
-</programme>
-
-<programme start="20260822050429 +0000" stop="20260825000429 +0000" channel="CowsMooingNSuch.us">
-<title lang="en"> Sophia McMoo - GTARP NoPixel Whitelist Server </title>
-<desc lang="en"> Started: 12:04 am
-Playing: Grand Theft Auto V
-Viewers: 5 </desc>
+Viewers: 8 </desc>
 </programme>
 
 <programme start="20260822003152 +0000" stop="20260824193152 +0000" channel="Hellknight86.us">
 <title lang="en"> Antoine Du Sucre - Lone Wolf - Nopixel WL </title>
 <desc lang="en"> Started: 07:31 pm
+Playing: Grand Theft Auto V
+Viewers: 4 </desc>
+</programme>
+
+<programme start="20260822050429 +0000" stop="20260825000429 +0000" channel="CowsMooingNSuch.us">
+<title lang="en"> Sophia McMoo - GTARP NoPixel Whitelist Server </title>
+<desc lang="en"> Started: 12:04 am
 Playing: Grand Theft Auto V
 Viewers: 4 </desc>
 </programme>
@@ -160,77 +152,63 @@ Viewers: 2 </desc>
 <title lang="en"> Stumble Fumbles - Clowncil - NP V Sept 8th - NoPixel 4.0 </title>
 <desc lang="en"> Started: 10:14PM
 Playing: Grand Theft Auto V
-Viewers: 98 </desc>
+Viewers: 95 </desc>
 </programme>
 
-<programme start="20260822000000 +0000" stop="20260825022120 +0000" channel="capped.us">
+<programme start="20260822000000 +0000" stop="20260825022818 +0000" channel="capped.us">
 <title lang="en"> The Faceless | NoPixel | !discord 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 943 </desc>
 </programme>
 
-<programme start="20260822000000 +0000" stop="20260825022120 +0000" channel="itsholmes.us">
-<title lang="en"> JETSAM, CRAWFORD, SUPPLIES | THE ORDER OF THE SHADOWS | NOPIXEL WL 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 
-Playing: Grand Theft Auto V (GTA)
-Viewers: 2 </desc>
-</programme>
-
-<programme start="20260822000000 +0000" stop="20260825022120 +0000" channel="harry.us">
+<programme start="20260822000000 +0000" stop="20260825022818 +0000" channel="harry.us">
 <title lang="en"> HARRY BROWN AND THE FACELESS | NOPIXEL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260822000000 +0000" stop="20260825022120 +0000" channel="icky619.us">
+<programme start="20260822000000 +0000" stop="20260825022818 +0000" channel="icky619.us">
 <title lang="en"> ☠️ Andi Coots | NoPixel 4.0 WL → Project Zomboid with Dummies ☠️ 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260822000000 +0000" stop="20260825022120 +0000" channel="dumpykdog.us">
+<programme start="20260822000000 +0000" stop="20260825022818 +0000" channel="dumpykdog.us">
 <title lang="en"> Faceless mission | Nopixel 4.0 | Then checking out Project zomboid | Follow: @dumpykdog 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260822000000 +0000" stop="20260825022120 +0000" channel="manax.us">
+<programme start="20260822000000 +0000" stop="20260825022818 +0000" channel="manax.us">
 <title lang="en"> Alan Key | LSPD | NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 18 </desc>
 </programme>
 
-<programme start="20260822000000 +0000" stop="20260825022120 +0000" channel="ms_star.us">
+<programme start="20260822000000 +0000" stop="20260825022818 +0000" channel="ms_star.us">
 <title lang="en"> Skye Faye ★ NoPixel WL ★ @ms_star 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 6 </desc>
 </programme>
 
-<programme start="20260822000000 +0000" stop="20260825022120 +0000" channel="boostedwastaken.us">
+<programme start="20260822000000 +0000" stop="20260825022818 +0000" channel="boostedwastaken.us">
 <title lang="en"> Lost Souls. PT.2 l Benny Razer l NoPixelWL NPV SOOOON!!! MULTISTREAM! 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260822000000 +0000" stop="20260825022120 +0000" channel="itsfabelz.us">
+<programme start="20260822000000 +0000" stop="20260825022818 +0000" channel="itsfabelz.us">
 <title lang="en"> James McCallister | the start of the end | !discord 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
-</programme>
-
-<programme start="20260822000000 +0000" stop="20260825022120 +0000" channel="thebigbrickz.us">
-<title lang="en"> Ethan | NoPixel WL 🟢🟢Kick Stream☝️ </title>
-<desc lang="en"> Started: 
-Playing: Grand Theft Auto V (GTA)
-Viewers: 6 </desc>
 </programme>
 
 
