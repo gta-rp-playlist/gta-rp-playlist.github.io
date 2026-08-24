@@ -1,20 +1,25 @@
     <div class="category" onclick="highlightCategory(this)" data-category="09Cleveland">09Cleveland</div>
-      <div class="sub-item" data-category="09Cleveland" data-title="Eliza D. Stellano Dalton | kappa | NoPixel" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kaelea-854x480.jpg" data-viewers="29" onclick="playStream('kaelea')">
+      <div class="sub-item" data-category="09Cleveland" data-title="Eliza D. Stellano Dalton | kappa | NoPixel" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kaelea-854x480.jpg" data-viewers="27" onclick="playStream('kaelea')">
         <span class="username">kaelea</span>
-        <span class="viewer-count">🔴29</span>
+        <span class="viewer-count">🔴27</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
       <div class="sub-item" data-category="01Cops" data-title="weewoO - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_allium-854x480.jpg" data-viewers="48" onclick="playStream('Allium')">
         <span class="username">Allium</span>
         <span class="viewer-count">🔴48</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Nopixel - Little deputy Natascha Russel - Keep Pushing" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_graewan-854x480.jpg" data-viewers="8" onclick="playStream('Graewan')">
+      <div class="sub-item" data-category="01Cops" data-title="Nopixel - Little deputy Natascha Russel - Keep Pushing" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_graewan-854x480.jpg" data-viewers="7" onclick="playStream('Graewan')">
         <span class="username">Graewan</span>
-        <span class="viewer-count">🔴8</span>
+        <span class="viewer-count">🔴7</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/NXeMksNbF7sS/480.webp" data-viewers="75" onclick="playStream('aus24')">
+      <div class="sub-item" data-category="01Cops" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/NXeMksNbF7sS/480.webp" data-viewers="86" onclick="playStream('aus24')">
         <span class="username">aus24</span>
-        <span class="viewer-count">🟢75</span>
+        <span class="viewer-count">🟢86</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
+      <div class="sub-item" data-category="07Doctors" data-title="NoPixel WL - 18 - 5.0 INVITE - EMS - Nathan Warren - Emergency Medical Shenanigans - supportservices discord commands blackdoginstitute" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_blokeowski-854x480.jpg" data-viewers="28" onclick="playStream('Blokeowski')">
+        <span class="username">Blokeowski</span>
+        <span class="viewer-count">🔴28</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="57Independent">57Independent</div>
       <div class="sub-item" data-category="57Independent" data-title="Deputy Rohan • Spiral • NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_soulsrp-854x480.jpg" data-viewers="22" onclick="playStream('Soulsrp')">
@@ -25,38 +30,33 @@
         <span class="username">MrGlee</span>
         <span class="viewer-count">🔴19</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
-      <div class="sub-item" data-category="07Doctors" data-title="NoPixel WL - 18 - 5.0 INVITE - EMS - Nathan Warren - Emergency Medical Shenanigans - supportservices discord commands blackdoginstitute" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_blokeowski-854x480.jpg" data-viewers="24" onclick="playStream('Blokeowski')">
-        <span class="username">Blokeowski</span>
-        <span class="viewer-count">🔴24</span>
-      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="Los Santos Source - Cecily McDougall - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nadette-854x480.jpg" data-viewers="10" onclick="playStream('Nadette')">
+      <div class="sub-item" data-category="58Uncategorized" data-title="Los Santos Source - Cecily McDougall - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nadette-854x480.jpg" data-viewers="11" onclick="playStream('Nadette')">
         <span class="username">Nadette</span>
-        <span class="viewer-count">🔴10</span>
+        <span class="viewer-count">🔴11</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
-      <div class="sub-item" data-category="03BCSO" data-title="Nopixel - Little deputy Natascha Russel - Keep Pushing" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_graewan-854x480.jpg" data-viewers="8" onclick="playStream('Graewan')">
+      <div class="sub-item" data-category="03BCSO" data-title="Nopixel - Little deputy Natascha Russel - Keep Pushing" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_graewan-854x480.jpg" data-viewers="7" onclick="playStream('Graewan')">
         <span class="username">Graewan</span>
-        <span class="viewer-count">🔴8</span>
+        <span class="viewer-count">🔴7</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
-      <div class="sub-item" data-category="10Besties" data-title="Gamertag | SUPER COOL COOKED STREAM | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/rXVTRhBlVEn8/fHDum4nC5xZy/480.webp" data-viewers="27" onclick="playStream('stormskii')">
+      <div class="sub-item" data-category="10Besties" data-title="Gamertag | SUPER COOL COOKED STREAM | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/rXVTRhBlVEn8/fHDum4nC5xZy/480.webp" data-viewers="26" onclick="playStream('stormskii')">
         <span class="username">stormskii</span>
-        <span class="viewer-count">🟢27</span>
+        <span class="viewer-count">🟢26</span>
       </div>
-      <div class="sub-item" data-category="10Besties" data-title="gamin 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/felYuVId0iZG/HBvJXRJecs9u/480.webp" data-viewers="223" onclick="playStream('simpless')">
+      <div class="sub-item" data-category="10Besties" data-title="gamin 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/felYuVId0iZG/HBvJXRJecs9u/480.webp" data-viewers="229" onclick="playStream('simpless')">
         <span class="username">simpless</span>
-        <span class="viewer-count">🟢223</span>
+        <span class="viewer-count">🟢229</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
-      <div class="sub-item" data-category="02LSPD" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/NXeMksNbF7sS/480.webp" data-viewers="75" onclick="playStream('aus24')">
+      <div class="sub-item" data-category="02LSPD" data-title="Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/EYl1CvEl6iDK/NXeMksNbF7sS/480.webp" data-viewers="86" onclick="playStream('aus24')">
         <span class="username">aus24</span>
-        <span class="viewer-count">🟢75</span>
+        <span class="viewer-count">🟢86</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="28Hounds">28Hounds</div>
-      <div class="sub-item" data-category="28Hounds" data-title="Cozy art strim | Hounds | Luna&amp;Sheamus | Reggie&amp;Kyomi | Dr.Harry | Reece | NoPixel Characters 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/uJf0C6RQ7c8M/0gSTwwnHwmKg/480.webp" data-viewers="11" onclick="playStream('vanillayoshee')">
+      <div class="sub-item" data-category="28Hounds" data-title="Cozy art strim | Hounds | Luna&amp;Sheamus | Reggie&amp;Kyomi | Dr.Harry | Reece | NoPixel Characters 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/uJf0C6RQ7c8M/0gSTwwnHwmKg/480.webp" data-viewers="10" onclick="playStream('vanillayoshee')">
         <span class="username">vanillayoshee</span>
-        <span class="viewer-count">🟢11</span>
+        <span class="viewer-count">🟢10</span>
       </div>
 
