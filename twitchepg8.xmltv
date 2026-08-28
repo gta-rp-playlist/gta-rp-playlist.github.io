@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="brakketts.us">
+<display-name>brakketts</display-name>
+</channel>
+
 <channel id="zaxx386.us">
 <display-name>zaxx386</display-name>
 </channel>
@@ -28,10 +32,6 @@
 
 <channel id="Hellknight86.us">
 <display-name>Hellknight86</display-name>
-</channel>
-
-<channel id="brakketts.us">
-<display-name>brakketts</display-name>
 </channel>
 
 <channel id="firecrackthat.us">
@@ -74,32 +74,39 @@
 <display-name>aus24</display-name>
 </channel>
 
+<programme start="20260828073739 +0000" stop="20260831023739 +0000" channel="brakketts.us">
+<title lang="en"> Tommy Horver - BSCO Deputy 315 - Nopixel </title>
+<desc lang="en"> Started: 2:37AM
+Playing: Grand Theft Auto V
+Viewers: 3 </desc>
+</programme>
+
 <programme start="20260828034512 +0000" stop="20260830224512 +0000" channel="zaxx386.us">
 <title lang="en"> Moose Knuckles - Clowncil - NoPixel WL </title>
 <desc lang="en"> Started: 10:45 pm
 Playing: Grand Theft Auto V
-Viewers: 160 </desc>
+Viewers: 157 </desc>
 </programme>
 
 <programme start="20260827224316 +0000" stop="20260830174316 +0000" channel="UnicornFrapp.us">
 <title lang="en"> Leah Nites - Intern - Nopixel 4.0 WL </title>
 <desc lang="en"> Started: 05:43 pm
 Playing: Grand Theft Auto V
-Viewers: 34 </desc>
+Viewers: 28 </desc>
 </programme>
 
 <programme start="20260828054104 +0000" stop="20260831004104 +0000" channel="MrGlee.us">
 <title lang="en"> WHELP PT2 - LFFL - Sai Kou - NoPixel WL - socials </title>
 <desc lang="en"> Started: 12:41 am
 Playing: Grand Theft Auto V
-Viewers: 24 </desc>
+Viewers: 21 </desc>
 </programme>
 
 <programme start="20260828033227 +0000" stop="20260830223227 +0000" channel="Nadette.us">
 <title lang="en"> Home. - Los Santos Source - Cecily McDougall - NoPixel WL 4.0 </title>
 <desc lang="en"> Started: 10:32 pm
 Playing: Grand Theft Auto V
-Viewers: 16 </desc>
+Viewers: 14 </desc>
 </programme>
 
 <programme start="20260828050500 +0000" stop="20260831000500 +0000" channel="makeitmeansomething.us">
@@ -113,21 +120,14 @@ Viewers: 15 </desc>
 <title lang="en"> 🚨👮‍♂️430 - Officer Jason Ward 👮‍♂️🚨- LSPD - NoPixel WL - Dual Stream Kick-Twitch </title>
 <desc lang="en"> Started: 12:10 am
 Playing: Grand Theft Auto V
-Viewers: 15 </desc>
+Viewers: 13 </desc>
 </programme>
 
 <programme start="20260827232240 +0000" stop="20260830182240 +0000" channel="Hellknight86.us">
 <title lang="en"> Antoine Du Sucre - Lone Wolf - Nopixel WL </title>
 <desc lang="en"> Started: 06:22 pm
 Playing: Grand Theft Auto V
-Viewers: 6 </desc>
-</programme>
-
-<programme start="20260828073739 +0000" stop="20260831023739 +0000" channel="brakketts.us">
-<title lang="en"> Tommy Horver - BSCO Deputy 315 - Nopixel </title>
-<desc lang="en"> Started: 2:37AM
-Playing: Grand Theft Auto V
-Viewers: 1 </desc>
+Viewers: 3 </desc>
 </programme>
 
 <programme start="20260828045932 +0000" stop="20260830235932 +0000" channel="firecrackthat.us">
@@ -137,63 +137,63 @@ Playing: Grand Theft Auto V
 Viewers: 53 </desc>
 </programme>
 
-<programme start="20260828000000 +0000" stop="20260831024318 +0000" channel="mfwarlock.us">
+<programme start="20260828000000 +0000" stop="20260831025118 +0000" channel="mfwarlock.us">
 <title lang="en"> Skipper Jones | NoPixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260828000000 +0000" stop="20260831024319 +0000" channel="buddha.us">
+<programme start="20260828000000 +0000" stop="20260831025118 +0000" channel="buddha.us">
 <title lang="en"> GTA 6? 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 520 </desc>
 </programme>
 
-<programme start="20260828000000 +0000" stop="20260831024319 +0000" channel="saab.us">
+<programme start="20260828000000 +0000" stop="20260831025118 +0000" channel="saab.us">
 <title lang="en"> FIRST LOOK AT GTA 6 - PZ LATER | !socials !clip !overlay 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 81 </desc>
 </programme>
 
-<programme start="20260828000000 +0000" stop="20260831024319 +0000" channel="harry.us">
+<programme start="20260828000000 +0000" stop="20260831025118 +0000" channel="harry.us">
 <title lang="en"> HARRY BROWN AND THE GREAT FACELESS MISSION | NOPIXEL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 70 </desc>
 </programme>
 
-<programme start="20260828000000 +0000" stop="20260831024319 +0000" channel="voiceid.us">
+<programme start="20260828000000 +0000" stop="20260831025118 +0000" channel="voiceid.us">
 <title lang="en"> Murphy Braun - A Bang or a Whimper? | NoPixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260828000000 +0000" stop="20260831024319 +0000" channel="wildflowerwonder.us">
+<programme start="20260828000000 +0000" stop="20260831025118 +0000" channel="wildflowerwonder.us">
 <title lang="en"> Skyler Sparks - "Ghost_ Protocol" pt. 4 | San Andreas State Marshals | NoPixelWL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 35 </desc>
 </programme>
 
-<programme start="20260828000000 +0000" stop="20260831024319 +0000" channel="harmless.us">
+<programme start="20260828000000 +0000" stop="20260831025118 +0000" channel="harmless.us">
 <title lang="en"> idk 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260828000000 +0000" stop="20260831024319 +0000" channel="stormskii.us">
+<programme start="20260828000000 +0000" stop="20260831025118 +0000" channel="stormskii.us">
 <title lang="en"> Gamertag | PREPARING FOR GTA 6 HOLD HANDS METHOD | NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260828000000 +0000" stop="20260831024319 +0000" channel="aus24.us">
+<programme start="20260828000000 +0000" stop="20260831025118 +0000" channel="aus24.us">
 <title lang="en"> Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
