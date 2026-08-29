@@ -3,9 +3,9 @@
         <span class="username">zaxx386</span>
         <span class="viewer-count">🔴136</span>
       </div>
-      <div class="sub-item" data-category="17Clowns" data-title="Rocket Cane - Clown - Nopixel WL - 18 - consolefund" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_makeitmeansomething-854x480.jpg" data-viewers="13" onclick="playStream('makeitmeansomething')">
+      <div class="sub-item" data-category="17Clowns" data-title="Rocket Cane - Clown - Nopixel WL - 18 - consolefund" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_makeitmeansomething-854x480.jpg" data-viewers="15" onclick="playStream('makeitmeansomething')">
         <span class="username">makeitmeansomething</span>
-        <span class="viewer-count">🔴13</span>
+        <span class="viewer-count">🔴15</span>
       </div>
       <div class="sub-item" data-category="17Clowns" data-title="Stumbles Fumbles | Clowncil | NP V SEPT 8TH | NoPixel 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_firecrackthat-854x480.jpg" data-viewers="51" onclick="playStream('firecrackthat')">
         <span class="username">firecrackthat</span>
@@ -16,17 +16,17 @@
         <span class="username">Blokeowski</span>
         <span class="viewer-count">🔴30</span>
       </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
+      <div class="sub-item" data-category="10Besties" data-title="Big Fig 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/3P1dWNF0aTPn/480.webp" data-viewers="174" onclick="playStream('harmless')">
+        <span class="username">harmless</span>
+        <span class="viewer-count">🟢174</span>
+      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
-      <div class="sub-item" data-category="01Cops" data-title="Jack Bilby | LSPD | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7wwP2GBI4zYO/gB5mGPYylpDt/480.webp" data-viewers="75" onclick="playStream('leonarwho')">
-        <span class="username">leonarwho</span>
-        <span class="viewer-count">🟢75</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="🚨👮‍♂️430 - Officer Jason Ward 👮‍♂️🚨- LSPD - NoPixel WL - Dual Stream Kick-Twitch" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_blackhammerhdx-854x480.jpg" data-viewers="13" onclick="playStream('BlackHammerHDx')">
+      <div class="sub-item" data-category="01Cops" data-title="🚨👮‍♂️430 - Officer Jason Ward 👮‍♂️🚨- LSPD - NoPixel WL - Dual Stream Kick-Twitch" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_blackhammerhdx-854x480.jpg" data-viewers="15" onclick="playStream('BlackHammerHDx')">
         <span class="username">BlackHammerHDx</span>
-        <span class="viewer-count">🔴13</span>
+        <span class="viewer-count">🔴15</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
-      <div class="sub-item" data-category="03BCSO" data-title="Jack Bilby | LSPD | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7wwP2GBI4zYO/gB5mGPYylpDt/480.webp" data-viewers="75" onclick="playStream('leonarwho')">
+      <div class="sub-item" data-category="01Cops" data-title="Jack Bilby | LSPD | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7wwP2GBI4zYO/gB5mGPYylpDt/480.webp" data-viewers="75" onclick="playStream('leonarwho')">
         <span class="username">leonarwho</span>
         <span class="viewer-count">🟢75</span>
       </div>
@@ -44,14 +44,14 @@
         <span class="username">CowsMooingNSuch</span>
         <span class="viewer-count">🔴5</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
-      <div class="sub-item" data-category="10Besties" data-title="Big Fig 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/3P1dWNF0aTPn/480.webp" data-viewers="175" onclick="playStream('harmless')">
-        <span class="username">harmless</span>
-        <span class="viewer-count">🟢175</span>
+    <div class="category" onclick="highlightCategory(this)" data-category="03BCSO">03BCSO</div>
+      <div class="sub-item" data-category="03BCSO" data-title="Jack Bilby | LSPD | NoPixel WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7wwP2GBI4zYO/gB5mGPYylpDt/480.webp" data-viewers="75" onclick="playStream('leonarwho')">
+        <span class="username">leonarwho</span>
+        <span class="viewer-count">🟢75</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="24RaidersMC">24RaidersMC</div>
-      <div class="sub-item" data-category="24RaidersMC" data-title="Saying Goodbye | Lotte Breeze | Raiders MC | NOMAD | NP 5.0 INVITEE!! | PNGTuber 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/hyKBHnZLxPge/keMjJiMO5Upm/480.webp" data-viewers="1" onclick="playStream('oyamec')">
+      <div class="sub-item" data-category="24RaidersMC" data-title="Saying Goodbye | Lotte Breeze | Raiders MC | NOMAD | NP 5.0 INVITEE!! | PNGTuber 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/hyKBHnZLxPge/keMjJiMO5Upm/480.webp" data-viewers="2" onclick="playStream('oyamec')">
         <span class="username">oyamec</span>
-        <span class="viewer-count">🟢1</span>
+        <span class="viewer-count">🟢2</span>
       </div>
 
