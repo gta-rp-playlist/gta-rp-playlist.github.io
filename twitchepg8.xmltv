@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="Hellknight86.us">
+<display-name>Hellknight86</display-name>
+</channel>
+
 <channel id="buddha.us">
 <display-name>buddha</display-name>
 </channel>
@@ -10,14 +14,21 @@
 <display-name>aus24</display-name>
 </channel>
 
-<programme start="20260830000000 +0000" stop="20260902022815 +0000" channel="buddha.us">
+<programme start="20260830011520 +0000" stop="20260901201520 +0000" channel="Hellknight86.us">
+<title lang="en"> Antoine Du Sucre - South Rockf0rd Police Department - Nopixel WL </title>
+<desc lang="en"> Started: 08:15 pm
+Playing: Grand Theft Auto V
+Viewers: 27 </desc>
+</programme>
+
+<programme start="20260830000000 +0000" stop="20260902023615 +0000" channel="buddha.us">
 <title lang="en"> yo 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260830000000 +0000" stop="20260902022815 +0000" channel="aus24.us">
+<programme start="20260830000000 +0000" stop="20260902023615 +0000" channel="aus24.us">
 <title lang="en"> Davenport | LSPD | NoPixel 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
