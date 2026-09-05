@@ -2,8 +2,16 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="moosetaffy.us">
+<display-name>moosetaffy</display-name>
+</channel>
+
 <channel id="nikez.us">
 <display-name>nikez</display-name>
+</channel>
+
+<channel id="neloc_.us">
+<display-name>neloc_</display-name>
 </channel>
 
 <channel id="TheDlinQuenT.us">
@@ -14,44 +22,32 @@
 <display-name>rerolldota</display-name>
 </channel>
 
-<channel id="chickenkeev.us">
-<display-name>chickenkeev</display-name>
-</channel>
-
-<channel id="neloc_.us">
-<display-name>neloc_</display-name>
-</channel>
-
-<channel id="Equinax_.us">
-<display-name>Equinax_</display-name>
-</channel>
-
 <channel id="LycanStory.us">
 <display-name>LycanStory</display-name>
 </channel>
 
-<channel id="DeadlyDom.us">
-<display-name>DeadlyDom</display-name>
-</channel>
-
-<channel id="OmicronzZz.us">
-<display-name>OmicronzZz</display-name>
-</channel>
-
-<channel id="Minniiis.us">
-<display-name>Minniiis</display-name>
-</channel>
-
-<channel id="ellum.us">
-<display-name>ellum</display-name>
+<channel id="chickenkeev.us">
+<display-name>chickenkeev</display-name>
 </channel>
 
 <channel id="LittleCatnee.us">
 <display-name>LittleCatnee</display-name>
 </channel>
 
-<channel id="shelbs1213.us">
-<display-name>shelbs1213</display-name>
+<channel id="ellum.us">
+<display-name>ellum</display-name>
+</channel>
+
+<channel id="DeadlyDom.us">
+<display-name>DeadlyDom</display-name>
+</channel>
+
+<channel id="Minniiis.us">
+<display-name>Minniiis</display-name>
+</channel>
+
+<channel id="OmicronzZz.us">
+<display-name>OmicronzZz</display-name>
 </channel>
 
 <channel id="AstrxUK.us">
@@ -60,6 +56,10 @@
 
 <channel id="immieehey.us">
 <display-name>immieehey</display-name>
+</channel>
+
+<channel id="shelbs1213.us">
+<display-name>shelbs1213</display-name>
 </channel>
 
 <channel id="withextrasauce.us">
@@ -78,12 +78,12 @@
 <display-name>RamenJD</display-name>
 </channel>
 
-<channel id="scottishgamer32.us">
-<display-name>scottishgamer32</display-name>
-</channel>
-
 <channel id="HasanAbi.us">
 <display-name>HasanAbi</display-name>
+</channel>
+
+<channel id="scottishgamer32.us">
+<display-name>scottishgamer32</display-name>
 </channel>
 
 <channel id="thedlinquent.us">
@@ -134,32 +134,18 @@
 <display-name>silent</display-name>
 </channel>
 
+<programme start="20260905144653 +0000" stop="20260908094653 +0000" channel="moosetaffy.us">
+<title lang="en"> All GTA 5 Heists - Astraydoodles PoBox Discord Viking #AD </title>
+<desc lang="en"> Started: 9:46AM
+Playing: Grand Theft Auto V
+Viewers: 48 </desc>
+</programme>
+
 <programme start="20260905173326 +0000" stop="20260908123326 +0000" channel="nikez.us">
-<title lang="en"> Trygg - WARDOGS - Socials @nikez </title>
+<title lang="en"> WARDOGS - Socials @nikez </title>
 <desc lang="en"> Started: 12:33PM
-Playing: Grand Theft Auto V
-Viewers: 161 </desc>
-</programme>
-
-<programme start="20260905171059 +0000" stop="20260908121059 +0000" channel="TheDlinQuenT.us">
-<title lang="en"> Dee LinQ - ODPD - Sergeant - No Pixel 4.0 WL </title>
-<desc lang="en"> Started: 12:10 pm
-Playing: Grand Theft Auto V
-Viewers: 37 </desc>
-</programme>
-
-<programme start="20260905172634 +0000" stop="20260908122634 +0000" channel="rerolldota.us">
-<title lang="en"> Nopixel WL - 545 Sgt.Nova - Recovery and Rebuild -🙏 5.0 Invite Hopeful 🙏 </title>
-<desc lang="en"> Started: 12:26 pm
-Playing: Grand Theft Auto V
-Viewers: 34 </desc>
-</programme>
-
-<programme start="20260905185215 +0000" stop="20260908135215 +0000" channel="chickenkeev.us">
-<title lang="en"> 4.0 Recap II Watching Purgatory Arc and Faceless Operations II NoPixel V Invitee </title>
-<desc lang="en"> Started: 01:52 pm
-Playing: Grand Theft Auto V
-Viewers: 14 </desc>
+Playing: WARDOGS
+Viewers: 167 </desc>
 </programme>
 
 <programme start="20260905175902 +0000" stop="20260908125902 +0000" channel="neloc_.us">
@@ -169,60 +155,67 @@ Playing: Grand Theft Auto V
 Viewers: 18 </desc>
 </programme>
 
-<programme start="20260905150545 +0000" stop="20260908100545 +0000" channel="Equinax_.us">
-<title lang="en"> Nakari the builder can she fix it Yes she can - NoPixel WL - SSMBDWK </title>
-<desc lang="en"> Started: 10:05 am
+<programme start="20260905171059 +0000" stop="20260908121059 +0000" channel="TheDlinQuenT.us">
+<title lang="en"> Dee LinQ - ODPD - Sergeant - No Pixel 4.0 WL </title>
+<desc lang="en"> Started: 12:10 pm
 Playing: Grand Theft Auto V
-Viewers: 13 </desc>
+Viewers: 40 </desc>
+</programme>
+
+<programme start="20260905172634 +0000" stop="20260908122634 +0000" channel="rerolldota.us">
+<title lang="en"> Nopixel WL - 545 Sgt.Nova - Recovery and Rebuild -🙏 5.0 Invite Hopeful 🙏 </title>
+<desc lang="en"> Started: 12:26 pm
+Playing: Grand Theft Auto V
+Viewers: 30 </desc>
 </programme>
 
 <programme start="20260905174553 +0000" stop="20260908124553 +0000" channel="LycanStory.us">
 <title lang="en"> Damaged - William Bill Hunter - Lost MC Tailgunner - Nopixel RP 4.0 </title>
 <desc lang="en"> Started: 12:45 pm
 Playing: Grand Theft Auto V
-Viewers: 7 </desc>
+Viewers: 11 </desc>
 </programme>
 
-<programme start="20260905171814 +0000" stop="20260908121814 +0000" channel="DeadlyDom.us">
-<title lang="en"> 200 Ivan Crowe LSPD - Rebuilding our home- Short Stream - Nopixel WL </title>
-<desc lang="en"> Started: 12:18 pm
+<programme start="20260905185215 +0000" stop="20260908135215 +0000" channel="chickenkeev.us">
+<title lang="en"> 4.0 Recap II Watching Purgatory Arc and Faceless Operations II NoPixel V Invitee </title>
+<desc lang="en"> Started: 01:52 pm
 Playing: Grand Theft Auto V
-Viewers: 7 </desc>
-</programme>
-
-<programme start="20260905171323 +0000" stop="20260908121323 +0000" channel="OmicronzZz.us">
-<title lang="en"> Mark Ellison - DIvorced POV - EMS - NoPixel WL </title>
-<desc lang="en"> Started: 12:13 pm
-Playing: Grand Theft Auto V
-Viewers: 5 </desc>
-</programme>
-
-<programme start="20260905175057 +0000" stop="20260908125057 +0000" channel="Minniiis.us">
-<title lang="en"> 🟣🟢 Aftermath - Lt. Jen EMS - NoPixel 4.0 WL - NPV Hopeful </title>
-<desc lang="en"> Started: 12:50 pm
-Playing: Grand Theft Auto V
-Viewers: 4 </desc>
-</programme>
-
-<programme start="20260905172854 +0000" stop="20260908122854 +0000" channel="ellum.us">
-<title lang="en"> 🚨NP GTA 5.0 UPDATES🚨 FINAL GOODBYE TO CHATTERBOX and KIRK🚨YAPPY MAKES A GANG🚨YAPPY BEST MOMENTS OF 4.0 REACTS🚨 </title>
-<desc lang="en"> Started: 12:28PM
-Playing: Grand Theft Auto V
-Viewers: 591 </desc>
+Viewers: 8 </desc>
 </programme>
 
 <programme start="20260905171103 +0000" stop="20260908121103 +0000" channel="LittleCatnee.us">
 <title lang="en"> 🌼Cleaning the Rubble🌼Catherine Cuddlepuff🌼Nopixel 4.0 WL🌼 </title>
 <desc lang="en"> Started: 12:11 pm
 Playing: Grand Theft Auto V
-Viewers: 3 </desc>
+Viewers: 8 </desc>
 </programme>
 
-<programme start="20260905150207 +0000" stop="20260908100207 +0000" channel="shelbs1213.us">
-<title lang="en"> Mako Kai - Nopixel </title>
-<desc lang="en"> Started: 10:02 am
+<programme start="20260905172854 +0000" stop="20260908122854 +0000" channel="ellum.us">
+<title lang="en"> 🚨NP GTA 5.0 UPDATES🚨 FINAL GOODBYE TO CHATTERBOX and KIRK🚨YAPPY MAKES A GANG🚨YAPPY BEST MOMENTS OF 4.0 REACTS🚨 </title>
+<desc lang="en"> Started: 12:28PM
 Playing: Grand Theft Auto V
-Viewers: 5 </desc>
+Viewers: 597 </desc>
+</programme>
+
+<programme start="20260905171814 +0000" stop="20260908121814 +0000" channel="DeadlyDom.us">
+<title lang="en"> 200 Ivan Crowe LSPD - Rebuilding our home- Short Stream - Nopixel WL </title>
+<desc lang="en"> Started: 12:18 pm
+Playing: Grand Theft Auto V
+Viewers: 6 </desc>
+</programme>
+
+<programme start="20260905175057 +0000" stop="20260908125057 +0000" channel="Minniiis.us">
+<title lang="en"> 🟣🟢 Aftermath - Lt. Jen EMS - NoPixel 4.0 WL - NPV Hopeful </title>
+<desc lang="en"> Started: 12:50 pm
+Playing: Grand Theft Auto V
+Viewers: 6 </desc>
+</programme>
+
+<programme start="20260905171323 +0000" stop="20260908121323 +0000" channel="OmicronzZz.us">
+<title lang="en"> Mark Ellison - DIvorced POV - EMS - NoPixel WL </title>
+<desc lang="en"> Started: 12:13 pm
+Playing: Grand Theft Auto V
+Viewers: 6 </desc>
 </programme>
 
 <programme start="20260905180346 +0000" stop="20260908130346 +0000" channel="AstrxUK.us">
@@ -239,11 +232,18 @@ Playing: Grand Theft Auto V
 Viewers: 3 </desc>
 </programme>
 
+<programme start="20260905150207 +0000" stop="20260908100207 +0000" channel="shelbs1213.us">
+<title lang="en"> Mako Kai - Nopixel </title>
+<desc lang="en"> Started: 10:02 am
+Playing: Grand Theft Auto V
+Viewers: 3 </desc>
+</programme>
+
 <programme start="20260905180533 +0000" stop="20260908130533 +0000" channel="withextrasauce.us">
 <title lang="en"> Jeffy Coldiron - House Rules Day 3 - NPV On Tuesday - social </title>
 <desc lang="en"> Started: 1:05PM
 Playing: Grand Theft Auto V
-Viewers: 10 </desc>
+Viewers: 8 </desc>
 </programme>
 
 <programme start="20260905043547 +0000" stop="20260907233547 +0000" channel="Hellknight86.us">
@@ -267,6 +267,13 @@ Playing: Grand Theft Auto V
 Viewers: 0 </desc>
 </programme>
 
+<programme start="20260905182943 +0000" stop="20260908132943 +0000" channel="HasanAbi.us">
+<title lang="en"> 🤬CHICAGO🤬SOCIALISM CONFERENCE🤬LINDSEY CLANCY MISTRIAL🤬SATURDAY FUNDAY🤬STRAIT CLOSED💢OIL$ RISES💢 </title>
+<desc lang="en"> Started: 1:29PM
+Playing: Just Chatting
+Viewers: 20712 </desc>
+</programme>
+
 <programme start="20260905192549 +0000" stop="20260908142549 +0000" channel="scottishgamer32.us">
 <title lang="en"> WE BACK BABY🔥 NoPixel🔥🟩CHILL✅Scottishgamer32💠THE GRIND IS REAL ✅ </title>
 <desc lang="en"> Started: 02:25 pm
@@ -274,91 +281,84 @@ Playing: Grand Theft Auto V
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260905182943 +0000" stop="20260908132943 +0000" channel="HasanAbi.us">
-<title lang="en"> 🤬CHICAGO🤬SOCIALISM CONFERENCE🤬LINDSEY CLANCY MISTRIAL🤬SATURDAY FUNDAY🤬STRAIT CLOSED💢OIL$ RISES💢 </title>
-<desc lang="en"> Started: 1:29PM
-Playing: Just Chatting
-Viewers: 20207 </desc>
-</programme>
-
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="thedlinquent.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="thedlinquent.us">
 <title lang="en"> Dee LinQ - ODPD - Sergeant - No Pixel 4.0 WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 23 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="leonarwho.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="leonarwho.us">
 <title lang="en"> Kelly Dean | NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="katec.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="katec.us">
 <title lang="en"> Daisy Moss says goodbye? | LSPD | Nopixel 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="rerolldota.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="rerolldota.us">
 <title lang="en"> Nopixel WL | 545 Sgt.Nova | Recovery and Rebuild |🙏 5.0 Invite Hopeful 🙏 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="vawwn.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="vawwn.us">
 <title lang="en"> SGT. POLO | NOPIXEL 5 INVITEE!! | !tts 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 6 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="nikez.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="nikez.us">
 <title lang="en"> Trygg -> WARDOGS | Socials @nikez 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 38 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="gr8pe_tv.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="gr8pe_tv.us">
 <title lang="en"> Adam Novik | Nopixel WL | rebuilding the city 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="minniis.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="minniis.us">
 <title lang="en"> 🟣🟢 Aftermath | Lt. Jen EMS | NoPixel 4.0 WL | NPV Hopeful 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 5 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="chickenkeev.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="chickenkeev.us">
 <title lang="en"> 4.0 Recap II Watching Purgatory Arc & Faceless Operations II NoPixel V Invitee 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 26 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="ramenjd.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="ramenjd.us">
 <title lang="en"> Move On | 🚑 EMS Jeremy Shimizu | Nopixel WL | Day 369 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="cosmic-chimp.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="cosmic-chimp.us">
 <title lang="en"> Julio Frost Nopixel Wl 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 6 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908144318 +0000" channel="silent.us">
+<programme start="20260905000000 +0000" stop="20260908145150 +0000" channel="silent.us">
 <title lang="en"> VALO GAMES THEN WATCHING NRG GAME | !youtube !discord !ig 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
