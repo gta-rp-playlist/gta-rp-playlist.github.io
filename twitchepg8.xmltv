@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="katecirrus.us">
+<display-name>katecirrus</display-name>
+</channel>
+
 <channel id="Soulsrp.us">
 <display-name>Soulsrp</display-name>
 </channel>
@@ -26,20 +30,16 @@
 <display-name>4hbunger</display-name>
 </channel>
 
-<channel id="Cayucos.us">
-<display-name>Cayucos</display-name>
-</channel>
-
 <channel id="ItzNooodles.us">
 <display-name>ItzNooodles</display-name>
 </channel>
 
-<channel id="xqc.us">
-<display-name>xqc</display-name>
+<channel id="Cayucos.us">
+<display-name>Cayucos</display-name>
 </channel>
 
-<channel id="katecirrus.us">
-<display-name>katecirrus</display-name>
+<channel id="xqc.us">
+<display-name>xqc</display-name>
 </channel>
 
 <channel id="nismodoma.us">
@@ -54,11 +54,18 @@
 <display-name>katecirrus</display-name>
 </channel>
 
+<programme start="20260905064944 +0000" stop="20260908014944 +0000" channel="katecirrus.us">
+<title lang="en"> Nell Slater - silly ppo singlehandedly ends crime in los santos - nopixel WL 4.0 </title>
+<desc lang="en"> Started: 1:49AM
+Playing: Grand Theft Auto V
+Viewers: 5 </desc>
+</programme>
+
 <programme start="20260905050421 +0000" stop="20260908000421 +0000" channel="Soulsrp.us">
 <title lang="en"> Rohan • Far from the final stream ever • NoPixel WL </title>
 <desc lang="en"> Started: 12:04 am
 Playing: Grand Theft Auto V
-Viewers: 30 </desc>
+Viewers: 36 </desc>
 </programme>
 
 <programme start="20260905054709 +0000" stop="20260908004709 +0000" channel="MrGlee.us">
@@ -72,14 +79,14 @@ Viewers: 11 </desc>
 <title lang="en"> BUSY WOMAN - Cecily McDougall - NoPixel WL 4.0 </title>
 <desc lang="en"> Started: 01:05 am
 Playing: Grand Theft Auto V
-Viewers: 10 </desc>
+Viewers: 11 </desc>
 </programme>
 
 <programme start="20260905050513 +0000" stop="20260908000513 +0000" channel="CowsMooingNSuch.us">
 <title lang="en"> Sophia McMoo - GTARP NoPixel Whitelist Server </title>
 <desc lang="en"> Started: 12:05 am
 Playing: Grand Theft Auto V
-Viewers: 5 </desc>
+Viewers: 6 </desc>
 </programme>
 
 <programme start="20260905000312 +0000" stop="20260907190312 +0000" channel="NismoDOMA.us">
@@ -93,14 +100,7 @@ Viewers: 4 </desc>
 <title lang="en"> Joe Mathers 444 LSPD - 5.0 THIS WEEK - TRAILER OUT NOW </title>
 <desc lang="en"> Started: 6:01PM
 Playing: Grand Theft Auto V
-Viewers: 9 </desc>
-</programme>
-
-<programme start="20260905062338 +0000" stop="20260908012338 +0000" channel="Cayucos.us">
-<title lang="en"> Brody Smith - NoPixel WL </title>
-<desc lang="en"> Started: 01:23 am
-Playing: Grand Theft Auto V
-Viewers: 1 </desc>
+Viewers: 7 </desc>
 </programme>
 
 <programme start="20260905054443 +0000" stop="20260908004443 +0000" channel="ItzNooodles.us">
@@ -110,35 +110,35 @@ Playing: Grand Theft Auto V
 Viewers: 2 </desc>
 </programme>
 
+<programme start="20260905062338 +0000" stop="20260908012338 +0000" channel="Cayucos.us">
+<title lang="en"> Brody Smith - NoPixel WL </title>
+<desc lang="en"> Started: 01:23 am
+Playing: Grand Theft Auto V
+Viewers: 1 </desc>
+</programme>
+
 <programme start="20260905001439 +0000" stop="20260907191439 +0000" channel="xqc.us">
 <title lang="en"> 🧳LIVE🧳LOCK IN🧳DRAMA🧳NEWS🧳VIDEOS🧳HERE🧳PULL UP🧳VERY GOOD🧳OK MAYBE🧳BUT WAIT🧳THIS IS🧳3893478958578587🧳NUMBERS🧳2222🧳 </title>
 <desc lang="en"> Started: 7:14PM
 Playing: Beetleball
-Viewers: 18456 </desc>
+Viewers: 15714 </desc>
 </programme>
 
-<programme start="20260905064944 +0000" stop="20260908014944 +0000" channel="katecirrus.us">
-<title lang="en"> Nell Slater - silly ppo singlehandedly ends crime in los santos - nopixel WL 4.0 </title>
-<desc lang="en"> Started: 1:49AM
-Playing: Grand Theft Auto V
-Viewers: 2 </desc>
-</programme>
-
-<programme start="20260905000000 +0000" stop="20260908015149 +0000" channel="nismodoma.us">
+<programme start="20260905000000 +0000" stop="20260908015619 +0000" channel="nismodoma.us">
 <title lang="en"> Jiang Wayne | Short one, everything cooked | NoPixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 7 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908015149 +0000" channel="cosmic-chimp.us">
+<programme start="20260905000000 +0000" stop="20260908015619 +0000" channel="cosmic-chimp.us">
 <title lang="en"> Julio Frost Nopixel WL 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 6 </desc>
 </programme>
 
-<programme start="20260905000000 +0000" stop="20260908015149 +0000" channel="katecirrus.us">
+<programme start="20260905000000 +0000" stop="20260908015619 +0000" channel="katecirrus.us">
 <title lang="en"> Nell Slater | silly ppo singlehandedly ends crime in los santos | nopixel WL 4.0 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
