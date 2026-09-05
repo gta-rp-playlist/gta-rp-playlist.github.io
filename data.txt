@@ -3,9 +3,14 @@
         <span class="username">Soulsrp</span>
         <span class="viewer-count">🔴34</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="List - LFFL - Sai Kou - NoPixel WL - socials" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mrglee-854x480.jpg" data-viewers="24" onclick="playStream('MrGlee')">
+      <div class="sub-item" data-category="57Independent" data-title="List - LFFL - Sai Kou - NoPixel WL - socials" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mrglee-854x480.jpg" data-viewers="20" onclick="playStream('MrGlee')">
         <span class="username">MrGlee</span>
-        <span class="viewer-count">🔴24</span>
+        <span class="viewer-count">🔴20</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
+      <div class="sub-item" data-category="58Uncategorized" data-title="BUSY WOMAN - Cecily McDougall - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nadette-854x480.jpg" data-viewers="18" onclick="playStream('Nadette')">
+        <span class="username">Nadette</span>
+        <span class="viewer-count">🔴18</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
       <div class="sub-item" data-category="01Cops" data-title="wEewoo - PD - Alice Liddell - NoPixel WL 🚨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_allium-854x480.jpg" data-viewers="20" onclick="playStream('Allium')">
@@ -15,11 +20,6 @@
       <div class="sub-item" data-category="01Cops" data-title="Nell Slater | silly ppo singlehandedly ends crime in los santos | nopixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_katecirrus-854x480.jpg" data-viewers="31" onclick="playStream('katecirrus')">
         <span class="username">katecirrus</span>
         <span class="viewer-count">🔴31</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="BUSY WOMAN - Cecily McDougall - NoPixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nadette-854x480.jpg" data-viewers="15" onclick="playStream('Nadette')">
-        <span class="username">Nadette</span>
-        <span class="viewer-count">🔴15</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
       <div class="sub-item" data-category="02LSPD" data-title="Nell Slater | silly ppo singlehandedly ends crime in los santos | nopixel WL 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_katecirrus-854x480.jpg" data-viewers="31" onclick="playStream('katecirrus')">
@@ -32,8 +32,8 @@
         <span class="viewer-count">🔴1</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
-      <div class="sub-item" data-category="30Merchants" data-title="Nell Slater | silly ppo singlehandedly ends crime in los santos | nopixel WL 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/L2VIGumNQf5k/Uq0ximrSng9u/480.webp" data-viewers="21" onclick="playStream('katecirrus')">
+      <div class="sub-item" data-category="30Merchants" data-title="Nell Slater | silly ppo singlehandedly ends crime in los santos | nopixel WL 4.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/L2VIGumNQf5k/Uq0ximrSng9u/480.webp" data-viewers="20" onclick="playStream('katecirrus')">
         <span class="username">katecirrus</span>
-        <span class="viewer-count">🟢21</span>
+        <span class="viewer-count">🟢20</span>
       </div>
 
