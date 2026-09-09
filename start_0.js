@@ -5,6 +5,7 @@ const categoryMappings = {
     'lspd'        : '02LSPD',
     'bcso'        : '03BCSO',
     'odpd'        : '03ODPD',
+    'sapr'        : '03SAPR',
     'marshalls'   : '04Marshalls',
     'government'  : '06Government',
     'doctors'     : '07Doctors',
