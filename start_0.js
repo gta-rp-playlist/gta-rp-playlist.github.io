@@ -10,6 +10,7 @@ const categoryMappings = {
     'government'  : '06Government',
     'doctors'     : '07Doctors',
     'cleveland'    : '09Cleveland',
+    'brickbois'    : '09BrickBois',
     'babylon'    : '09Babylon',
     'ncypress'    : '09NCypress',
     'nourf'       : '09NCypress',
