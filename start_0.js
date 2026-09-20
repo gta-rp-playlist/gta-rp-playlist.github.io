@@ -15,6 +15,7 @@ const categoryMappings = {
     'babylon'    : '09Babylon',
     'ncypress'    : '09NCypress',
     'nourf'       : '09NCypress',
+    'sinnerst'    : '18SinnerSt',
     'cypress'    : '09Cypress',
     'scypress'    : '09Cypress',
     's_cypress'   : '09Cypress',
