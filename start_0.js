@@ -11,7 +11,8 @@ const categoryMappings = {
     'doctors'     : '07Doctors',
     'cleveland'    : '09Cleveland',
     'brickbois'    : '09BrickBois',
-    'dicenzos'    : '09Dicenzos',
+    'hongkong'    : '09HongKong',
+    'dicenzos'    : '09Dicenzos',09HongKong
     'babylon'    : '09Babylon',
     'ncypress'    : '09NCypress',
     'nourf'       : '09NCypress',
