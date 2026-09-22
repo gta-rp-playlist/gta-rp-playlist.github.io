@@ -12,7 +12,8 @@ const categoryMappings = {
     'cleveland'    : '09Cleveland',
     'brickbois'    : '09BrickBois',
     'hongkong'    : '09HongKong',
-    'dicenzos'    : '09Dicenzos',09HongKong
+    'security'    : '09Security',
+    'dicenzos'    : '09Dicenzos',
     'babylon'    : '09Babylon',
     'ncypress'    : '09NCypress',
     'nourf'       : '09NCypress',
