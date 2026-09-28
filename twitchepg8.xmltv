@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="ziggy.us">
+<display-name>ziggy</display-name>
+</channel>
+
 <channel id="crystalst.us">
 <display-name>crystalst</display-name>
 </channel>
@@ -10,16 +14,12 @@
 <display-name>rerolldota</display-name>
 </channel>
 
-<channel id="stalkerchic.us">
-<display-name>stalkerchic</display-name>
-</channel>
-
 <channel id="ollie2313.us">
 <display-name>ollie2313</display-name>
 </channel>
 
-<channel id="TimSnipez_420.us">
-<display-name>TimSnipez_420</display-name>
+<channel id="stalkerchic.us">
+<display-name>stalkerchic</display-name>
 </channel>
 
 <channel id="umad.us">
@@ -28,6 +28,10 @@
 
 <channel id="kiwo.us">
 <display-name>kiwo</display-name>
+</channel>
+
+<channel id="TimSnipez_420.us">
+<display-name>TimSnipez_420</display-name>
 </channel>
 
 <channel id="angelina.us">
@@ -46,12 +50,24 @@
 <display-name>tessquinn</display-name>
 </channel>
 
-<channel id="ziggy.us">
-<display-name>ziggy</display-name>
+<channel id="vanillayoshee.us">
+<display-name>vanillayoshee</display-name>
 </channel>
 
 <channel id="falloftheseason.us">
 <display-name>falloftheseason</display-name>
+</channel>
+
+<channel id="acidicspitxo.us">
+<display-name>acidicspitxo</display-name>
+</channel>
+
+<channel id="GrandAct.us">
+<display-name>GrandAct</display-name>
+</channel>
+
+<channel id="0reed.us">
+<display-name>0reed</display-name>
 </channel>
 
 <channel id="NinjaJessica.us">
@@ -62,12 +78,12 @@
 <display-name>christombstone</display-name>
 </channel>
 
-<channel id="vanillayoshee.us">
-<display-name>vanillayoshee</display-name>
+<channel id="Oyamec.us">
+<display-name>Oyamec</display-name>
 </channel>
 
-<channel id="0reed.us">
-<display-name>0reed</display-name>
+<channel id="kate.us">
+<display-name>kate</display-name>
 </channel>
 
 <channel id="crystalst.us">
@@ -154,32 +170,65 @@
 <display-name>0reed</display-name>
 </channel>
 
+<channel id="oyamec.us">
+<display-name>oyamec</display-name>
+</channel>
+
+<channel id="arro2k.us">
+<display-name>arro2k</display-name>
+</channel>
+
+<channel id="kate.us">
+<display-name>kate</display-name>
+</channel>
+
+<programme start="20260928124152 +0000" stop="20261001074152 +0000" channel="ziggy.us">
+<title lang="en"> [DROPS ON] 🎉 NOPIXEL V 🎉CHIEF RANGER ZIGGY 🎉-- @ziggyjg on </title>
+<desc lang="en"> Started: 7:41AM
+Playing: Grand Theft Auto V
+Viewers: 218 </desc>
+</programme>
+
 <programme start="20260928070741 +0000" stop="20261001020741 +0000" channel="crystalst.us">
 <title lang="en"> Swan DeLeur🦢 - NoPixel V </title>
 <desc lang="en"> Started: 2:07AM
 Playing: Grand Theft Auto V
-Viewers: 1625 </desc>
+Viewers: 1260 </desc>
 </programme>
 
 <programme start="20260928091352 +0000" stop="20261001041352 +0000" channel="rerolldota.us">
 <title lang="en"> Nopixel V - LSPD 535 Nova - Drops Enabled Cards Here </title>
 <desc lang="en"> Started: 04:13 am
 Playing: Grand Theft Auto V
-Viewers: 90 </desc>
-</programme>
-
-<programme start="20260928113311 +0000" stop="20261001063311 +0000" channel="stalkerchic.us">
-<title lang="en"> NoPixel V - Atlas Elwood - Saving f0r Little Blue Bug - Sinner Street Pawn - drops </title>
-<desc lang="en"> Started: 06:33 am
-Playing: Grand Theft Auto V
-Viewers: 22 </desc>
+Viewers: 88 </desc>
 </programme>
 
 <programme start="20260928123058 +0000" stop="20261001073058 +0000" channel="ollie2313.us">
 <title lang="en"> 471 Ranger Matilda Murphy - SASPR - NoPixel V </title>
 <desc lang="en"> Started: 07:30 am
 Playing: Grand Theft Auto V
-Viewers: 17 </desc>
+Viewers: 29 </desc>
+</programme>
+
+<programme start="20260928113311 +0000" stop="20261001063311 +0000" channel="stalkerchic.us">
+<title lang="en"> NoPixel V - Atlas Elwood - Saving f0r Little Blue Bug - Sinner Street Pawn - drops </title>
+<desc lang="en"> Started: 06:33 am
+Playing: Grand Theft Auto V
+Viewers: 20 </desc>
+</programme>
+
+<programme start="20260928121132 +0000" stop="20261001071132 +0000" channel="umad.us">
+<title lang="en"> Daniel Kray - Monday Fun Day - Prodigyrp </title>
+<desc lang="en"> Started: 7:11AM
+Playing: Grand Theft Auto V
+Viewers: 5 </desc>
+</programme>
+
+<programme start="20260928090317 +0000" stop="20261001040317 +0000" channel="kiwo.us">
+<title lang="en"> MIA MERSION - NO SIGNAL - NoPixel V </title>
+<desc lang="en"> Started: 4:03AM
+Playing: Grand Theft Auto V
+Viewers: 1260 </desc>
 </programme>
 
 <programme start="20260928075034 +0000" stop="20261001025034 +0000" channel="TimSnipez_420.us">
@@ -189,60 +238,67 @@ Playing: Grand Theft Auto V
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260928121132 +0000" stop="20261001071132 +0000" channel="umad.us">
-<title lang="en"> Daniel Kray - Monday Fun Day - Prodigyrp </title>
-<desc lang="en"> Started: 7:11AM
-Playing: Grand Theft Auto V
-Viewers: 3 </desc>
-</programme>
-
-<programme start="20260928090317 +0000" stop="20261001040317 +0000" channel="kiwo.us">
-<title lang="en"> MIA MERSION - NO SIGNAL - NoPixel V </title>
-<desc lang="en"> Started: 4:03AM
-Playing: Grand Theft Auto V
-Viewers: 1271 </desc>
-</programme>
-
 <programme start="20260928105957 +0000" stop="20261001055957 +0000" channel="angelina.us">
 <title lang="en"> NOPIXEL V 🥰 BRANDI BULKING LYNN 🥰 TATI @ 4pm EST </title>
 <desc lang="en"> Started: 5:59AM
 Playing: Grand Theft Auto V
-Viewers: 356 </desc>
+Viewers: 1701 </desc>
 </programme>
 
 <programme start="20260928021959 +0000" stop="20260930211959 +0000" channel="heyimzed.us">
 <title lang="en"> 🏆 [DROPS] SUBATHON  BONUS GIFTED SUBS NOPIXEL V DAY 20 🏆 JASON BABY DRIVER KRIEGER 🏆 SUB BADGES 🏆 NoPixel WL 🏆 VOD YT SOCIALS </title>
 <desc lang="en"> Started: 9:19PM
 Playing: Grand Theft Auto V
-Viewers: 1418 </desc>
+Viewers: 1391 </desc>
 </programme>
 
 <programme start="20260928071609 +0000" stop="20261001021609 +0000" channel="Kerazane.us">
 <title lang="en"> Bertha Buttons - 135 LSPD - NOPIXEL V - Day 18 - CARD GIVEAWAYS  WL - </title>
 <desc lang="en"> Started: 2:16AM
 Playing: Grand Theft Auto V
-Viewers: 32 </desc>
+Viewers: 33 </desc>
 </programme>
 
 <programme start="20260928120839 +0000" stop="20261001070839 +0000" channel="tessquinn.us">
 <title lang="en"> Crossroads Elp - Tess Quinn Menace - Day 9 - Prodigy 4.0 WL - kick tiktok accent </title>
 <desc lang="en"> Started: 7:08AM
 Playing: Grand Theft Auto V
-Viewers: 7 </desc>
+Viewers: 12 </desc>
 </programme>
 
-<programme start="20260928124152 +0000" stop="20261001074152 +0000" channel="ziggy.us">
-<title lang="en"> [DROPS ON] 🎉 NOPIXEL V 🎉CHIEF RANGER ZIGGY 🎉-- @ziggyjg on </title>
-<desc lang="en"> Started: 7:41AM
+<programme start="20260928123720 +0000" stop="20261001073720 +0000" channel="vanillayoshee.us">
+<title lang="en"> Finding her way - NOPIXEL V - Eliyanna </title>
+<desc lang="en"> Started: 7:37AM
 Playing: Grand Theft Auto V
-Viewers: 20 </desc>
+Viewers: 31 </desc>
 </programme>
 
 <programme start="20260928105006 +0000" stop="20261001055006 +0000" channel="falloftheseason.us">
 <title lang="en"> a good day - Clem - NP 4.0 WL - Vex later </title>
 <desc lang="en"> Started: 5:50AM
 Playing: Grand Theft Auto V
-Viewers: 18 </desc>
+Viewers: 17 </desc>
+</programme>
+
+<programme start="20260928123904 +0000" stop="20261001073904 +0000" channel="acidicspitxo.us">
+<title lang="en"> nopixel day ONE Felix Black figures out how to live in the city </title>
+<desc lang="en"> Started: 07:39 am
+Playing: Grand Theft Auto V
+Viewers: 2 </desc>
+</programme>
+
+<programme start="20260928123919 +0000" stop="20261001073919 +0000" channel="GrandAct.us">
+<title lang="en"> Gunner Kane - Kyle Slater - nopixel V </title>
+<desc lang="en"> Started: 07:39 am
+Playing: Grand Theft Auto V
+Viewers: 3 </desc>
+</programme>
+
+<programme start="20260928124027 +0000" stop="20261001074027 +0000" channel="0reed.us">
+<title lang="en"> REED DANKLEAF - RIDDLES AND FIRINGS - NOPIXEL V - SLOTH GANG </title>
+<desc lang="en"> Started: 7:40AM
+Playing: Grand Theft Auto V
+Viewers: 37 </desc>
 </programme>
 
 <programme start="20260928094338 +0000" stop="20261001044338 +0000" channel="NinjaJessica.us">
@@ -256,168 +312,189 @@ Viewers: 71 </desc>
 <title lang="en"> 425 Sgt Ranger Flop Dugong - NoPixel V - @ChrisTombstone_ on </title>
 <desc lang="en"> Started: 6:00AM
 Playing: Grand Theft Auto V
-Viewers: 397 </desc>
+Viewers: 330 </desc>
 </programme>
 
-<programme start="20260928123720 +0000" stop="20261001073720 +0000" channel="vanillayoshee.us">
-<title lang="en"> Finding her way - NOPIXEL V - Eliyanna </title>
-<desc lang="en"> Started: 7:37AM
+<programme start="20260928124230 +0000" stop="20261001074230 +0000" channel="Oyamec.us">
+<title lang="en"> Dawn of Day 18.5 - Rochelle Rocky Shepherd - Baby EMS - NoPixel V - GTARP </title>
+<desc lang="en"> Started: 07:42 am
 Playing: Grand Theft Auto V
-Viewers: 16 </desc>
+Viewers: 3 </desc>
 </programme>
 
-<programme start="20260928124027 +0000" stop="20261001074027 +0000" channel="0reed.us">
-<title lang="en"> REED DANKLEAF - RIDDLES AND FIRINGS - NOPIXEL V - SLOTH GANG </title>
-<desc lang="en"> Started: 7:40AM
+<programme start="20260928124644 +0000" stop="20261001074644 +0000" channel="kate.us">
+<title lang="en"> [DROPS ON] - NOPIXEL V - CHIEF VERONICA-NANCY DREW 🌷 - SUBATHON DAY 21 - gaming </title>
+<desc lang="en"> Started: 7:46AM
 Playing: Grand Theft Auto V
-Viewers: 5 </desc>
+Viewers: 48 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="crystalst.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="crystalst.us">
 <title lang="en"> Swan DeLeur🦢 | NoPixel V 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 23 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="jjfried.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="jjfried.us">
 <title lang="en"> weekend over im back 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 32 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="rerolldota.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="rerolldota.us">
 <title lang="en"> Nopixel V | LSPD 535 'Nova' 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="caramel.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="caramel.us">
 <title lang="en"> Lovemore Dlamini | NOPIXEL 5.0 | NOPIXEL V RELEASE 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 228 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="novazfov.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="novazfov.us">
 <title lang="en"> Zeek Kacem | Nopixel V 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 18 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="cydrose.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="cydrose.us">
 <title lang="en"> NoPixel V | SGT Maeve Wolfe | LSPD 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 32 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="defac3d.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="defac3d.us">
 <title lang="en"> MONDAY OI OI 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 13 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="berryyboo.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="berryyboo.us">
 <title lang="en"> Bella Rowe | (Viv later) | nopixel V | !socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 4 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="falloftheseason.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="falloftheseason.us">
 <title lang="en"> a good day | Clem | NPV | Vex later 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="angelina.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="angelina.us">
 <title lang="en"> BRANDI LYNN 💗 NOPIXEL V 💗 LSPD - think i fixed lag 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="christombstone.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="christombstone.us">
 <title lang="en"> 425 Sgt Ranger Flop Dugong | NoPixel V | @ChrisTombstone_ on !socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 12 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="mfwarlock.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="mfwarlock.us">
 <title lang="en"> Skipper Jones | NoPixel V 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 53 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="travpiper.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="travpiper.us">
 <title lang="en"> NOPIXEL V | dhead 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 40 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="4head.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="4head.us">
 <title lang="en"> 4HEAD | NOPIXEL 5.0 | DAY 20 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 302 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="yaayea.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="yaayea.us">
 <title lang="en"> NoPixel Public 🎬 Businessman🎬 RedM Later Maybe 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="malcolmglass.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="malcolmglass.us">
 <title lang="en"> Nekoda | NoPixel V 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="chillypanda.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="chillypanda.us">
 <title lang="en"> Lilly "Megaphone Brat" Bogorov || GRINDING TO FUND THE ADDICTION|| !gamersupps !yt 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 16 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="neverossa.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="neverossa.us">
 <title lang="en"> undiagnosed ADHD✨dawn✨NPV✨DROPS AND CARDS WOWIE✨!socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 2 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="vanillayoshee.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="vanillayoshee.us">
 <title lang="en"> Finding her way | NOPIXEL V | Eliyanna 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 2 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="grandact.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="grandact.us">
 <title lang="en"> Gunner Kane -> Kyle Slater | nopixel V 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 1 </desc>
 </programme>
 
-<programme start="20260928000000 +0000" stop="20261001074320 +0000" channel="0reed.us">
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="0reed.us">
 <title lang="en"> REED DANKLEAF - RIDDLES AND FIRINGS? - NOPIXEL V - SLOTH GANG 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 3 </desc>
+</programme>
+
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="oyamec.us">
+<title lang="en"> Dawn of Day 18.5 | Rochelle "Rocky" Shepherd | Baby EMS | NoPixel V | GTARP 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 
+Playing: Grand Theft Auto V (GTA)
+Viewers: 2 </desc>
+</programme>
+
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="arro2k.us">
+<title lang="en"> TIMO - NOPIXEL V - Day 20 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 
+Playing: Grand Theft Auto V (GTA)
+Viewers: 11 </desc>
+</programme>
+
+<programme start="20260928000000 +0000" stop="20261001075156 +0000" channel="kate.us">
+<title lang="en"> NOPIXEL V | VERONICA/NANCY 🌷 | SUBATHON DAY 21 | !gaming 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 
+Playing: Grand Theft Auto V (GTA)
+Viewers: 11 </desc>
 </programme>
 
 
