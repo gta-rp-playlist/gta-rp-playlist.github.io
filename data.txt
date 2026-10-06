@@ -3,27 +3,64 @@
         <span class="username">wavetf</span>
         <span class="viewer-count">🔴72</span>
       </div>
-      <div class="sub-item" data-category="09Cleveland" data-title="✨ Andi Coots | NoPixel V ✨ 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/C3uHtCzdsIuE/IfZNf6z7UP1A/480.webp" data-viewers="27" onclick="playStream('icky619')">
-        <span class="username">icky619</span>
-        <span class="viewer-count">🟢27</span>
-      </div>
-      <div class="sub-item" data-category="09Cleveland" data-title="Deejay | Nopixel V | Money maker | Follow: @dumpykdog 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/T8mUxaO55KEx/wbkfFdoX5krV/480.webp" data-viewers="5" onclick="playStream('dumpykdog')">
-        <span class="username">dumpykdog</span>
-        <span class="viewer-count">🟢2 🔴3</span>
-      </div>
-      <div class="sub-item" data-category="09Cleveland" data-title="PSEC OILER BJORN | NOPIXEL V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7MW0pi4vG6A6/v6JNvcMHG41D/480.webp" data-viewers="326" onclick="playStream('biotox')">
+      <div class="sub-item" data-category="09Cleveland" data-title="PSEC OILER BJORN | NOPIXEL V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7MW0pi4vG6A6/v6JNvcMHG41D/480.webp" data-viewers="311" onclick="playStream('biotox')">
         <span class="username">biotox</span>
-        <span class="viewer-count">🟢326</span>
+        <span class="viewer-count">🟢311</span>
       </div>
-      <div class="sub-item" data-category="09Cleveland" data-title="WAIWAI -- NOPIXEL V LONG TYME NO SEEEEE" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_sanauchiha-854x480.jpg" data-viewers="12" onclick="playStream('SanaUchiha')">
+      <div class="sub-item" data-category="09Cleveland" data-title="✨ Andi Coots | NoPixel V ✨ 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/C3uHtCzdsIuE/IfZNf6z7UP1A/480.webp" data-viewers="30" onclick="playStream('icky619')">
+        <span class="username">icky619</span>
+        <span class="viewer-count">🟢30</span>
+      </div>
+      <div class="sub-item" data-category="09Cleveland" data-title="Deejay | Nopixel V | Money maker | Follow: @dumpykdog 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/T8mUxaO55KEx/wbkfFdoX5krV/480.webp" data-viewers="6" onclick="playStream('dumpykdog')">
+        <span class="username">dumpykdog</span>
+        <span class="viewer-count">🟢2 🔴4</span>
+      </div>
+      <div class="sub-item" data-category="09Cleveland" data-title="WAIWAI -- NOPIXEL V LONG TYME NO SEEEEE" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_sanauchiha-854x480.jpg" data-viewers="14" onclick="playStream('SanaUchiha')">
         <span class="username">SanaUchiha</span>
-        <span class="viewer-count">🔴12</span>
+        <span class="viewer-count">🔴14</span>
       </div>
-      <div class="sub-item" data-category="09Cleveland" data-title="Cole Turner - Nopixel 4.0 - GTA RP" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_yunoquest-854x480.jpg" data-viewers="2" onclick="playStream('YunoQuest')">
+      <div class="sub-item" data-category="09Cleveland" data-title="Cole Turner - Nopixel 4.0 - GTA RP" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_yunoquest-854x480.jpg" data-viewers="3" onclick="playStream('YunoQuest')">
         <span class="username">YunoQuest</span>
-        <span class="viewer-count">🔴2</span>
+        <span class="viewer-count">🔴3</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="09HongKong">09HongKong</div>
+      <div class="sub-item" data-category="09HongKong" data-title="Elle Queenie | NoPixel V 💚 | !Discord !Socials !YTclips 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/rRHstDOtjP8h/4h4Hrrela48v/480.webp" data-viewers="236" onclick="playStream('itsellecee')">
+        <span class="username">itsellecee</span>
+        <span class="viewer-count">🟢236</span>
+      </div>
+      <div class="sub-item" data-category="09HongKong" data-title="Nopixel V | Melting Down Every Statue In The City For Steel | Claytone Orwell 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/UQTjZ8lJAG5H/zgkXCbkYbQ0Z/480.webp" data-viewers="70" onclick="playStream('grammthegibbon')">
+        <span class="username">grammthegibbon</span>
+        <span class="viewer-count">🟢70</span>
+      </div>
+      <div class="sub-item" data-category="09HongKong" data-title="Vito DiCenzo | NoPixel V | !discord !vods 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/gnGb4AJ7ig7X/ghyb5rvTGY4i/480.webp" data-viewers="374" onclick="playStream('crocc')">
+        <span class="username">crocc</span>
+        <span class="viewer-count">🟢374</span>
+      </div>
+      <div class="sub-item" data-category="09HongKong" data-title="Curtis LeBeaux || NoPixel V || Hong Kong Pawn || Thrown in da slamma 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/eXK31ljlO8nF/ZWOHR9Z4cQ6L/480.webp" data-viewers="80" onclick="playStream('givemeuhminute')">
+        <span class="username">givemeuhminute</span>
+        <span class="viewer-count">🟢58 🔴22</span>
+      </div>
+      <div class="sub-item" data-category="09HongKong" data-title="Thomas DeAngelo | NoPixel V | War never changes 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/76b2CV36hT2c/KtvYIDhDpBwX/480.webp" data-viewers="134" onclick="playStream('jonthebroski')">
+        <span class="username">jonthebroski</span>
+        <span class="viewer-count">🟢134</span>
+      </div>
+      <div class="sub-item" data-category="09HongKong" data-title="Carlo Marciano | NPV 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/D1PyF3e4ha4r/MK2eDVCEFsES/480.webp" data-viewers="54" onclick="playStream('versa')">
+        <span class="username">versa</span>
+        <span class="viewer-count">🟢54</span>
+      </div>
+      <div class="sub-item" data-category="09HongKong" data-title="LUCIANO DICENZO - NOPIXEL V 🔥 Old Country 🔥HONG KONG PAWN 🐉 ❗LIVE 1PM EST MON-SAT ❗YouTube @ZetarkClips 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/jIdCehT5ivC7/3Dotkcuup2CS/480.webp" data-viewers="937" onclick="playStream('zetark')">
+        <span class="username">zetark</span>
+        <span class="viewer-count">🟢937</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="09BrickBois">09BrickBois</div>
+      <div class="sub-item" data-category="09BrickBois" data-title="MARTY BANKS 🔴BRICK BOIS 🔴 NOPIXEL 5 🔴 GET IN HERE NOW" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_omie-854x480.jpg" data-viewers="3512" onclick="playStream('omie')">
+        <span class="username">omie</span>
+        <span class="viewer-count">🔴3512</span>
+      </div>
+      <div class="sub-item" data-category="09BrickBois" data-title="practicing driving - kalita - no pixel" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_cinnalt-854x480.jpg" data-viewers="2954" onclick="playStream('cinnalt')">
+        <span class="username">cinnalt</span>
+        <span class="viewer-count">🔴2954</span>
+      </div>
       <div class="sub-item" data-category="09BrickBois" data-title="Primo| NoPixel V |👑 BRICK BOYS PAWN 👑| ITS MAD BRICK OUTSIDE | Down 15lbs or 7kgs for you heathens |" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_b_hoopla-854x480.jpg" data-viewers="2" onclick="playStream('b_hoopla')">
         <span class="username">b_hoopla</span>
         <span class="viewer-count">🔴2</span>
@@ -32,184 +69,155 @@
         <span class="username">ripoozi</span>
         <span class="viewer-count">🔴74</span>
       </div>
-      <div class="sub-item" data-category="09BrickBois" data-title="MARTY BANKS 🔴BRICK BOIS 🔴 NOPIXEL 5 🔴 GET IN HERE NOW" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_omie-854x480.jpg" data-viewers="3512" onclick="playStream('omie')">
-        <span class="username">omie</span>
-        <span class="viewer-count">🔴3512</span>
-      </div>
-      <div class="sub-item" data-category="09BrickBois" data-title="practicing driving - kalita - no pixel" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_cinnalt-854x480.jpg" data-viewers="2783" onclick="playStream('cinnalt')">
-        <span class="username">cinnalt</span>
-        <span class="viewer-count">🔴2783</span>
-      </div>
-      <div class="sub-item" data-category="09BrickBois" data-title="🦺LIVE🦺CLICK🦺ALERT🦺DRAMA🦺GTA V🦺NOPIXEL V🦺BIG DAY🦺NEWS🦺VIDEOS🦺THINGS🦺IMPORTANT🦺QUICK🦺MEGA DAY INCOMMING🦺LOCK IT IN🦺 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/DsuAwCgUc9Bh/k20THbmJ1u4B/480.webp" data-viewers="40695" onclick="playStream('xqc')">
-        <span class="username">xqc</span>
-        <span class="viewer-count">🟢11452 🔴29243</span>
-      </div>
-      <div class="sub-item" data-category="09BrickBois" data-title="Lang Buddha | NoPixel V | NEW NOPIXEL NEWS | EP 4 | https:&#x2F;&#x2F;youtu.be&#x2F;uBw2LR-g3Qo 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BO2zfdDBEu6T/3z3KEpJXCEqh/480.webp" data-viewers="18794" onclick="playStream('buddha')">
+      <div class="sub-item" data-category="09BrickBois" data-title="Lang Buddha | NoPixel V | NEW NOPIXEL NEWS | EP 4 | https:&#x2F;&#x2F;youtu.be&#x2F;uBw2LR-g3Qo 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BO2zfdDBEu6T/3z3KEpJXCEqh/480.webp" data-viewers="18949" onclick="playStream('buddha')">
         <span class="username">buddha</span>
-        <span class="viewer-count">🟢6758 🔴12036</span>
+        <span class="viewer-count">🟢6787 🔴12162</span>
       </div>
-      <div class="sub-item" data-category="09BrickBois" data-title="✨NOPIXEL V✨TONY CORLEONE BRICK BOYS✨GRIND TIMEEEEE✨MULTISTREAM! 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/yd9m4xZANj6x/Q0BXPv2H4rVx/480.webp" data-viewers="4058" onclick="playStream('anthonyz')">
-        <span class="username">anthonyz</span>
-        <span class="viewer-count">🟢602 🔴3456</span>
-      </div>
-      <div class="sub-item" data-category="09BrickBois" data-title="👑 BRICK BOYS PAWN 👑 SALEM &quot;ZA DREAM&quot; BARGHOUTHI 👑 NoPixelV 👑 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/NV8nS7oUmZ96/zxCo4PhRXnDy/480.webp" data-viewers="51" onclick="playStream('sgtapollo')">
-        <span class="username">sgtapollo</span>
-        <span class="viewer-count">🟢6 🔴45</span>
-      </div>
-      <div class="sub-item" data-category="09BrickBois" data-title="🐸 Zuck | NoPixel V | Twitter @zuck_ttv !socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/0UScKXMGCpnm/5HSNxFFaGTNS/480.webp" data-viewers="99" onclick="playStream('zuck')">
+      <div class="sub-item" data-category="09BrickBois" data-title="🐸 Zuck | NoPixel V | Twitter @zuck_ttv !socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/0UScKXMGCpnm/5HSNxFFaGTNS/480.webp" data-viewers="98" onclick="playStream('zuck')">
         <span class="username">zuck</span>
-        <span class="viewer-count">🟢11 🔴88</span>
+        <span class="viewer-count">🟢10 🔴88</span>
       </div>
-      <div class="sub-item" data-category="09BrickBois" data-title="ZAHN ZIAS🛑NOPIXEL V🛑CASINO OPEN?🛑IN GENERATIONAL DEBT🛑WHAT IS THE POINT🛑CLICK HERE🛑NOW🛑LIVE🛑 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/vuRr1SXwBnvY/3gwIvdUwDgZQ/480.webp" data-viewers="51" onclick="playStream('hazan')">
+      <div class="sub-item" data-category="09BrickBois" data-title="ZAHN ZIAS🛑NOPIXEL V🛑CASINO OPEN?🛑IN GENERATIONAL DEBT🛑WHAT IS THE POINT🛑CLICK HERE🛑NOW🛑LIVE🛑 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/vuRr1SXwBnvY/3gwIvdUwDgZQ/480.webp" data-viewers="52" onclick="playStream('hazan')">
         <span class="username">hazan</span>
-        <span class="viewer-count">🟢1 🔴50</span>
+        <span class="viewer-count">🟢2 🔴50</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="09HongKong">09HongKong</div>
-      <div class="sub-item" data-category="09HongKong" data-title="Vito DiCenzo | NoPixel V | !discord !vods 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/gnGb4AJ7ig7X/ghyb5rvTGY4i/480.webp" data-viewers="374" onclick="playStream('crocc')">
-        <span class="username">crocc</span>
-        <span class="viewer-count">🟢374</span>
+      <div class="sub-item" data-category="09BrickBois" data-title="🦺LIVE🦺CLICK🦺ALERT🦺DRAMA🦺GTA V🦺NOPIXEL V🦺BIG DAY🦺NEWS🦺VIDEOS🦺THINGS🦺IMPORTANT🦺QUICK🦺MEGA DAY INCOMMING🦺LOCK IT IN🦺 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/DsuAwCgUc9Bh/k20THbmJ1u4B/480.webp" data-viewers="40503" onclick="playStream('xqc')">
+        <span class="username">xqc</span>
+        <span class="viewer-count">🟢11260 🔴29243</span>
       </div>
-      <div class="sub-item" data-category="09HongKong" data-title="Carlo Marciano | NPV 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/D1PyF3e4ha4r/MK2eDVCEFsES/480.webp" data-viewers="58" onclick="playStream('versa')">
-        <span class="username">versa</span>
-        <span class="viewer-count">🟢58</span>
+      <div class="sub-item" data-category="09BrickBois" data-title="👑 BRICK BOYS PAWN 👑 SALEM &quot;ZA DREAM&quot; BARGHOUTHI 👑 NoPixelV 👑 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/NV8nS7oUmZ96/zxCo4PhRXnDy/480.webp" data-viewers="50" onclick="playStream('sgtapollo')">
+        <span class="username">sgtapollo</span>
+        <span class="viewer-count">🟢5 🔴45</span>
       </div>
-      <div class="sub-item" data-category="09HongKong" data-title="Curtis LeBeaux || NoPixel V || Hong Kong Pawn || Thrown in da slamma 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/eXK31ljlO8nF/ZWOHR9Z4cQ6L/480.webp" data-viewers="86" onclick="playStream('givemeuhminute')">
-        <span class="username">givemeuhminute</span>
-        <span class="viewer-count">🟢65 🔴21</span>
-      </div>
-      <div class="sub-item" data-category="09HongKong" data-title="Elle Queenie | NoPixel V 💚 | !Discord !Socials !YTclips 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/rRHstDOtjP8h/4h4Hrrela48v/480.webp" data-viewers="236" onclick="playStream('itsellecee')">
-        <span class="username">itsellecee</span>
-        <span class="viewer-count">🟢236</span>
-      </div>
-      <div class="sub-item" data-category="09HongKong" data-title="LUCIANO DICENZO - NOPIXEL V 🔥 Old Country 🔥HONG KONG PAWN 🐉 ❗LIVE 1PM EST MON-SAT ❗YouTube @ZetarkClips 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/jIdCehT5ivC7/3Dotkcuup2CS/480.webp" data-viewers="964" onclick="playStream('zetark')">
-        <span class="username">zetark</span>
-        <span class="viewer-count">🟢964</span>
-      </div>
-      <div class="sub-item" data-category="09HongKong" data-title="Nopixel V | Melting Down Every Statue In The City For Steel | Claytone Orwell 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/UQTjZ8lJAG5H/zgkXCbkYbQ0Z/480.webp" data-viewers="72" onclick="playStream('grammthegibbon')">
-        <span class="username">grammthegibbon</span>
-        <span class="viewer-count">🟢72</span>
-      </div>
-      <div class="sub-item" data-category="09HongKong" data-title="Thomas DeAngelo | NoPixel V | War never changes 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/76b2CV36hT2c/KtvYIDhDpBwX/480.webp" data-viewers="123" onclick="playStream('jonthebroski')">
-        <span class="username">jonthebroski</span>
-        <span class="viewer-count">🟢123</span>
+      <div class="sub-item" data-category="09BrickBois" data-title="✨NOPIXEL V✨TONY CORLEONE BRICK BOYS✨GRIND TIMEEEEE✨MULTISTREAM! 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/yd9m4xZANj6x/Q0BXPv2H4rVx/480.webp" data-viewers="4171" onclick="playStream('anthonyz')">
+        <span class="username">anthonyz</span>
+        <span class="viewer-count">🟢609 🔴3562</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="09Security">09Security</div>
-      <div class="sub-item" data-category="09Security" data-title="GOLDiE &#x2F;&#x2F; !youtube" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mekabear-854x480.jpg" data-viewers="464" onclick="playStream('mekabear')">
+      <div class="sub-item" data-category="09Security" data-title="GOLDiE &#x2F;&#x2F; !youtube" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mekabear-854x480.jpg" data-viewers="504" onclick="playStream('mekabear')">
         <span class="username">mekabear</span>
-        <span class="viewer-count">🔴464</span>
+        <span class="viewer-count">🔴504</span>
       </div>
-      <div class="sub-item" data-category="09Security" data-title="Mr. Moon: ROACH - &quot;Wasted&quot; - NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mrmoonshouse-854x480.jpg" data-viewers="1266" onclick="playStream('mrmoonshouse')">
+      <div class="sub-item" data-category="09Security" data-title="Mr. Moon: ROACH - &quot;Wasted&quot; - NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mrmoonshouse-854x480.jpg" data-viewers="1280" onclick="playStream('mrmoonshouse')">
         <span class="username">mrmoonshouse</span>
-        <span class="viewer-count">🔴1266</span>
+        <span class="viewer-count">🔴1280</span>
       </div>
-      <div class="sub-item" data-category="09Security" data-title="Gloryon - Nopixel V - PSEC 🐊 G COOKS THE PERFECT JET &amp; PSEC BUYS A GAS STATION 🐊 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/84dVHQPF7REm/K1ma2Pt3qHQW/480.webp" data-viewers="381" onclick="playStream('garek')">
-        <span class="username">garek</span>
-        <span class="viewer-count">🟢55 🔴326</span>
-      </div>
-      <div class="sub-item" data-category="09Security" data-title="Charli Jones | Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/DbrFINGli0LX/9DwRUjxNVXPb/480.webp" data-viewers="1283" onclick="playStream('tjnv')">
+      <div class="sub-item" data-category="09Security" data-title="Charli Jones | Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/DbrFINGli0LX/9DwRUjxNVXPb/480.webp" data-viewers="1297" onclick="playStream('tjnv')">
         <span class="username">tjnv</span>
-        <span class="viewer-count">🟢1283</span>
+        <span class="viewer-count">🟢1297</span>
       </div>
-      <div class="sub-item" data-category="09Security" data-title="NOPIXEL V | OIL TYCOON GAS STATION OWNER HARRY BROWN 🔥 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/zgGaEKX1ggoF/zZvSbGYTY6zh/480.webp" data-viewers="1396" onclick="playStream('harry')">
+      <div class="sub-item" data-category="09Security" data-title="NOPIXEL V | OIL TYCOON GAS STATION OWNER HARRY BROWN 🔥 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/zgGaEKX1ggoF/zZvSbGYTY6zh/480.webp" data-viewers="1354" onclick="playStream('harry')">
         <span class="username">harry</span>
-        <span class="viewer-count">🟢1396</span>
+        <span class="viewer-count">🟢1354</span>
+      </div>
+      <div class="sub-item" data-category="09Security" data-title="Gloryon - Nopixel V - PSEC 🐊 G COOKS THE PERFECT JET &amp; PSEC BUYS A GAS STATION 🐊 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/84dVHQPF7REm/K1ma2Pt3qHQW/480.webp" data-viewers="441" onclick="playStream('garek')">
+        <span class="username">garek</span>
+        <span class="viewer-count">🟢47 🔴394</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="57Independent">57Independent</div>
       <div class="sub-item" data-category="57Independent" data-title="Roxanne aka Foxy Roxy 💕 nopixel v 💛 !playlist" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_jennybeartv-854x480.jpg" data-viewers="897" onclick="playStream('jennybeartv')">
         <span class="username">jennybeartv</span>
         <span class="viewer-count">🔴897</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="Fingle Dan - NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_thechief1114-854x480.jpg" data-viewers="1961" onclick="playStream('thechief1114')">
+      <div class="sub-item" data-category="57Independent" data-title="Fingle Dan - NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_thechief1114-854x480.jpg" data-viewers="1935" onclick="playStream('thechief1114')">
         <span class="username">thechief1114</span>
-        <span class="viewer-count">🔴1961</span>
+        <span class="viewer-count">🔴1935</span>
       </div>
       <div class="sub-item" data-category="57Independent" data-title="Rhin Darling | Dead Reckoning Premier | NoPixel V | sad girl vibes !gaza 🍉" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_itsjustasummerjob-854x480.jpg" data-viewers="61" onclick="playStream('itsjustasummerjob')">
         <span class="username">itsjustasummerjob</span>
         <span class="viewer-count">🔴61</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="ROBERT NOPIXEL FUN TIMES FUNNY CONTENT :3" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_roflgator-854x480.jpg" data-viewers="1289" onclick="playStream('roflgator')">
-        <span class="username">roflgator</span>
-        <span class="viewer-count">🔴1289</span>
-      </div>
       <div class="sub-item" data-category="57Independent" data-title="Swan DeLeur 🦢 | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/zD22KCVyp5et/214uTjRHHlni/480.webp" data-viewers="308" onclick="playStream('crystalst')">
         <span class="username">crystalst</span>
         <span class="viewer-count">🟢63 🔴245</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="🟨◼️ NoPixel V - NEWS MAN! - Ron Otterman" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_sentry-854x480.jpg" data-viewers="525" onclick="playStream('sentry')">
+      <div class="sub-item" data-category="57Independent" data-title="Gabby Brito 🍒 | Pink Press Media 🩷| NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_cannayaps-854x480.jpg" data-viewers="0" onclick="playStream('cannayaps')">
+        <span class="username">cannayaps</span>
+        <span class="viewer-count">🔴0</span>
+      </div>
+      <div class="sub-item" data-category="57Independent" data-title="🟨◼️ NoPixel V - NEWS MAN! - Ron Otterman" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_sentry-854x480.jpg" data-viewers="501" onclick="playStream('sentry')">
         <span class="username">sentry</span>
-        <span class="viewer-count">🔴525</span>
+        <span class="viewer-count">🔴501</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="Andy | Its all down hill from here... | NOPIXEL V |" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ittszach-854x480.jpg" data-viewers="231" onclick="playStream('ittszach')">
+      <div class="sub-item" data-category="57Independent" data-title="ROBERT NOPIXEL FUN TIMES FUNNY CONTENT :3" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_roflgator-854x480.jpg" data-viewers="1267" onclick="playStream('roflgator')">
+        <span class="username">roflgator</span>
+        <span class="viewer-count">🔴1267</span>
+      </div>
+      <div class="sub-item" data-category="57Independent" data-title="Andy | Its all down hill from here... | NOPIXEL V |" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ittszach-854x480.jpg" data-viewers="227" onclick="playStream('ittszach')">
         <span class="username">ittszach</span>
-        <span class="viewer-count">🔴231</span>
+        <span class="viewer-count">🔴227</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="🎃 Gigi Costello 🎃 | NoPixel V | SUB-A-THONG as begun! Day 1 🎃" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_angelknivez-854x480.jpg" data-viewers="774" onclick="playStream('angelknivez')">
+      <div class="sub-item" data-category="57Independent" data-title="🎃 Gigi Costello 🎃 | NoPixel V | SUB-A-THONG as begun! Day 1 🎃" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_angelknivez-854x480.jpg" data-viewers="755" onclick="playStream('angelknivez')">
         <span class="username">angelknivez</span>
-        <span class="viewer-count">🔴774</span>
+        <span class="viewer-count">🔴755</span>
+      </div>
+      <div class="sub-item" data-category="57Independent" data-title="Building the North | Adelaide Finch | TUO | NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_itscrystaleyes-854x480.jpg" data-viewers="20" onclick="playStream('itscrystaleyes')">
+        <span class="username">itscrystaleyes</span>
+        <span class="viewer-count">🔴20</span>
+      </div>
+      <div class="sub-item" data-category="57Independent" data-title="NOPIXEL V | Dominic Moreno | MOVIE PREMIERE" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mungo-854x480.jpg" data-viewers="59" onclick="playStream('mungo')">
+        <span class="username">mungo</span>
+        <span class="viewer-count">🔴59</span>
       </div>
       <div class="sub-item" data-category="57Independent" data-title="Brickzilla is the Treasurer | Drusilla Grant | The Accountant | NoPixel V| Cat Cam (Sometimes)" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_auriellis-854x480.jpg" data-viewers="63" onclick="playStream('auriellis')">
         <span class="username">auriellis</span>
         <span class="viewer-count">🔴63</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="NOPIXEL V | Dominic Moreno | MOVIE PREMIERE" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mungo-854x480.jpg" data-viewers="66" onclick="playStream('mungo')">
-        <span class="username">mungo</span>
-        <span class="viewer-count">🔴66</span>
-      </div>
-      <div class="sub-item" data-category="57Independent" data-title="Building the North | Adelaide Finch | TUO | NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_itscrystaleyes-854x480.jpg" data-viewers="18" onclick="playStream('itscrystaleyes')">
-        <span class="username">itscrystaleyes</span>
-        <span class="viewer-count">🔴18</span>
+      <div class="sub-item" data-category="57Independent" data-title="✨ Ginger Ale ✨NOPIXEL WL ✨ GTA RP ✨SEASON 5 ✨  | !discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_aikobliss-854x480.jpg" data-viewers="512" onclick="playStream('aikobliss')">
+        <span class="username">aikobliss</span>
+        <span class="viewer-count">🔴512</span>
       </div>
       <div class="sub-item" data-category="57Independent" data-title="Oki Doki (๑◕ᵕლ)˖⁺⑅♡🍔 NoPixel V | Last few days before the 8th ʕ´• ᴥ•̥&#x60;ʔ (We&#39;ll be back on the 16th!)" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_disbearex-854x480.jpg" data-viewers="265" onclick="playStream('disbearex')">
         <span class="username">disbearex</span>
         <span class="viewer-count">🔴265</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="H-Dawg ( Hazel Havgreaves ) NO PIXEL 5 &#x2F;&#x2F; SOME MORE RP AND CHILLING" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nostro-854x480.jpg" data-viewers="98" onclick="playStream('nostro')">
+      <div class="sub-item" data-category="57Independent" data-title="H-Dawg ( Hazel Havgreaves ) NO PIXEL 5 &#x2F;&#x2F; SOME MORE RP AND CHILLING" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nostro-854x480.jpg" data-viewers="106" onclick="playStream('nostro')">
         <span class="username">nostro</span>
-        <span class="viewer-count">🔴98</span>
+        <span class="viewer-count">🔴106</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="✨ Ginger Ale ✨NOPIXEL WL ✨ GTA RP ✨SEASON 5 ✨  | !discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_aikobliss-854x480.jpg" data-viewers="565" onclick="playStream('aikobliss')">
-        <span class="username">aikobliss</span>
-        <span class="viewer-count">🔴565</span>
-      </div>
-      <div class="sub-item" data-category="57Independent" data-title="NOPIXEL V DAY 20 - CARLA SELLS LOS SANTOS" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nutreo-854x480.jpg" data-viewers="1815" onclick="playStream('nutreo')">
+      <div class="sub-item" data-category="57Independent" data-title="NOPIXEL V DAY 20 - CARLA SELLS LOS SANTOS" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nutreo-854x480.jpg" data-viewers="1848" onclick="playStream('nutreo')">
         <span class="username">nutreo</span>
-        <span class="viewer-count">🔴1815</span>
+        <span class="viewer-count">🔴1848</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="♡ Dixie Renee - nopixel V day 21 𑣲⋆ socials discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_novasobored-854x480.jpg" data-viewers="1339" onclick="playStream('novasobored')">
+      <div class="sub-item" data-category="57Independent" data-title="♡ Dixie Renee - nopixel V day 21 𑣲⋆ socials discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_novasobored-854x480.jpg" data-viewers="1395" onclick="playStream('novasobored')">
         <span class="username">novasobored</span>
-        <span class="viewer-count">🔴1339</span>
+        <span class="viewer-count">🔴1395</span>
       </div>
       <div class="sub-item" data-category="57Independent" data-title="BIG LEGAL DAY. NOPIXEL 5.0--ACE ATTORNEY OF LOS SANTOS🔴DR. LAWYER BEEF VON WUNDER MD JD ESQ. GETS YOU OFF🔴🥩 🎙️SOCIALS DISCORD RPVODS" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_wakewilder-854x480.jpg" data-viewers="1064" onclick="playStream('wakewilder')">
         <span class="username">wakewilder</span>
         <span class="viewer-count">🔴1064</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="NOPIXEL V: NIINNESSSS║CUSTOM 3D REDEEMS (Face-FBT)" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_favorite-854x480.jpg" data-viewers="451" onclick="playStream('favorite')">
+      <div class="sub-item" data-category="57Independent" data-title="NOPIXEL V: NIINNESSSS║CUSTOM 3D REDEEMS (Face-FBT)" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_favorite-854x480.jpg" data-viewers="462" onclick="playStream('favorite')">
         <span class="username">favorite</span>
-        <span class="viewer-count">🔴451</span>
+        <span class="viewer-count">🔴462</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="Jordan Miles - Cozy chill job stream - NoPixel V ✨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_jennaembers-854x480.jpg" data-viewers="99" onclick="playStream('JennaEmbers')">
+      <div class="sub-item" data-category="57Independent" data-title="Jordan Miles - Cozy chill job stream - NoPixel V ✨" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_jennaembers-854x480.jpg" data-viewers="97" onclick="playStream('JennaEmbers')">
         <span class="username">JennaEmbers</span>
-        <span class="viewer-count">🔴99</span>
+        <span class="viewer-count">🔴97</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="Bo Mosby - BoTow and Repair - NoPixelV" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_skipgently-854x480.jpg" data-viewers="36" onclick="playStream('SkipGently')">
+      <div class="sub-item" data-category="57Independent" data-title="Bo Mosby - BoTow and Repair - NoPixelV" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_skipgently-854x480.jpg" data-viewers="42" onclick="playStream('SkipGently')">
         <span class="username">SkipGently</span>
-        <span class="viewer-count">🔴36</span>
+        <span class="viewer-count">🔴42</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="Haii Im Reina - NopixelV" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_justteetaa-854x480.jpg" data-viewers="24" onclick="playStream('JustTeetaa')">
-        <span class="username">JustTeetaa</span>
-        <span class="viewer-count">🔴24</span>
-      </div>
-      <div class="sub-item" data-category="57Independent" data-title="Nopixel V- Day idk girl just vibe ....- hopefully i fixed it- SPECTRUM PLZZZZZZZZZ" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_teaneww-854x480.jpg" data-viewers="23" onclick="playStream('teaneww')">
+      <div class="sub-item" data-category="57Independent" data-title="Nopixel V- Day idk girl just vibe ....- hopefully i fixed it- SPECTRUM PLZZZZZZZZZ" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_teaneww-854x480.jpg" data-viewers="37" onclick="playStream('teaneww')">
         <span class="username">teaneww</span>
-        <span class="viewer-count">🔴23</span>
+        <span class="viewer-count">🔴37</span>
+      </div>
+      <div class="sub-item" data-category="57Independent" data-title="Haii Im Reina - NopixelV" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_justteetaa-854x480.jpg" data-viewers="29" onclick="playStream('JustTeetaa')">
+        <span class="username">JustTeetaa</span>
+        <span class="viewer-count">🔴29</span>
       </div>
       <div class="sub-item" data-category="57Independent" data-title="nikki meadows does something f0r 5 mins - nopixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_alyoren-854x480.jpg" data-viewers="21" onclick="playStream('AlyOren')">
         <span class="username">AlyOren</span>
         <span class="viewer-count">🔴21</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="Kosmo - NoPixel V - NA STREAM -" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hurnani-854x480.jpg" data-viewers="14" onclick="playStream('Hurnani')">
+      <div class="sub-item" data-category="57Independent" data-title="🔺🐉 SURELY A Normal Jimmy Day 🐉🔺 - Jimmy Luo - Nopixel V - (Multi-stream Day 110) - Discord Twitter" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_spekcypher-854x480.jpg" data-viewers="18" onclick="playStream('SpekCypher')">
+        <span class="username">SpekCypher</span>
+        <span class="viewer-count">🔴18</span>
+      </div>
+      <div class="sub-item" data-category="57Independent" data-title="Kosmo - NoPixel V - NA STREAM -" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hurnani-854x480.jpg" data-viewers="15" onclick="playStream('Hurnani')">
         <span class="username">Hurnani</span>
-        <span class="viewer-count">🔴14</span>
+        <span class="viewer-count">🔴15</span>
       </div>
       <div class="sub-item" data-category="57Independent" data-title="Robyn Banks - NoPixel V ur cute :3" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_illwac-854x480.jpg" data-viewers="14" onclick="playStream('illwac')">
         <span class="username">illwac</span>
@@ -219,13 +227,9 @@
         <span class="username">hashtagdylaan</span>
         <span class="viewer-count">🔴13</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="🔺🐉 SURELY A Normal Jimmy Day 🐉🔺 - Jimmy Luo - Nopixel V - (Multi-stream Day 110) - Discord Twitter" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_spekcypher-854x480.jpg" data-viewers="13" onclick="playStream('SpekCypher')">
-        <span class="username">SpekCypher</span>
-        <span class="viewer-count">🔴13</span>
-      </div>
-      <div class="sub-item" data-category="57Independent" data-title="Lucy Furr - big and beautiful - NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_maribel1998-854x480.jpg" data-viewers="12" onclick="playStream('Maribel1998')">
+      <div class="sub-item" data-category="57Independent" data-title="Lucy Furr - big and beautiful - NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_maribel1998-854x480.jpg" data-viewers="10" onclick="playStream('Maribel1998')">
         <span class="username">Maribel1998</span>
-        <span class="viewer-count">🔴12</span>
+        <span class="viewer-count">🔴10</span>
       </div>
       <div class="sub-item" data-category="57Independent" data-title="Yuri Popov makes a new company called Goon Inc in NoPixelV" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_rustbingames-854x480.jpg" data-viewers="8" onclick="playStream('RustbinGames')">
         <span class="username">RustbinGames</span>
@@ -235,215 +239,211 @@
         <span class="username">RossThehSauce</span>
         <span class="viewer-count">🔴20</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="Ethan Cross - Nopixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_jettt-854x480.jpg" data-viewers="4" onclick="playStream('Jettt')">
+      <div class="sub-item" data-category="57Independent" data-title="Ethan Cross - Nopixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_jettt-854x480.jpg" data-viewers="1" onclick="playStream('Jettt')">
         <span class="username">Jettt</span>
-        <span class="viewer-count">🔴4</span>
+        <span class="viewer-count">🔴1</span>
       </div>
       <div class="sub-item" data-category="57Independent" data-title="Antoine Du Sucre NopivelV Invite Hopeful - Nopixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hellknight86-854x480.jpg" data-viewers="1" onclick="playStream('Hellknight86')">
         <span class="username">Hellknight86</span>
         <span class="viewer-count">🔴1</span>
       </div>
-      <div class="sub-item" data-category="57Independent" data-title="emeka rose | mayor of LS | casino owner | NoPixel 4.0 WL | !trivia !contexto !scramble 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/SeWLH9mubTwf/l9rJNRF7EUmu/480.webp" data-viewers="164" onclick="playStream('moussy')">
-        <span class="username">moussy</span>
-        <span class="viewer-count">🟢164</span>
-      </div>
-      <div class="sub-item" data-category="57Independent" data-title="Cora Star ★ !SUBATHON DAY 1 ★ NoPixel V ★ @ms_star 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/kjlpwQLoeNpN/TjrkrRNUqGq5/480.webp" data-viewers="64" onclick="playStream('ms_star')">
-        <span class="username">ms_star</span>
-        <span class="viewer-count">🟢64</span>
-      </div>
       <div class="sub-item" data-category="57Independent" data-title="Royce | Hadez Leader (ig this is a real thing) | NoPixel 4.0 WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/BB6zpTkh1WBy/yUPZz4JCHTq2/480.webp" data-viewers="83" onclick="playStream('olivegarden')">
         <span class="username">olivegarden</span>
         <span class="viewer-count">🟢83</span>
       </div>
+      <div class="sub-item" data-category="57Independent" data-title="Cora Star ★ !SUBATHON DAY 1 ★ NoPixel V ★ @ms_star 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/kjlpwQLoeNpN/TjrkrRNUqGq5/480.webp" data-viewers="65" onclick="playStream('ms_star')">
+        <span class="username">ms_star</span>
+        <span class="viewer-count">🟢65</span>
+      </div>
+      <div class="sub-item" data-category="57Independent" data-title="emeka rose | mayor of LS | casino owner | NoPixel 4.0 WL | !trivia !contexto !scramble 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/SeWLH9mubTwf/l9rJNRF7EUmu/480.webp" data-viewers="149" onclick="playStream('moussy')">
+        <span class="username">moussy</span>
+        <span class="viewer-count">🟢149</span>
+      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="01Cops">01Cops</div>
-      <div class="sub-item" data-category="01Cops" data-title="Matt Rhodes | nopixel V | !discord !song" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_curvyelephant-854x480.jpg" data-viewers="2263" onclick="playStream('curvyelephant')">
+      <div class="sub-item" data-category="01Cops" data-title="Matt Rhodes | nopixel V | !discord !song" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_curvyelephant-854x480.jpg" data-viewers="1704" onclick="playStream('curvyelephant')">
         <span class="username">curvyelephant</span>
-        <span class="viewer-count">🔴2263</span>
+        <span class="viewer-count">🔴1704</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Commissioner Dawgson - Start Of A New Week - Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/jPtx6u0HYHIY/ks4O1giEczQw/480.webp" data-viewers="2095" onclick="playStream('saab')">
+      <div class="sub-item" data-category="01Cops" data-title="Commissioner Dawgson - Start Of A New Week - Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/jPtx6u0HYHIY/ks4O1giEczQw/480.webp" data-viewers="2078" onclick="playStream('saab')">
         <span class="username">saab</span>
-        <span class="viewer-count">🟢2095</span>
+        <span class="viewer-count">🟢2078</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Cleg LaCroix 🚨 NoPixel V 🟢🟣 MULTI!! !tts !pp" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_chodie-854x480.jpg" data-viewers="15" onclick="playStream('chodie')">
+      <div class="sub-item" data-category="01Cops" data-title="Cleg LaCroix 🚨 NoPixel V 🟢🟣 MULTI!! !tts !pp" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_chodie-854x480.jpg" data-viewers="30" onclick="playStream('chodie')">
         <span class="username">chodie</span>
-        <span class="viewer-count">🔴15</span>
+        <span class="viewer-count">🔴30</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Alan Key | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/URcmWdRLc9NA/1prAYgFOtPOV/480.webp" data-viewers="118" onclick="playStream('manax')">
-        <span class="username">manax</span>
-        <span class="viewer-count">🟢118</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="Alvis Pulley | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/RfXADyJjEA72/480.webp" data-viewers="886" onclick="playStream('harmless')">
+      <div class="sub-item" data-category="01Cops" data-title="Alvis Pulley | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/RfXADyJjEA72/480.webp" data-viewers="880" onclick="playStream('harmless')">
         <span class="username">harmless</span>
-        <span class="viewer-count">🟢85 🔴801</span>
+        <span class="viewer-count">🟢89 🔴791</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="❇️🚔 191 Snr. Officer Mateo Radić 🚔NoPixel V🚔❇️| !twitter | !discord | 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/aY7GSIRxAu3b/Ifhms1ioDXlW/480.webp" data-viewers="8" onclick="playStream('gopnikrp')">
+      <div class="sub-item" data-category="01Cops" data-title="Alan Key | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/URcmWdRLc9NA/1prAYgFOtPOV/480.webp" data-viewers="130" onclick="playStream('manax')">
+        <span class="username">manax</span>
+        <span class="viewer-count">🟢130</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="❇️🚔 191 Snr. Officer Mateo Radić 🚔NoPixel V🚔❇️| !twitter | !discord | 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/aY7GSIRxAu3b/Ifhms1ioDXlW/480.webp" data-viewers="7" onclick="playStream('gopnikrp')">
         <span class="username">gopnikrp</span>
-        <span class="viewer-count">🟢8</span>
+        <span class="viewer-count">🟢7</span>
       </div>
       <div class="sub-item" data-category="01Cops" data-title="Joe Mathers | Snr. officer 555 LSPD | NoPixel V |" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_4hbunger-854x480.jpg" data-viewers="3" onclick="playStream('4hbunger')">
         <span class="username">4hbunger</span>
         <span class="viewer-count">🔴3</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Sgt Mike Bayo | Nopixel V | @Xiceman126 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/xpKpkqQn7FBW/bP5dzSKiPqAM/480.webp" data-viewers="242" onclick="playStream('xiceman')">
+      <div class="sub-item" data-category="01Cops" data-title="WE BAAACK Madison Skye and LSPD Hailey Maxwell | GTAV RP | !merch | Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/i1xQGlbiQuWb/NNa57vFGdyfU/480.webp" data-viewers="303" onclick="playStream('glitterglock19')">
+        <span class="username">glitterglock19</span>
+        <span class="viewer-count">🟢303</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="Training Day | Sgt. Michael Hemsworth | Rebuilding the PD | NoPixel 4.0 WL | !dubby !commands 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/o3YZHNNYrqNB/2Y7Dowhp0WNb/480.webp" data-viewers="10" onclick="playStream('yaboidr3w')">
+        <span class="username">yaboidr3w</span>
+        <span class="viewer-count">🟢2 🔴8</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="Nopixel V | Ranger Sgt. Maplethorne | 497 | SASPR | SPOOKY SEASON 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/oaZX9ww8p4cT/Plhm8Ksv7vev/480.webp" data-viewers="51" onclick="playStream('silbullet')">
+        <span class="username">silbullet</span>
+        <span class="viewer-count">🟢51</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="Sgt Conner Oxby | LSPD 107 | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/mMLMP3ygL47h/dAZjd6v0SJPB/480.webp" data-viewers="44" onclick="playStream('skorbnut')">
+        <span class="username">skorbnut</span>
+        <span class="viewer-count">🟢12 🔴32</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="Jonah | nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/VtSwGiX5mNvV/6lZsYTeb4fw4/480.webp" data-viewers="20" onclick="playStream('imaceinhd')">
+        <span class="username">imaceinhd</span>
+        <span class="viewer-count">🟢20</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="Ramona Celeste | Ranger | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/1CfdCGglKrv5/l5ikNol3FhVf/480.webp" data-viewers="38" onclick="playStream('hedisaurus')">
+        <span class="username">hedisaurus</span>
+        <span class="viewer-count">🟢6 🔴32</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="Officer Ruby York | nopixel V | GTA RP 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/owBJT4NXclRx/GlHDxxH8R6HG/480.webp" data-viewers="89" onclick="playStream('missbombastic')">
+        <span class="username">missbombastic</span>
+        <span class="viewer-count">🟢89</span>
+      </div>
+      <div class="sub-item" data-category="01Cops" data-title="Sgt Mike Bayo | Nopixel V | @Xiceman126 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/xpKpkqQn7FBW/bP5dzSKiPqAM/480.webp" data-viewers="291" onclick="playStream('xiceman')">
         <span class="username">xiceman</span>
-        <span class="viewer-count">🟢39 🔴203</span>
+        <span class="viewer-count">🟢40 🔴251</span>
       </div>
       <div class="sub-item" data-category="01Cops" data-title="Sergeant Slaughter - NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kaaleesi-854x480.jpg" data-viewers="57" onclick="playStream('Kaaleesi')">
         <span class="username">Kaaleesi</span>
         <span class="viewer-count">🔴57</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Training Day | Sgt. Michael Hemsworth | Rebuilding the PD | NoPixel 4.0 WL | !dubby !commands 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/o3YZHNNYrqNB/2Y7Dowhp0WNb/480.webp" data-viewers="10" onclick="playStream('yaboidr3w')">
-        <span class="username">yaboidr3w</span>
-        <span class="viewer-count">🟢3 🔴7</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="Nopixel V | Ranger Sgt. Maplethorne | 497 | SASPR | SPOOKY SEASON 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/oaZX9ww8p4cT/Plhm8Ksv7vev/480.webp" data-viewers="50" onclick="playStream('silbullet')">
-        <span class="username">silbullet</span>
-        <span class="viewer-count">🟢50</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="Sgt Conner Oxby | LSPD 107 | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/mMLMP3ygL47h/dAZjd6v0SJPB/480.webp" data-viewers="44" onclick="playStream('skorbnut')">
-        <span class="username">skorbnut</span>
-        <span class="viewer-count">🟢13 🔴31</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="NoPixel V: Nancy LSBN News - Morgan LSPD - Giulianna Cashew DOC" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_appleshampoo-854x480.jpg" data-viewers="47" onclick="playStream('APPLESHAMPOO')">
+      <div class="sub-item" data-category="01Cops" data-title="NoPixel V: Nancy LSBN News - Morgan LSPD - Giulianna Cashew DOC" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_appleshampoo-854x480.jpg" data-viewers="48" onclick="playStream('APPLESHAMPOO')">
         <span class="username">APPLESHAMPOO</span>
-        <span class="viewer-count">🔴47</span>
+        <span class="viewer-count">🔴48</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="WE BAAACK Madison Skye and LSPD Hailey Maxwell | GTAV RP | !merch | Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/i1xQGlbiQuWb/NNa57vFGdyfU/480.webp" data-viewers="293" onclick="playStream('glitterglock19')">
-        <span class="username">glitterglock19</span>
-        <span class="viewer-count">🟢293</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="Jonah | nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/VtSwGiX5mNvV/6lZsYTeb4fw4/480.webp" data-viewers="18" onclick="playStream('imaceinhd')">
-        <span class="username">imaceinhd</span>
-        <span class="viewer-count">🟢18</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="Officer Ruby York | nopixel V | GTA RP 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/owBJT4NXclRx/GlHDxxH8R6HG/480.webp" data-viewers="90" onclick="playStream('missbombastic')">
-        <span class="username">missbombastic</span>
-        <span class="viewer-count">🟢90</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="Ramona Celeste | Ranger | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/1CfdCGglKrv5/l5ikNol3FhVf/480.webp" data-viewers="39" onclick="playStream('hedisaurus')">
-        <span class="username">hedisaurus</span>
-        <span class="viewer-count">🟢7 🔴32</span>
-      </div>
-      <div class="sub-item" data-category="01Cops" data-title="Vi Gray - BIG DAY BIG NEWS - No Pixel WL 4.0 discord Throne" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_dadsyuk-854x480.jpg" data-viewers="14" onclick="playStream('dadsyuk')">
+      <div class="sub-item" data-category="01Cops" data-title="Vi Gray - BIG DAY BIG NEWS - No Pixel WL 4.0 discord Throne" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_dadsyuk-854x480.jpg" data-viewers="13" onclick="playStream('dadsyuk')">
         <span class="username">dadsyuk</span>
-        <span class="viewer-count">🔴14</span>
+        <span class="viewer-count">🔴13</span>
       </div>
-      <div class="sub-item" data-category="01Cops" data-title="Queue pov &gt; Juno Sweeney | NoPixel V | !discord !youtube 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/vfAvEOCLgdKT/lH2KkRgzgshA/480.webp" data-viewers="486" onclick="playStream('saturneighteen')">
+      <div class="sub-item" data-category="01Cops" data-title="Queue pov &gt; Juno Sweeney | NoPixel V | !discord !youtube 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/vfAvEOCLgdKT/lH2KkRgzgshA/480.webp" data-viewers="429" onclick="playStream('saturneighteen')">
         <span class="username">saturneighteen</span>
-        <span class="viewer-count">🟢486</span>
+        <span class="viewer-count">🟢429</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="02LSPD">02LSPD</div>
-      <div class="sub-item" data-category="02LSPD" data-title="Matt Rhodes | nopixel V | !discord !song" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_curvyelephant-854x480.jpg" data-viewers="2263" onclick="playStream('curvyelephant')">
+      <div class="sub-item" data-category="02LSPD" data-title="Matt Rhodes | nopixel V | !discord !song" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_curvyelephant-854x480.jpg" data-viewers="1704" onclick="playStream('curvyelephant')">
         <span class="username">curvyelephant</span>
-        <span class="viewer-count">🔴2263</span>
+        <span class="viewer-count">🔴1704</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Commissioner Dawgson - Start Of A New Week - Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/jPtx6u0HYHIY/ks4O1giEczQw/480.webp" data-viewers="2095" onclick="playStream('saab')">
+      <div class="sub-item" data-category="02LSPD" data-title="Commissioner Dawgson - Start Of A New Week - Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/jPtx6u0HYHIY/ks4O1giEczQw/480.webp" data-viewers="2078" onclick="playStream('saab')">
         <span class="username">saab</span>
-        <span class="viewer-count">🟢2095</span>
+        <span class="viewer-count">🟢2078</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Cleg LaCroix 🚨 NoPixel V 🟢🟣 MULTI!! !tts !pp" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_chodie-854x480.jpg" data-viewers="15" onclick="playStream('chodie')">
-        <span class="username">chodie</span>
-        <span class="viewer-count">🔴15</span>
-      </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Alan Key | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/URcmWdRLc9NA/1prAYgFOtPOV/480.webp" data-viewers="118" onclick="playStream('manax')">
-        <span class="username">manax</span>
-        <span class="viewer-count">🟢118</span>
-      </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Alvis Pulley | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/RfXADyJjEA72/480.webp" data-viewers="886" onclick="playStream('harmless')">
+      <div class="sub-item" data-category="02LSPD" data-title="Alvis Pulley | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/fWYPrQce4Qr6/RfXADyJjEA72/480.webp" data-viewers="880" onclick="playStream('harmless')">
         <span class="username">harmless</span>
-        <span class="viewer-count">🟢85 🔴801</span>
+        <span class="viewer-count">🟢89 🔴791</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="❇️🚔 191 Snr. Officer Mateo Radić 🚔NoPixel V🚔❇️| !twitter | !discord | 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/aY7GSIRxAu3b/Ifhms1ioDXlW/480.webp" data-viewers="8" onclick="playStream('gopnikrp')">
+      <div class="sub-item" data-category="02LSPD" data-title="Cleg LaCroix 🚨 NoPixel V 🟢🟣 MULTI!! !tts !pp" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_chodie-854x480.jpg" data-viewers="30" onclick="playStream('chodie')">
+        <span class="username">chodie</span>
+        <span class="viewer-count">🔴30</span>
+      </div>
+      <div class="sub-item" data-category="02LSPD" data-title="Alan Key | LSPD | NoPixel 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/URcmWdRLc9NA/1prAYgFOtPOV/480.webp" data-viewers="130" onclick="playStream('manax')">
+        <span class="username">manax</span>
+        <span class="viewer-count">🟢130</span>
+      </div>
+      <div class="sub-item" data-category="02LSPD" data-title="❇️🚔 191 Snr. Officer Mateo Radić 🚔NoPixel V🚔❇️| !twitter | !discord | 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/aY7GSIRxAu3b/Ifhms1ioDXlW/480.webp" data-viewers="7" onclick="playStream('gopnikrp')">
         <span class="username">gopnikrp</span>
-        <span class="viewer-count">🟢8</span>
+        <span class="viewer-count">🟢7</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Sgt Mike Bayo | Nopixel V | @Xiceman126 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/xpKpkqQn7FBW/bP5dzSKiPqAM/480.webp" data-viewers="242" onclick="playStream('xiceman')">
-        <span class="username">xiceman</span>
-        <span class="viewer-count">🟢39 🔴203</span>
+      <div class="sub-item" data-category="02LSPD" data-title="WE BAAACK Madison Skye and LSPD Hailey Maxwell | GTAV RP | !merch | Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/i1xQGlbiQuWb/NNa57vFGdyfU/480.webp" data-viewers="303" onclick="playStream('glitterglock19')">
+        <span class="username">glitterglock19</span>
+        <span class="viewer-count">🟢303</span>
       </div>
       <div class="sub-item" data-category="02LSPD" data-title="Training Day | Sgt. Michael Hemsworth | Rebuilding the PD | NoPixel 4.0 WL | !dubby !commands 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/o3YZHNNYrqNB/2Y7Dowhp0WNb/480.webp" data-viewers="10" onclick="playStream('yaboidr3w')">
         <span class="username">yaboidr3w</span>
-        <span class="viewer-count">🟢3 🔴7</span>
+        <span class="viewer-count">🟢2 🔴8</span>
+      </div>
+      <div class="sub-item" data-category="02LSPD" data-title="Sgt Conner Oxby | LSPD 107 | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/mMLMP3ygL47h/dAZjd6v0SJPB/480.webp" data-viewers="44" onclick="playStream('skorbnut')">
+        <span class="username">skorbnut</span>
+        <span class="viewer-count">🟢12 🔴32</span>
+      </div>
+      <div class="sub-item" data-category="02LSPD" data-title="Jonah | nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/VtSwGiX5mNvV/6lZsYTeb4fw4/480.webp" data-viewers="20" onclick="playStream('imaceinhd')">
+        <span class="username">imaceinhd</span>
+        <span class="viewer-count">🟢20</span>
+      </div>
+      <div class="sub-item" data-category="02LSPD" data-title="Officer Ruby York | nopixel V | GTA RP 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/owBJT4NXclRx/GlHDxxH8R6HG/480.webp" data-viewers="89" onclick="playStream('missbombastic')">
+        <span class="username">missbombastic</span>
+        <span class="viewer-count">🟢89</span>
+      </div>
+      <div class="sub-item" data-category="02LSPD" data-title="Sgt Mike Bayo | Nopixel V | @Xiceman126 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/xpKpkqQn7FBW/bP5dzSKiPqAM/480.webp" data-viewers="291" onclick="playStream('xiceman')">
+        <span class="username">xiceman</span>
+        <span class="viewer-count">🟢40 🔴251</span>
       </div>
       <div class="sub-item" data-category="02LSPD" data-title="Sergeant Slaughter - NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kaaleesi-854x480.jpg" data-viewers="57" onclick="playStream('Kaaleesi')">
         <span class="username">Kaaleesi</span>
         <span class="viewer-count">🔴57</span>
       </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Sgt Conner Oxby | LSPD 107 | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/mMLMP3ygL47h/dAZjd6v0SJPB/480.webp" data-viewers="44" onclick="playStream('skorbnut')">
-        <span class="username">skorbnut</span>
-        <span class="viewer-count">🟢13 🔴31</span>
-      </div>
-      <div class="sub-item" data-category="02LSPD" data-title="WE BAAACK Madison Skye and LSPD Hailey Maxwell | GTAV RP | !merch | Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/i1xQGlbiQuWb/NNa57vFGdyfU/480.webp" data-viewers="293" onclick="playStream('glitterglock19')">
-        <span class="username">glitterglock19</span>
-        <span class="viewer-count">🟢293</span>
-      </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Jonah | nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/VtSwGiX5mNvV/6lZsYTeb4fw4/480.webp" data-viewers="18" onclick="playStream('imaceinhd')">
-        <span class="username">imaceinhd</span>
-        <span class="viewer-count">🟢18</span>
-      </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Officer Ruby York | nopixel V | GTA RP 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/owBJT4NXclRx/GlHDxxH8R6HG/480.webp" data-viewers="90" onclick="playStream('missbombastic')">
-        <span class="username">missbombastic</span>
-        <span class="viewer-count">🟢90</span>
-      </div>
-      <div class="sub-item" data-category="02LSPD" data-title="Vi Gray - BIG DAY BIG NEWS - No Pixel WL 4.0 discord Throne" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_dadsyuk-854x480.jpg" data-viewers="14" onclick="playStream('dadsyuk')">
+      <div class="sub-item" data-category="02LSPD" data-title="Vi Gray - BIG DAY BIG NEWS - No Pixel WL 4.0 discord Throne" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_dadsyuk-854x480.jpg" data-viewers="13" onclick="playStream('dadsyuk')">
         <span class="username">dadsyuk</span>
-        <span class="viewer-count">🔴14</span>
+        <span class="viewer-count">🔴13</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="18SinnerSt">18SinnerSt</div>
-      <div class="sub-item" data-category="18SinnerSt" data-title="PRINCESS IS A REAL SERIOUS CRIMINAL WHO DOES CRIME WHY DOESN&#39;T ANYONE BELIEVE ME | Princess Felicity | Nopixel V R1 Draft Pick | !soup" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_leahstoo-854x480.jpg" data-viewers="392" onclick="playStream('leahstoo')">
-        <span class="username">leahstoo</span>
-        <span class="viewer-count">🔴392</span>
-      </div>
       <div class="sub-item" data-category="18SinnerSt" data-title="Lorelai &quot;Lo&quot; Paige | Early Stream | NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_novaaberries-854x480.jpg" data-viewers="93" onclick="playStream('novaaberries')">
         <span class="username">novaaberries</span>
         <span class="viewer-count">🔴93</span>
       </div>
-      <div class="sub-item" data-category="18SinnerSt" data-title="🔥 DAY 12 OF NOPIXEL 5.0 🟢 RAYMOND ROMANOV 🟢 LONG STREAM!!! 🟢 NOPIXEL V| !Socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/qcVaUqUAr4cG/y86XVNqsfmY6/480.webp" data-viewers="886" onclick="playStream('rayc')">
-        <span class="username">rayc</span>
-        <span class="viewer-count">🟢130 🔴756</span>
+      <div class="sub-item" data-category="18SinnerSt" data-title="PRINCESS IS A REAL SERIOUS CRIMINAL WHO DOES CRIME WHY DOESN&#39;T ANYONE BELIEVE ME | Princess Felicity | Nopixel V R1 Draft Pick | !soup" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_leahstoo-854x480.jpg" data-viewers="388" onclick="playStream('leahstoo')">
+        <span class="username">leahstoo</span>
+        <span class="viewer-count">🔴388</span>
       </div>
-      <div class="sub-item" data-category="18SinnerSt" data-title="💥 NOPIXEL V - DAY 20 💥 Echoes of the past | Shang Liu | NoPixel V WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/SvN6unb8Sp4d/50NaXghp0HF7/480.webp" data-viewers="499" onclick="playStream('barky')">
+      <div class="sub-item" data-category="18SinnerSt" data-title="🔥 DAY 12 OF NOPIXEL 5.0 🟢 RAYMOND ROMANOV 🟢 LONG STREAM!!! 🟢 NOPIXEL V| !Socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/qcVaUqUAr4cG/y86XVNqsfmY6/480.webp" data-viewers="667" onclick="playStream('rayc')">
+        <span class="username">rayc</span>
+        <span class="viewer-count">🟢125 🔴542</span>
+      </div>
+      <div class="sub-item" data-category="18SinnerSt" data-title="💥 NOPIXEL V - DAY 20 💥 Echoes of the past | Shang Liu | NoPixel V WL 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/SvN6unb8Sp4d/50NaXghp0HF7/480.webp" data-viewers="509" onclick="playStream('barky')">
         <span class="username">barky</span>
-        <span class="viewer-count">🟢499</span>
+        <span class="viewer-count">🟢509</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="10Besties">10Besties</div>
-      <div class="sub-item" data-category="10Besties" data-title="🍪Jack Cortair 🍪 NoPixel V | DASS ROIIIIGHT 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/0T9BCeQ85jHx/tvnLtpq18H60/480.webp" data-viewers="288" onclick="playStream('jack')">
+      <div class="sub-item" data-category="10Besties" data-title="🍪Jack Cortair 🍪 NoPixel V | DASS ROIIIIGHT 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/0T9BCeQ85jHx/tvnLtpq18H60/480.webp" data-viewers="289" onclick="playStream('jack')">
         <span class="username">jack</span>
-        <span class="viewer-count">🟢206 🔴82</span>
+        <span class="viewer-count">🟢207 🔴82</span>
       </div>
-      <div class="sub-item" data-category="10Besties" data-title="WE BOUGHT A GAS STATION? | Aoki &quot;Blue&quot; Ma | Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/lOezY4Bzin5J/389Hfksh2Qrp/480.webp" data-viewers="296" onclick="playStream('moesabai')">
+      <div class="sub-item" data-category="10Besties" data-title="WE BOUGHT A GAS STATION? | Aoki &quot;Blue&quot; Ma | Nopixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/lOezY4Bzin5J/389Hfksh2Qrp/480.webp" data-viewers="334" onclick="playStream('moesabai')">
         <span class="username">moesabai</span>
-        <span class="viewer-count">🟢296</span>
+        <span class="viewer-count">🟢334</span>
       </div>
-      <div class="sub-item" data-category="10Besties" data-title="Kelly Dean | Roy&#39;s Criminal Husband | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7wwP2GBI4zYO/9CZIxu19zqw5/480.webp" data-viewers="58" onclick="playStream('leonarwho')">
+      <div class="sub-item" data-category="10Besties" data-title="Kelly Dean | Roy&#39;s Criminal Husband | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/7wwP2GBI4zYO/9CZIxu19zqw5/480.webp" data-viewers="62" onclick="playStream('leonarwho')">
         <span class="username">leonarwho</span>
-        <span class="viewer-count">🟢58</span>
+        <span class="viewer-count">🟢62</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="30Merchants">30Merchants</div>
-      <div class="sub-item" data-category="30Merchants" data-title="Rayleigh &quot;240k In Debt&quot; Sol | The Alchemists - NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/c1D4ZiiWX98W/dfkQbAVVSTxA/480.webp" data-viewers="20" onclick="playStream('yodarrell')">
+      <div class="sub-item" data-category="30Merchants" data-title="Rayleigh &quot;240k In Debt&quot; Sol | The Alchemists - NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/c1D4ZiiWX98W/dfkQbAVVSTxA/480.webp" data-viewers="23" onclick="playStream('yodarrell')">
         <span class="username">yodarrell</span>
-        <span class="viewer-count">🟢9 🔴11</span>
+        <span class="viewer-count">🟢10 🔴13</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="17Clowns">17Clowns</div>
-      <div class="sub-item" data-category="17Clowns" data-title="Callista &quot;Jingles&quot; Bell | Nopixel V | Clowncil" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_totallynotbelltower-854x480.jpg" data-viewers="2" onclick="playStream('totallynotbelltower')">
+      <div class="sub-item" data-category="17Clowns" data-title="Callista &quot;Jingles&quot; Bell | Nopixel V | Clowncil" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_totallynotbelltower-854x480.jpg" data-viewers="15" onclick="playStream('totallynotbelltower')">
         <span class="username">totallynotbelltower</span>
-        <span class="viewer-count">🔴2</span>
+        <span class="viewer-count">🔴15</span>
       </div>
       <div class="sub-item" data-category="17Clowns" data-title="🤡 Dee Mented 🪓 NoPixel V !softperma" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_charli-854x480.jpg" data-viewers="361" onclick="playStream('charli')">
         <span class="username">charli</span>
         <span class="viewer-count">🔴361</span>
       </div>
-      <div class="sub-item" data-category="17Clowns" data-title="movie premiere!!! Helen Highwater | NoPixel V | !youtube !badges" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mikfoolery-854x480.jpg" data-viewers="166" onclick="playStream('mikfoolery')">
+      <div class="sub-item" data-category="17Clowns" data-title="movie premiere!!! Helen Highwater | NoPixel V | !youtube !badges" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_mikfoolery-854x480.jpg" data-viewers="161" onclick="playStream('mikfoolery')">
         <span class="username">mikfoolery</span>
-        <span class="viewer-count">🔴166</span>
+        <span class="viewer-count">🔴161</span>
       </div>
-      <div class="sub-item" data-category="17Clowns" data-title="LilyAnn Night-Sky | NPV | 18+" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kittenqg-854x480.jpg" data-viewers="14" onclick="playStream('kittenqg')">
+      <div class="sub-item" data-category="17Clowns" data-title="LilyAnn Night-Sky | NPV | 18+" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_kittenqg-854x480.jpg" data-viewers="13" onclick="playStream('kittenqg')">
         <span class="username">kittenqg</span>
-        <span class="viewer-count">🔴14</span>
-      </div>
-      <div class="sub-item" data-category="17Clowns" data-title="Tessa Lamb | witness | NoPixel V RP" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nakkida-854x480.jpg" data-viewers="1181" onclick="playStream('nakkida')">
-        <span class="username">nakkida</span>
-        <span class="viewer-count">🔴1181</span>
+        <span class="viewer-count">🔴13</span>
       </div>
       <div class="sub-item" data-category="17Clowns" data-title="Chatterbox | WE WAFFLE --&gt; RP| NoPixel V | !SUBATHON DAY 28 | !Clowncil" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_chatterbox-854x480.jpg" data-viewers="7299" onclick="playStream('chatterbox')">
         <span class="username">chatterbox</span>
@@ -453,39 +453,66 @@
         <span class="username">ninjajessica</span>
         <span class="viewer-count">🔴20</span>
       </div>
-      <div class="sub-item" data-category="17Clowns" data-title="Wendy Thomas | Clowncil | NoPixel 5.0 |" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_royalcreates-854x480.jpg" data-viewers="95" onclick="playStream('royalcreates')">
+      <div class="sub-item" data-category="17Clowns" data-title="Wendy Thomas | Clowncil | NoPixel 5.0 |" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_royalcreates-854x480.jpg" data-viewers="94" onclick="playStream('royalcreates')">
         <span class="username">royalcreates</span>
-        <span class="viewer-count">🔴95</span>
+        <span class="viewer-count">🔴94</span>
       </div>
-      <div class="sub-item" data-category="17Clowns" data-title="Twinkles | Nopixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_twinkles-854x480.jpg" data-viewers="165" onclick="playStream('twinkles')">
+      <div class="sub-item" data-category="17Clowns" data-title="Tessa Lamb | witness | NoPixel V RP" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_nakkida-854x480.jpg" data-viewers="1257" onclick="playStream('nakkida')">
+        <span class="username">nakkida</span>
+        <span class="viewer-count">🔴1257</span>
+      </div>
+      <div class="sub-item" data-category="17Clowns" data-title="Twinkles | Nopixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_twinkles-854x480.jpg" data-viewers="162" onclick="playStream('twinkles')">
         <span class="username">twinkles</span>
-        <span class="viewer-count">🔴165</span>
+        <span class="viewer-count">🔴162</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="16ChaosLegion">16ChaosLegion</div>
-      <div class="sub-item" data-category="16ChaosLegion" data-title="QUINTON QUANTUM | Whats Next | NoPixel V | !character !nopixel !cat" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_theearchitect-854x480.jpg" data-viewers="58" onclick="playStream('theearchitect')">
+      <div class="sub-item" data-category="16ChaosLegion" data-title="QUINTON QUANTUM | Whats Next | NoPixel V | !character !nopixel !cat" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_theearchitect-854x480.jpg" data-viewers="60" onclick="playStream('theearchitect')">
         <span class="username">theearchitect</span>
-        <span class="viewer-count">🔴58</span>
+        <span class="viewer-count">🔴60</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="03SAPR">03SAPR</div>
+      <div class="sub-item" data-category="03SAPR" data-title="Nopixel V | Ranger Sgt. Maplethorne | 497 | SASPR | SPOOKY SEASON 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/oaZX9ww8p4cT/Plhm8Ksv7vev/480.webp" data-viewers="51" onclick="playStream('silbullet')">
+        <span class="username">silbullet</span>
+        <span class="viewer-count">🟢51</span>
+      </div>
+      <div class="sub-item" data-category="03SAPR" data-title="Ramona Celeste | Ranger | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/1CfdCGglKrv5/l5ikNol3FhVf/480.webp" data-viewers="38" onclick="playStream('hedisaurus')">
+        <span class="username">hedisaurus</span>
+        <span class="viewer-count">🟢6 🔴32</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="06Government">06Government</div>
+      <div class="sub-item" data-category="06Government" data-title="Judge Arcadia Grayson | Dept. of Justice | NoPixel 5.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/6c5Pf9qqikMr/pEimdnPugiat/480.webp" data-viewers="55" onclick="playStream('theobrosia')">
+        <span class="username">theobrosia</span>
+        <span class="viewer-count">🟢40 🔴15</span>
+      </div>
+    <div class="category" onclick="highlightCategory(this)" data-category="45HOA">45HOA</div>
+      <div class="sub-item" data-category="45HOA" data-title="Nopixel V DM (Finishing Paleto + Pharmacy Heist)" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_uhn-854x480.jpg" data-viewers="1941" onclick="playStream('uhn')">
+        <span class="username">uhn</span>
+        <span class="viewer-count">🔴1941</span>
+      </div>
+      <div class="sub-item" data-category="45HOA" data-title="!SUBATHON DAY 20 🧊 Ken-Sama 🧊 Nopixel V 🧊 !gg !tip !tts !youtube" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_pengwin-854x480.jpg" data-viewers="623" onclick="playStream('pengwin')">
+        <span class="username">pengwin</span>
+        <span class="viewer-count">🔴623</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="58Uncategorized">58Uncategorized</div>
       <div class="sub-item" data-category="58Uncategorized" data-title="DAY 1 NO PIXEL GTA RP -- VODS" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_shadesofnate-854x480.jpg" data-viewers="393" onclick="playStream('ShadesOfNate')">
         <span class="username">ShadesOfNate</span>
         <span class="viewer-count">🔴393</span>
       </div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="Zephyr Kane - Simple - NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_carbie-854x480.jpg" data-viewers="61" onclick="playStream('Carbie')">
+      <div class="sub-item" data-category="58Uncategorized" data-title="Zephyr Kane - Simple - NoPixel V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_carbie-854x480.jpg" data-viewers="81" onclick="playStream('Carbie')">
         <span class="username">Carbie</span>
-        <span class="viewer-count">🔴61</span>
+        <span class="viewer-count">🔴81</span>
       </div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="ava chooses chaos - nopixel v" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_notjoans-854x480.jpg" data-viewers="9" onclick="playStream('notJoans')">
+      <div class="sub-item" data-category="58Uncategorized" data-title="ava chooses chaos - nopixel v" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_notjoans-854x480.jpg" data-viewers="10" onclick="playStream('notJoans')">
         <span class="username">notJoans</span>
+        <span class="viewer-count">🔴10</span>
+      </div>
+      <div class="sub-item" data-category="58Uncategorized" data-title="Zombies, Monkey Business and One Suspicious Getaway Car 🐒🧟 - Ed Pearson - NoPixel 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_edfromhr-854x480.jpg" data-viewers="9" onclick="playStream('EdFromHR')">
+        <span class="username">EdFromHR</span>
         <span class="viewer-count">🔴9</span>
       </div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="Zombies, Monkey Business and One Suspicious Getaway Car 🐒🧟 - Ed Pearson - NoPixel 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_edfromhr-854x480.jpg" data-viewers="8" onclick="playStream('EdFromHR')">
-        <span class="username">EdFromHR</span>
-        <span class="viewer-count">🔴8</span>
-      </div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="We Up - Leviticus Oats - NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_soraaonline-854x480.jpg" data-viewers="8" onclick="playStream('soraaonline')">
+      <div class="sub-item" data-category="58Uncategorized" data-title="We Up - Leviticus Oats - NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_soraaonline-854x480.jpg" data-viewers="7" onclick="playStream('soraaonline')">
         <span class="username">soraaonline</span>
-        <span class="viewer-count">🔴8</span>
+        <span class="viewer-count">🔴7</span>
       </div>
       <div class="sub-item" data-category="58Uncategorized" data-title="Parvenu - Alyssa Hope - NoPixel WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_coolman2315-854x480.jpg" data-viewers="4" onclick="playStream('coolman2315')">
         <span class="username">coolman2315</span>
@@ -499,72 +526,49 @@
         <span class="username">WhiskeyMate</span>
         <span class="viewer-count">🔴2</span>
       </div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="🥒 Quick Stream You mean a FAST STREAM and FURIOUS ONE - Dominic Vinclair - nopixel V GTA RP - PickleTuber 🥒 drops cards" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ruffpickle-854x480.jpg" data-viewers="1" onclick="playStream('RuffPickle')">
-        <span class="username">RuffPickle</span>
-        <span class="viewer-count">🔴1</span>
-      </div>
-      <div class="sub-item" data-category="58Uncategorized" data-title="⚠️ TANK - SIDELINE - NOPIXEL V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_gzx63-854x480.jpg" data-viewers="1" onclick="playStream('gzx63')">
+      <div class="sub-item" data-category="58Uncategorized" data-title="⚠️ TANK - SIDELINE - NOPIXEL V" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_gzx63-854x480.jpg" data-viewers="3" onclick="playStream('gzx63')">
         <span class="username">gzx63</span>
-        <span class="viewer-count">🔴1</span>
+        <span class="viewer-count">🔴3</span>
+      </div>
+      <div class="sub-item" data-category="58Uncategorized" data-title="🥒 Quick Stream You mean a FAST STREAM and FURIOUS ONE - Dominic Vinclair - nopixel V GTA RP - PickleTuber 🥒 drops cards" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ruffpickle-854x480.jpg" data-viewers="2" onclick="playStream('RuffPickle')">
+        <span class="username">RuffPickle</span>
+        <span class="viewer-count">🔴2</span>
       </div>
       <div class="sub-item" data-category="58Uncategorized" data-title="GTA5 -Day 6 of first EVER sub - Halloween drops - NOPIXEL V -" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_grump3y_dad_gaming-854x480.jpg" data-viewers="1" onclick="playStream('grump3y_dad_gaming')">
         <span class="username">grump3y_dad_gaming</span>
         <span class="viewer-count">🔴1</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="45HOA">45HOA</div>
-      <div class="sub-item" data-category="45HOA" data-title="!SUBATHON DAY 20 🧊 Ken-Sama 🧊 Nopixel V 🧊 !gg !tip !tts !youtube" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_pengwin-854x480.jpg" data-viewers="593" onclick="playStream('pengwin')">
-        <span class="username">pengwin</span>
-        <span class="viewer-count">🔴593</span>
+    <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
+      <div class="sub-item" data-category="07Doctors" data-title="Constance does a little Monday Patrolling!" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hauce011-854x480.jpg" data-viewers="4" onclick="playStream('hauce011')">
+        <span class="username">hauce011</span>
+        <span class="viewer-count">🔴4</span>
       </div>
-      <div class="sub-item" data-category="45HOA" data-title="Nopixel V DM (Finishing Paleto + Pharmacy Heist)" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_uhn-854x480.jpg" data-viewers="1941" onclick="playStream('uhn')">
-        <span class="username">uhn</span>
-        <span class="viewer-count">🔴1941</span>
+      <div class="sub-item" data-category="07Doctors" data-title="Violet Waters | NPV | NoPixel V | Doctor | 🏰 The Grand Exchange 🏰 | Day 19 Doctoring, Mining, Making connections 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/9ePFVwUL3htd/YK9GRQHaxejH/480.webp" data-viewers="7" onclick="playStream('justrebexa')">
+        <span class="username">justrebexa</span>
+        <span class="viewer-count">🟢2 🔴5</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="03SAPR">03SAPR</div>
-      <div class="sub-item" data-category="03SAPR" data-title="Nopixel V | Ranger Sgt. Maplethorne | 497 | SASPR | SPOOKY SEASON 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/oaZX9ww8p4cT/Plhm8Ksv7vev/480.webp" data-viewers="50" onclick="playStream('silbullet')">
-        <span class="username">silbullet</span>
-        <span class="viewer-count">🟢50</span>
-      </div>
-      <div class="sub-item" data-category="03SAPR" data-title="Ramona Celeste | Ranger | NoPixel V 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/1CfdCGglKrv5/l5ikNol3FhVf/480.webp" data-viewers="39" onclick="playStream('hedisaurus')">
-        <span class="username">hedisaurus</span>
-        <span class="viewer-count">🟢7 🔴32</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="06Government">06Government</div>
-      <div class="sub-item" data-category="06Government" data-title="Judge Arcadia Grayson | Dept. of Justice | NoPixel 5.0 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/6c5Pf9qqikMr/pEimdnPugiat/480.webp" data-viewers="54" onclick="playStream('theobrosia')">
-        <span class="username">theobrosia</span>
-        <span class="viewer-count">🟢41 🔴13</span>
+    <div class="category" onclick="highlightCategory(this)" data-category="41DOC">41DOC</div>
+      <div class="sub-item" data-category="41DOC" data-title="Scotty Bard Warden NPV BIG UPDATE !discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_skatebeard-854x480.jpg" data-viewers="345" onclick="playStream('skatebeard')">
+        <span class="username">skatebeard</span>
+        <span class="viewer-count">🔴345</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="48GSF">48GSF</div>
-      <div class="sub-item" data-category="48GSF" data-title="Drew Jackson - Down Bad Degen NP 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_jdot-854x480.jpg" data-viewers="13" onclick="playStream('jdot')">
+      <div class="sub-item" data-category="48GSF" data-title="Drew Jackson - Down Bad Degen NP 4.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_jdot-854x480.jpg" data-viewers="9" onclick="playStream('jdot')">
         <span class="username">jdot</span>
-        <span class="viewer-count">🔴13</span>
+        <span class="viewer-count">🔴9</span>
       </div>
       <div class="sub-item" data-category="48GSF" data-title="Frankie Lorenzo | Triple OG GSF | NP 4.0 | 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/Yuw0iOAeWcB2/c7krssYoaIzP/480.webp" data-viewers="3" onclick="playStream('scythex')">
         <span class="username">scythex</span>
         <span class="viewer-count">🟢2 🔴1</span>
       </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="07Doctors">07Doctors</div>
-      <div class="sub-item" data-category="07Doctors" data-title="Constance does a little Monday Patrolling!" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_hauce011-854x480.jpg" data-viewers="7" onclick="playStream('hauce011')">
-        <span class="username">hauce011</span>
-        <span class="viewer-count">🔴7</span>
-      </div>
-      <div class="sub-item" data-category="07Doctors" data-title="Violet Waters | NPV | NoPixel V | Doctor | 🏰 The Grand Exchange 🏰 | Day 19 Doctoring, Mining, Making connections 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/9ePFVwUL3htd/YK9GRQHaxejH/480.webp" data-viewers="6" onclick="playStream('justrebexa')">
-        <span class="username">justrebexa</span>
-        <span class="viewer-count">🟢2 🔴4</span>
-      </div>
     <div class="category" onclick="highlightCategory(this)" data-category="26NeonCircus">26NeonCircus</div>
-      <div class="sub-item" data-category="26NeonCircus" data-title="Pockets the Clown - NoPixel 5.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_manvaril-854x480.jpg" data-viewers="9" onclick="playStream('Manvaril')">
+      <div class="sub-item" data-category="26NeonCircus" data-title="Pockets the Clown - NoPixel 5.0" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_manvaril-854x480.jpg" data-viewers="12" onclick="playStream('Manvaril')">
         <span class="username">Manvaril</span>
-        <span class="viewer-count">🔴9</span>
+        <span class="viewer-count">🔴12</span>
       </div>
-      <div class="sub-item" data-category="26NeonCircus" data-title="Patrick Desseault - Free To Go - NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_sonknuck-854x480.jpg" data-viewers="6" onclick="playStream('SonKnuck')">
+      <div class="sub-item" data-category="26NeonCircus" data-title="Patrick Desseault - Free To Go - NoPixel 4.0 WL" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_sonknuck-854x480.jpg" data-viewers="3" onclick="playStream('SonKnuck')">
         <span class="username">SonKnuck</span>
-        <span class="viewer-count">🔴6</span>
-      </div>
-    <div class="category" onclick="highlightCategory(this)" data-category="41DOC">41DOC</div>
-      <div class="sub-item" data-category="41DOC" data-title="Scotty Bard Warden NPV BIG UPDATE !discord" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_skatebeard-854x480.jpg" data-viewers="338" onclick="playStream('skatebeard')">
-        <span class="username">skatebeard</span>
-        <span class="viewer-count">🔴338</span>
+        <span class="viewer-count">🔴3</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="42Lifers">42Lifers</div>
       <div class="sub-item" data-category="42Lifers" data-title="Baron VonBoom is a GOON - Day 14 - NoPixel V - BIRTHDAY SUBATHON ON OCTOBER 10TH Drops on #NPV" data-thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_thisisfinelive-854x480.jpg" data-viewers="6" onclick="playStream('ThisIsFineLive')">
@@ -572,27 +576,27 @@
         <span class="viewer-count">🔴6</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="30Faceless">30Faceless</div>
-      <div class="sub-item" data-category="30Faceless" data-title="DUNGEON MASTER | NoPixel V | !discord 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/btthoXDvmX29/hpOKuRu5djNA/480.webp" data-viewers="1110" onclick="playStream('capped')">
+      <div class="sub-item" data-category="30Faceless" data-title="DUNGEON MASTER | NoPixel V | !discord 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/btthoXDvmX29/hpOKuRu5djNA/480.webp" data-viewers="1114" onclick="playStream('capped')">
         <span class="username">capped</span>
-        <span class="viewer-count">🟢1110</span>
+        <span class="viewer-count">🟢1114</span>
       </div>
-      <div class="sub-item" data-category="30Faceless" data-title="🔥 DAY 12 OF NOPIXEL 5.0 🟢 RAYMOND ROMANOV 🟢 LONG STREAM!!! 🟢 NOPIXEL V| !Socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/qcVaUqUAr4cG/y86XVNqsfmY6/480.webp" data-viewers="886" onclick="playStream('rayc')">
+      <div class="sub-item" data-category="30Faceless" data-title="🔥 DAY 12 OF NOPIXEL 5.0 🟢 RAYMOND ROMANOV 🟢 LONG STREAM!!! 🟢 NOPIXEL V| !Socials 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/qcVaUqUAr4cG/y86XVNqsfmY6/480.webp" data-viewers="667" onclick="playStream('rayc')">
         <span class="username">rayc</span>
-        <span class="viewer-count">🟢130 🔴756</span>
+        <span class="viewer-count">🟢125 🔴542</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="28Hounds">28Hounds</div>
-      <div class="sub-item" data-category="28Hounds" data-title="Quinn | Old Country? | NPV - NoPixelV | GTA RP 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/psZMsZPzvt3Q/EQNUmpGrSA6J/480.webp" data-viewers="66" onclick="playStream('itsginger')">
+      <div class="sub-item" data-category="28Hounds" data-title="Quinn | Old Country? | NPV - NoPixelV | GTA RP 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/psZMsZPzvt3Q/EQNUmpGrSA6J/480.webp" data-viewers="63" onclick="playStream('itsginger')">
         <span class="username">itsginger</span>
-        <span class="viewer-count">🟢66</span>
+        <span class="viewer-count">🟢63</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="11Hydra">11Hydra</div>
-      <div class="sub-item" data-category="11Hydra" data-title="OPENING 30TH CELEBRATION BOOSTER BUNDLE -&gt; RP TO BUY MORE 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/iejf5NtImR5J/D7ovFOFIu77l/480.webp" data-viewers="72" onclick="playStream('basedlore')">
+      <div class="sub-item" data-category="11Hydra" data-title="OPENING 30TH CELEBRATION BOOSTER BUNDLE -&gt; RP TO BUY MORE 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/iejf5NtImR5J/D7ovFOFIu77l/480.webp" data-viewers="73" onclick="playStream('basedlore')">
         <span class="username">basedlore</span>
-        <span class="viewer-count">🟢72</span>
+        <span class="viewer-count">🟢73</span>
       </div>
     <div class="category" onclick="highlightCategory(this)" data-category="55Devs">55Devs</div>
-      <div class="sub-item" data-category="55Devs" data-title="Shortish NP 4.0 RP stream 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/zT1T59a80lpr/O1wBttONwdnu/480.webp" data-viewers="27" onclick="playStream('elochai')">
+      <div class="sub-item" data-category="55Devs" data-title="Shortish NP 4.0 RP stream 🟢🟢Kick Stream☝️" data-thumbnail="https://images.kick.com/video_thumbnails/zT1T59a80lpr/O1wBttONwdnu/480.webp" data-viewers="25" onclick="playStream('elochai')">
         <span class="username">elochai</span>
-        <span class="viewer-count">🟢27</span>
+        <span class="viewer-count">🟢25</span>
       </div>
 
