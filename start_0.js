@@ -22,6 +22,7 @@ const categoryMappings = {
     'scypress'    : '09Cypress',
     's_cypress'   : '09Cypress',
     'besties'     : '10Besties',
+    'sixc'     : '10SixC',
     'hydra'       : '11Hydra',
     'hades'       : '12Hades',
     'exodus'      : '13HabibiMC',
