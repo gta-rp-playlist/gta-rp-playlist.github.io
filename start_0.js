@@ -26,6 +26,8 @@ const categoryMappings = {
     'sixc'     : '10SixC',
     'hydra'       : '11Hydra',
     'bne'       : '11BNE',
+    'bpm'       : '11BPM',
+    'collective'       : '11Collective',
     'hades'       : '12Hades',
     'exodus'      : '13HabibiMC',
     'habibi'      : '13HabibiMC',
