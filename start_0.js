@@ -27,6 +27,7 @@ const categoryMappings = {
     'hydra'       : '11Hydra',
     'bne'       : '11BNE',
     'bpm'       : '11BPM',
+    'obsidian'       : '11Obsidian',
     'collective'       : '11Collective',
     'hades'       : '12Hades',
     'exodus'      : '13HabibiMC',
