@@ -26,6 +26,7 @@ const categoryMappings = {
     'sixc'     : '10SixC',
     'hydra'       : '11Hydra',
     'bne'       : '11BNE',
+    'limones'       : '11Limones',
     'doa'       : '11DOA',
     'bpm'       : '11BPM',
     'obsidian'       : '11Obsidian',
