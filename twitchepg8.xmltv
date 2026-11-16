@@ -2,40 +2,36 @@
 <display-name>clearepg</display-name>
 </channel>
 
-<channel id="gregsstory.us">
-<display-name>gregsstory</display-name>
+<channel id="brakketts.us">
+<display-name>brakketts</display-name>
 </channel>
 
-<channel id="ashi.us">
-<display-name>ashi</display-name>
+<channel id="gregsstory.us">
+<display-name>gregsstory</display-name>
 </channel>
 
 <channel id="GoldenLaurel.us">
 <display-name>GoldenLaurel</display-name>
 </channel>
 
-<channel id="Blokeowski.us">
-<display-name>Blokeowski</display-name>
-</channel>
-
-<channel id="TheFabling.us">
-<display-name>TheFabling</display-name>
+<channel id="ashi.us">
+<display-name>ashi</display-name>
 </channel>
 
 <channel id="Hellknight86.us">
 <display-name>Hellknight86</display-name>
 </channel>
 
-<channel id="FatBluntRP.us">
-<display-name>FatBluntRP</display-name>
+<channel id="BobaCuTea2.us">
+<display-name>BobaCuTea2</display-name>
 </channel>
 
 <channel id="4hbunger.us">
 <display-name>4hbunger</display-name>
 </channel>
 
-<channel id="BobaCuTea2.us">
-<display-name>BobaCuTea2</display-name>
+<channel id="FatBluntRP.us">
+<display-name>FatBluntRP</display-name>
 </channel>
 
 <channel id="charli.us">
@@ -46,6 +42,10 @@
 <display-name>voiceid</display-name>
 </channel>
 
+<channel id="lordb0xman.us">
+<display-name>lordb0xman</display-name>
+</channel>
+
 <channel id="Vin_Cheesy.us">
 <display-name>Vin_Cheesy</display-name>
 </channel>
@@ -54,12 +54,16 @@
 <display-name>arttigg</display-name>
 </channel>
 
+<channel id="revroach.us">
+<display-name>revroach</display-name>
+</channel>
+
 <channel id="firecrackthat.us">
 <display-name>firecrackthat</display-name>
 </channel>
 
-<channel id="revroach.us">
-<display-name>revroach</display-name>
+<channel id="poedgirl.us">
+<display-name>poedgirl</display-name>
 </channel>
 
 <channel id="4hbunger.us">
@@ -110,60 +114,39 @@
 <display-name>ashi</display-name>
 </channel>
 
+<programme start="20261116050506 +0000" stop="20261119000506 +0000" channel="brakketts.us">
+<title lang="en"> Tommy Horver - Nopixel 4.0 - - NPV </title>
+<desc lang="en"> Started: 12:05AM
+Playing: Grand Theft Auto V
+Viewers: 2 </desc>
+</programme>
+
 <programme start="20261116010326 +0000" stop="20261118200326 +0000" channel="gregsstory.us">
 <title lang="en"> Ollie Templeton - DOA- Brick Boi Records - Nopixel V </title>
 <desc lang="en"> Started: 8:03PM
 Playing: Grand Theft Auto V
-Viewers: 14 </desc>
-</programme>
-
-<programme start="20261116040513 +0000" stop="20261118230513 +0000" channel="ashi.us">
-<title lang="en"> FIFI-FIONA - GANGLESS... BUILDING AN ARCADE - NOPIXEL V </title>
-<desc lang="en"> Started: 11:05PM
-Playing: Grand Theft Auto V
-Viewers: 235 </desc>
+Viewers: 15 </desc>
 </programme>
 
 <programme start="20261115201958 +0000" stop="20261118151958 +0000" channel="GoldenLaurel.us">
 <title lang="en"> Gillea Taylor - BPM - NoPixel V </title>
 <desc lang="en"> Started: 03:19 pm
 Playing: Grand Theft Auto V
-Viewers: 209 </desc>
+Viewers: 213 </desc>
 </programme>
 
-<programme start="20261116013422 +0000" stop="20261118203422 +0000" channel="Blokeowski.us">
-<title lang="en"> NoPixel V - 18 - Ace Bundy - MOVEMBER FUNDRAISER TYME - SHORT STREAM - movember fundraiser donate supportservices blackdoginstitute </title>
-<desc lang="en"> Started: 08:34 pm
+<programme start="20261116040513 +0000" stop="20261118230513 +0000" channel="ashi.us">
+<title lang="en"> FIFI-FIONA - GANGLESS... BUILDING AN ARCADE - NOPIXEL V </title>
+<desc lang="en"> Started: 11:05PM
 Playing: Grand Theft Auto V
-Viewers: 203 </desc>
-</programme>
-
-<programme start="20261116013140 +0000" stop="20261118203140 +0000" channel="TheFabling.us">
-<title lang="en"> Nicholas Reyes - NoPixel V - Book Guy - Short Sunday Book Stream </title>
-<desc lang="en"> Started: 08:31 pm
-Playing: Grand Theft Auto V
-Viewers: 5 </desc>
+Viewers: 292 </desc>
 </programme>
 
 <programme start="20261116011819 +0000" stop="20261118201819 +0000" channel="Hellknight86.us">
 <title lang="en"> NoPixelV Day 5 Viktor Schmidt new in the city </title>
 <desc lang="en"> Started: 08:18 pm
 Playing: Grand Theft Auto V
-Viewers: 4 </desc>
-</programme>
-
-<programme start="20261116044224 +0000" stop="20261118234224 +0000" channel="FatBluntRP.us">
-<title lang="en"> Nopixel V - Mike Blunt - BCSO Interview </title>
-<desc lang="en"> Started: 11:42 pm
-Playing: Grand Theft Auto V
-Viewers: 3 </desc>
-</programme>
-
-<programme start="20261115181142 +0000" stop="20261118131142 +0000" channel="4hbunger.us">
-<title lang="en"> Joe Mathers - Sgt. 555 LSPD - NoPixel V - </title>
-<desc lang="en"> Started: 1:11PM
-Playing: Grand Theft Auto V
-Viewers: 52 </desc>
+Viewers: 6 </desc>
 </programme>
 
 <programme start="20261116042605 +0000" stop="20261118232605 +0000" channel="BobaCuTea2.us">
@@ -173,18 +156,39 @@ Playing: Grand Theft Auto V
 Viewers: 3 </desc>
 </programme>
 
+<programme start="20261115181142 +0000" stop="20261118131142 +0000" channel="4hbunger.us">
+<title lang="en"> Joe Mathers - Sgt. 555 LSPD - NoPixel V - </title>
+<desc lang="en"> Started: 1:11PM
+Playing: Grand Theft Auto V
+Viewers: 47 </desc>
+</programme>
+
+<programme start="20261116044224 +0000" stop="20261118234224 +0000" channel="FatBluntRP.us">
+<title lang="en"> Nopixel V - Mike Blunt - BCSO Interview </title>
+<desc lang="en"> Started: 11:42 pm
+Playing: Grand Theft Auto V
+Viewers: 3 </desc>
+</programme>
+
 <programme start="20261115232156 +0000" stop="20261118182156 +0000" channel="charli.us">
 <title lang="en"> 🌈 WindSong ✌️ NoPixel softperma </title>
 <desc lang="en"> Started: 6:21PM
 Playing: Grand Theft Auto V
-Viewers: 865 </desc>
+Viewers: 846 </desc>
 </programme>
 
 <programme start="20261116020426 +0000" stop="20261118210426 +0000" channel="voiceid.us">
 <title lang="en"> ITS TYME F0R NOPIXEL V DAY ONE </title>
 <desc lang="en"> Started: 9:04PM
 Playing: Grand Theft Auto V
-Viewers: 110 </desc>
+Viewers: 106 </desc>
+</programme>
+
+<programme start="20261116045422 +0000" stop="20261118235422 +0000" channel="lordb0xman.us">
+<title lang="en"> gta rp --- nopixel 4 --- lets see what I can do </title>
+<desc lang="en"> Started: 11:54 pm
+Playing: Grand Theft Auto V
+Viewers: 1 </desc>
 </programme>
 
 <programme start="20261116024343 +0000" stop="20261118214343 +0000" channel="Vin_Cheesy.us">
@@ -198,101 +202,108 @@ Viewers: 1 </desc>
 <title lang="en"> Kyra Roux - Happy - NoPixel V EMS </title>
 <desc lang="en"> Started: 5:52PM
 Playing: Grand Theft Auto V
-Viewers: 31 </desc>
-</programme>
-
-<programme start="20261116034227 +0000" stop="20261118224227 +0000" channel="firecrackthat.us">
-<title lang="en"> Stumbles Fumbles - Clowncil - NoPixel V </title>
-<desc lang="en"> Started: 10:42PM
-Playing: Grand Theft Auto V
-Viewers: 100 </desc>
+Viewers: 155 </desc>
 </programme>
 
 <programme start="20261116025601 +0000" stop="20261118215601 +0000" channel="revroach.us">
 <title lang="en"> Happy Dklown - NoPixel - Improv Fun - Multi-stream #Nopixel </title>
 <desc lang="en"> Started: 9:56PM
 Playing: Grand Theft Auto V
-Viewers: 367 </desc>
+Viewers: 376 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="4hbunger.us">
+<programme start="20261116034227 +0000" stop="20261118224227 +0000" channel="firecrackthat.us">
+<title lang="en"> Stumbles Fumbles - Clowncil - NoPixel V </title>
+<desc lang="en"> Started: 10:42PM
+Playing: Grand Theft Auto V
+Viewers: 111 </desc>
+</programme>
+
+<programme start="20261116045918 +0000" stop="20261118235918 +0000" channel="poedgirl.us">
+<title lang="en"> Just a Deputy Kylie Stokes - BCSO - nopixel V </title>
+<desc lang="en"> Started: 11:59 pm
+Playing: Grand Theft Auto V
+Viewers: 8 </desc>
+</programme>
+
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="4hbunger.us">
 <title lang="en"> Joe Mathers | Sgt. 555 LSPD | NoPixel V | 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="garek.us">
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="garek.us">
 <title lang="en"> Gloryon - Nopixel V - L$D 🐊 Chill Day of WEEDIN 🐊 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="saab.us">
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="saab.us">
 <title lang="en"> Commissioner DAWGSON - THE BROWNS HAVE WON!!!! - NPV 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 240 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="zpapz.us">
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="zpapz.us">
 <title lang="en"> Ventura - Somehow Investigator? - NPV Day 18 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 4 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="arttigg.us">
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="arttigg.us">
 <title lang="en"> Alexis "Lex" Kincaid | Episode 15 | NoPixel V 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 12 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="gopnikrp.us">
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="gopnikrp.us">
 <title lang="en"> ❇️⭐THANK YOU FOR 1500!!⭐ 106 Sgt. Mateo Radić 🚔NoPixel V🚔❇️| !twitter | !discord | 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 6 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="voiceid.us">
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="voiceid.us">
 <title lang="en"> IT'S NOPIXEL V TIME!!! DAY ONE 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 5 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="thatguygp.us">
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="thatguygp.us">
 <title lang="en"> Jamal |yo||NoPixel 4.0 then UFC or testing stuff 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="hazelsaurus.us">
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="hazelsaurus.us">
 <title lang="en"> Vex Returns! | Moonlit Hills RP 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="kyrienolife.us">
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="kyrienolife.us">
 <title lang="en"> 🎄GTA 6 SOON🎄WATCH FOR A CHANCE TO WIN GTA 6🎄KICK DROPS🎄| Coop | NoPixel | 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 28 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="firecrackthat.us">
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="firecrackthat.us">
 <title lang="en"> Stumbles Fumbles | Clowncil | NoPixel V 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261115000000 +0000" stop="20261118235520 +0000" channel="ashi.us">
+<programme start="20261116000000 +0000" stop="20261119001322 +0000" channel="ashi.us">
 <title lang="en"> [GTA VI DROPS!?] FIONA/FIFI | BUILDING AN ARCADE | NOPIXEL V 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
