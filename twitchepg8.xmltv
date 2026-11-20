@@ -2,6 +2,10 @@
 <display-name>clearepg</display-name>
 </channel>
 
+<channel id="cydrose.us">
+<display-name>cydrose</display-name>
+</channel>
+
 <channel id="Nottics.us">
 <display-name>Nottics</display-name>
 </channel>
@@ -10,20 +14,16 @@
 <display-name>amanthi___</display-name>
 </channel>
 
-<channel id="cydrose.us">
-<display-name>cydrose</display-name>
-</channel>
-
-<channel id="Nadette.us">
-<display-name>Nadette</display-name>
-</channel>
-
 <channel id="stalkerchic.us">
 <display-name>stalkerchic</display-name>
 </channel>
 
 <channel id="DownBadDavo.us">
 <display-name>DownBadDavo</display-name>
+</channel>
+
+<channel id="ollie2313.us">
+<display-name>ollie2313</display-name>
 </channel>
 
 <channel id="CrayJayxD.us">
@@ -36,10 +36,6 @@
 
 <channel id="angelina.us">
 <display-name>angelina</display-name>
-</channel>
-
-<channel id="ollie2313.us">
-<display-name>ollie2313</display-name>
 </channel>
 
 <channel id="gtawiseguy.us">
@@ -150,263 +146,267 @@
 <display-name>klutch</display-name>
 </channel>
 
+<channel id="kate.us">
+<display-name>kate</display-name>
+</channel>
+
+<programme start="20261120115528 +0000" stop="20261123065528 +0000" channel="cydrose.us">
+<title lang="en"> Scarlet Young - NoPixel V - Lotus </title>
+<desc lang="en"> Started: 6:55AM
+Playing: Grand Theft Auto V
+Viewers: 252 </desc>
+</programme>
+
 <programme start="20261120101043 +0000" stop="20261123051043 +0000" channel="Nottics.us">
 <title lang="en"> Mundo 6G King Nopixel V Then GTA 6 Chill Playthrough Part 2 </title>
 <desc lang="en"> Started: 05:10 am
 Playing: Grand Theft Auto V
-Viewers: 394 </desc>
+Viewers: 369 </desc>
 </programme>
 
 <programme start="20261120090204 +0000" stop="20261123040204 +0000" channel="amanthi___.us">
 <title lang="en"> Bianca Wade - DOA - NoPixel V </title>
 <desc lang="en"> Started: 04:02 am
 Playing: Grand Theft Auto V
-Viewers: 154 </desc>
-</programme>
-
-<programme start="20261120115528 +0000" stop="20261123065528 +0000" channel="cydrose.us">
-<title lang="en"> Scarlet Young - NoPixel V - Lotus </title>
-<desc lang="en"> Started: 6:55AM
-Playing: Grand Theft Auto V
-Viewers: 213 </desc>
-</programme>
-
-<programme start="20261120104346 +0000" stop="20261123054346 +0000" channel="Nadette.us">
-<title lang="en"> Cecily McDougall - day 1 - NoPixel V - more gta6 later </title>
-<desc lang="en"> Started: 05:43 am
-Playing: Grand Theft Auto V
-Viewers: 89 </desc>
+Viewers: 230 </desc>
 </programme>
 
 <programme start="20261120112016 +0000" stop="20261123062016 +0000" channel="stalkerchic.us">
 <title lang="en"> NoPixelV - Atlas Elwood - 6Gang - House </title>
 <desc lang="en"> Started: 06:20 am
 Playing: Grand Theft Auto V
-Viewers: 86 </desc>
+Viewers: 74 </desc>
 </programme>
 
 <programme start="20261120070116 +0000" stop="20261123020116 +0000" channel="DownBadDavo.us">
 <title lang="en"> DAVO 💥CARD CHASING💥CLEANING CASH💥BUSTING BANKS💥Nopixel V💥discord </title>
 <desc lang="en"> Started: 02:01 am
 Playing: Grand Theft Auto V
-Viewers: 66 </desc>
-</programme>
-
-<programme start="20261120090844 +0000" stop="20261123040844 +0000" channel="CrayJayxD.us">
-<title lang="en"> Cray Doing Crime ==Nopixel 4.0 WL RP ~Crim ~ Dual Stream </title>
-<desc lang="en"> Started: 04:08 am
-Playing: Grand Theft Auto V
-Viewers: 4 </desc>
-</programme>
-
-<programme start="20261120092138 +0000" stop="20261123042138 +0000" channel="kiwo.us">
-<title lang="en"> MIA MERSION - I left the window open and its cold so now im getting sick good job kiwo - GTA 4 later </title>
-<desc lang="en"> Started: 4:21AM
-Playing: Grand Theft Auto V
-Viewers: 538 </desc>
-</programme>
-
-<programme start="20261120113444 +0000" stop="20261123063444 +0000" channel="angelina.us">
-<title lang="en"> [FACECAM ON] NOPIXEL V 👮‍♀️🤣 DEPUTY CHIEF BRANDI LYNN👮‍♀️🤣 opera </title>
-<desc lang="en"> Started: 6:34AM
-Playing: Grand Theft Auto V
-Viewers: 133 </desc>
+Viewers: 64 </desc>
 </programme>
 
 <programme start="20261120120026 +0000" stop="20261123070026 +0000" channel="ollie2313.us">
 <title lang="en"> Abigail Williams - criminal in training - NoPixel V </title>
 <desc lang="en"> Started: 07:00 am
 Playing: Grand Theft Auto V
-Viewers: 7 </desc>
+Viewers: 17 </desc>
+</programme>
+
+<programme start="20261120090844 +0000" stop="20261123040844 +0000" channel="CrayJayxD.us">
+<title lang="en"> Cray Doing Crime ==Nopixel 4.0 WL RP ~Crim ~ Dual Stream </title>
+<desc lang="en"> Started: 04:08 am
+Playing: Grand Theft Auto V
+Viewers: 5 </desc>
+</programme>
+
+<programme start="20261120092138 +0000" stop="20261123042138 +0000" channel="kiwo.us">
+<title lang="en"> MIA MERSION - I left the window open and its cold so now im getting sick good job kiwo - GTA 4 later </title>
+<desc lang="en"> Started: 4:21AM
+Playing: Grand Theft Auto V
+Viewers: 539 </desc>
+</programme>
+
+<programme start="20261120113444 +0000" stop="20261123063444 +0000" channel="angelina.us">
+<title lang="en"> [FACECAM ON] NOPIXEL V 👮‍♀️🤣 DEPUTY CHIEF BRANDI LYNN👮‍♀️🤣 opera </title>
+<desc lang="en"> Started: 6:34AM
+Playing: Grand Theft Auto V
+Viewers: 214 </desc>
 </programme>
 
 <programme start="20261120100339 +0000" stop="20261123050339 +0000" channel="gtawiseguy.us">
 <title lang="en"> 🌴 GTA 6 DROPS ON 🌴 CHAPTER II - NO RUSH PLAYTHROUGH </title>
 <desc lang="en"> Started: 5:03AM
 Playing: Grand Theft Auto VI
-Viewers: 580 </desc>
+Viewers: 600 </desc>
 </programme>
 
 <programme start="20261120113909 +0000" stop="20261123063909 +0000" channel="kaicenat.us">
 <title lang="en"> 🌴PLAYING GTA 6 F0R THE FIRST TYME🌴 </title>
 <desc lang="en"> Started: 6:39AM
 Playing: Grand Theft Auto VI
-Viewers: 12205 </desc>
+Viewers: 12323 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="paperstackerj.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="paperstackerj.us">
 <title lang="en"> WE MADE IT OUT GTA 6 WAITING ROOM !discord !socials @paperstackerj 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="capped.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="capped.us">
 <title lang="en"> GRAND THEFT AUTO VI | ITS TIME | DAY 2 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 172 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="vawwn.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="vawwn.us">
 <title lang="en"> Ranger Polo Wild 🦅 | NoPixel V | !tts !discord 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 3 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="crocc.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="crocc.us">
 <title lang="en"> VICE CITY BABY | !discord !vods 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="deansocool.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="deansocool.us">
 <title lang="en"> 🌴DROPS🌴Vice City Native plays GTA VI🏖️GTA VI LAUNCH🏖️ | !Underdog !NTE !discord !socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 12 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="anthonyz.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="anthonyz.us">
 <title lang="en"> 🔥DROPS HERE🔥GTA 6🔥13 YEARS WAITING!🔥 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="ming.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="ming.us">
 <title lang="en"> controller aim 🌴50% completion🌴 | ah 💩 here we go again 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 67 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="lauti.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="lauti.us">
 <title lang="en"> roleplayer plays GTA 6 for the first time... | @lauti 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="thatguygp.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="thatguygp.us">
 <title lang="en"> 🌴 LIVE 47% DONE🌴 GTA 6 🌴 AT 12AM AEST🌴 ALERT 🌴 NOT A DRILL 🌴 NZ NOT FLIGHT TAKEN 🌴 LIVE 🌴 DONT MISS IT 🌴 ONESHOTTING THE GAME? NO! 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 6 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="kyrienolife.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="kyrienolife.us">
 <title lang="en"> 🎄GTA 6 240 FPS🎄WATCH FOR A CHANCE TO WIN GTA 6🎄KICK DROPS🎄| Coop | NoPixel | 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 2 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="tinyspark.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="tinyspark.us">
 <title lang="en"> GTA VI Day 2 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 37 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="roxmiral.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="roxmiral.us">
 <title lang="en"> Nina - Nopixel V 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 3 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="kieron.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="kieron.us">
 <title lang="en"> GTA 6 CHAPTER 3 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="berryyboo.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="berryyboo.us">
 <title lang="en"> 🦩🌴 GTA VI day 2 🌴🦩 | Sidequest Sally | !socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 23 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="vgzz.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="vgzz.us">
 <title lang="en"> GTA VI MARATON #2 [PL/ENG] 60FPS | 🔴ALERTY OFF 🔴 | !dc !g4skins #ad 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 63 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="myles_away.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="myles_away.us">
 <title lang="en"> (NO SPOILERS)| SHOWING OFF THE WORLD | DAY 3 OF THE NEW ERA | !wheel !badge 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 3 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="arniev.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="arniev.us">
 <title lang="en"> !subathon DAY 19 - GTA 6 PLAYTHROUGH | !discord !socials 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="mrstevex.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="mrstevex.us">
 <title lang="en"> GTA 6 DAY 1 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="rerolldota.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="rerolldota.us">
 <title lang="en"> GTA VI | IT'S HERE | Rp Later Day 2 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="4head.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="4head.us">
 <title lang="en"> GTA 6 | ITS FINALLY HERE | CHAPTER 4 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 206 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="cathie.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="cathie.us">
 <title lang="en"> DAY 2 | GTA 6 | Treating Lucia like the Queen she is | Slow Playthrough 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 9 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="angelina.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="angelina.us">
 <title lang="en"> [FACECAM ON] NOPIXEL V 👮‍♀️🤣 DEPUTY CHIEF BRANDI LYNN👮‍♀️🤣 !opera 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 10 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="darm.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="darm.us">
 <title lang="en"> 🌴 SUNSETS, SUPERCARS & SUSPICIOUS ACTIVITIES. 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 0 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="cydrose.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="cydrose.us">
 <title lang="en"> Scarlet Young | NoPixel V | Lotus 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto V (GTA)
 Viewers: 23 </desc>
 </programme>
 
-<programme start="20261120000000 +0000" stop="20261123071319 +0000" channel="klutch.us">
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="klutch.us">
 <title lang="en"> ITS FINALLY HERE 🐀 NO RUSH PLAYTHROUGH 🐀 !MDM 🐀 🟢🟢Kick Stream☝️ </title>
 <desc lang="en"> Started: 
 Playing: Grand Theft Auto VI (GTA)
 Viewers: 5 </desc>
+</programme>
+
+<programme start="20261120000000 +0000" stop="20261123072119 +0000" channel="kate.us">
+<title lang="en"> [DROPS ON] 🌴 GTA VI ALL DAY LONG ☀️ !gaming 🟢🟢Kick Stream☝️ </title>
+<desc lang="en"> Started: 
+Playing: Grand Theft Auto VI (GTA)
+Viewers: 60 </desc>
 </programme>
 
 
